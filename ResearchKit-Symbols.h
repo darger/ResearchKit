@@ -1,0 +1,11376 @@
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+_ORKFitnessStepViewController.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKFitnessStepViewController.o
+-[_ORKFitnessStepViewController initWithStep:]
+-[_ORKFitnessStepViewController fitnessStep]
+-[_ORKFitnessStepViewController _stepDidChange]
+-[_ORKFitnessStepViewController viewDidLoad]
+-[_ORKFitnessStepViewController didReceiveMemoryWarning]
+-[_ORKFitnessStepViewController _updateHeartRateWithQuantity:unit:]
+-[_ORKFitnessStepViewController _updateDistance:]
+-[_ORKFitnessStepViewController recordersDidChange]
+-[_ORKFitnessStepViewController _countDownTimerFired:finished:]
+-[_ORKFitnessStepViewController healthQuantityTypeRecorderDidUpdate:]
+-[_ORKFitnessStepViewController pedometerRecorderDidUpdate:]
+-[_ORKFitnessStepViewController .cxx_destruct]
+_OBJC_IVAR_$__ORKFitnessStepViewController._hrFormatter
+_OBJC_IVAR_$__ORKFitnessStepViewController._contentView
+_OBJC_IVAR_$__ORKFitnessStepViewController._intendedSteps
+_OBJC_CLASS_$__ORKFitnessStepViewController
+_OBJC_METACLASS_$__ORKFitnessStepViewController
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/
+ORKVisualConsentStep.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKVisualConsentStep.o
++[ORKVisualConsentStep _stepViewControllerClass]
+-[ORKVisualConsentStep initWithIdentifier:document:]
+-[ORKVisualConsentStep copyWithZone:]
+-[ORKVisualConsentStep initWithCoder:]
+-[ORKVisualConsentStep encodeWithCoder:]
+-[ORKVisualConsentStep isEqual:]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKHelpers.h
+-[ORKVisualConsentStep hash]
+-[ORKVisualConsentStep initWithDictionary:]
+-[ORKVisualConsentStep dictionaryValue]
+-[ORKVisualConsentStep _shouldShowProgress]
+-[ORKVisualConsentStep consentDocument]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/ORKVisualConsentStep.h
+-[ORKVisualConsentStep setConsentDocument:]
+-[ORKVisualConsentStep .cxx_destruct]
+_OBJC_IVAR_$_ORKVisualConsentStep._consentDocument
+_OBJC_CLASS_$_ORKVisualConsentStep
+_OBJC_METACLASS_$_ORKVisualConsentStep
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+ORKLocationRecorder.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKLocationRecorder.o
+-[ORKLocationRecorder initWithStep:outputDirectory:]
+-[ORKLocationRecorder dealloc]
+-[ORKLocationRecorder _recorderType]
+-[ORKLocationRecorder start]
+-[ORKLocationRecorder _doStopRecording]
+-[ORKLocationRecorder stop]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___27-[ORKLocationRecorder stop]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKLocationRecorder locationManager:didUpdateLocations:]
+___58-[ORKLocationRecorder locationManager:didUpdateLocations:]_block_invoke
+___copy_helper_block_66
+___destroy_helper_block_67
+___58-[ORKLocationRecorder locationManager:didUpdateLocations:]_block_invoke74
+___copy_helper_block_75
+___destroy_helper_block_76
+-[ORKLocationRecorder finishRecordingWithError:]
+-[ORKLocationRecorder isRecording]
+-[ORKLocationRecorder _reset]
+-[ORKLocationRecorder mimeType]
+-[ORKLocationRecorder locationManager]
+-[ORKLocationRecorder setLocationManager:]
+-[ORKLocationRecorder uptime]
+-[ORKLocationRecorder setUptime:]
+-[ORKLocationRecorder .cxx_destruct]
+-[ORKLocationRecorderConfiguration recorderForStep:outputDirectory:]
+-[ORKLocationRecorderConfiguration initWithCoder:]
+-[ORKLocationRecorderConfiguration isEqual:]
+-[ORKLocationRecorderConfiguration initWithDictionary:]
+-[ORKLocationRecorderConfiguration requestedPermissionMask]
+GCC_except_table5
+___block_descriptor_tmp
+___block_descriptor_tmp69
+___block_descriptor_tmp78
+_OBJC_IVAR_$_ORKLocationRecorder._logger
+_OBJC_IVAR_$_ORKLocationRecorder._recordingError
+_OBJC_IVAR_$_ORKLocationRecorder._locationManager
+_OBJC_IVAR_$_ORKLocationRecorder._uptime
+_OBJC_IVAR_$_ORKLocationRecorder._started
+_OBJC_CLASS_$_ORKLocationRecorder
+_OBJC_METACLASS_$_ORKLocationRecorder
+_OBJC_CLASS_$_ORKLocationRecorderConfiguration
+_OBJC_METACLASS_$_ORKLocationRecorderConfiguration
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+ORKTouchRecorder.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKTouchRecorder.o
+-[ORKTouchGestureRecognizer init]
+-[ORKTouchGestureRecognizer reportTouches:]
+-[ORKTouchGestureRecognizer touchesBegan:withEvent:]
+-[ORKTouchGestureRecognizer touchesMoved:withEvent:]
+-[ORKTouchGestureRecognizer touchesEnded:withEvent:]
+-[ORKTouchGestureRecognizer touchesCancelled:withEvent:]
+-[ORKTouchGestureRecognizer eventDelegate]
+-[ORKTouchGestureRecognizer setEventDelegate:]
+-[ORKTouchGestureRecognizer .cxx_destruct]
+-[ORKTouchRecorder initWithStep:outputDirectory:]
+-[ORKTouchRecorder dealloc]
+-[ORKTouchRecorder viewController:willStartStepWithView:]
+-[ORKTouchRecorder start]
+-[ORKTouchRecorder gestureRecognizer]
+-[ORKTouchRecorder stop]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___24-[ORKTouchRecorder stop]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKTouchRecorder _doStopRecording]
+-[ORKTouchRecorder finishRecordingWithError:]
+-[ORKTouchRecorder _recorderType]
+-[ORKTouchRecorder mimeType]
+-[ORKTouchRecorder _reset]
+-[ORKTouchRecorder view:didDetectTouch:]
+-[ORKTouchRecorder touchView]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/ORKTouchRecorder.h
+-[ORKTouchRecorder setGestureRecognizer:]
+-[ORKTouchRecorder touchArray]
+-[ORKTouchRecorder setTouchArray:]
+-[ORKTouchRecorder uptime]
+-[ORKTouchRecorder setUptime:]
+-[ORKTouchRecorder recordingError]
+-[ORKTouchRecorder setRecordingError:]
+-[ORKTouchRecorder .cxx_destruct]
++[ORKTouchRecorderConfiguration configuration]
+-[ORKTouchRecorderConfiguration recorderForStep:outputDirectory:]
+-[ORKTouchRecorderConfiguration initWithCoder:]
+-[ORKTouchRecorderConfiguration initWithDictionary:]
+GCC_except_table14
+___block_descriptor_tmp
+_OBJC_IVAR_$_ORKTouchGestureRecognizer._eventDelegate
+_OBJC_IVAR_$_ORKTouchRecorder._logger
+_OBJC_IVAR_$_ORKTouchRecorder._touchView
+_OBJC_IVAR_$_ORKTouchRecorder._uptime
+_OBJC_IVAR_$_ORKTouchRecorder._gestureRecognizer
+_OBJC_IVAR_$_ORKTouchRecorder._touchArray
+_OBJC_IVAR_$_ORKTouchRecorder._recordingError
+_OBJC_CLASS_$_ORKTouchGestureRecognizer
+_OBJC_METACLASS_$_ORKTouchGestureRecognizer
+_OBJC_CLASS_$_ORKTouchRecorder
+_OBJC_METACLASS_$_ORKTouchRecorder
+_OBJC_CLASS_$_ORKTouchRecorderConfiguration
+_OBJC_METACLASS_$_ORKTouchRecorderConfiguration
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKTapCountLabel.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKTapCountLabel.o
++[ORKTapCountLabel defaultFont]
+_OBJC_METACLASS_$_ORKTapCountLabel
+_OBJC_CLASS_$_ORKTapCountLabel
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKLabel.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKLabel.o
+-[ORKLabel init]
+-[ORKLabel initWithFrame:]
+-[ORKLabel _init_ORKLabel]
+-[ORKLabel willMoveToWindow:]
+-[ORKLabel _updateAppearance]
+-[ORKLabel setLabelFont:]
+-[ORKLabel setLabelTextColor:]
+-[ORKLabel dealloc]
++[ORKLabel defaultFont]
+-[ORKLabel labelFont]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKLabel.h
+-[ORKLabel labelTextColor]
+-[ORKLabel .cxx_destruct]
+_OBJC_IVAR_$_ORKLabel._labelFont
+_OBJC_IVAR_$_ORKLabel._labelTextColor
+_OBJC_CLASS_$_ORKLabel
+_OBJC_METACLASS_$_ORKLabel
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+ORKDeviceMotionRecorder.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKDeviceMotionRecorder.o
+-[ORKDeviceMotionRecorder initWithFrequency:step:outputDirectory:]
+-[ORKDeviceMotionRecorder dealloc]
+-[ORKDeviceMotionRecorder setFrequency:]
+-[ORKDeviceMotionRecorder start]
+___32-[ORKDeviceMotionRecorder start]_block_invoke
+___32-[ORKDeviceMotionRecorder start]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_41
+___destroy_helper_block_42
+-[ORKDeviceMotionRecorder _recorderType]
+-[ORKDeviceMotionRecorder stop]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___31-[ORKDeviceMotionRecorder stop]_block_invoke
+___copy_helper_block_50
+___destroy_helper_block_51
+-[ORKDeviceMotionRecorder _doStopRecording]
+-[ORKDeviceMotionRecorder finishRecordingWithError:]
+-[ORKDeviceMotionRecorder isRecording]
+-[ORKDeviceMotionRecorder mimeType]
+-[ORKDeviceMotionRecorder _reset]
+-[ORKDeviceMotionRecorder frequency]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/ORKDeviceMotionRecorder.h
+-[ORKDeviceMotionRecorder motionManager]
+-[ORKDeviceMotionRecorder setMotionManager:]
+-[ORKDeviceMotionRecorder uptime]
+-[ORKDeviceMotionRecorder setUptime:]
+-[ORKDeviceMotionRecorder .cxx_destruct]
+-[ORKDeviceMotionRecorderConfiguration initWithFrequency:]
+-[ORKDeviceMotionRecorderConfiguration recorderForStep:outputDirectory:]
+-[ORKDeviceMotionRecorderConfiguration initWithCoder:]
+-[ORKDeviceMotionRecorderConfiguration encodeWithCoder:]
+-[ORKDeviceMotionRecorderConfiguration isEqual:]
+-[ORKDeviceMotionRecorderConfiguration initWithDictionary:]
+-[ORKDeviceMotionRecorderConfiguration dictionaryValue]
+-[ORKDeviceMotionRecorderConfiguration requestedPermissionMask]
+-[ORKDeviceMotionRecorderConfiguration frequency]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/ORKRecorder.h
+GCC_except_table11
+___block_descriptor_tmp
+___block_descriptor_tmp44
+___block_descriptor_tmp53
+_OBJC_IVAR_$_ORKDeviceMotionRecorder._logger
+_OBJC_IVAR_$_ORKDeviceMotionRecorder._frequency
+_OBJC_IVAR_$_ORKDeviceMotionRecorder._motionManager
+_OBJC_IVAR_$_ORKDeviceMotionRecorder._uptime
+_OBJC_IVAR_$_ORKDeviceMotionRecorderConfiguration._frequency
+_OBJC_CLASS_$_ORKDeviceMotionRecorder
+_OBJC_METACLASS_$_ORKDeviceMotionRecorder
+_OBJC_CLASS_$_ORKDeviceMotionRecorderConfiguration
+_OBJC_METACLASS_$_ORKDeviceMotionRecorderConfiguration
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKStepViewController.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKStepViewController.o
+-[ORKStepViewController _initializeInternalButtonItems]
+-[ORKStepViewController initWithCoder:]
+-[ORKStepViewController initWithNibName:bundle:]
+-[ORKStepViewController initWithStep:]
+-[ORKStepViewController initWithStep:result:]
+-[ORKStepViewController viewDidLoad]
+-[ORKStepViewController _setupButtons]
+-[ORKStepViewController setStep:]
+-[ORKStepViewController _stepDidChange]
+-[ORKStepViewController viewWillAppear:]
+-[ORKStepViewController viewWillDisappear:]
+-[ORKStepViewController viewDidDisappear:]
+-[ORKStepViewController _willNavigateDirection:]
+-[ORKStepViewController setContinueButtonTitle:]
+-[ORKStepViewController continueButtonTitle]
+-[ORKStepViewController setLearnMoreButtonTitle:]
+-[ORKStepViewController learnMoreButtonTitle]
+-[ORKStepViewController setSkipButtonTitle:]
+-[ORKStepViewController skipButtonTitle]
+-[ORKStepViewController _setBackButtonItem:]
+-[ORKStepViewController setBackButtonItem:]
+-[ORKStepViewController _updateNavRightBarButtonItem]
+-[ORKStepViewController _updateNavLeftBarButtonItem]
+-[ORKStepViewController setCancelButtonItem:]
+-[ORKStepViewController hasPreviousStep]
+-[ORKStepViewController hasNextStep]
+-[ORKStepViewController result]
+-[ORKStepViewController _notifyDelegateOnResultChange]
+-[ORKStepViewController goForward]
+-[ORKStepViewController goBackward]
+-[ORKStepViewController skipForward]
+-[ORKStepViewController taskViewController]
+-[ORKStepViewController _showValidityAlertWithMessage:]
+___55-[ORKStepViewController _showValidityAlertWithMessage:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKStepViewController encodeRestorableStateWithCoder:]
+-[ORKStepViewController decodeRestorableStateWithCoder:]
++[ORKStepViewController viewControllerWithRestorationIdentifierPath:coder:]
+-[ORKStepViewController step]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKStepViewController.h
+-[ORKStepViewController delegate]
+-[ORKStepViewController setDelegate:]
+-[ORKStepViewController backButtonItem]
+-[ORKStepViewController cancelButtonItem]
+-[ORKStepViewController outputDirectory]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKStepViewController_Internal.h
+-[ORKStepViewController setOutputDirectory:]
+-[ORKStepViewController internalContinueButtonItem]
+-[ORKStepViewController setInternalContinueButtonItem:]
+-[ORKStepViewController internalBackButtonItem]
+-[ORKStepViewController setInternalBackButtonItem:]
+-[ORKStepViewController internalDoneButtonItem]
+-[ORKStepViewController setInternalDoneButtonItem:]
+-[ORKStepViewController internalSkipButtonItem]
+-[ORKStepViewController setInternalSkipButtonItem:]
+-[ORKStepViewController continueButtonItem]
+-[ORKStepViewController setContinueButtonItem:]
+-[ORKStepViewController learnMoreButtonItem]
+-[ORKStepViewController setLearnMoreButtonItem:]
+-[ORKStepViewController skipButtonItem]
+-[ORKStepViewController setSkipButtonItem:]
+-[ORKStepViewController presentedDate]
+-[ORKStepViewController setPresentedDate:]
+-[ORKStepViewController dismissedDate]
+-[ORKStepViewController setDismissedDate:]
+-[ORKStepViewController restoredStepIdentifier]
+-[ORKStepViewController setRestoredStepIdentifier:]
+-[ORKStepViewController flexSpace]
+-[ORKStepViewController fixedSpace]
+-[ORKStepViewController .cxx_destruct]
+___block_descriptor_tmp
+_OBJC_IVAR_$_ORKStepViewController._internalBackButtonItem
+_OBJC_IVAR_$_ORKStepViewController._internalContinueButtonItem
+_OBJC_IVAR_$_ORKStepViewController._internalDoneButtonItem
+_OBJC_IVAR_$_ORKStepViewController._internalSkipButtonItem
+_OBJC_IVAR_$_ORKStepViewController._backButtonItem
+_OBJC_IVAR_$_ORKStepViewController._hasBeenPresented
+_OBJC_IVAR_$_ORKStepViewController._step
+_OBJC_IVAR_$_ORKStepViewController._dismissing
+_OBJC_IVAR_$_ORKStepViewController._cancelButtonItem
+_OBJC_IVAR_$_ORKStepViewController._presentingAlert
+_OBJC_IVAR_$_ORKStepViewController._presentedDate
+_OBJC_IVAR_$_ORKStepViewController._outputDirectory
+_OBJC_IVAR_$_ORKStepViewController._restoredStepIdentifier
+_OBJC_IVAR_$_ORKStepViewController._delegate
+_OBJC_IVAR_$_ORKStepViewController._continueButtonItem
+_OBJC_IVAR_$_ORKStepViewController._learnMoreButtonItem
+_OBJC_IVAR_$_ORKStepViewController._skipButtonItem
+_OBJC_IVAR_$_ORKStepViewController._dismissedDate
+_OBJC_IVAR_$_ORKStepViewController._flexSpace
+_OBJC_IVAR_$_ORKStepViewController._fixedSpace
+_OBJC_CLASS_$_ORKStepViewController
+_OBJC_METACLASS_$_ORKStepViewController
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/
+_ORKConsentSignatureController.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKConsentSignatureController.o
+-[_ORKConsentSignatureWrapperView willMoveToWindow:]
+-[_ORKConsentSignatureWrapperView initWithFrame:]
+-[_ORKConsentSignatureWrapperView setClearButtonEnabled:]
+___57-[_ORKConsentSignatureWrapperView setClearButtonEnabled:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___57-[_ORKConsentSignatureWrapperView setClearButtonEnabled:]_block_invoke36
+-[_ORKConsentSignatureWrapperView updateConstraints]
+-[_ORKConsentSignatureWrapperView signatureView]
+-[_ORKConsentSignatureWrapperView setSignatureView:]
+-[_ORKConsentSignatureWrapperView clearButton]
+-[_ORKConsentSignatureWrapperView setClearButton:]
+-[_ORKConsentSignatureWrapperView clearButtonEnabled]
+-[_ORKConsentSignatureWrapperView .cxx_destruct]
+-[ORKConsentSigningView initWithFrame:]
+-[ORKConsentSigningView wrapperView]
+-[ORKConsentSigningView setWrapperView:]
+-[ORKConsentSigningView .cxx_destruct]
+-[_ORKConsentSignatureController initWithNibName:bundle:]
+-[_ORKConsentSignatureController viewDidLoad]
+-[_ORKConsentSignatureController _updateContinueButtonItem]
+-[_ORKConsentSignatureController setLocalizedContinueButtonTitle:]
+-[_ORKConsentSignatureController signatureView]
+-[_ORKConsentSignatureController done]
+-[_ORKConsentSignatureController _clearAction:]
+-[_ORKConsentSignatureController signatureViewDidEditImage:]
+-[_ORKConsentSignatureController delegate]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/_ORKConsentSignatureController.h
+-[_ORKConsentSignatureController setDelegate:]
+-[_ORKConsentSignatureController localizedContinueButtonTitle]
+-[_ORKConsentSignatureController signingView]
+-[_ORKConsentSignatureController setSigningView:]
+-[_ORKConsentSignatureController .cxx_destruct]
+___block_descriptor_tmp
+___block_descriptor_tmp38
+___block_literal_global
+_OBJC_IVAR_$__ORKConsentSignatureWrapperView._signatureView
+_OBJC_IVAR_$__ORKConsentSignatureWrapperView._clearButton
+_OBJC_IVAR_$__ORKConsentSignatureWrapperView._clearButtonEnabled
+_OBJC_IVAR_$__ORKConsentSignatureWrapperView._constraints
+_OBJC_IVAR_$_ORKConsentSigningView._wrapperView
+_OBJC_IVAR_$__ORKConsentSignatureController._signingView
+_OBJC_IVAR_$__ORKConsentSignatureController._localizedContinueButtonTitle
+_OBJC_IVAR_$__ORKConsentSignatureController._delegate
+_OBJC_CLASS_$__ORKConsentSignatureWrapperView
+_OBJC_METACLASS_$__ORKConsentSignatureWrapperView
+_OBJC_CLASS_$_ORKConsentSigningView
+_OBJC_METACLASS_$_ORKConsentSigningView
+_OBJC_CLASS_$__ORKConsentSignatureController
+_OBJC_METACLASS_$__ORKConsentSignatureController
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKSkin.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKSkin.o
++[UIColor(ORKColor) ork_midGrayTintColor]
+/Applications/Xcode-OkemoZurs/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.2.sdk/usr/include/dispatch/once.h
+___41+[UIColor(ORKColor) ork_midGrayTintColor]_block_invoke
++[UIColor(ORKColor) ork_redColor]
+___33+[UIColor(ORKColor) ork_redColor]_block_invoke
++[UIColor(ORKColor) ork_grayColor]
+___34+[UIColor(ORKColor) ork_grayColor]_block_invoke
++[UIColor(ORKColor) ork_darkGrayColor]
+___38+[UIColor(ORKColor) ork_darkGrayColor]_block_invoke
+_ORKColor
+_ORKGetMetricForScreenType
+_ORKGetScreenTypeForWindow
+_colors
+___colors_block_invoke
+_ORKGetMetricForScreenType.metrics
+_ORKSignatureColorKey
+_ORKBackgroundColorKey
+_ORKToolBarTintColorKey
+_ORKLightTintColorKey
+_ORKDarkTintColorKey
+_ORKCaptionTextColorKey
+_ORKBlueHighlightColorKey
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp16
+___block_literal_global17
+___block_descriptor_tmp18
+___block_literal_global19
+___block_descriptor_tmp20
+___block_literal_global21
+___block_descriptor_tmp46
+___block_literal_global47
+__MergedGlobals
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKFormStep.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKFormStep.o
++[ORKFormStep _stepViewControllerClass]
+-[ORKFormStep initWithIdentifier:title:text:]
+-[ORKFormStep initWithIdentifier:]
+-[ORKFormStep init]
+-[ORKFormStep validateParameters]
+-[ORKFormStep copyWithZone:]
+-[ORKFormStep isEqual:]
+-[ORKFormStep hash]
+-[ORKFormStep initWithCoder:]
+-[ORKFormStep encodeWithCoder:]
+-[ORKFormStep initWithDictionary:]
+-[ORKFormStep dictionaryValue]
+-[ORKFormStep setFormItems:]
+-[ORKFormStep formItems]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKFormStep.h
+-[ORKFormStep .cxx_destruct]
+-[ORKFormItem initWithIdentifier:text:answerFormat:]
+-[ORKFormItem initWithSectionTitle:]
++[ORKFormItem supportsSecureCoding]
+-[ORKFormItem copyWithZone:]
+-[ORKFormItem initWithCoder:]
+-[ORKFormItem encodeWithCoder:]
+-[ORKFormItem isEqual:]
+-[ORKFormItem hash]
+-[ORKFormItem initWithDictionary:]
+-[ORKFormItem dictionaryValue]
+-[ORKFormItem _impliedAnswerFormat]
+-[ORKFormItem questionType]
+-[ORKFormItem identifier]
+-[ORKFormItem text]
+-[ORKFormItem placeholder]
+-[ORKFormItem setPlaceholder:]
+-[ORKFormItem answerFormat]
+-[ORKFormItem step]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKFormItem_Internal.h
+-[ORKFormItem setStep:]
+-[ORKFormItem .cxx_destruct]
+_____ORKArrayDeepCopy_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___block_descriptor_tmp
+_OBJC_IVAR_$_ORKFormStep._formItems
+_OBJC_IVAR_$_ORKFormItem._identifier
+_OBJC_IVAR_$_ORKFormItem._text
+_OBJC_IVAR_$_ORKFormItem._answerFormat
+_OBJC_IVAR_$_ORKFormItem._placeholder
+_OBJC_IVAR_$_ORKFormItem._step
+_OBJC_CLASS_$_ORKFormStep
+_OBJC_METACLASS_$_ORKFormStep
+_OBJC_CLASS_$_ORKFormItem
+_OBJC_METACLASS_$_ORKFormItem
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+_ORKTableContainerView.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKTableContainerView.o
+-[_ORKTableContainerView initWithFrame:]
+-[_ORKTableContainerView layoutSubviews]
+-[_ORKTableContainerView _updateContinueButtonConstraints]
+-[_ORKTableContainerView updateConstraints]
+-[_ORKTableContainerView _view:hasFirstResponderOrTableViewCellContainingPoint:]
+-[_ORKTableContainerView gestureRecognizer:shouldReceiveTouch:]
+-[_ORKTableContainerView _tapOffAction:]
+-[_ORKTableContainerView dealloc]
+-[_ORKTableContainerView _registerForKeyboardNotifications:]
+-[_ORKTableContainerView willMoveToWindow:]
+-[_ORKTableContainerView _updateToInsets:]
+-[_ORKTableContainerView _keyboardIntersectionSizeFromNotification:]
+-[_ORKTableContainerView scrollCellVisible:animated:]
+___53-[_ORKTableContainerView scrollCellVisible:animated:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKTableContainerView _animateLayoutForKeyboardNotification:]
+___64-[_ORKTableContainerView _animateLayoutForKeyboardNotification:]_block_invoke
+___copy_helper_block_160
+___destroy_helper_block_161
+-[_ORKTableContainerView keyboardFrameWillChange:]
+-[_ORKTableContainerView keyboardWillShow:]
+-[_ORKTableContainerView keyboardWillHide:]
+-[_ORKTableContainerView tableView]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/_ORKTableContainerView.h
+-[_ORKTableContainerView stepHeaderView]
+-[_ORKTableContainerView continueSkipContainerView]
+-[_ORKTableContainerView .cxx_destruct]
+___block_descriptor_tmp
+___block_descriptor_tmp162
+_OBJC_IVAR_$__ORKTableContainerView._tableView
+_OBJC_IVAR_$__ORKTableContainerView._scrollView
+_OBJC_IVAR_$__ORKTableContainerView._realFooterView
+_OBJC_IVAR_$__ORKTableContainerView._stepHeaderView
+_OBJC_IVAR_$__ORKTableContainerView._continueSkipContainerView
+_OBJC_IVAR_$__ORKTableContainerView._bottomConstraint
+_OBJC_IVAR_$__ORKTableContainerView._keyboardOverlap
+_OBJC_IVAR_$__ORKTableContainerView._constraints
+_OBJC_IVAR_$__ORKTableContainerView._keyboardIsUp
+_OBJC_CLASS_$__ORKTableContainerView
+_OBJC_METACLASS_$__ORKTableContainerView
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+_ORKSpatialSpanGame.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKSpatialSpanGame.o
+-[_ORKSpatialSpanGame _generateSequence]
+-[_ORKSpatialSpanGame dealloc]
+-[_ORKSpatialSpanGame initWithGameSize:sequenceLength:seed:]
+-[_ORKSpatialSpanGame enumerateSequenceWithHandler:]
+-[_ORKSpatialSpanGame tileIndexForStep:]
+-[_ORKSpatialSpanGame gameSize]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/_ORKSpatialSpanGame.h
+-[_ORKSpatialSpanGame sequenceLength]
+-[_ORKSpatialSpanGame seed]
+_OBJC_IVAR_$__ORKSpatialSpanGame._gameSize
+_OBJC_IVAR_$__ORKSpatialSpanGame._sequence
+_OBJC_IVAR_$__ORKSpatialSpanGame._seed
+_OBJC_IVAR_$__ORKSpatialSpanGame._sequenceLength
+_OBJC_CLASS_$__ORKSpatialSpanGame
+_OBJC_METACLASS_$__ORKSpatialSpanGame
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+_ORKSpatialSpanMemoryStepViewController.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKSpatialSpanMemoryStepViewController.o
++[_ORKState stateWithState:entryHandler:exitHandler:context:]
+-[_ORKState state]
+-[_ORKState setState:]
+-[_ORKState context]
+-[_ORKState setContext:]
+-[_ORKState entryHandler]
+-[_ORKState setEntryHandler:]
+-[_ORKState exitHandler]
+-[_ORKState setExitHandler:]
+-[_ORKState .cxx_destruct]
+-[_ORKSpatialSpanMemoryStepViewController spatialSpanStep]
+-[_ORKSpatialSpanMemoryStepViewController initWithStep:]
+-[_ORKSpatialSpanMemoryStepViewController viewDidLoad]
+-[_ORKSpatialSpanMemoryStepViewController _stepDidChange]
+-[_ORKSpatialSpanMemoryStepViewController start]
+-[_ORKSpatialSpanMemoryStepViewController suspend]
+-[_ORKSpatialSpanMemoryStepViewController resume]
+-[_ORKSpatialSpanMemoryStepViewController finish]
+-[_ORKSpatialSpanMemoryStepViewController result]
+___49-[_ORKSpatialSpanMemoryStepViewController result]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKSpatialSpanMemoryStepViewController _currentGameRecord]
+-[_ORKSpatialSpanMemoryStepViewController _createGameRecord]
+___60-[_ORKSpatialSpanMemoryStepViewController _createGameRecord]_block_invoke
+___copy_helper_block_151
+___destroy_helper_block_152
+-[_ORKSpatialSpanMemoryStepViewController _updateGameRecordTargetRects]
+-[_ORKSpatialSpanMemoryStepViewController _updateGameRecordOnStartingGamePlay]
+-[_ORKSpatialSpanMemoryStepViewController _handleUserTap:]
+-[_ORKSpatialSpanMemoryStepViewController _updateGameRecordOnTouch:location:]
+-[_ORKSpatialSpanMemoryStepViewController _updateGameRecordOnSuccess]
+-[_ORKSpatialSpanMemoryStepViewController _updateGameRecordOnFailure]
+-[_ORKSpatialSpanMemoryStepViewController _updateGameRecordOnTimeout]
+-[_ORKSpatialSpanMemoryStepViewController _updateGameRecordScore]
+-[_ORKSpatialSpanMemoryStepViewController _updateGameRecordOnPause]
+-[_ORKSpatialSpanMemoryStepViewController _gridSizeForSpan:]
+-[_ORKSpatialSpanMemoryStepViewController _resetGameAndUI]
+-[_ORKSpatialSpanMemoryStepViewController _resetUI]
+-[_ORKSpatialSpanMemoryStepViewController _resetForNewGame]
+-[_ORKSpatialSpanMemoryStepViewController _applyTargetState:toSequenceIndex:duration:]
+___86-[_ORKSpatialSpanMemoryStepViewController _applyTargetState:toSequenceIndex:duration:]_block_invoke
+___copy_helper_block_237
+___destroy_helper_block_238
+-[_ORKSpatialSpanMemoryStepViewController _playbackNextItem]
+-[_ORKSpatialSpanMemoryStepViewController _startPlayback]
+-[_ORKSpatialSpanMemoryStepViewController _finishPlayback]
+-[_ORKSpatialSpanMemoryStepViewController _setNumberOfItems:]
+-[_ORKSpatialSpanMemoryStepViewController _setScore:]
+-[_ORKSpatialSpanMemoryStepViewController _activityTimeout]
+-[_ORKSpatialSpanMemoryStepViewController _resetActivityTimer]
+-[_ORKSpatialSpanMemoryStepViewController _startGameplay]
+-[_ORKSpatialSpanMemoryStepViewController _finishGameplay]
+-[_ORKSpatialSpanMemoryStepViewController gameView:didTapTileWithIndex:recognizer:]
+-[_ORKSpatialSpanMemoryStepViewController _updateGameCountersForSuccess:]
+-[_ORKSpatialSpanMemoryStepViewController _continueAction]
+-[_ORKSpatialSpanMemoryStepViewController _showSuccess]
+___55-[_ORKSpatialSpanMemoryStepViewController _showSuccess]_block_invoke
+___copy_helper_block_324
+___destroy_helper_block_325
+-[_ORKSpatialSpanMemoryStepViewController _tryAgainAction]
+-[_ORKSpatialSpanMemoryStepViewController _finishIfCompletedGames]
+-[_ORKSpatialSpanMemoryStepViewController _showFailed]
+-[_ORKSpatialSpanMemoryStepViewController _showTimeout]
+-[_ORKSpatialSpanMemoryStepViewController _showComplete]
+___56-[_ORKSpatialSpanMemoryStepViewController _showComplete]_block_invoke
+___copy_helper_block_341
+___destroy_helper_block_342
+-[_ORKSpatialSpanMemoryStepViewController _doRestart]
+___53-[_ORKSpatialSpanMemoryStepViewController _doRestart]_block_invoke
+___copy_helper_block_344
+___destroy_helper_block_345
+-[_ORKSpatialSpanMemoryStepViewController _showPausedFromState:]
+-[_ORKSpatialSpanMemoryStepViewController _initializeStates]
+___60-[_ORKSpatialSpanMemoryStepViewController _initializeStates]_block_invoke
+___60-[_ORKSpatialSpanMemoryStepViewController _initializeStates]_block_invoke_2
+___60-[_ORKSpatialSpanMemoryStepViewController _initializeStates]_block_invoke_3
+___60-[_ORKSpatialSpanMemoryStepViewController _initializeStates]_block_invoke_4
+___60-[_ORKSpatialSpanMemoryStepViewController _initializeStates]_block_invoke_5
+___60-[_ORKSpatialSpanMemoryStepViewController _initializeStates]_block_invoke_6
+___60-[_ORKSpatialSpanMemoryStepViewController _initializeStates]_block_invoke_7
+___60-[_ORKSpatialSpanMemoryStepViewController _initializeStates]_block_invoke_8
+___60-[_ORKSpatialSpanMemoryStepViewController _initializeStates]_block_invoke_9
+___60-[_ORKSpatialSpanMemoryStepViewController _initializeStates]_block_invoke_10
+___60-[_ORKSpatialSpanMemoryStepViewController _initializeStates]_block_invoke_11
+-[_ORKSpatialSpanMemoryStepViewController _transitionToState:]
+-[_ORKSpatialSpanMemoryStepViewController .cxx_destruct]
+GCC_except_table18
+___block_descriptor_tmp
+___block_descriptor_tmp154
+___block_descriptor_tmp240
+___block_descriptor_tmp326
+___block_descriptor_tmp343
+___block_descriptor_tmp346
+___block_descriptor_tmp359
+___block_literal_global
+___block_descriptor_tmp365
+___block_literal_global366
+___block_descriptor_tmp369
+___block_literal_global370
+___block_descriptor_tmp373
+___block_literal_global374
+___block_descriptor_tmp377
+___block_literal_global378
+___block_descriptor_tmp381
+___block_literal_global382
+___block_descriptor_tmp385
+___block_literal_global386
+___block_descriptor_tmp389
+___block_literal_global390
+___block_descriptor_tmp393
+___block_literal_global394
+___block_descriptor_tmp397
+___block_literal_global398
+___block_descriptor_tmp401
+___block_literal_global402
+_OBJC_IVAR_$__ORKState._state
+_OBJC_IVAR_$__ORKState._context
+_OBJC_IVAR_$__ORKState._entryHandler
+_OBJC_IVAR_$__ORKState._exitHandler
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._contentView
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._state
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._gameRecords
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._currentGameState
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._score
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._lastRoundScore
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._gameStartTime
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._numberOfItems
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._gamesCounter
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._consecutiveGamesFailed
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._nextGameSequenceLength
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._gridSize
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._playbackIndex
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._playbackTimer
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._activityTimer
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._states
+_OBJC_CLASS_$__ORKState
+_OBJC_METACLASS_$__ORKState
+_OBJC_CLASS_$__ORKSpatialSpanMemoryStepViewController
+_OBJC_METACLASS_$__ORKSpatialSpanMemoryStepViewController
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+_ORKTextFieldView.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKTextFieldView.o
+-[_ORKCaretOptionalTextField hitTest:withEvent:]
+-[_ORKCaretOptionalTextField caretRectForPosition:]
+-[_ORKCaretOptionalTextField allowsSelection]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/_ORKTextFieldView.h
+-[_ORKCaretOptionalTextField setAllowsSelection:]
+-[_ORKCaretOptionalTextField hitClearButton]
+-[_ORKCaretOptionalTextField setHitClearButton:]
+-[_ORKUnitTextField init]
+-[_ORKUnitTextField ork_createTextLabelWithTextColor:]
+-[_ORKUnitTextField ork_setSuffix:withColor:]
+-[_ORKUnitTextField ork_updateSuffix:]
+-[_ORKUnitTextField ork_updateSuffix:withColor:]
+-[_ORKUnitTextField setManageUnitAndPlaceholder:]
+-[_ORKUnitTextField setPlaceholder:]
+-[_ORKUnitTextField _setPlaceholder:]
+-[_ORKUnitTextField setUnit:]
+-[_ORKUnitTextField _updateManagedUnitAndPlaceholder]
+-[_ORKUnitTextField _textFieldDidBeginEditing:]
+-[_ORKUnitTextField _textFieldDidEndEditing:]
+-[_ORKUnitTextField _textFieldDidChange:]
+-[_ORKUnitTextField setText:]
+-[_ORKUnitTextField isPlaceholderVisible]
+-[_ORKUnitTextField _suffixWidthForBounds:]
+-[_ORKUnitTextField textRectForBounds:]
+-[_ORKUnitTextField editingRectForBounds:]
+-[_ORKUnitTextField placeholderRectForBounds:]
+-[_ORKUnitTextField ork_suffixFrame]
+-[_ORKUnitTextField layoutSubviews]
+-[_ORKUnitTextField dealloc]
+-[_ORKUnitTextField accessibilityValue]
+-[_ORKUnitTextField unit]
+-[_ORKUnitTextField manageUnitAndPlaceholder]
+-[_ORKUnitTextField .cxx_destruct]
+-[_ORKTextFieldView init]
+-[_ORKTextFieldView updateConstraints]
+-[_ORKTextFieldView textField]
+-[_ORKTextFieldView setTextField:]
+-[_ORKTextFieldView .cxx_destruct]
+_OBJC_IVAR_$__ORKCaretOptionalTextField._hitClearButton
+_OBJC_IVAR_$__ORKCaretOptionalTextField._allowsSelection
+_OBJC_IVAR_$__ORKUnitTextField._suffixLabel
+_OBJC_IVAR_$__ORKUnitTextField._savedSuffixColor
+_OBJC_IVAR_$__ORKUnitTextField._savedSuffixText
+_OBJC_IVAR_$__ORKUnitTextField._manageUnitAndPlaceholder
+_OBJC_IVAR_$__ORKUnitTextField._managedPlaceholder
+_OBJC_IVAR_$__ORKUnitTextField._unit
+_OBJC_IVAR_$__ORKUnitTextField._unitWithPlaceholder
+_OBJC_IVAR_$__ORKUnitTextField._unitWithNumber
+_OBJC_IVAR_$__ORKUnitTextField._unitRegularColor
+_OBJC_IVAR_$__ORKUnitTextField._unitActiveColor
+_OBJC_IVAR_$__ORKTextFieldView._textField
+_OBJC_CLASS_$__ORKCaretOptionalTextField
+_OBJC_METACLASS_$__ORKCaretOptionalTextField
+_OBJC_CLASS_$__ORKUnitTextField
+_OBJC_METACLASS_$__ORKUnitTextField
+_OBJC_CLASS_$__ORKTextFieldView
+_OBJC_METACLASS_$__ORKTextFieldView
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKSelectionSubTitleLabel.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKSelectionSubTitleLabel.o
++[ORKSelectionSubTitleLabel defaultFont]
+_OBJC_METACLASS_$_ORKSelectionSubTitleLabel
+_OBJC_CLASS_$_ORKSelectionSubTitleLabel
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKTaskViewController.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKTaskViewController.o
+-[_ORKLocationAuthorizationRequester initWithHandler:]
+-[_ORKLocationAuthorizationRequester dealloc]
+-[_ORKLocationAuthorizationRequester resume]
+-[_ORKLocationAuthorizationRequester _finishWithResult:]
+-[_ORKLocationAuthorizationRequester locationManager:didChangeAuthorizationStatus:]
+-[_ORKLocationAuthorizationRequester .cxx_destruct]
+-[_ORKObserver observeValueForKeyPath:ofObject:change:context:]
+-[_ORKObserver startObserving]
+-[_ORKObserver _stopObserving]
+-[_ORKObserver dealloc]
+-[_ORKObserver keyPaths]
+-[_ORKObserver setKeyPaths:]
+-[_ORKObserver target]
+-[_ORKObserver setTarget:]
+-[_ORKObserver observing]
+-[_ORKObserver setObserving:]
+-[_ORKObserver context]
+-[_ORKObserver setContext:]
+-[_ORKObserver responder]
+-[_ORKObserver setResponder:]
+-[_ORKObserver action]
+-[_ORKObserver setAction:]
+-[_ORKObserver .cxx_destruct]
+-[_ORKTaskViewControllerObserver initWithTargetViewContoller:taskViewController:]
+-[_ORKScrollViewObserver initWithTargetView:taskViewController:]
++[ORKTaskViewController initialize]
++[ORKTaskViewController _pageVc]
+-[ORKTaskViewController setChildNavigationController:]
+-[ORKTaskViewController _commonInitWithTask:taskRunUUID:]
+-[ORKTaskViewController initWithNibName:bundle:]
+-[ORKTaskViewController initWithCoder:]
+-[ORKTaskViewController initWithTask:taskRunUUID:]
+-[ORKTaskViewController initWithTask:restorationData:]
+-[ORKTaskViewController setTaskRunUUID:]
+-[ORKTaskViewController setTask:]
+-[ORKTaskViewController _defaultCancelButtonItem]
+-[ORKTaskViewController _defaultLearnMoreButtonItem]
+-[ORKTaskViewController _requestHealthStoreAccessWithReadTypes:writeTypes:handler:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___83-[ORKTaskViewController _requestHealthStoreAccessWithReadTypes:writeTypes:handler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKTaskViewController _requestPedometerAccessWithHandler:]
+___60-[ORKTaskViewController _requestPedometerAccessWithHandler:]_block_invoke
+___60-[ORKTaskViewController _requestPedometerAccessWithHandler:]_block_invoke_2
+___copy_helper_block_381
+___destroy_helper_block_382
+___copy_helper_block_385
+___destroy_helper_block_386
+-[ORKTaskViewController _requestAudioRecordingAccessWithHandler:]
+___65-[ORKTaskViewController _requestAudioRecordingAccessWithHandler:]_block_invoke
+___65-[ORKTaskViewController _requestAudioRecordingAccessWithHandler:]_block_invoke_2
+___copy_helper_block_394
+___destroy_helper_block_395
+___copy_helper_block_397
+___destroy_helper_block_398
+-[ORKTaskViewController _requestLocationAccessWithHandler:]
+___59-[ORKTaskViewController _requestLocationAccessWithHandler:]_block_invoke
+___copy_helper_block_404
+___destroy_helper_block_405
+-[ORKTaskViewController desiredPermissions]
+-[ORKTaskViewController _requestHealthAuthorizationWithCompletion:]
+___67-[ORKTaskViewController _requestHealthAuthorizationWithCompletion:]_block_invoke
+___67-[ORKTaskViewController _requestHealthAuthorizationWithCompletion:]_block_invoke_2
+___67-[ORKTaskViewController _requestHealthAuthorizationWithCompletion:]_block_invoke_3
+___copy_helper_block_418
+___destroy_helper_block_419
+___copy_helper_block_423
+___destroy_helper_block_424
+___67-[ORKTaskViewController _requestHealthAuthorizationWithCompletion:]_block_invoke426
+___67-[ORKTaskViewController _requestHealthAuthorizationWithCompletion:]_block_invoke_2427
+___copy_helper_block_428
+___destroy_helper_block_429
+___copy_helper_block_433
+___destroy_helper_block_434
+___67-[ORKTaskViewController _requestHealthAuthorizationWithCompletion:]_block_invoke436
+___67-[ORKTaskViewController _requestHealthAuthorizationWithCompletion:]_block_invoke_2437
+___copy_helper_block_438
+___destroy_helper_block_439
+___copy_helper_block_443
+___destroy_helper_block_444
+___67-[ORKTaskViewController _requestHealthAuthorizationWithCompletion:]_block_invoke446
+___67-[ORKTaskViewController _requestHealthAuthorizationWithCompletion:]_block_invoke_2447
+___copy_helper_block_448
+___destroy_helper_block_449
+___copy_helper_block_453
+___destroy_helper_block_454
+___67-[ORKTaskViewController _requestHealthAuthorizationWithCompletion:]_block_invoke456
+___copy_helper_block_457
+___destroy_helper_block_458
+___copy_helper_block_460
+___destroy_helper_block_461
+-[ORKTaskViewController _startAudioPromptSessionIfNeeded]
+-[ORKTaskViewController _startAudioPromptSessionWithError:]
+-[ORKTaskViewController _finishAudioPromptSession]
+-[ORKTaskViewController _requestedHealthTypesForRead]
+-[ORKTaskViewController _requestedHealthTypesForWrite]
+-[ORKTaskViewController loadView]
+-[ORKTaskViewController viewWillAppear:]
+-[ORKTaskViewController viewDidDisappear:]
+-[ORKTaskViewController _findHairlineViewUnder:]
+-[ORKTaskViewController managedResults]
+___39-[ORKTaskViewController managedResults]_block_invoke
+___copy_helper_block_505
+___destroy_helper_block_506
+-[ORKTaskViewController _setManagedResult:forKey:]
+-[ORKTaskViewController taskRunUUID]
+-[ORKTaskViewController result]
+-[ORKTaskViewController restorationData]
+-[ORKTaskViewController setOutputDirectory:]
+-[ORKTaskViewController setRegisteredScrollView:]
+-[ORKTaskViewController suspend]
+-[ORKTaskViewController resume]
+-[ORKTaskViewController goForward]
+-[ORKTaskViewController goBackward]
+-[ORKTaskViewController _updateLastBeginningInstructionStepIdentifierForStep:goForward:]
+-[ORKTaskViewController _isStepLastBeginningInstructionStep:]
+-[ORKTaskViewController _showViewController:goForward:animated:]
+___64-[ORKTaskViewController _showViewController:goForward:animated:]_block_invoke
+___copy_helper_block_598
+___destroy_helper_block_599
+___64-[ORKTaskViewController _showViewController:goForward:animated:]_block_invoke621
+___copy_helper_block_626
+___destroy_helper_block_627
+-[ORKTaskViewController shouldPresentStep:]
+-[ORKTaskViewController _nextStep]
+-[ORKTaskViewController _prevStep]
+-[ORKTaskViewController _collectToolbarItemsFromViewController:]
+-[ORKTaskViewController _registeredScrollViewDidScroll:]
+-[ORKTaskViewController _viewControllerForStep:]
+-[ORKTaskViewController _finishWithResult:error:]
+-[ORKTaskViewController _presentCancelOptions:]
+___47-[ORKTaskViewController _presentCancelOptions:]_block_invoke
+___47-[ORKTaskViewController _presentCancelOptions:]_block_invoke_2
+___copy_helper_block_692
+___destroy_helper_block_693
+___copy_helper_block_695
+___destroy_helper_block_696
+___47-[ORKTaskViewController _presentCancelOptions:]_block_invoke707
+___47-[ORKTaskViewController _presentCancelOptions:]_block_invoke_2708
+___copy_helper_block_709
+___destroy_helper_block_710
+___copy_helper_block_712
+___destroy_helper_block_713
+-[ORKTaskViewController _cancelAction:]
+-[ORKTaskViewController _learnMoreAction:]
+-[ORKTaskViewController _reportError:onStep:]
+-[ORKTaskViewController _flipToNextPageFrom:]
+-[ORKTaskViewController _flipToPreviousPageFrom:]
+-[ORKTaskViewController stepViewControllerWillAppear:]
+-[ORKTaskViewController stepViewController:didFinishWithNavigationDirection:]
+-[ORKTaskViewController stepViewControllerDidFail:withError:]
+-[ORKTaskViewController stepViewControllerResultDidChange:]
+-[ORKTaskViewController stepViewControllerHasPreviousStep:]
+-[ORKTaskViewController stepViewControllerHasNextStep:]
+-[ORKTaskViewController _stepBeforeStep:]
+-[ORKTaskViewController _stepAfterStep:]
+-[ORKTaskViewController encodeRestorableStateWithCoder:]
+-[ORKTaskViewController decodeRestorableStateWithCoder:]
+-[ORKTaskViewController applicationFinishedRestoringState]
++[ORKTaskViewController viewControllerWithRestorationIdentifierPath:coder:]
+-[ORKTaskViewController setNavigationBarHidden:]
+-[ORKTaskViewController isNavigationBarHidden]
+-[ORKTaskViewController setNavigationBarHidden:animated:]
+-[ORKTaskViewController navigationBar]
+-[ORKTaskViewController delegate]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKTaskViewController.h
+-[ORKTaskViewController setDelegate:]
+-[ORKTaskViewController task]
+-[ORKTaskViewController defaultResultSource]
+-[ORKTaskViewController setDefaultResultSource:]
+-[ORKTaskViewController outputDirectory]
+-[ORKTaskViewController showsProgressInNavigationBar]
+-[ORKTaskViewController setShowsProgressInNavigationBar:]
+-[ORKTaskViewController currentStepViewController]
+-[ORKTaskViewController setCurrentStepViewController:]
+-[ORKTaskViewController registeredScrollView]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKTaskViewController_Internal.h
+-[ORKTaskViewController hairline]
+-[ORKTaskViewController setHairline:]
+-[ORKTaskViewController childNavigationController]
+-[ORKTaskViewController pageViewController]
+-[ORKTaskViewController setPageViewController:]
+-[ORKTaskViewController .cxx_destruct]
+GCC_except_table37
+GCC_except_table43
+GCC_except_table57
+GCC_except_table118
+___block_descriptor_tmp
+___block_descriptor_tmp384
+___block_descriptor_tmp388
+___block_descriptor_tmp396
+___block_descriptor_tmp400
+___block_descriptor_tmp406
+___block_descriptor_tmp420
+___block_descriptor_tmp425
+___block_descriptor_tmp430
+___block_descriptor_tmp435
+___block_descriptor_tmp440
+___block_descriptor_tmp445
+___block_descriptor_tmp450
+___block_descriptor_tmp455
+___block_descriptor_tmp459
+___block_descriptor_tmp462
+___block_descriptor_tmp508
+___block_descriptor_tmp600
+___block_descriptor_tmp628
+___block_descriptor_tmp694
+___block_descriptor_tmp698
+___block_descriptor_tmp711
+___block_descriptor_tmp714
+_OBJC_IVAR_$__ORKLocationAuthorizationRequester._handler
+_OBJC_IVAR_$__ORKLocationAuthorizationRequester._manager
+_OBJC_IVAR_$__ORKLocationAuthorizationRequester._started
+_OBJC_IVAR_$__ORKObserver._observing
+_OBJC_IVAR_$__ORKObserver._keyPaths
+_OBJC_IVAR_$__ORKObserver._target
+_OBJC_IVAR_$__ORKObserver._context
+_OBJC_IVAR_$__ORKObserver._responder
+_OBJC_IVAR_$__ORKObserver._action
+_OBJC_IVAR_$_ORKTaskViewController._childNavigationController
+_OBJC_IVAR_$_ORKTaskViewController._pageViewController
+_OBJC_IVAR_$_ORKTaskViewController._managedResults
+_OBJC_IVAR_$_ORKTaskViewController._managedStepIdentifiers
+_OBJC_IVAR_$_ORKTaskViewController._hasBeenPresented
+_OBJC_IVAR_$_ORKTaskViewController._taskRunUUID
+_OBJC_IVAR_$_ORKTaskViewController._hasRequestedHealthData
+_OBJC_IVAR_$_ORKTaskViewController._task
+_OBJC_IVAR_$_ORKTaskViewController._requestedHealthTypesForRead
+_OBJC_IVAR_$_ORKTaskViewController._requestedHealthTypesForWrite
+_OBJC_IVAR_$_ORKTaskViewController._grantedPermissions
+_OBJC_IVAR_$_ORKTaskViewController._haveAudioSession
+_OBJC_IVAR_$_ORKTaskViewController._presentedDate
+_OBJC_IVAR_$_ORKTaskViewController._dismissedDate
+_OBJC_IVAR_$_ORKTaskViewController._outputDirectory
+_OBJC_IVAR_$_ORKTaskViewController._registeredScrollView
+_OBJC_IVAR_$_ORKTaskViewController._scrollViewObserver
+_OBJC_IVAR_$_ORKTaskViewController._currentStepViewController
+_OBJC_IVAR_$_ORKTaskViewController._lastBeginningInstructionStepIdentifier
+_OBJC_IVAR_$_ORKTaskViewController._lastRestorableStepIdentifier
+_OBJC_IVAR_$_ORKTaskViewController._haveSetProgressLabel
+_OBJC_IVAR_$_ORKTaskViewController._defaultResultSource
+_OBJC_IVAR_$_ORKTaskViewController._stepVCObserver
+_OBJC_IVAR_$_ORKTaskViewController._restoredTaskIdentifier
+_OBJC_IVAR_$_ORKTaskViewController._restoredStepIdentifier
+_OBJC_IVAR_$_ORKTaskViewController._delegate
+_OBJC_IVAR_$_ORKTaskViewController._showsProgressInNavigationBar
+_OBJC_IVAR_$_ORKTaskViewController._hairline
+_OBJC_CLASS_$__ORKLocationAuthorizationRequester
+_OBJC_METACLASS_$__ORKLocationAuthorizationRequester
+_OBJC_CLASS_$__ORKObserver
+_OBJC_METACLASS_$__ORKObserver
+_OBJC_CLASS_$__ORKTaskViewControllerObserver
+_OBJC_METACLASS_$__ORKTaskViewControllerObserver
+_OBJC_CLASS_$__ORKScrollViewObserver
+_OBJC_METACLASS_$__ORKScrollViewObserver
+_OBJC_CLASS_$_ORKTaskViewController
+_OBJC_METACLASS_$_ORKTaskViewController
+__MergedGlobals
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/
+ORKConsentLearnMoreViewController.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKConsentLearnMoreViewController.o
+-[ORKConsentLearnMoreViewController initWithHtmlContent:]
+-[ORKConsentLearnMoreViewController viewDidLoad]
+-[ORKConsentLearnMoreViewController _cancel:]
+-[ORKConsentLearnMoreViewController webView]
+-[ORKConsentLearnMoreViewController setWebView:]
+-[ORKConsentLearnMoreViewController content]
+-[ORKConsentLearnMoreViewController setContent:]
+-[ORKConsentLearnMoreViewController .cxx_destruct]
+_OBJC_IVAR_$_ORKConsentLearnMoreViewController._webView
+_OBJC_IVAR_$_ORKConsentLearnMoreViewController._content
+_OBJC_CLASS_$_ORKConsentLearnMoreViewController
+_OBJC_METACLASS_$_ORKConsentLearnMoreViewController
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKScaleSlider.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKScaleSlider.o
+-[ORKScaleSlider initWithFrame:]
+-[ORKScaleSlider setShowThumb:]
+-[ORKScaleSlider sliderTouched:]
+-[ORKScaleSlider updateValueForTouchAtPoint:]
+-[ORKScaleSlider drawRect:]
+-[ORKScaleSlider trackRectForBounds:]
+-[ORKScaleSlider thumbRectForBounds:trackRect:value:]
+-[ORKScaleSlider isAccessibilityElement]
+-[ORKScaleSlider announceNewValue]
+-[ORKScaleSlider accessibilityIncrement]
+-[ORKScaleSlider accessibilityDecrement]
+-[ORKScaleSlider accessibilityLabel]
+-[ORKScaleSlider accessibilityValue]
+-[ORKScaleSlider accessibilityFrame]
+-[ORKScaleSlider _axBumpValue:]
+-[ORKScaleSlider showThumb]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKScaleSlider.h
+-[ORKScaleSlider numberOfSteps]
+-[ORKScaleSlider setNumberOfSteps:]
+_OBJC_IVAR_$_ORKScaleSlider._numberOfSteps
+_OBJC_IVAR_$_ORKScaleSlider._axLastOutputTime
+_OBJC_IVAR_$_ORKScaleSlider._showThumb
+_OBJC_CLASS_$_ORKScaleSlider
+_OBJC_METACLASS_$_ORKScaleSlider
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+ORKActiveStep.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKActiveStep.o
++[ORKActiveStep _stepViewControllerClass]
+-[ORKActiveStep startsFinished]
+-[ORKActiveStep hasCountDown]
+-[ORKActiveStep hasTitle]
+-[ORKActiveStep hasText]
+-[ORKActiveStep hasVoice]
+-[ORKActiveStep isRestorable]
++[ORKActiveStep supportsSecureCoding]
+-[ORKActiveStep initWithIdentifier:]
+-[ORKActiveStep copyWithZone:]
+-[ORKActiveStep initWithCoder:]
+-[ORKActiveStep encodeWithCoder:]
+-[ORKActiveStep isEqual:]
+-[ORKActiveStep initWithDictionary:]
+-[ORKActiveStep dictionaryValue]
+-[ORKActiveStep requestedHealthKitTypesForReading]
+-[ORKActiveStep requestedPermissions]
+-[ORKActiveStep stepDuration]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/ORKActiveStep.h
+-[ORKActiveStep setStepDuration:]
+-[ORKActiveStep shouldShowDefaultTimer]
+-[ORKActiveStep setShouldShowDefaultTimer:]
+-[ORKActiveStep shouldSpeakCountDown]
+-[ORKActiveStep setShouldSpeakCountDown:]
+-[ORKActiveStep shouldStartTimerAutomatically]
+-[ORKActiveStep setShouldStartTimerAutomatically:]
+-[ORKActiveStep shouldPlaySoundOnStart]
+-[ORKActiveStep setShouldPlaySoundOnStart:]
+-[ORKActiveStep shouldPlaySoundOnFinish]
+-[ORKActiveStep setShouldPlaySoundOnFinish:]
+-[ORKActiveStep shouldVibrateOnStart]
+-[ORKActiveStep setShouldVibrateOnStart:]
+-[ORKActiveStep shouldVibrateOnFinish]
+-[ORKActiveStep setShouldVibrateOnFinish:]
+-[ORKActiveStep shouldUseNextAsSkipButton]
+-[ORKActiveStep setShouldUseNextAsSkipButton:]
+-[ORKActiveStep shouldContinueOnFinish]
+-[ORKActiveStep setShouldContinueOnFinish:]
+-[ORKActiveStep spokenInstruction]
+-[ORKActiveStep setSpokenInstruction:]
+-[ORKActiveStep image]
+-[ORKActiveStep setImage:]
+-[ORKActiveStep recorderConfigurations]
+-[ORKActiveStep setRecorderConfigurations:]
+-[ORKActiveStep .cxx_destruct]
+_OBJC_IVAR_$_ORKActiveStep._stepDuration
+_OBJC_IVAR_$_ORKActiveStep._shouldShowDefaultTimer
+_OBJC_IVAR_$_ORKActiveStep._spokenInstruction
+_OBJC_IVAR_$_ORKActiveStep._shouldStartTimerAutomatically
+_OBJC_IVAR_$_ORKActiveStep._shouldSpeakCountDown
+_OBJC_IVAR_$_ORKActiveStep._shouldPlaySoundOnStart
+_OBJC_IVAR_$_ORKActiveStep._shouldPlaySoundOnFinish
+_OBJC_IVAR_$_ORKActiveStep._shouldVibrateOnStart
+_OBJC_IVAR_$_ORKActiveStep._shouldVibrateOnFinish
+_OBJC_IVAR_$_ORKActiveStep._shouldUseNextAsSkipButton
+_OBJC_IVAR_$_ORKActiveStep._shouldContinueOnFinish
+_OBJC_IVAR_$_ORKActiveStep._image
+_OBJC_IVAR_$_ORKActiveStep._recorderConfigurations
+_OBJC_CLASS_$_ORKActiveStep
+_OBJC_METACLASS_$_ORKActiveStep
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKVersion.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKVersion.o
+_ORKVersionNumber
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKRoundTappingButton.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKRoundTappingButton.o
+-[ORKRoundTappingButton _init_ORKTextButton]
+-[ORKRoundTappingButton intrinsicContentSize]
++[ORKRoundTappingButton defaultFont]
+-[ORKRoundTappingButton accessibilityTraits]
+_OBJC_CLASS_$_ORKRoundTappingButton
+_OBJC_METACLASS_$_ORKRoundTappingButton
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/
+ORKSignatureView.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKSignatureView.o
+-[ORKSignatureGestureRecognizer touchesBegan:withEvent:]
+-[ORKSignatureGestureRecognizer touchesMoved:withEvent:]
+-[ORKSignatureGestureRecognizer touchesEnded:withEvent:]
+-[ORKSignatureGestureRecognizer shouldRequireFailureOfGestureRecognizer:]
+-[ORKSignatureGestureRecognizer eventDelegate]
+-[ORKSignatureGestureRecognizer setEventDelegate:]
+-[ORKSignatureGestureRecognizer .cxx_destruct]
++[ORKSignatureView initialize]
+-[ORKSignatureView init]
+-[ORKSignatureView pathWithRoundedStyle]
+-[ORKSignatureView makeSignatureGestureRecognizer]
+-[ORKSignatureView lineColor]
+-[ORKSignatureView lineWidth]
+-[ORKSignatureView pathArray]
+-[ORKSignatureView placeholderPoint]
+-[ORKSignatureView backgroundLines]
+-[ORKSignatureView gestureTouchesBegan:withEvent:]
+-[ORKSignatureView gestureTouchesMoved:withEvent:]
+-[ORKSignatureView gestureTouchesEnded:withEvent:]
+/Applications/Xcode-OkemoZurs/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+-[ORKSignatureView drawRect:]
+-[ORKSignatureView signatureImage]
+-[ORKSignatureView signatureExists]
+-[ORKSignatureView clear]
+-[ORKSignatureView isAccessibilityElement]
+-[ORKSignatureView accessibilityLabel]
+-[ORKSignatureView accessibilityValue]
+-[ORKSignatureView accessibilityHint]
+-[ORKSignatureView accessibilityTraits]
+-[ORKSignatureView setLineColor:]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/ORKSignatureView.h
+-[ORKSignatureView setLineWidth:]
+-[ORKSignatureView delegate]
+-[ORKSignatureView setDelegate:]
+-[ORKSignatureView signatureGestureRecognizer]
+-[ORKSignatureView setSignatureGestureRecognizer:]
+-[ORKSignatureView currentPath]
+-[ORKSignatureView setCurrentPath:]
+-[ORKSignatureView setPathArray:]
+-[ORKSignatureView setBackgroundLines:]
+-[ORKSignatureView .cxx_destruct]
+_OBJC_IVAR_$_ORKSignatureGestureRecognizer._eventDelegate
+_OBJC_IVAR_$_ORKSignatureView._signatureGestureRecognizer
+_OBJC_IVAR_$_ORKSignatureView._lineColor
+_OBJC_IVAR_$_ORKSignatureView._lineWidth
+_OBJC_IVAR_$_ORKSignatureView._pathArray
+_OBJC_IVAR_$_ORKSignatureView._backgroundLines
+_OBJC_IVAR_$_ORKSignatureView.previousPoint1
+_OBJC_IVAR_$_ORKSignatureView.previousPoint2
+_OBJC_IVAR_$_ORKSignatureView.currentPoint
+_OBJC_IVAR_$_ORKSignatureView._delegate
+_OBJC_IVAR_$_ORKSignatureView._currentPath
+_OBJC_METACLASS_$_ORKSignatureGestureRecognizer
+_OBJC_CLASS_$_ORKSignatureGestureRecognizer
+_OBJC_CLASS_$_ORKSignatureView
+_OBJC_METACLASS_$_ORKSignatureView
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+ORKVoiceEngine.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKVoiceEngine.o
++[ORKVoiceEngine sharedVoiceEngine]
+___35+[ORKVoiceEngine sharedVoiceEngine]_block_invoke
+-[ORKVoiceEngine init]
+-[ORKVoiceEngine dealloc]
+-[ORKVoiceEngine speakText:]
+-[ORKVoiceEngine speakInt:]
+-[ORKVoiceEngine stopTalking]
+-[ORKVoiceEngine speechSynthesizer:didFinishSpeechUtterance:]
+-[ORKVoiceEngine isSpeaking]
+-[ORKVoiceEngine speechSynthesizer]
+-[ORKVoiceEngine setSpeechSynthesizer:]
+-[ORKVoiceEngine .cxx_destruct]
+___block_descriptor_tmp
+___block_literal_global
+_OBJC_IVAR_$_ORKVoiceEngine._speechSynthesizer
+_OBJC_CLASS_$_ORKVoiceEngine
+_OBJC_METACLASS_$_ORKVoiceEngine
+__MergedGlobals
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+_ORKFormItemCell.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKFormItemCell.o
+-[_ORKSegmentedControl touchesEnded:withEvent:]
+-[_ORKFormItemCell initWithReuseIdentifier:formItem:answer:maxLabelWidth:screenType:]
+-[_ORKFormItemCell setExpectedLayoutWidth:]
+-[_ORKFormItemCell _parentTableView]
+-[_ORKFormItemCell _cellInit]
+-[_ORKFormItemCell _inputValueDidChange]
+-[_ORKFormItemCell _inputValueDidClear]
+-[_ORKFormItemCell _answerDidChange]
+-[_ORKFormItemCell _defaultAnswerDidChange]
+-[_ORKFormItemCell setDefaultAnswer:]
+-[_ORKFormItemCell becomeFirstResponder]
+-[_ORKFormItemCell resignFirstResponder]
+-[_ORKFormItemCell prepareForReuse]
+-[_ORKFormItemCell _setAnswer:]
+-[_ORKFormItemCell setAnswer:]
+-[_ORKFormItemCell _showValidityAlertWithMessage:]
+-[_ORKFormItemCell delegate]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/_ORKFormItemCell.h
+-[_ORKFormItemCell setDelegate:]
+-[_ORKFormItemCell answer]
+-[_ORKFormItemCell formItem]
+-[_ORKFormItemCell setFormItem:]
+-[_ORKFormItemCell defaultAnswer]
+-[_ORKFormItemCell maxLabelWidth]
+-[_ORKFormItemCell setMaxLabelWidth:]
+-[_ORKFormItemCell screenType]
+-[_ORKFormItemCell setScreenType:]
+-[_ORKFormItemCell expectedLayoutWidth]
+-[_ORKFormItemCell labelLabel]
+-[_ORKFormItemCell setLabelLabel:]
+-[_ORKFormItemCell set_parentTableView:]
+-[_ORKFormItemCell haveChangedAnswer]
+-[_ORKFormItemCell setHaveChangedAnswer:]
+-[_ORKFormItemCell myConstraints]
+-[_ORKFormItemCell setMyConstraints:]
+-[_ORKFormItemCell .cxx_destruct]
+-[_ORKFormItemTextFieldBasedCell initWithReuseIdentifier:formItem:answer:maxLabelWidth:screenType:]
+-[_ORKFormItemTextFieldBasedCell textField]
+-[_ORKFormItemTextFieldBasedCell _cellInit]
+-[_ORKFormItemTextFieldBasedCell updateConstraints]
+-[_ORKFormItemTextFieldBasedCell setEditingHighlight:]
+-[_ORKFormItemTextFieldBasedCell dealloc]
+-[_ORKFormItemTextFieldBasedCell setLabel:]
+-[_ORKFormItemTextFieldBasedCell label]
+-[_ORKFormItemTextFieldBasedCell formattedValue]
+-[_ORKFormItemTextFieldBasedCell shortenedFormattedValue]
+-[_ORKFormItemTextFieldBasedCell updateValueLabel]
+-[_ORKFormItemTextFieldBasedCell becomeFirstResponder]
+-[_ORKFormItemTextFieldBasedCell resignFirstResponder]
+-[_ORKFormItemTextFieldBasedCell _inputValueDidClear]
+-[_ORKFormItemTextFieldBasedCell textFieldShouldBeginEditing:]
+-[_ORKFormItemTextFieldBasedCell textFieldDidBeginEditing:]
+-[_ORKFormItemTextFieldBasedCell textFieldDidEndEditing:]
+-[_ORKFormItemTextFieldBasedCell textFieldShouldClear:]
+-[_ORKFormItemTextFieldBasedCell textFieldShouldReturn:]
+-[_ORKFormItemTextFieldBasedCell isAccessibilityElement]
+-[_ORKFormItemTextFieldBasedCell textFieldView]
+-[_ORKFormItemTextFieldBasedCell editingHighlight]
+-[_ORKFormItemTextFieldBasedCell .cxx_destruct]
+-[_ORKFormItemTimeOfDayCell setAnswer:]
+-[_ORKFormItemTimeOfDayCell setFormItem:]
+-[_ORKFormItemTimeOfDayCell _cellInit]
+-[_ORKFormItemTimeOfDayCell _currentLocaleDidChange:]
+-[_ORKFormItemTimeOfDayCell _answerDidChange]
+-[_ORKFormItemTimeOfDayCell _loadPicker]
+-[_ORKFormItemTimeOfDayCell _inputValueDidChange]
+-[_ORKFormItemTimeOfDayCell textFieldShouldClear:]
+___50-[_ORKFormItemTimeOfDayCell textFieldShouldClear:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKFormItemTimeOfDayCell textFieldShouldBeginEditing:]
+-[_ORKFormItemTimeOfDayCell textField:shouldChangeCharactersInRange:replacementString:]
+-[_ORKFormItemTimeOfDayCell .cxx_destruct]
+-[_ORKFormItemDateCell setAnswer:]
+-[_ORKFormItemDateCell setFormItem:]
+-[_ORKFormItemDateCell _cellInit]
+-[_ORKFormItemDateCell _currentLocaleDidChange:]
+-[_ORKFormItemDateCell dealloc]
+-[_ORKFormItemDateCell setDefaultAnswer:]
+-[_ORKFormItemDateCell _answerDidChange]
+-[_ORKFormItemDateCell _labelFormatterWithCalendar:]
+-[_ORKFormItemDateCell _loadPicker]
+-[_ORKFormItemDateCell _inputValueDidChange]
+-[_ORKFormItemDateCell textFieldShouldClear:]
+___45-[_ORKFormItemDateCell textFieldShouldClear:]_block_invoke
+___copy_helper_block_385
+___destroy_helper_block_386
+-[_ORKFormItemDateCell textFieldShouldBeginEditing:]
+-[_ORKFormItemDateCell textField:shouldChangeCharactersInRange:replacementString:]
+-[_ORKFormItemDateCell .cxx_destruct]
+-[_ORKFormItemTextFieldCell _cellInit]
+-[_ORKFormItemTextFieldCell _inputValueDidChange]
+-[_ORKFormItemTextFieldCell _answerDidChange]
+-[_ORKFormItemTextFieldCell textFieldDidEndEditing:]
+-[_ORKFormItemTextFieldCell textField:shouldChangeCharactersInRange:replacementString:]
+-[_ORKFormItemNumericCell _cellInit]
+-[_ORKFormItemNumericCell dealloc]
+-[_ORKFormItemNumericCell _localeDidChange:]
+-[_ORKFormItemNumericCell _inputValueDidChange]
+-[_ORKFormItemNumericCell _answerDidChange]
+-[_ORKFormItemNumericCell _isAnswerValid]
+-[_ORKFormItemNumericCell textFieldShouldEndEditing:]
+-[_ORKFormItemNumericCell textFieldDidEndEditing:]
+-[_ORKFormItemNumericCell textFieldShouldReturn:]
+-[_ORKFormItemNumericCell textFieldShouldClear:]
+-[_ORKFormItemNumericCell _valueFieldDidChange:]
+-[_ORKFormItemNumericCell _setAnswerWithText:]
+-[_ORKFormItemNumericCell .cxx_destruct]
+-[_ORKFormItemTextCell _cellInit]
+-[_ORKFormItemTextCell _applyAnswerFormat]
+-[_ORKFormItemTextCell setFormItem:]
+-[_ORKFormItemTextCell _answerDidChange]
+-[_ORKFormItemTextCell becomeFirstResponder]
+-[_ORKFormItemTextCell resignFirstResponder]
+-[_ORKFormItemTextCell _inputValueDidChange]
+-[_ORKFormItemTextCell _placeholderColor]
+-[_ORKFormItemTextCell textViewDidChange:]
+-[_ORKFormItemTextCell textViewDidBeginEditing:]
+-[_ORKFormItemTextCell textViewDidEndEditing:]
+-[_ORKFormItemTextCell textView:shouldChangeTextInRange:replacementText:]
+-[_ORKFormItemTextCell .cxx_destruct]
+-[_ORKFormItemTimeIntervalCell _cellInit]
+-[_ORKFormItemTimeIntervalCell _impliedAnswerFormat]
+-[_ORKFormItemTimeIntervalCell _setupScale]
+-[_ORKFormItemTimeIntervalCell _currentValue]
+-[_ORKFormItemTimeIntervalCell _answerDidChange]
+-[_ORKFormItemTimeIntervalCell _updateLabelValue]
+-[_ORKFormItemTimeIntervalCell _configurePicker]
+-[_ORKFormItemTimeIntervalCell _inputValueDidChange]
+-[_ORKFormItemTimeIntervalCell textFieldShouldClear:]
+___53-[_ORKFormItemTimeIntervalCell textFieldShouldClear:]_block_invoke
+___copy_helper_block_576
+___destroy_helper_block_577
+-[_ORKFormItemTimeIntervalCell textFieldShouldBeginEditing:]
+-[_ORKFormItemTimeIntervalCell .cxx_destruct]
+-[_ORKFormItemImageSelectionCell _cellInit]
+-[_ORKFormItemImageSelectionCell selectionViewSelectionDidChange:]
+-[_ORKFormItemImageSelectionCell _inputValueDidChange]
+___54-[_ORKFormItemImageSelectionCell _inputValueDidChange]_block_invoke
+___copy_helper_block_610
+___destroy_helper_block_611
+-[_ORKFormItemImageSelectionCell _answerDidChange]
+___50-[_ORKFormItemImageSelectionCell _answerDidChange]_block_invoke
+___copy_helper_block_623
+___destroy_helper_block_624
+-[_ORKFormItemImageSelectionCell .cxx_destruct]
+-[_ORKFormItemValuePickerCell _cellInit]
+-[_ORKFormItemValuePickerCell _configurePicker]
+-[_ORKFormItemValuePickerCell _inputValueDidChange]
+-[_ORKFormItemValuePickerCell _answerDidChange]
+-[_ORKFormItemValuePickerCell textFieldShouldClear:]
+-[_ORKFormItemValuePickerCell textField:shouldChangeCharactersInRange:replacementString:]
+-[_ORKFormItemValuePickerCell _valuePickerAnswerFormat]
+-[_ORKFormItemValuePickerCell numberOfComponentsInPickerView:]
+-[_ORKFormItemValuePickerCell pickerView:numberOfRowsInComponent:]
+-[_ORKFormItemValuePickerCell pickerView:titleForRow:forComponent:]
+-[_ORKFormItemValuePickerCell pickerView:didSelectRow:inComponent:]
+-[_ORKFormItemValuePickerCell textFieldShouldBeginEditing:]
+-[_ORKFormItemValuePickerCell .cxx_destruct]
+___block_descriptor_tmp
+___block_descriptor_tmp387
+___block_descriptor_tmp578
+___block_descriptor_tmp613
+___block_descriptor_tmp626
+_OBJC_IVAR_$__ORKFormItemCell._screenType
+_OBJC_IVAR_$__ORKFormItemCell._maxLabelWidth
+_OBJC_IVAR_$__ORKFormItemCell._answer
+_OBJC_IVAR_$__ORKFormItemCell._labelLabel
+_OBJC_IVAR_$__ORKFormItemCell._expectedLayoutWidth
+_OBJC_IVAR_$__ORKFormItemCell.__parentTableView
+_OBJC_IVAR_$__ORKFormItemCell._defaultAnswer
+_OBJC_IVAR_$__ORKFormItemCell._delegate
+_OBJC_IVAR_$__ORKFormItemCell._formItem
+_OBJC_IVAR_$__ORKFormItemCell._haveChangedAnswer
+_OBJC_IVAR_$__ORKFormItemCell._myConstraints
+_OBJC_IVAR_$__ORKFormItemTextFieldBasedCell._textFieldView
+_OBJC_IVAR_$__ORKFormItemTextFieldBasedCell._editingHighlight
+_OBJC_IVAR_$__ORKFormItemTimeOfDayCell._labelFormatter
+_OBJC_IVAR_$__ORKFormItemTimeOfDayCell._picker
+_OBJC_IVAR_$__ORKFormItemDateCell._questionType
+_OBJC_IVAR_$__ORKFormItemDateCell._labelFormatter
+_OBJC_IVAR_$__ORKFormItemDateCell._picker
+_OBJC_IVAR_$__ORKFormItemNumericCell._numberFormatter
+_OBJC_IVAR_$__ORKFormItemTextCell._lastSeenLineCount
+_OBJC_IVAR_$__ORKFormItemTextCell._textView
+_OBJC_IVAR_$__ORKFormItemTextCell._maxLength
+_OBJC_IVAR_$__ORKFormItemTimeIntervalCell._stepInMinute
+_OBJC_IVAR_$__ORKFormItemTimeIntervalCell._haveDefault
+_OBJC_IVAR_$__ORKFormItemTimeIntervalCell._haveValue
+_OBJC_IVAR_$__ORKFormItemTimeIntervalCell._picker
+_OBJC_IVAR_$__ORKFormItemImageSelectionCell._options
+_OBJC_IVAR_$__ORKFormItemImageSelectionCell._selectionView
+_OBJC_IVAR_$__ORKFormItemValuePickerCell._picker
+_OBJC_CLASS_$__ORKSegmentedControl
+_OBJC_METACLASS_$__ORKSegmentedControl
+_OBJC_CLASS_$__ORKFormItemCell
+_OBJC_METACLASS_$__ORKFormItemCell
+_OBJC_CLASS_$__ORKFormItemTextFieldBasedCell
+_OBJC_METACLASS_$__ORKFormItemTextFieldBasedCell
+_OBJC_CLASS_$__ORKFormItemTimeOfDayCell
+_OBJC_METACLASS_$__ORKFormItemTimeOfDayCell
+_OBJC_CLASS_$__ORKFormItemDateCell
+_OBJC_METACLASS_$__ORKFormItemDateCell
+_OBJC_CLASS_$__ORKFormItemTextFieldCell
+_OBJC_METACLASS_$__ORKFormItemTextFieldCell
+_OBJC_CLASS_$__ORKFormItemNumericCell
+_OBJC_METACLASS_$__ORKFormItemNumericCell
+_OBJC_CLASS_$__ORKFormItemTextCell
+_OBJC_METACLASS_$__ORKFormItemTextCell
+_OBJC_CLASS_$__ORKFormItemTimeIntervalCell
+_OBJC_METACLASS_$__ORKFormItemTimeIntervalCell
+_OBJC_CLASS_$__ORKFormItemImageSelectionCell
+_OBJC_METACLASS_$__ORKFormItemImageSelectionCell
+_OBJC_CLASS_$__ORKFormItemValuePickerCell
+_OBJC_METACLASS_$__ORKFormItemValuePickerCell
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+UITouch+ORKJSONDictionary.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/UITouch+ORKJSONDictionary.o
+-[UITouch(ORKJSONDictionary) _ork_JSONDictionaryInView:allTouches:]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Accessibility/
+ORKAccessibilityFunctions.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKAccessibilityFunctions.o
+_ORKAccessibilityFormatInt
+_ORKAccessibilityFormatNumber
+___ORKAccessibilityFormatNumber_block_invoke
+_ORKAccessibilityPerformBlockAfterDelay
+___ORKAccessibilityPerformBlockAfterDelay_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+__ORKAccessibilityStringForVariables
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp8
+__MergedGlobals
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKSurveyAnswerCellForText.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKSurveyAnswerCellForText.o
+-[ORKSurveyAnswerCellForText initWithFrame:]
+-[ORKSurveyAnswerCellForText _applyAnswerFormat]
+-[ORKSurveyAnswerCellForText becomeFirstResponder]
+-[ORKSurveyAnswerCellForText setStep:]
+-[ORKSurveyAnswerCellForText traitCollectionDidChange:]
+-[ORKSurveyAnswerCellForText prepareView]
+-[ORKSurveyAnswerCellForText _answerDidChange]
+-[ORKSurveyAnswerCellForText updateConstraints]
++[ORKSurveyAnswerCellForText _shouldDisplayWithSeparators]
+-[ORKSurveyAnswerCellForText _textDidChange]
+-[ORKSurveyAnswerCellForText textViewDidEndEditing:]
+-[ORKSurveyAnswerCellForText textViewDidBeginEditing:]
+-[ORKSurveyAnswerCellForText textView:shouldChangeTextInRange:replacementText:]
+-[ORKSurveyAnswerCellForText textViewDidChange:]
++[ORKSurveyAnswerCellForText suggestedCellHeightForView:]
+-[ORKSurveyAnswerCellForText textView]
+-[ORKSurveyAnswerCellForText setTextView:]
+-[ORKSurveyAnswerCellForText placeHolder]
+-[ORKSurveyAnswerCellForText setPlaceHolder:]
+-[ORKSurveyAnswerCellForText .cxx_destruct]
+-[ORKSurveyAnswerCellForTextField becomeFirstResponder]
+-[ORKSurveyAnswerCellForTextField _textFieldCell_initialize]
+-[ORKSurveyAnswerCellForTextField traitCollectionDidChange:]
+-[ORKSurveyAnswerCellForTextField updateConstraints]
++[ORKSurveyAnswerCellForTextField _shouldDisplayWithSeparators]
+-[ORKSurveyAnswerCellForTextField prepareView]
+-[ORKSurveyAnswerCellForTextField shouldContinue]
+-[ORKSurveyAnswerCellForTextField _answerDidChange]
+-[ORKSurveyAnswerCellForTextField _correctValueIfNeeded]
+-[ORKSurveyAnswerCellForTextField _correctionNeededForText:]
+-[ORKSurveyAnswerCellForTextField textField:shouldChangeCharactersInRange:replacementString:]
+-[ORKSurveyAnswerCellForTextField textFieldShouldEndEditing:]
+-[ORKSurveyAnswerCellForTextField textFieldShouldReturn:]
+-[ORKSurveyAnswerCellForTextField textFieldDidEndEditing:]
+-[ORKSurveyAnswerCellForTextField textField]
+-[ORKSurveyAnswerCellForTextField setTextField:]
+-[ORKSurveyAnswerCellForTextField .cxx_destruct]
+_OBJC_IVAR_$_ORKSurveyAnswerCellForText._maxLength
+_OBJC_IVAR_$_ORKSurveyAnswerCellForText._placeHolder
+_OBJC_IVAR_$_ORKSurveyAnswerCellForText._textView
+_OBJC_IVAR_$_ORKSurveyAnswerCellForText._constraints
+_OBJC_IVAR_$_ORKSurveyAnswerCellForTextField._textField
+_OBJC_CLASS_$_ORKSurveyAnswerCellForText
+_OBJC_METACLASS_$_ORKSurveyAnswerCellForText
+_OBJC_CLASS_$_ORKSurveyAnswerCellForTextField
+_OBJC_METACLASS_$_ORKSurveyAnswerCellForTextField
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKAnswerTextView.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKAnswerTextView.o
+-[ORKAnswerTextView init]
+-[ORKAnswerTextView initWithFrame:]
+-[ORKAnswerTextView initWithFrame:textContainer:]
+-[ORKAnswerTextView _init_ORKAnswerTextView]
+-[ORKAnswerTextView _updateAppearance]
+-[ORKAnswerTextView setFieldFont:]
+-[ORKAnswerTextView setFieldTextColor:]
+-[ORKAnswerTextView setFont:]
+-[ORKAnswerTextView setPlaceHolder:]
+-[ORKAnswerTextView dealloc]
++[ORKAnswerTextView defaultFont]
+-[ORKAnswerTextView fieldFont]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKAnswerTextView.h
+-[ORKAnswerTextView fieldTextColor]
+-[ORKAnswerTextView placeHolder]
+-[ORKAnswerTextView .cxx_destruct]
+_OBJC_IVAR_$_ORKAnswerTextView._fieldFont
+_OBJC_IVAR_$_ORKAnswerTextView._fieldTextColor
+_OBJC_IVAR_$_ORKAnswerTextView._placeHolder
+_OBJC_CLASS_$_ORKAnswerTextView
+_OBJC_METACLASS_$_ORKAnswerTextView
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKImageChoiceLabel.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKImageChoiceLabel.o
++[ORKImageChoiceLabel defaultFont]
+-[ORKImageChoiceLabel intrinsicContentSize]
+-[ORKImageChoiceLabel textArray]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKImageChoiceLabel.h
+-[ORKImageChoiceLabel setTextArray:]
+-[ORKImageChoiceLabel .cxx_destruct]
+_OBJC_IVAR_$_ORKImageChoiceLabel._textArray
+_OBJC_CLASS_$_ORKImageChoiceLabel
+_OBJC_METACLASS_$_ORKImageChoiceLabel
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/
+ORKConsentReviewStep.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKConsentReviewStep.o
++[ORKConsentReviewStep _stepViewControllerClass]
+-[ORKConsentReviewStep initWithIdentifier:signature:inDocument:]
+-[ORKConsentReviewStep copyWithZone:]
+-[ORKConsentReviewStep initWithCoder:]
+-[ORKConsentReviewStep encodeWithCoder:]
+-[ORKConsentReviewStep isEqual:]
+-[ORKConsentReviewStep hash]
+-[ORKConsentReviewStep _shouldShowProgress]
+-[ORKConsentReviewStep initWithDictionary:]
+-[ORKConsentReviewStep dictionaryValue]
+-[ORKConsentReviewStep consentDocument]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/ORKConsentReviewStep.h
+-[ORKConsentReviewStep signature]
+-[ORKConsentReviewStep reasonForConsent]
+-[ORKConsentReviewStep setReasonForConsent:]
+-[ORKConsentReviewStep .cxx_destruct]
+_OBJC_IVAR_$_ORKConsentReviewStep._consentDocument
+_OBJC_IVAR_$_ORKConsentReviewStep._signature
+_OBJC_IVAR_$_ORKConsentReviewStep._reasonForConsent
+_OBJC_CLASS_$_ORKConsentReviewStep
+_OBJC_METACLASS_$_ORKConsentReviewStep
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKFormSectionTitleLabel.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKFormSectionTitleLabel.o
++[ORKFormSectionTitleLabel defaultFont]
+_OBJC_METACLASS_$_ORKFormSectionTitleLabel
+_OBJC_CLASS_$_ORKFormSectionTitleLabel
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+RkSurveyAnswerCell.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/RkSurveyAnswerCell.o
+-[ORKSurveyAnswerCell initWithStyle:reuseIdentifier:step:answer:delegate:]
+-[ORKSurveyAnswerCell setStep:]
+-[ORKSurveyAnswerCell prepareView]
+-[ORKSurveyAnswerCell layoutSubviews]
+-[ORKSurveyAnswerCell textField]
+-[ORKSurveyAnswerCell shouldContinue]
+-[ORKSurveyAnswerCell textView]
+-[ORKSurveyAnswerCell _answerDidChange]
++[ORKSurveyAnswerCell _shouldDisplayWithSeparators]
+-[ORKSurveyAnswerCell dealloc]
+-[ORKSurveyAnswerCell _setAnswer:]
+-[ORKSurveyAnswerCell setAnswer:]
+-[ORKSurveyAnswerCell _showValidityAlertWithMessage:]
+-[ORKSurveyAnswerCell registerForKeyboardNotifications]
+-[ORKSurveyAnswerCell keyboardWillAppear:]
+-[ORKSurveyAnswerCell keyboardWillHide:]
+___40-[ORKSurveyAnswerCell keyboardWillHide:]_block_invoke
+/Applications/Xcode-OkemoZurs/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
+___copy_helper_block_
+___destroy_helper_block_
+___40-[ORKSurveyAnswerCell keyboardWillHide:]_block_invoke64
+-[ORKSurveyAnswerCell suggestedCellHeightConstraintsForView:]
++[ORKSurveyAnswerCell suggestedCellHeightForView:]
+-[ORKSurveyAnswerCell step]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKSurveyAnswerCell.h
+-[ORKSurveyAnswerCell delegate]
+-[ORKSurveyAnswerCell setDelegate:]
+-[ORKSurveyAnswerCell answer]
+-[ORKSurveyAnswerCell cachedContentInsets]
+-[ORKSurveyAnswerCell setCachedContentInsets:]
+-[ORKSurveyAnswerCell cachedScrollIndicatorInsets]
+-[ORKSurveyAnswerCell setCachedScrollIndicatorInsets:]
+-[ORKSurveyAnswerCell .cxx_destruct]
+___block_descriptor_tmp
+___block_descriptor_tmp66
+___block_literal_global
+_OBJC_IVAR_$_ORKSurveyAnswerCell._delegate
+_OBJC_IVAR_$_ORKSurveyAnswerCell._answer
+_OBJC_IVAR_$_ORKSurveyAnswerCell._step
+_OBJC_IVAR_$_ORKSurveyAnswerCell._cachedContentInsets
+_OBJC_IVAR_$_ORKSurveyAnswerCell._cachedScrollIndicatorInsets
+_OBJC_CLASS_$_ORKSurveyAnswerCell
+_OBJC_METACLASS_$_ORKSurveyAnswerCell
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKBorderedButton.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKBorderedButton.o
+-[ORKBorderedButton _init_ORKTextButton]
+-[ORKBorderedButton tintColorDidChange]
+-[ORKBorderedButton setHighlighted:]
+-[ORKBorderedButton setEnabled:]
+-[ORKBorderedButton _fadeHighlightColor]
+-[ORKBorderedButton _updateBorderColor]
++[ORKBorderedButton defaultFont]
+-[ORKBorderedButton fadeDelay]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKBorderedButton.h
+-[ORKBorderedButton setFadeDelay:]
+-[ORKBorderedButton .cxx_destruct]
+_OBJC_IVAR_$_ORKBorderedButton._normalTintColor
+_OBJC_IVAR_$_ORKBorderedButton._normalHighlightTintColor
+_OBJC_IVAR_$_ORKBorderedButton._disableTintColor
+_OBJC_IVAR_$_ORKBorderedButton._fadeDelay
+_OBJC_CLASS_$_ORKBorderedButton
+_OBJC_METACLASS_$_ORKBorderedButton
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/
+ORKConsentSignature.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKConsentSignature.o
++[ORKConsentSignature signatureForPersonWithTitle:dateFormatString:identifier:firstName:lastName:signatureImage:dateString:]
++[ORKConsentSignature signatureForPersonWithTitle:dateFormatString:identifier:]
+-[ORKConsentSignature init]
+-[ORKConsentSignature setIdentifier:]
++[ORKConsentSignature supportsSecureCoding]
+-[ORKConsentSignature initWithCoder:]
+-[ORKConsentSignature encodeWithCoder:]
+-[ORKConsentSignature isEqual:]
+-[ORKConsentSignature hash]
+-[ORKConsentSignature copyWithZone:]
+-[ORKConsentSignature initWithDictionary:]
+-[ORKConsentSignature dictionaryValue]
+-[ORKConsentSignature requiresName]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/ORKConsentSignature.h
+-[ORKConsentSignature setRequiresName:]
+-[ORKConsentSignature requiresSignatureImage]
+-[ORKConsentSignature setRequiresSignatureImage:]
+-[ORKConsentSignature identifier]
+-[ORKConsentSignature title]
+-[ORKConsentSignature setTitle:]
+-[ORKConsentSignature firstName]
+-[ORKConsentSignature setFirstName:]
+-[ORKConsentSignature lastName]
+-[ORKConsentSignature setLastName:]
+-[ORKConsentSignature signatureImage]
+-[ORKConsentSignature setSignatureImage:]
+-[ORKConsentSignature signatureDate]
+-[ORKConsentSignature setSignatureDate:]
+-[ORKConsentSignature signatureDateFormatString]
+-[ORKConsentSignature setSignatureDateFormatString:]
+-[ORKConsentSignature .cxx_destruct]
+_OBJC_IVAR_$_ORKConsentSignature._requiresName
+_OBJC_IVAR_$_ORKConsentSignature._requiresSignatureImage
+_OBJC_IVAR_$_ORKConsentSignature._identifier
+_OBJC_IVAR_$_ORKConsentSignature._title
+_OBJC_IVAR_$_ORKConsentSignature._firstName
+_OBJC_IVAR_$_ORKConsentSignature._lastName
+_OBJC_IVAR_$_ORKConsentSignature._signatureDate
+_OBJC_IVAR_$_ORKConsentSignature._signatureImage
+_OBJC_IVAR_$_ORKConsentSignature._signatureDateFormatString
+_OBJC_CLASS_$_ORKConsentSignature
+_OBJC_METACLASS_$_ORKConsentSignature
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+_ORKWalkingTaskStepViewController.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKWalkingTaskStepViewController.o
+-[_ORKWalkingProgressCircleView initWithFrame:]
+-[_ORKWalkingProgressCircleView tintColorDidChange]
+-[_ORKWalkingProgressCircleView intrinsicContentSize]
+-[_ORKWalkingProgressCircleView sizeThatFits:]
+-[_ORKWalkingProgressCircleView setCompleted:]
+-[_ORKWalkingProgressCircleView completed]
+-[_ORKWalkingProgressView initWithFrame:]
+-[_ORKWalkingProgressView dealloc]
+-[_ORKWalkingProgressView setCount:]
+-[_ORKWalkingProgressView setIndex:]
+___36-[_ORKWalkingProgressView setIndex:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKWalkingProgressView didMoveToWindow]
+-[_ORKWalkingProgressView stopAnimating]
+-[_ORKWalkingProgressView incrementIndex]
+-[_ORKWalkingProgressView startAnimating]
+-[_ORKWalkingProgressView sizeThatFits:]
+-[_ORKWalkingProgressView intrinsicContentSize]
+-[_ORKWalkingProgressView layoutSubviews]
+-[_ORKWalkingProgressView count]
+-[_ORKWalkingProgressView .cxx_destruct]
+-[_ORKWalkingContentView willMoveToWindow:]
+-[_ORKWalkingContentView initWithFrame:]
+-[_ORKWalkingContentView updateConstraintConstants]
+-[_ORKWalkingContentView updateConstraints]
+-[_ORKWalkingContentView progressView]
+-[_ORKWalkingContentView .cxx_destruct]
+-[_ORKWalkingTaskStepViewController initWithStep:]
+-[_ORKWalkingTaskStepViewController walkingTaskStep]
+-[_ORKWalkingTaskStepViewController viewDidLoad]
+-[_ORKWalkingTaskStepViewController _stepDidChange]
+-[_ORKWalkingTaskStepViewController didReceiveMemoryWarning]
+-[_ORKWalkingTaskStepViewController pedometerRecorderDidUpdate:]
+-[_ORKWalkingTaskStepViewController .cxx_destruct]
+___block_descriptor_tmp
+_OBJC_IVAR_$__ORKWalkingProgressCircleView._completed
+_OBJC_IVAR_$__ORKWalkingProgressView._timer
+_OBJC_IVAR_$__ORKWalkingProgressView._count
+_OBJC_IVAR_$__ORKWalkingProgressView._circles
+_OBJC_IVAR_$__ORKWalkingProgressView._index
+_OBJC_IVAR_$__ORKWalkingContentView._screenType
+_OBJC_IVAR_$__ORKWalkingContentView._progressView
+_OBJC_IVAR_$__ORKWalkingContentView._topConstraint
+_OBJC_IVAR_$__ORKWalkingTaskStepViewController._contentView
+_OBJC_IVAR_$__ORKWalkingTaskStepViewController._intendedSteps
+_OBJC_CLASS_$__ORKWalkingProgressCircleView
+_OBJC_METACLASS_$__ORKWalkingProgressCircleView
+_OBJC_CLASS_$__ORKWalkingProgressView
+_OBJC_METACLASS_$__ORKWalkingProgressView
+_OBJC_CLASS_$__ORKWalkingContentView
+_OBJC_METACLASS_$__ORKWalkingContentView
+_OBJC_CLASS_$__ORKWalkingTaskStepViewController
+_OBJC_METACLASS_$__ORKWalkingTaskStepViewController
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/
+ORKVisualConsentStepViewController.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKVisualConsentStepViewController.o
+-[ORKAnimationPlaceholderView initWithFrame:]
+-[ORKAnimationPlaceholderView willMoveToWindow:]
+-[ORKAnimationPlaceholderView layoutSubviews]
+-[ORKAnimationPlaceholderView playerView]
+-[ORKAnimationPlaceholderView setPlayerView:]
+-[ORKAnimationPlaceholderView .cxx_destruct]
+-[ORKVisualConsentStepViewController _stepDidChange]
+-[ORKVisualConsentStepViewController animationPlayerView]
+-[ORKVisualConsentStepViewController viewDidLoad]
+-[ORKVisualConsentStepViewController visualConsentStep]
+-[ORKVisualConsentStepViewController viewWillAppear:]
+-[ORKVisualConsentStepViewController _willNavigateDirection:]
+-[ORKVisualConsentStepViewController _goToPreviousPageButton]
+-[ORKVisualConsentStepViewController _setBackButtonItem:]
+-[ORKVisualConsentStepViewController _updateNavLeftBarButtonItem]
+-[ORKVisualConsentStepViewController _updateBackButton]
+-[ORKVisualConsentStepViewController _goToPreviousPage]
+-[ORKVisualConsentStepViewController _next]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Accessibility/ORKAccessibilityFunctions.h
+-[ORKVisualConsentStepViewController scrollView]
+-[ORKVisualConsentStepViewController _updatePageIndex]
+-[ORKVisualConsentStepViewController _setScrollEnabled:]
+-[ORKVisualConsentStepViewController _visualSections]
+-[ORKVisualConsentStepViewController _pageCount]
+-[ORKVisualConsentStepViewController _findHairlineImageViewUnder:]
+-[ORKVisualConsentStepViewController _doShowViewController:direction:animated:semaphore:]
+___89-[ORKVisualConsentStepViewController _doShowViewController:direction:animated:semaphore:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKVisualConsentStepViewController _doAnimateFromViewController:toController:direction:semaphore:url:animateBeforeTransition:transitionBeforeAnimate:]
+___152-[ORKVisualConsentStepViewController _doAnimateFromViewController:toController:direction:semaphore:url:animateBeforeTransition:transitionBeforeAnimate:]_block_invoke
+___152-[ORKVisualConsentStepViewController _doAnimateFromViewController:toController:direction:semaphore:url:animateBeforeTransition:transitionBeforeAnimate:]_block_invoke_2
+___copy_helper_block_176
+___destroy_helper_block_177
+___copy_helper_block_180
+___destroy_helper_block_181
+___152-[ORKVisualConsentStepViewController _doAnimateFromViewController:toController:direction:semaphore:url:animateBeforeTransition:transitionBeforeAnimate:]_block_invoke184
+___152-[ORKVisualConsentStepViewController _doAnimateFromViewController:toController:direction:semaphore:url:animateBeforeTransition:transitionBeforeAnimate:]_block_invoke_2185
+___copy_helper_block_186
+___destroy_helper_block_187
+___copy_helper_block_191
+___destroy_helper_block_192
+-[ORKVisualConsentStepViewController _finishTransitioningAnimator:]
+-[ORKVisualConsentStepViewController _showViewController:forward:animated:]
+___75-[ORKVisualConsentStepViewController _showViewController:forward:animated:]_block_invoke
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___75-[ORKVisualConsentStepViewController _showViewController:forward:animated:]_block_invoke210
+___copy_helper_block_213
+___destroy_helper_block_214
+___75-[ORKVisualConsentStepViewController _showViewController:forward:animated:]_block_invoke216
+___copy_helper_block_217
+___destroy_helper_block_218
+___copy_helper_block_220
+___destroy_helper_block_221
+-[ORKVisualConsentStepViewController _viewControllerForIndex:]
+-[ORKVisualConsentStepViewController _indexOfViewController:]
+-[ORKVisualConsentStepViewController _currentIndex]
+-[ORKVisualConsentStepViewController pageViewController:viewControllerBeforeViewController:]
+-[ORKVisualConsentStepViewController pageViewController:viewControllerAfterViewController:]
+-[ORKVisualConsentStepViewController pageViewController:didFinishAnimating:previousViewControllers:transitionCompleted:]
+-[ORKVisualConsentStepViewController encodeRestorableStateWithCoder:]
+-[ORKVisualConsentStepViewController decodeRestorableStateWithCoder:]
+-[ORKVisualConsentStepViewController animationView]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/ORKVisualConsentStepViewController.h
+-[ORKVisualConsentStepViewController setAnimationView:]
+-[ORKVisualConsentStepViewController pageViewController]
+-[ORKVisualConsentStepViewController setPageViewController:]
+-[ORKVisualConsentStepViewController viewControllers]
+-[ORKVisualConsentStepViewController setViewControllers:]
+-[ORKVisualConsentStepViewController setScrollView:]
+-[ORKVisualConsentStepViewController currentPage]
+-[ORKVisualConsentStepViewController setCurrentPage:]
+-[ORKVisualConsentStepViewController continueActionButton]
+-[ORKVisualConsentStepViewController setContinueActionButton:]
+-[ORKVisualConsentStepViewController .cxx_destruct]
+___ORKAccessibilityPostNotificationAfterDelay_block_invoke
+___copy_helper_block_376
+___destroy_helper_block_377
+GCC_except_table28
+GCC_except_table42
+___block_descriptor_tmp
+___block_descriptor_tmp179
+___block_descriptor_tmp183
+___block_descriptor_tmp188
+___block_descriptor_tmp193
+___block_descriptor_tmp215
+___block_descriptor_tmp219
+___block_descriptor_tmp222
+___block_descriptor_tmp378
+_OBJC_IVAR_$_ORKAnimationPlaceholderView._playerView
+_OBJC_IVAR_$_ORKVisualConsentStepViewController._visualSections
+_OBJC_IVAR_$_ORKVisualConsentStepViewController._viewControllers
+_OBJC_IVAR_$_ORKVisualConsentStepViewController._animationView
+_OBJC_IVAR_$_ORKVisualConsentStepViewController._pageViewController
+_OBJC_IVAR_$_ORKVisualConsentStepViewController._hasAppeared
+_OBJC_IVAR_$_ORKVisualConsentStepViewController._navDirection
+_OBJC_IVAR_$_ORKVisualConsentStepViewController._scrollView
+_OBJC_IVAR_$_ORKVisualConsentStepViewController._currentPage
+_OBJC_IVAR_$_ORKVisualConsentStepViewController._animator
+_OBJC_IVAR_$_ORKVisualConsentStepViewController._transitioning
+_OBJC_IVAR_$_ORKVisualConsentStepViewController._continueActionButton
+_OBJC_CLASS_$_ORKAnimationPlaceholderView
+_OBJC_METACLASS_$_ORKAnimationPlaceholderView
+_OBJC_CLASS_$_ORKVisualConsentStepViewController
+_OBJC_METACLASS_$_ORKVisualConsentStepViewController
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKMediaStep.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKMediaStep.o
++[ORKMediaStep _stepViewControllerClass]
+-[ORKMediaStep initWithCoder:]
+-[ORKMediaStep encodeWithCoder:]
+-[ORKMediaStep copyWithZone:]
++[ORKMediaStep mediaTypeTable]
+___30+[ORKMediaStep mediaTypeTable]_block_invoke
+-[ORKMediaStep initWithDictionary:]
+-[ORKMediaStep dictionaryValue]
+-[ORKMediaStep request]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKMediaStep.h
+-[ORKMediaStep setRequest:]
+-[ORKMediaStep mediaType]
+-[ORKMediaStep setMediaType:]
+-[ORKMediaStep allowsEditing]
+-[ORKMediaStep setAllowsEditing:]
+-[ORKMediaStep .cxx_destruct]
+___block_descriptor_tmp
+___block_literal_global
+_OBJC_IVAR_$_ORKMediaStep._mediaType
+_OBJC_IVAR_$_ORKMediaStep._allowsEditing
+_OBJC_IVAR_$_ORKMediaStep._request
+_OBJC_CLASS_$_ORKMediaStep
+_OBJC_METACLASS_$_ORKMediaStep
+__MergedGlobals
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Accessibility/
+UIView+ORKAccessibility.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/UIView+ORKAccessibility.o
+-[UIView(ORKAccessibility) _ork_superviewOfType:]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKHtmlPdfWriter.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKHtmlPdfWriter.o
+-[ORKHtmlPdfPageRenderer paperRect]
+-[ORKHtmlPdfPageRenderer printableRect]
+-[ORKHtmlPdfPageRenderer drawFooterForPageAtIndex:inRect:]
+-[ORKHtmlPdfPageRenderer pageMargins]
+-[ORKHtmlPdfPageRenderer setPageMargins:]
+-[ORKHtmlPdfWriter writePdfFromHtml:withCompletionBlock:]
+-[ORKHtmlPdfWriter _timeout]
+-[ORKHtmlPdfWriter _savePdf]
++[ORKHtmlPdfWriter defaultPageSize]
+-[ORKHtmlPdfWriter webViewDidFinishLoad:]
+-[ORKHtmlPdfWriter webView:didFailLoadWithError:]
+-[ORKHtmlPdfWriter pageSize]
+-[ORKHtmlPdfWriter setPageSize:]
+-[ORKHtmlPdfWriter pageMargins]
+-[ORKHtmlPdfWriter setPageMargins:]
+-[ORKHtmlPdfWriter webView]
+-[ORKHtmlPdfWriter setWebView:]
+-[ORKHtmlPdfWriter data]
+-[ORKHtmlPdfWriter setData:]
+-[ORKHtmlPdfWriter error]
+-[ORKHtmlPdfWriter setError:]
+-[ORKHtmlPdfWriter completionBlock]
+-[ORKHtmlPdfWriter setCompletionBlock:]
+-[ORKHtmlPdfWriter .cxx_destruct]
+_OBJC_IVAR_$_ORKHtmlPdfPageRenderer._pageMargins
+_OBJC_IVAR_$_ORKHtmlPdfWriter._pageMargins
+_OBJC_IVAR_$_ORKHtmlPdfWriter._pageSize
+_OBJC_IVAR_$_ORKHtmlPdfWriter._data
+_OBJC_IVAR_$_ORKHtmlPdfWriter._error
+_OBJC_IVAR_$_ORKHtmlPdfWriter._selfRetain
+_OBJC_IVAR_$_ORKHtmlPdfWriter._webView
+_OBJC_IVAR_$_ORKHtmlPdfWriter._completionBlock
+_OBJC_METACLASS_$_ORKHtmlPdfPageRenderer
+_OBJC_CLASS_$_ORKHtmlPdfPageRenderer
+_OBJC_CLASS_$_ORKHtmlPdfWriter
+_OBJC_METACLASS_$_ORKHtmlPdfWriter
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKHealthAnswerFormat.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKHealthAnswerFormat.o
+__ORKHKBiologicalSexString
+__ORKHKBloodTypeString
+-[ORKHealthKitCharacteristicTypeAnswerFormat _isHealthKitAnswerFormat]
+-[ORKHealthKitCharacteristicTypeAnswerFormat _healthKitObjectType]
++[ORKHealthKitCharacteristicTypeAnswerFormat answerFormatWithCharacteristicType:]
+-[ORKHealthKitCharacteristicTypeAnswerFormat initWithCharacteristicType:]
+-[ORKHealthKitCharacteristicTypeAnswerFormat initWithDictionary:]
+-[ORKHealthKitCharacteristicTypeAnswerFormat isEqual:]
+-[ORKHealthKitCharacteristicTypeAnswerFormat hash]
+-[ORKHealthKitCharacteristicTypeAnswerFormat dictionaryValue]
+-[ORKHealthKitCharacteristicTypeAnswerFormat _impliedAnswerFormat]
+-[ORKHealthKitCharacteristicTypeAnswerFormat initWithCoder:]
+-[ORKHealthKitCharacteristicTypeAnswerFormat encodeWithCoder:]
+-[ORKHealthKitCharacteristicTypeAnswerFormat characteristicType]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKHealthAnswerFormat.h
+-[ORKHealthKitCharacteristicTypeAnswerFormat .cxx_destruct]
+-[ORKHealthKitQuantityTypeAnswerFormat _isHealthKitAnswerFormat]
+-[ORKHealthKitQuantityTypeAnswerFormat _healthKitObjectType]
++[ORKHealthKitQuantityTypeAnswerFormat answerFormatWithQuantityType:unit:style:]
+-[ORKHealthKitQuantityTypeAnswerFormat initWithQuantityType:unit:style:]
+-[ORKHealthKitQuantityTypeAnswerFormat isEqual:]
+-[ORKHealthKitQuantityTypeAnswerFormat hash]
+-[ORKHealthKitQuantityTypeAnswerFormat initWithDictionary:]
+-[ORKHealthKitQuantityTypeAnswerFormat dictionaryValue]
+-[ORKHealthKitQuantityTypeAnswerFormat _impliedAnswerFormat]
+-[ORKHealthKitQuantityTypeAnswerFormat _healthKitUnit]
+-[ORKHealthKitQuantityTypeAnswerFormat _healthKitUserUnit]
+-[ORKHealthKitQuantityTypeAnswerFormat _setHealthKitUserUnit:]
+-[ORKHealthKitQuantityTypeAnswerFormat initWithCoder:]
+-[ORKHealthKitQuantityTypeAnswerFormat encodeWithCoder:]
+-[ORKHealthKitQuantityTypeAnswerFormat quantityType]
+-[ORKHealthKitQuantityTypeAnswerFormat unit]
+-[ORKHealthKitQuantityTypeAnswerFormat numericAnswerStyle]
+-[ORKHealthKitQuantityTypeAnswerFormat .cxx_destruct]
+_OBJC_IVAR_$_ORKHealthKitCharacteristicTypeAnswerFormat._characteristicType
+_OBJC_IVAR_$_ORKHealthKitCharacteristicTypeAnswerFormat._impliedAnswerFormat
+_OBJC_IVAR_$_ORKHealthKitQuantityTypeAnswerFormat._quantityType
+_OBJC_IVAR_$_ORKHealthKitQuantityTypeAnswerFormat._unit
+_OBJC_IVAR_$_ORKHealthKitQuantityTypeAnswerFormat._numericAnswerStyle
+_OBJC_IVAR_$_ORKHealthKitQuantityTypeAnswerFormat._impliedAnswerFormat
+_OBJC_IVAR_$_ORKHealthKitQuantityTypeAnswerFormat._userUnit
+_OBJC_CLASS_$_ORKHealthKitCharacteristicTypeAnswerFormat
+_OBJC_METACLASS_$_ORKHealthKitCharacteristicTypeAnswerFormat
+_OBJC_CLASS_$_ORKHealthKitQuantityTypeAnswerFormat
+_OBJC_METACLASS_$_ORKHealthKitQuantityTypeAnswerFormat
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+NSObject+DictionarySerialization.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/NSObject+DictionarySerialization.o
+-[NSObject(DictionarySerialization) _ork_setIVar:fromDictionary:defaultValue:expectingClass:]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKSelectionTitleLabel.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKSelectionTitleLabel.o
++[ORKSelectionTitleLabel defaultFont]
+_OBJC_METACLASS_$_ORKSelectionTitleLabel
+_OBJC_CLASS_$_ORKSelectionTitleLabel
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKChoiceViewCell.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKChoiceViewCell.o
+-[ORKChoiceViewCell initWithStyle:reuseIdentifier:]
+-[ORKChoiceViewCell layoutSubviews]
+-[ORKChoiceViewCell shortLabel]
+-[ORKChoiceViewCell longLabel]
+-[ORKChoiceViewCell _updateSelectedItem]
+-[ORKChoiceViewCell setSelectedItem:]
++[ORKChoiceViewCell suggestedCellHeightForShortText:LongText:inTableView:]
+-[ORKChoiceViewCell accessibilityLabel]
+-[ORKChoiceViewCell setShortLabel:]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKChoiceViewCell.h
+-[ORKChoiceViewCell setLongLabel:]
+-[ORKChoiceViewCell isSelectedItem]
+-[ORKChoiceViewCell .cxx_destruct]
+_OBJC_IVAR_$_ORKChoiceViewCell._checkView
+_OBJC_IVAR_$_ORKChoiceViewCell._shortLabel
+_OBJC_IVAR_$_ORKChoiceViewCell._longLabel
+_OBJC_IVAR_$_ORKChoiceViewCell._selectedItem
+_OBJC_CLASS_$_ORKChoiceViewCell
+_OBJC_METACLASS_$_ORKChoiceViewCell
+__MergedGlobals
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+_ORKSpatialSpanTargetView.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKSpatialSpanTargetView.o
+-[_ORKPathView initWithBezierPath:canvasSize:canvasMargins:color:]
+-[_ORKPathView setColor:]
+-[_ORKPathView drawRect:]
+-[_ORKPathView tintColorDidChange]
+-[_ORKPathView canvasMargins]
+-[_ORKPathView canvasSize]
+-[_ORKPathView path]
+-[_ORKPathView color]
+-[_ORKPathView .cxx_destruct]
+-[_ORKSpatialSpanTargetView _newFlowerViewWithImage:]
+-[_ORKSpatialSpanTargetView initWithFrame:]
+-[_ORKSpatialSpanTargetView setCustomTargetImage:]
+-[_ORKSpatialSpanTargetView handleTap:]
+-[_ORKSpatialSpanTargetView setState:]
+-[_ORKSpatialSpanTargetView tintColorDidChange]
+-[_ORKSpatialSpanTargetView setState:animated:]
+___47-[_ORKSpatialSpanTargetView setState:animated:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKSpatialSpanTargetView layoutSubviews]
+-[_ORKSpatialSpanTargetView isAccessibilityElement]
+-[_ORKSpatialSpanTargetView accessibilityLabel]
+-[_ORKSpatialSpanTargetView delegate]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/_ORKSpatialSpanTargetView.h
+-[_ORKSpatialSpanTargetView setDelegate:]
+-[_ORKSpatialSpanTargetView state]
+-[_ORKSpatialSpanTargetView color]
+-[_ORKSpatialSpanTargetView setColor:]
+-[_ORKSpatialSpanTargetView customTargetImage]
+-[_ORKSpatialSpanTargetView .cxx_destruct]
+___block_descriptor_tmp
+_OBJC_IVAR_$__ORKPathView._canvasMargins
+_OBJC_IVAR_$__ORKPathView._canvasSize
+_OBJC_IVAR_$__ORKPathView._path
+_OBJC_IVAR_$__ORKPathView._color
+_OBJC_IVAR_$__ORKSpatialSpanTargetView._tapRecognizer
+_OBJC_IVAR_$__ORKSpatialSpanTargetView._flowerScaleFactor
+_OBJC_IVAR_$__ORKSpatialSpanTargetView._flowerView
+_OBJC_IVAR_$__ORKSpatialSpanTargetView._checkView
+_OBJC_IVAR_$__ORKSpatialSpanTargetView._errorView
+_OBJC_IVAR_$__ORKSpatialSpanTargetView._customTargetImage
+_OBJC_IVAR_$__ORKSpatialSpanTargetView._delegate
+_OBJC_IVAR_$__ORKSpatialSpanTargetView._state
+_OBJC_IVAR_$__ORKSpatialSpanTargetView._color
+_OBJC_CLASS_$__ORKPathView
+_OBJC_METACLASS_$__ORKPathView
+_OBJC_CLASS_$__ORKSpatialSpanTargetView
+_OBJC_METACLASS_$__ORKSpatialSpanTargetView
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKSubheadlineLabel.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKSubheadlineLabel.o
++[ORKSubheadlineLabel defaultFont]
+-[ORKSubheadlineLabel _normalFontSize]
+-[ORKSubheadlineLabel _defaultFont]
+-[ORKSubheadlineLabel setCompressFontSize:]
+-[ORKSubheadlineLabel _updateAppearance]
+-[ORKSubheadlineLabel compressFontSize]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKSubheadlineLabel.h
+_OBJC_IVAR_$_ORKSubheadlineLabel._compressFontSize
+_OBJC_METACLASS_$_ORKSubheadlineLabel
+_OBJC_CLASS_$_ORKSubheadlineLabel
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+_ORKSpatialSpanMemoryContentView.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKSpatialSpanMemoryContentView.o
+-[_ORKSpatialSpanMemoryGameView setGridSize:]
+-[_ORKSpatialSpanMemoryGameView numberOfTiles]
+-[_ORKSpatialSpanMemoryGameView _makeTargetView]
+-[_ORKSpatialSpanMemoryGameView resetTilesAnimated:]
+___52-[_ORKSpatialSpanMemoryGameView resetTilesAnimated:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKSpatialSpanMemoryGameView setCustomTargetImage:]
+-[_ORKSpatialSpanMemoryGameView targetView:recognizer:]
+-[_ORKSpatialSpanMemoryGameView layoutSubviews]
+-[_ORKSpatialSpanMemoryGameView setState:forTileIndex:animated:]
+-[_ORKSpatialSpanMemoryGameView stateForTileIndex:]
+-[_ORKSpatialSpanMemoryGameView isAccessibilityElement]
+-[_ORKSpatialSpanMemoryGameView delegate]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/_ORKSpatialSpanMemoryContentView.h
+-[_ORKSpatialSpanMemoryGameView setDelegate:]
+-[_ORKSpatialSpanMemoryGameView gridSize]
+-[_ORKSpatialSpanMemoryGameView tileViews]
+-[_ORKSpatialSpanMemoryGameView customTargetImage]
+-[_ORKSpatialSpanMemoryGameView .cxx_destruct]
+-[_ORKSpatialSpanMemoryContentView _countView]
+-[_ORKSpatialSpanMemoryContentView _scoreView]
+-[_ORKSpatialSpanMemoryContentView initWithFrame:]
+-[_ORKSpatialSpanMemoryContentView setCapitalizedPluralItemDescription:]
+-[_ORKSpatialSpanMemoryContentView setNumberOfItems:]
+-[_ORKSpatialSpanMemoryContentView setScore:]
+-[_ORKSpatialSpanMemoryContentView _updateFooterHidden]
+-[_ORKSpatialSpanMemoryContentView setFooterHidden:]
+-[_ORKSpatialSpanMemoryContentView setButtonItem:]
+-[_ORKSpatialSpanMemoryContentView _updateMargins]
+-[_ORKSpatialSpanMemoryContentView traitCollectionDidChange:]
+-[_ORKSpatialSpanMemoryContentView updateConstraints]
+-[_ORKSpatialSpanMemoryContentView gameView]
+-[_ORKSpatialSpanMemoryContentView isFooterHidden]
+-[_ORKSpatialSpanMemoryContentView capitalizedPluralItemDescription]
+-[_ORKSpatialSpanMemoryContentView numberOfItems]
+-[_ORKSpatialSpanMemoryContentView score]
+-[_ORKSpatialSpanMemoryContentView buttonItem]
+-[_ORKSpatialSpanMemoryContentView .cxx_destruct]
+___block_descriptor_tmp
+_OBJC_IVAR_$__ORKSpatialSpanMemoryGameView._gridSize
+_OBJC_IVAR_$__ORKSpatialSpanMemoryGameView._customTargetImage
+_OBJC_IVAR_$__ORKSpatialSpanMemoryGameView._tileViews
+_OBJC_IVAR_$__ORKSpatialSpanMemoryGameView._delegate
+_OBJC_IVAR_$__ORKSpatialSpanMemoryContentView._quantityPairView
+_OBJC_IVAR_$__ORKSpatialSpanMemoryContentView._gameView
+_OBJC_IVAR_$__ORKSpatialSpanMemoryContentView._continueView
+_OBJC_IVAR_$__ORKSpatialSpanMemoryContentView._capitalizedPluralItemDescription
+_OBJC_IVAR_$__ORKSpatialSpanMemoryContentView._footerHidden
+_OBJC_IVAR_$__ORKSpatialSpanMemoryContentView._buttonItem
+_OBJC_IVAR_$__ORKSpatialSpanMemoryContentView._constraints
+_OBJC_IVAR_$__ORKSpatialSpanMemoryContentView._numberOfItems
+_OBJC_IVAR_$__ORKSpatialSpanMemoryContentView._score
+_OBJC_IVAR_$__ORKSpatialSpanMemoryContentView._topConstraint
+_OBJC_CLASS_$__ORKSpatialSpanMemoryGameView
+_OBJC_METACLASS_$__ORKSpatialSpanMemoryGameView
+_OBJC_CLASS_$__ORKSpatialSpanMemoryContentView
+_OBJC_METACLASS_$__ORKSpatialSpanMemoryContentView
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+HKSample+ORKJSONDictionary.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/HKSample+ORKJSONDictionary.o
+-[HKSample(ORKJSONDictionary) _ork_JSONDictionaryWithOptions:unit:]
+-[HKCategorySample(ORKJSONDictionary) _ork_JSONDictionaryWithOptions:unit:]
+-[HKQuantitySample(ORKJSONDictionary) _ork_JSONDictionaryWithOptions:unit:]
+-[HKCorrelation(ORKJSONDictionary) _ork_JSONDictionaryWithOptions:sampleTypes:units:]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKInstructionStep.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKInstructionStep.o
++[ORKInstructionStep _stepViewControllerClass]
+-[ORKInstructionStep initWithCoder:]
+-[ORKInstructionStep encodeWithCoder:]
+-[ORKInstructionStep copyWithZone:]
+-[ORKInstructionStep isEqual:]
+-[ORKInstructionStep hash]
+-[ORKInstructionStep initWithDictionary:]
+-[ORKInstructionStep dictionaryValue]
+-[ORKInstructionStep detailText]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKInstructionStep.h
+-[ORKInstructionStep setDetailText:]
+-[ORKInstructionStep image]
+-[ORKInstructionStep setImage:]
+-[ORKInstructionStep .cxx_destruct]
+_OBJC_IVAR_$_ORKInstructionStep._detailText
+_OBJC_IVAR_$_ORKInstructionStep._image
+_OBJC_CLASS_$_ORKInstructionStep
+_OBJC_METACLASS_$_ORKInstructionStep
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+_ORKFitnessContentView.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKFitnessContentView.o
+-[_ORKFitnessContentView _distanceView]
+-[_ORKFitnessContentView _heartRateView]
+-[_ORKFitnessContentView initWithFrame:]
+-[_ORKFitnessContentView willMoveToWindow:]
+-[_ORKFitnessContentView updateConstraintConstants]
+-[_ORKFitnessContentView updateConstraints]
+-[_ORKFitnessContentView setImage:]
+-[_ORKFitnessContentView setHasDistance:]
+-[_ORKFitnessContentView setHasHeartRate:]
+-[_ORKFitnessContentView setHeartRate:]
+-[_ORKFitnessContentView _updateKeylineVisible]
+-[_ORKFitnessContentView setDistanceInMeters:]
+-[_ORKFitnessContentView setTimeLeft:]
+-[_ORKFitnessContentView _updateTimerLabel]
+___43-[_ORKFitnessContentView _updateTimerLabel]_block_invoke
+-[_ORKFitnessContentView isFinished]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/_ORKFitnessContentView.h
+-[_ORKFitnessContentView setFinished:]
+-[_ORKFitnessContentView hasHeartRate]
+-[_ORKFitnessContentView hasDistance]
+-[_ORKFitnessContentView heartRate]
+-[_ORKFitnessContentView distanceInMeters]
+-[_ORKFitnessContentView image]
+-[_ORKFitnessContentView timeLeft]
+-[_ORKFitnessContentView .cxx_destruct]
+___block_descriptor_tmp
+___block_literal_global
+_OBJC_IVAR_$__ORKFitnessContentView._quantityPairView
+_OBJC_IVAR_$__ORKFitnessContentView._screenType
+_OBJC_IVAR_$__ORKFitnessContentView._timerLabel
+_OBJC_IVAR_$__ORKFitnessContentView._imageSpacer1
+_OBJC_IVAR_$__ORKFitnessContentView._imageSpacer2
+_OBJC_IVAR_$__ORKFitnessContentView._imageView
+_OBJC_IVAR_$__ORKFitnessContentView._lengthFormatter
+_OBJC_IVAR_$__ORKFitnessContentView._topConstraint
+_OBJC_IVAR_$__ORKFitnessContentView._constraints
+_OBJC_IVAR_$__ORKFitnessContentView._image
+_OBJC_IVAR_$__ORKFitnessContentView._imageRatioConstraint
+_OBJC_IVAR_$__ORKFitnessContentView._hasDistance
+_OBJC_IVAR_$__ORKFitnessContentView._hasHeartRate
+_OBJC_IVAR_$__ORKFitnessContentView._heartRate
+_OBJC_IVAR_$__ORKFitnessContentView._distanceInMeters
+_OBJC_IVAR_$__ORKFitnessContentView._timeLeft
+_OBJC_IVAR_$__ORKFitnessContentView._finished
+_OBJC_CLASS_$__ORKFitnessContentView
+_OBJC_METACLASS_$__ORKFitnessContentView
+__MergedGlobals
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/
+ORKConsentSection.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKConsentSection.o
+-[ORKConsentSection initWithType:]
++[ORKConsentSection supportsSecureCoding]
+-[ORKConsentSection setContent:]
+-[ORKConsentSection escapedContent]
+/Applications/Xcode-OkemoZurs/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h
+-[ORKConsentSection initWithCoder:]
+-[ORKConsentSection encodeWithCoder:]
+-[ORKConsentSection isEqual:]
+-[ORKConsentSection hash]
+-[ORKConsentSection copyWithZone:]
+-[ORKConsentSection initWithDictionary:]
+-[ORKConsentSection dictionaryValue]
+-[ORKConsentSection type]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/ORKConsentSection.h
+-[ORKConsentSection title]
+-[ORKConsentSection setTitle:]
+-[ORKConsentSection formalTitle]
+-[ORKConsentSection setFormalTitle:]
+-[ORKConsentSection summary]
+-[ORKConsentSection setSummary:]
+-[ORKConsentSection content]
+-[ORKConsentSection htmlContent]
+-[ORKConsentSection setHtmlContent:]
+-[ORKConsentSection customImage]
+-[ORKConsentSection setCustomImage:]
+-[ORKConsentSection customLearnMoreButtonTitle]
+-[ORKConsentSection setCustomLearnMoreButtonTitle:]
+-[ORKConsentSection customAnimationURL]
+-[ORKConsentSection setCustomAnimationURL:]
+-[ORKConsentSection .cxx_destruct]
+_OBJC_IVAR_$_ORKConsentSection._type
+_OBJC_IVAR_$_ORKConsentSection._title
+_OBJC_IVAR_$_ORKConsentSection._summary
+_OBJC_IVAR_$_ORKConsentSection._content
+_OBJC_IVAR_$_ORKConsentSection._escapedContent
+_OBJC_IVAR_$_ORKConsentSection._htmlContent
+_OBJC_IVAR_$_ORKConsentSection._formalTitle
+_OBJC_IVAR_$_ORKConsentSection._customImage
+_OBJC_IVAR_$_ORKConsentSection._customAnimationURL
+_OBJC_IVAR_$_ORKConsentSection._customLearnMoreButtonTitle
+_OBJC_CLASS_$_ORKConsentSection
+_OBJC_METACLASS_$_ORKConsentSection
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+_ORKCountdownStep.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKCountdownStep.o
++[_ORKCountdownStep _stepViewControllerClass]
+-[_ORKCountdownStep initWithIdentifier:]
+-[_ORKCountdownStep validateParameters]
+_OBJC_CLASS_$__ORKCountdownStep
+_OBJC_METACLASS_$__ORKCountdownStep
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+ORKHealthQuantityTypeRecorder.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKHealthQuantityTypeRecorder.o
+-[ORKHealthQuantityTypeRecorder initWithHealthQuantityType:unit:step:outputDirectory:]
+-[ORKHealthQuantityTypeRecorder dealloc]
+-[ORKHealthQuantityTypeRecorder _updateMostRecentSample:]
+-[ORKHealthQuantityTypeRecorder _query_logResults:withAnchor:]
+___62-[ORKHealthQuantityTypeRecorder _query_logResults:withAnchor:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___62-[ORKHealthQuantityTypeRecorder _query_logResults:withAnchor:]_block_invoke28
+___copy_helper_block_39
+___destroy_helper_block_40
+-[ORKHealthQuantityTypeRecorder _doFetchNewData]
+___48-[ORKHealthQuantityTypeRecorder _doFetchNewData]_block_invoke
+___copy_helper_block_48
+___destroy_helper_block_49
+-[ORKHealthQuantityTypeRecorder start]
+___38-[ORKHealthQuantityTypeRecorder start]_block_invoke
+___38-[ORKHealthQuantityTypeRecorder start]_block_invoke_2
+___38-[ORKHealthQuantityTypeRecorder start]_block_invoke_3
+___copy_helper_block_86
+___destroy_helper_block_87
+___copy_helper_block_89
+___destroy_helper_block_90
+-[ORKHealthQuantityTypeRecorder _recorderType]
+-[ORKHealthQuantityTypeRecorder stop]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___37-[ORKHealthQuantityTypeRecorder stop]_block_invoke
+___copy_helper_block_99
+___destroy_helper_block_100
+-[ORKHealthQuantityTypeRecorder _doStopRecording]
+-[ORKHealthQuantityTypeRecorder finishRecordingWithError:]
+-[ORKHealthQuantityTypeRecorder isRecording]
+-[ORKHealthQuantityTypeRecorder mimeType]
+-[ORKHealthQuantityTypeRecorder _reset]
+-[ORKHealthQuantityTypeRecorder quantityType]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/ORKHealthQuantityTypeRecorder.h
+-[ORKHealthQuantityTypeRecorder unit]
+-[ORKHealthQuantityTypeRecorder lastSample]
+-[ORKHealthQuantityTypeRecorder recordingError]
+-[ORKHealthQuantityTypeRecorder setRecordingError:]
+-[ORKHealthQuantityTypeRecorder .cxx_destruct]
+-[ORKHealthQuantityTypeRecorderConfiguration initWithHealthQuantityType:unit:]
+-[ORKHealthQuantityTypeRecorderConfiguration recorderForStep:outputDirectory:]
+-[ORKHealthQuantityTypeRecorderConfiguration initWithCoder:]
+-[ORKHealthQuantityTypeRecorderConfiguration encodeWithCoder:]
+-[ORKHealthQuantityTypeRecorderConfiguration isEqual:]
+-[ORKHealthQuantityTypeRecorderConfiguration initWithDictionary:]
+-[ORKHealthQuantityTypeRecorderConfiguration dictionaryValue]
+-[ORKHealthQuantityTypeRecorderConfiguration requestedHealthKitTypesForReading]
+-[ORKHealthQuantityTypeRecorderConfiguration quantityType]
+-[ORKHealthQuantityTypeRecorderConfiguration unit]
+-[ORKHealthQuantityTypeRecorderConfiguration .cxx_destruct]
+GCC_except_table10
+GCC_except_table14
+GCC_except_table23
+___block_descriptor_tmp
+___block_descriptor_tmp42
+___block_descriptor_tmp51
+___block_descriptor_tmp76
+___block_literal_global
+___block_descriptor_tmp88
+___block_descriptor_tmp92
+___block_descriptor_tmp102
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorder._quantityType
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorder._unit
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorder._anchor
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorder._logger
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorder._lastSample
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorder._healthStore
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorder._isRecording
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorder._samplePredicate
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorder._observerQuery
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorder._recordingError
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorderConfiguration._quantityType
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorderConfiguration._unit
+_OBJC_CLASS_$_ORKHealthQuantityTypeRecorder
+_OBJC_METACLASS_$_ORKHealthQuantityTypeRecorder
+_OBJC_CLASS_$_ORKHealthQuantityTypeRecorderConfiguration
+_OBJC_METACLASS_$_ORKHealthQuantityTypeRecorderConfiguration
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKTableViewCell.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKTableViewCell.o
+-[ORKTableViewCell initWithStyle:reuseIdentifier:]
+___50-[ORKTableViewCell initWithStyle:reuseIdentifier:]_block_invoke
+-[ORKTableViewCell traitCollectionDidChange:]
+-[ORKTableViewCell setShowBottomSeparator:]
+-[ORKTableViewCell setShowTopSeparator:]
+-[ORKTableViewCell setBottomSeparatorLeftInset:]
+-[ORKTableViewCell setTopSeparatorLeftInset:]
+-[ORKTableViewCell layoutSubviews]
+-[ORKTableViewCell _init_ORKTableViewCell]
+-[ORKTableViewCell _updateAppearance]
+-[ORKTableViewCell setLabelFont:]
+-[ORKTableViewCell setLabelTextColor:]
+-[ORKTableViewCell dealloc]
+-[ORKTableViewCell labelFont]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKTableViewCell.h
+-[ORKTableViewCell labelTextColor]
+-[ORKTableViewCell rkSeparatorColor]
+-[ORKTableViewCell setRkSeparatorColor:]
+-[ORKTableViewCell showBottomSeparator]
+-[ORKTableViewCell showTopSeparator]
+-[ORKTableViewCell topSeparatorLeftInset]
+-[ORKTableViewCell bottomSeparatorLeftInset]
+-[ORKTableViewCell topSeparator]
+-[ORKTableViewCell setTopSeparator:]
+-[ORKTableViewCell bottomSeparator]
+-[ORKTableViewCell setBottomSeparator:]
+-[ORKTableViewCell .cxx_destruct]
+___block_descriptor_tmp
+___block_literal_global
+_OBJC_IVAR_$_ORKTableViewCell._rkSeparatorColor
+_OBJC_IVAR_$_ORKTableViewCell._topSeparatorLeftInset
+_OBJC_IVAR_$_ORKTableViewCell._bottomSeparatorLeftInset
+_OBJC_IVAR_$_ORKTableViewCell._topSeparator
+_OBJC_IVAR_$_ORKTableViewCell._bottomSeparator
+_OBJC_IVAR_$_ORKTableViewCell._showBottomSeparator
+_OBJC_IVAR_$_ORKTableViewCell._showTopSeparator
+_OBJC_IVAR_$_ORKTableViewCell._labelFont
+_OBJC_IVAR_$_ORKTableViewCell._labelTextColor
+_OBJC_CLASS_$_ORKTableViewCell
+_OBJC_METACLASS_$_ORKTableViewCell
+__MergedGlobals
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+CMAccelerometerData+ORKJSONDictionary.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/CMAccelerometerData+ORKJSONDictionary.o
+-[CMAccelerometerData(ORKJSONDictionary) _ork_JSONDictionary]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+CMMotionActivity+ORKJSONDictionary.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/CMMotionActivity+ORKJSONDictionary.o
+-[CMMotionActivity(ORKJSONDictionary) _ork_JSONDictionary]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKScaleValueLabel.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKScaleValueLabel.o
++[ORKScaleValueLabel defaultFont]
+_OBJC_METACLASS_$_ORKScaleValueLabel
+_OBJC_CLASS_$_ORKScaleValueLabel
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKStep.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKStep.o
+-[ORKStep initWithIdentifier:]
++[ORKStep _stepViewControllerClass]
+-[ORKStep copyWithZone:]
+-[ORKStep isEqual:]
+-[ORKStep hash]
++[ORKStep supportsSecureCoding]
+-[ORKStep initWithCoder:]
+-[ORKStep encodeWithCoder:]
+-[ORKStep description]
+-[ORKStep _shouldShowProgress]
+-[ORKStep _shouldAllowBackNavigation]
+-[ORKStep isRestorable]
+-[ORKStep validateParameters]
+-[ORKStep initWithDictionary:]
+-[ORKStep dictionaryValue]
+-[ORKStep identifier]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKStep.h
+-[ORKStep isOptional]
+-[ORKStep setOptional:]
+-[ORKStep title]
+-[ORKStep setTitle:]
+-[ORKStep text]
+-[ORKStep setText:]
+-[ORKStep task]
+-[ORKStep setTask:]
+-[ORKStep shouldTintImages]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKStep_Private.h
+-[ORKStep setShouldTintImages:]
+-[ORKStep useSurveyMode]
+-[ORKStep setUseSurveyMode:]
+-[ORKStep .cxx_destruct]
+_OBJC_IVAR_$_ORKStep._identifier
+_OBJC_IVAR_$_ORKStep._title
+_OBJC_IVAR_$_ORKStep._optional
+_OBJC_IVAR_$_ORKStep._text
+_OBJC_IVAR_$_ORKStep._shouldTintImages
+_OBJC_IVAR_$_ORKStep._useSurveyMode
+_OBJC_IVAR_$_ORKStep._task
+_OBJC_CLASS_$_ORKStep
+_OBJC_METACLASS_$_ORKStep
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKHeadlineLabel.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKHeadlineLabel.o
++[ORKHeadlineLabel defaultFontInSurveyMode:]
++[ORKHeadlineLabel defaultFont]
+-[ORKHeadlineLabel _defaultFont]
+-[ORKHeadlineLabel setUseSurveyMode:]
+-[ORKHeadlineLabel _updateAppearance]
+-[ORKHeadlineLabel accessibilityTraits]
+-[ORKHeadlineLabel useSurveyMode]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKHeadlineLabel.h
+_OBJC_IVAR_$_ORKHeadlineLabel._useSurveyMode
+_OBJC_CLASS_$_ORKHeadlineLabel
+_OBJC_METACLASS_$_ORKHeadlineLabel
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKCaption1Label.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKCaption1Label.o
++[ORKCaption1Label defaultFont]
+_OBJC_METACLASS_$_ORKCaption1Label
+_OBJC_CLASS_$_ORKCaption1Label
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/
+ORKConsentDocument.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKConsentDocument.o
+-[ORKConsentDocument setSignatures:]
+-[ORKConsentDocument addSignature:]
+-[ORKConsentDocument signatures]
+-[ORKConsentDocument makePDFWithCompletionHandler:]
+___51-[ORKConsentDocument makePDFWithCompletionHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKConsentDocument _mobileHtmlWithTitle:detail:]
++[ORKConsentDocument _cssStyleSheet:]
++[ORKConsentDocument wrapHtmlBody:mobile:]
+-[ORKConsentDocument _htmlForMobile:withTitle:detail:]
++[ORKConsentDocument supportsSecureCoding]
+-[ORKConsentDocument initWithCoder:]
+-[ORKConsentDocument encodeWithCoder:]
+-[ORKConsentDocument isEqual:]
+-[ORKConsentDocument hash]
+-[ORKConsentDocument copyWithZone:]
+-[ORKConsentDocument initWithDictionary:]
+-[ORKConsentDocument dictionaryValue]
+-[ORKConsentDocument title]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/ORKConsentDocument.h
+-[ORKConsentDocument setTitle:]
+-[ORKConsentDocument sections]
+-[ORKConsentDocument setSections:]
+-[ORKConsentDocument signaturePageTitle]
+-[ORKConsentDocument setSignaturePageTitle:]
+-[ORKConsentDocument signaturePageContent]
+-[ORKConsentDocument setSignaturePageContent:]
+-[ORKConsentDocument htmlReviewContent]
+-[ORKConsentDocument setHtmlReviewContent:]
+-[ORKConsentDocument writer]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/ORKConsentDocument_Internal.h
+-[ORKConsentDocument setWriter:]
+-[ORKConsentDocument .cxx_destruct]
+_____ORKArrayDeepCopy_block_invoke
+___copy_helper_block_332
+___destroy_helper_block_333
+___block_descriptor_tmp
+___block_descriptor_tmp335
+_OBJC_IVAR_$_ORKConsentDocument._signatures
+_OBJC_IVAR_$_ORKConsentDocument._writer
+_OBJC_IVAR_$_ORKConsentDocument._htmlReviewContent
+_OBJC_IVAR_$_ORKConsentDocument._title
+_OBJC_IVAR_$_ORKConsentDocument._sections
+_OBJC_IVAR_$_ORKConsentDocument._signaturePageTitle
+_OBJC_IVAR_$_ORKConsentDocument._signaturePageContent
+_OBJC_CLASS_$_ORKConsentDocument
+_OBJC_METACLASS_$_ORKConsentDocument
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+_ORKTintedImageView.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKTintedImageView.o
+-[_ORKTintedImageView setShouldApplyTint:]
+-[_ORKTintedImageView _imageByTintingImage:]
+-[_ORKTintedImageView setImage:]
+-[_ORKTintedImageView tintColorDidChange]
+-[_ORKTintedImageView shouldApplyTint]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/_ORKTintedImageView.h
+-[_ORKTintedImageView .cxx_destruct]
+_OBJC_IVAR_$__ORKTintedImageView._shouldApplyTint
+_OBJC_IVAR_$__ORKTintedImageView._originalImage
+_OBJC_CLASS_$__ORKTintedImageView
+_OBJC_METACLASS_$__ORKTintedImageView
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+UIApplication+ResearchKit.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/UIApplication+ResearchKit.o
+-[UIApplication(ResearchKit) _ork_currentFirstResponder]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+_ORKActiveStepQuantityView.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKActiveStepQuantityView.o
++[_ORKQuantityLabel defaultFont]
+-[_ORKActiveStepQuantityView initWithFrame:]
+-[_ORKActiveStepQuantityView setEnabled:]
+-[_ORKActiveStepQuantityView setTitle:]
+-[_ORKActiveStepQuantityView setValue:]
+-[_ORKActiveStepQuantityView setImage:]
+-[_ORKActiveStepQuantityView updateConstraints]
+-[_ORKActiveStepQuantityView isAccessibilityElement]
+-[_ORKActiveStepQuantityView accessibilityLabel]
+-[_ORKActiveStepQuantityView accessibilityValue]
+-[_ORKActiveStepQuantityView accessibilityTraits]
+-[_ORKActiveStepQuantityView title]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/_ORKActiveStepQuantityView.h
+-[_ORKActiveStepQuantityView value]
+-[_ORKActiveStepQuantityView image]
+-[_ORKActiveStepQuantityView enabled]
+-[_ORKActiveStepQuantityView titleLabel]
+-[_ORKActiveStepQuantityView valueLabel]
+-[_ORKActiveStepQuantityView .cxx_destruct]
+-[_ORKQuantityPairView initWithFrame:]
+-[_ORKQuantityPairView updateConstraints]
+-[_ORKQuantityPairView setKeylineHidden:]
+-[_ORKQuantityPairView leftView]
+-[_ORKQuantityPairView setLeftView:]
+-[_ORKQuantityPairView rightView]
+-[_ORKQuantityPairView setRightView:]
+-[_ORKQuantityPairView keylineHidden]
+-[_ORKQuantityPairView .cxx_destruct]
+_OBJC_IVAR_$__ORKActiveStepQuantityView._titleLabel
+_OBJC_IVAR_$__ORKActiveStepQuantityView._valueLabel
+_OBJC_IVAR_$__ORKActiveStepQuantityView._imageView
+_OBJC_IVAR_$__ORKActiveStepQuantityView._valueHolder
+_OBJC_IVAR_$__ORKActiveStepQuantityView._enabled
+_OBJC_IVAR_$__ORKActiveStepQuantityView._title
+_OBJC_IVAR_$__ORKActiveStepQuantityView._value
+_OBJC_IVAR_$__ORKActiveStepQuantityView._image
+_OBJC_IVAR_$__ORKQuantityPairView._leftView
+_OBJC_IVAR_$__ORKQuantityPairView._rightView
+_OBJC_IVAR_$__ORKQuantityPairView._metricKeyline
+_OBJC_IVAR_$__ORKQuantityPairView._constraints
+_OBJC_IVAR_$__ORKQuantityPairView._keylineHidden
+_OBJC_METACLASS_$__ORKQuantityLabel
+_OBJC_CLASS_$__ORKQuantityLabel
+_OBJC_CLASS_$__ORKActiveStepQuantityView
+_OBJC_METACLASS_$__ORKActiveStepQuantityView
+_OBJC_CLASS_$__ORKQuantityPairView
+_OBJC_METACLASS_$__ORKQuantityPairView
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+CMDeviceMotion+ORKJSONDictionary.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/CMDeviceMotion+ORKJSONDictionary.o
+-[CMDeviceMotion(ORKJSONDictionary) _ork_JSONDictionary]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+UIResponder+ResearchKit.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/UIResponder+ResearchKit.o
+-[UIResponder(ResearchKit) _ork_updateCurrentFirstResponder:]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKFormStepViewController.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKFormStepViewController.o
+-[_ORKTableCellItem initWithFormItem:]
+-[_ORKTableCellItem initWithFormItem:choiceIndex:]
+-[_ORKTableCellItem textChoiceAnswerFormat]
+-[_ORKTableCellItem booleanAnswerFormat]
+-[_ORKTableCellItem labelWidth]
+-[_ORKTableCellItem formItem]
+-[_ORKTableCellItem setFormItem:]
+-[_ORKTableCellItem answerFormat]
+-[_ORKTableCellItem setAnswerFormat:]
+-[_ORKTableCellItem singleChoice]
+-[_ORKTableCellItem choice]
+-[_ORKTableCellItem choiceIndex]
+-[_ORKTableCellItem .cxx_destruct]
+-[_ORKTableSection init]
+-[_ORKTableSection setTitle:]
+-[_ORKTableSection addFormItem:]
+___32-[_ORKTableSection addFormItem:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKTableSection maxLabelWidth]
+-[_ORKTableSection title]
+-[_ORKTableSection items]
+-[_ORKTableSection hasChoiceRows]
+-[_ORKTableSection .cxx_destruct]
+-[ORKFormStepViewController _ORKFormStepViewController_initWithResult:]
+-[ORKFormStepViewController initWithStep:]
+-[ORKFormStepViewController initWithStep:result:]
+-[ORKFormStepViewController viewWillAppear:]
+___44-[ORKFormStepViewController viewWillAppear:]_block_invoke
+___44-[ORKFormStepViewController viewWillAppear:]_block_invoke_2
+___copy_helper_block_172
+___destroy_helper_block_173
+___copy_helper_block_176
+___destroy_helper_block_177
+-[ORKFormStepViewController viewDidAppear:]
+-[ORKFormStepViewController _updateDefaults:]
+-[ORKFormStepViewController _refreshDefaults]
+___45-[ORKFormStepViewController _refreshDefaults]_block_invoke
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___45-[ORKFormStepViewController _refreshDefaults]_block_invoke221
+___copy_helper_block_224
+___destroy_helper_block_225
+___45-[ORKFormStepViewController _refreshDefaults]_block_invoke230
+___copy_helper_block_233
+___destroy_helper_block_234
+___copy_helper_block_236
+___destroy_helper_block_237
+-[ORKFormStepViewController _removeAnswerForIdentifier:]
+-[ORKFormStepViewController _setAnswer:forIdentifier:]
+-[ORKFormStepViewController setContinueButtonItem:]
+-[ORKFormStepViewController setLearnMoreButtonItem:]
+-[ORKFormStepViewController setSkipButtonItem:]
+-[ORKFormStepViewController _stepDidChange]
+-[ORKFormStepViewController _buildSections]
+___43-[ORKFormStepViewController _buildSections]_block_invoke
+___copy_helper_block_337
+___destroy_helper_block_338
+-[ORKFormStepViewController _numAnswered]
+___41-[ORKFormStepViewController _numAnswered]_block_invoke
+___copy_helper_block_342
+___destroy_helper_block_343
+-[ORKFormStepViewController _allAnswered]
+-[ORKFormStepViewController continueButtonEnabled]
+-[ORKFormStepViewController _updateButtonStates]
+-[ORKFormStepViewController _formStep]
+-[ORKFormStepViewController _allFormItems]
+-[ORKFormStepViewController _formItems]
+___39-[ORKFormStepViewController _formItems]_block_invoke
+___copy_helper_block_356
+___destroy_helper_block_357
+-[ORKFormStepViewController _showValidityAlertWithMessage:]
+-[ORKFormStepViewController result]
+-[ORKFormStepViewController skipForward]
+-[ORKFormStepViewController _isLastSection:]
+-[ORKFormStepViewController _isSeparatorRow:]
+-[ORKFormStepViewController numberOfSectionsInTableView:]
+-[ORKFormStepViewController tableView:numberOfRowsInSection:]
+-[ORKFormStepViewController tableView:cellForRowAtIndexPath:]
+-[ORKFormStepViewController _isChoiceSelected:atIndex:answer:]
+-[ORKFormStepViewController tableView:shouldHighlightRowAtIndexPath:]
+-[ORKFormStepViewController tableView:didSelectRowAtIndexPath:]
+___63-[ORKFormStepViewController tableView:didSelectRowAtIndexPath:]_block_invoke
+___copy_helper_block_454
+___destroy_helper_block_455
+-[ORKFormStepViewController tableView:heightForRowAtIndexPath:]
+-[ORKFormStepViewController tableView:heightForHeaderInSection:]
+-[ORKFormStepViewController tableView:viewForHeaderInSection:]
+-[ORKFormStepViewController tableView:willDisplayCell:forRowAtIndexPath:]
+-[ORKFormStepViewController formItemCellDidBecomeFirstResponder:]
+-[ORKFormStepViewController formItemCell:invalidInputAlertWithMessage:]
+-[ORKFormStepViewController formItemCell:answerDidChangeTo:]
+-[ORKFormStepViewController encodeRestorableStateWithCoder:]
+-[ORKFormStepViewController decodeRestorableStateWithCoder:]
+-[ORKFormStepViewController viewWillTransitionToSize:withTransitionCoordinator:]
+-[ORKFormStepViewController tableContainer]
+-[ORKFormStepViewController setTableContainer:]
+-[ORKFormStepViewController tableView]
+-[ORKFormStepViewController setTableView:]
+-[ORKFormStepViewController headerView]
+-[ORKFormStepViewController setHeaderView:]
+-[ORKFormStepViewController savedAnswers]
+-[ORKFormStepViewController setSavedAnswers:]
+-[ORKFormStepViewController savedAnswerDates]
+-[ORKFormStepViewController setSavedAnswerDates:]
+-[ORKFormStepViewController savedSystemCalendars]
+-[ORKFormStepViewController setSavedSystemCalendars:]
+-[ORKFormStepViewController savedSystemTimeZones]
+-[ORKFormStepViewController setSavedSystemTimeZones:]
+-[ORKFormStepViewController savedDefaults]
+-[ORKFormStepViewController setSavedDefaults:]
+-[ORKFormStepViewController .cxx_destruct]
+GCC_except_table37
+GCC_except_table58
+___block_descriptor_tmp
+___block_descriptor_tmp175
+___block_descriptor_tmp179
+___block_descriptor_tmp227
+___block_descriptor_tmp235
+___block_descriptor_tmp238
+___block_descriptor_tmp339
+___block_descriptor_tmp345
+___block_descriptor_tmp358
+___block_descriptor_tmp456
+_OBJC_IVAR_$__ORKTableCellItem._answerFormat
+_OBJC_IVAR_$__ORKTableCellItem._choiceIndex
+_OBJC_IVAR_$__ORKTableCellItem._singleChoice
+_OBJC_IVAR_$__ORKTableCellItem._choice
+_OBJC_IVAR_$__ORKTableCellItem._formItem
+_OBJC_IVAR_$__ORKTableSection._items
+_OBJC_IVAR_$__ORKTableSection._title
+_OBJC_IVAR_$__ORKTableSection._hasChoiceRows
+_OBJC_IVAR_$_ORKFormStepViewController._defaultSource
+_OBJC_IVAR_$_ORKFormStepViewController._tableView
+_OBJC_IVAR_$_ORKFormStepViewController._skipped
+_OBJC_IVAR_$_ORKFormStepViewController._savedDefaults
+_OBJC_IVAR_$_ORKFormStepViewController._sections
+_OBJC_IVAR_$_ORKFormStepViewController._savedAnswers
+_OBJC_IVAR_$_ORKFormStepViewController._savedAnswerDates
+_OBJC_IVAR_$_ORKFormStepViewController._savedSystemCalendars
+_OBJC_IVAR_$_ORKFormStepViewController._savedSystemTimeZones
+_OBJC_IVAR_$_ORKFormStepViewController._continueSkipView
+_OBJC_IVAR_$_ORKFormStepViewController._headerView
+_OBJC_IVAR_$_ORKFormStepViewController._tableContainer
+_OBJC_IVAR_$_ORKFormStepViewController._formItemCells
+_OBJC_CLASS_$__ORKTableCellItem
+_OBJC_METACLASS_$__ORKTableCellItem
+_OBJC_CLASS_$__ORKTableSection
+_OBJC_METACLASS_$__ORKTableSection
+_OBJC_CLASS_$_ORKFormStepViewController
+_OBJC_METACLASS_$_ORKFormStepViewController
+-[_ORKTableCellItem labelWidth].sharedLabel
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKSurveyAnswerCellForTimeInterval.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKSurveyAnswerCellForTimeInterval.o
+-[ORKSurveyAnswerCellForTimeInterval _impliedAnswerFormat]
+-[ORKSurveyAnswerCellForTimeInterval _setupScale]
+-[ORKSurveyAnswerCellForTimeInterval prepareView]
+-[ORKSurveyAnswerCellForTimeInterval _answerDidChange]
+-[ORKSurveyAnswerCellForTimeInterval layoutSubviews]
+-[ORKSurveyAnswerCellForTimeInterval valueChanged:]
++[ORKSurveyAnswerCellForTimeInterval suggestedCellHeightForView:]
+-[ORKSurveyAnswerCellForTimeInterval picker]
+-[ORKSurveyAnswerCellForTimeInterval setPicker:]
+-[ORKSurveyAnswerCellForTimeInterval .cxx_destruct]
+_OBJC_IVAR_$_ORKSurveyAnswerCellForTimeInterval._stepInMinute
+_OBJC_IVAR_$_ORKSurveyAnswerCellForTimeInterval._picker
+_OBJC_CLASS_$_ORKSurveyAnswerCellForTimeInterval
+_OBJC_METACLASS_$_ORKSurveyAnswerCellForTimeInterval
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+ORKActiveStepTimerView.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKActiveStepTimerView.o
+-[ORKActiveStepTimerView initWithFrame:]
+-[ORKActiveStepTimerView _applicationDidBecomeActive:]
+-[ORKActiveStepTimerView _setRegisteredForNotifications:]
+-[ORKActiveStepTimerView didMoveToWindow]
+-[ORKActiveStepTimerView setStep:]
+-[ORKActiveStepTimerView _startTimerButtonTapped:]
+-[ORKActiveStepTimerView updateDisplay:]
+-[ORKActiveStepTimerView resetStep:]
+-[ORKActiveStepTimerView startStep:]
+-[ORKActiveStepTimerView suspendStep:]
+-[ORKActiveStepTimerView resumeStep:]
+-[ORKActiveStepTimerView finishStep:]
+-[ORKActiveStepTimerView setNeedsUpdateConstraints]
+-[ORKActiveStepTimerView updateConstraints]
+-[ORKActiveStepTimerView countDownLabel]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/ORKActiveStepTimerView.h
+-[ORKActiveStepTimerView setCountDownLabel:]
+-[ORKActiveStepTimerView startTimerButton]
+-[ORKActiveStepTimerView setStartTimerButton:]
+-[ORKActiveStepTimerView step]
+-[ORKActiveStepTimerView .cxx_destruct]
+_OBJC_IVAR_$_ORKActiveStepTimerView._countDownLabel
+_OBJC_IVAR_$_ORKActiveStepTimerView._startTimerButton
+_OBJC_IVAR_$_ORKActiveStepTimerView._registeredForNotifications
+_OBJC_IVAR_$_ORKActiveStepTimerView._step
+_OBJC_IVAR_$_ORKActiveStepTimerView._started
+_OBJC_CLASS_$_ORKActiveStepTimerView
+_OBJC_METACLASS_$_ORKActiveStepTimerView
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+_ORKAudioStepViewController.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKAudioStepViewController.o
+-[_ORKAudioStepViewController initWithStep:]
+-[_ORKAudioStepViewController viewDidLoad]
+-[_ORKAudioStepViewController viewDidAppear:]
+-[_ORKAudioStepViewController _audioRecorderDidChange]
+-[_ORKAudioStepViewController recordersDidChange]
+-[_ORKAudioStepViewController audioStep]
+-[_ORKAudioStepViewController _doSample]
+-[_ORKAudioStepViewController _startNewTimerIfNeeded]
+___53-[_ORKAudioStepViewController _startNewTimerIfNeeded]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKAudioStepViewController start]
+-[_ORKAudioStepViewController suspend]
+-[_ORKAudioStepViewController resume]
+-[_ORKAudioStepViewController finish]
+-[_ORKAudioStepViewController stepDidFinish]
+-[_ORKAudioStepViewController setAvAudioRecorder:]
+-[_ORKAudioStepViewController avAudioRecorder]
+-[_ORKAudioStepViewController .cxx_destruct]
+GCC_except_table7
+___block_descriptor_tmp
+_OBJC_IVAR_$__ORKAudioStepViewController._audioContentView
+_OBJC_IVAR_$__ORKAudioStepViewController._audioRecorder
+_OBJC_IVAR_$__ORKAudioStepViewController._avAudioRecorder
+_OBJC_IVAR_$__ORKAudioStepViewController._timer
+_OBJC_CLASS_$__ORKAudioStepViewController
+_OBJC_METACLASS_$__ORKAudioStepViewController
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKCountdownLabel.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKCountdownLabel.o
+-[ORKCountdownLabel _updateAppearance]
+-[ORKCountdownLabel _setCountDownValue:]
+-[ORKCountdownLabel _renderText]
+-[ORKCountdownLabel setFont:]
+-[ORKCountdownLabel intrinsicContentSize]
+-[ORKCountdownLabel mmString]
+-[ORKCountdownLabel setMmString:]
+-[ORKCountdownLabel ssString]
+-[ORKCountdownLabel setSsString:]
+-[ORKCountdownLabel .cxx_destruct]
+_OBJC_IVAR_$_ORKCountdownLabel._mmString
+_OBJC_IVAR_$_ORKCountdownLabel._ssString
+_OBJC_CLASS_$_ORKCountdownLabel
+_OBJC_METACLASS_$_ORKCountdownLabel
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/
+ORKConsentSceneViewController.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKConsentSceneViewController.o
+-[ORKConsentSceneView setConsentSection:]
+-[ORKConsentSceneView consentSection]
+-[ORKConsentSceneView .cxx_destruct]
+-[ORKConsentSceneViewController initWithSection:]
+-[ORKConsentSceneViewController loadView]
+-[ORKConsentSceneViewController viewDidLoad]
+__LocalizedLearnMoreForType
+-[ORKConsentSceneViewController setImageHidden:]
+-[ORKConsentSceneViewController setContinueButtonItem:]
+-[ORKConsentSceneViewController setLearnMoreButtonTitle:]
+-[ORKConsentSceneViewController showContent:]
+-[ORKConsentSceneViewController adaptivePresentationStyleForPresentationController:]
+-[ORKConsentSceneViewController section]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/ORKConsentSceneViewController.h
+-[ORKConsentSceneViewController continueButtonItem]
+-[ORKConsentSceneViewController learnMoreButtonTitle]
+-[ORKConsentSceneViewController imageHidden]
+-[ORKConsentSceneViewController .cxx_destruct]
+_OBJC_IVAR_$_ORKConsentSceneView._consentSection
+_OBJC_IVAR_$_ORKConsentSceneViewController._section
+_OBJC_IVAR_$_ORKConsentSceneViewController._sceneView
+_OBJC_IVAR_$_ORKConsentSceneViewController._continueButtonItem
+_OBJC_IVAR_$_ORKConsentSceneViewController._imageHidden
+_OBJC_IVAR_$_ORKConsentSceneViewController._learnMoreButtonTitle
+_OBJC_METACLASS_$_ORKConsentSceneView
+_OBJC_CLASS_$_ORKConsentSceneView
+_OBJC_CLASS_$_ORKConsentSceneViewController
+_OBJC_METACLASS_$_ORKConsentSceneViewController
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+ORKRecorder.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKRecorder.o
+-[ORKRecorderConfiguration _init]
+-[ORKRecorderConfiguration initWithCoder:]
+-[ORKRecorderConfiguration encodeWithCoder:]
+-[ORKRecorderConfiguration isEqual:]
+-[ORKRecorderConfiguration hash]
++[ORKRecorderConfiguration supportsSecureCoding]
+-[ORKRecorderConfiguration recorderForStep:outputDirectory:]
+-[ORKRecorderConfiguration requestedHealthKitTypesForReading]
+-[ORKRecorderConfiguration requestedPermissionMask]
+-[ORKRecorderConfiguration initWithDictionary:]
+-[ORKRecorderConfiguration dictionaryValue]
+-[ORKRecorder init]
+-[ORKRecorder _init]
+-[ORKRecorder initWithStep:outputDirectory:]
+-[ORKRecorder viewController:willStartStepWithView:]
+-[ORKRecorder start]
+___20-[ORKRecorder start]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKRecorder stop]
+-[ORKRecorder finishRecordingWithError:]
+___40-[ORKRecorder finishRecordingWithError:]_block_invoke
+-[ORKRecorder _recordingDirectoryURL]
+-[ORKRecorder _recorderType]
+-[ORKRecorder logName]
+-[ORKRecorder _makeJSONDataLoggerWithError:]
+-[ORKRecorder _reset]
+-[ORKRecorder mimeType]
+-[ORKRecorder _userInfo]
+-[ORKRecorder _applyFileProtection:toFileAtURL:]
+-[ORKRecorder _reportFileResultWithFile:error:]
+-[ORKRecorder delegate]
+-[ORKRecorder setDelegate:]
+-[ORKRecorder step]
+-[ORKRecorder setStep:]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/ORKRecorder_Internal.h
+-[ORKRecorder outputDirectory]
+-[ORKRecorder isRecording]
+-[ORKRecorder continuesInBackground]
+-[ORKRecorder setContinuesInBackground:]
+-[ORKRecorder startDate]
+-[ORKRecorder setStartDate:]
+-[ORKRecorder .cxx_destruct]
+___block_descriptor_tmp
+___block_descriptor_tmp110
+_OBJC_IVAR_$_ORKRecorder._outputDirectory
+_OBJC_IVAR_$_ORKRecorder._backgroundTask
+_OBJC_IVAR_$_ORKRecorder._recorderUUID
+_OBJC_IVAR_$_ORKRecorder._delegate
+_OBJC_IVAR_$_ORKRecorder._step
+_OBJC_IVAR_$_ORKRecorder._recording
+_OBJC_IVAR_$_ORKRecorder._continuesInBackground
+_OBJC_IVAR_$_ORKRecorder._startDate
+_OBJC_CLASS_$_ORKRecorderConfiguration
+_OBJC_METACLASS_$_ORKRecorderConfiguration
+_OBJC_CLASS_$_ORKRecorder
+_OBJC_METACLASS_$_ORKRecorder
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKSurveyAnswerCellForNumber.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKSurveyAnswerCellForNumber.o
+-[ORKSurveyAnswerCellForNumber textField]
+-[ORKSurveyAnswerCellForNumber _numberCell_initialize]
+-[ORKSurveyAnswerCellForNumber dealloc]
+-[ORKSurveyAnswerCellForNumber _localeDidChange:]
+-[ORKSurveyAnswerCellForNumber setNeedsUpdateConstraints]
+-[ORKSurveyAnswerCellForNumber traitCollectionDidChange:]
+-[ORKSurveyAnswerCellForNumber updateConstraints]
+-[ORKSurveyAnswerCellForNumber becomeFirstResponder]
+-[ORKSurveyAnswerCellForNumber prepareView]
+-[ORKSurveyAnswerCellForNumber _isAnswerValid]
+-[ORKSurveyAnswerCellForNumber shouldContinue]
+-[ORKSurveyAnswerCellForNumber _answerDidChange]
+-[ORKSurveyAnswerCellForNumber _valueFieldDidChange:]
+-[ORKSurveyAnswerCellForNumber textFieldShouldClear:]
+-[ORKSurveyAnswerCellForNumber _setAnswerWithText:]
+-[ORKSurveyAnswerCellForNumber textFieldShouldEndEditing:]
++[ORKSurveyAnswerCellForNumber _shouldDisplayWithSeparators]
+-[ORKSurveyAnswerCellForNumber textFieldShouldReturn:]
+-[ORKSurveyAnswerCellForNumber textFieldDidEndEditing:]
+-[ORKSurveyAnswerCellForNumber containerView]
+-[ORKSurveyAnswerCellForNumber setContainerView:]
+-[ORKSurveyAnswerCellForNumber textFieldView]
+-[ORKSurveyAnswerCellForNumber setTextFieldView:]
+-[ORKSurveyAnswerCellForNumber .cxx_destruct]
+_OBJC_IVAR_$_ORKSurveyAnswerCellForNumber._textFieldView
+_OBJC_IVAR_$_ORKSurveyAnswerCellForNumber._numberFormatter
+_OBJC_IVAR_$_ORKSurveyAnswerCellForNumber._containerView
+_OBJC_CLASS_$_ORKSurveyAnswerCellForNumber
+_OBJC_METACLASS_$_ORKSurveyAnswerCellForNumber
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+_ORKTappingIntervalStep.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKTappingIntervalStep.o
++[_ORKTappingIntervalStep _stepViewControllerClass]
+-[_ORKTappingIntervalStep validateParameters]
+_OBJC_CLASS_$__ORKTappingIntervalStep
+_OBJC_METACLASS_$__ORKTappingIntervalStep
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKResult.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKResult.o
+-[ORKResult initWithIdentifier:]
+-[ORKResult isSaveable]
++[ORKResult supportsSecureCoding]
+-[ORKResult encodeWithCoder:]
+-[ORKResult initWithCoder:]
+-[ORKResult isEqual:]
+-[ORKResult hash]
+-[ORKResult copyWithZone:]
+-[ORKResult init]
+-[ORKResult _serializableDictionary]
+-[ORKResult identifier]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKResult.h
+-[ORKResult setIdentifier:]
+-[ORKResult startDate]
+-[ORKResult setStartDate:]
+-[ORKResult endDate]
+-[ORKResult setEndDate:]
+-[ORKResult userInfo]
+-[ORKResult setUserInfo:]
+-[ORKResult .cxx_destruct]
++[ORKTappingSample supportsSecureCoding]
+-[ORKTappingSample encodeWithCoder:]
+-[ORKTappingSample initWithCoder:]
+-[ORKTappingSample isEqual:]
+-[ORKTappingSample copyWithZone:]
+-[ORKTappingSample description]
+-[ORKTappingSample timestamp]
+-[ORKTappingSample setTimestamp:]
+-[ORKTappingSample buttonIdentifier]
+-[ORKTappingSample setButtonIdentifier:]
+-[ORKTappingSample location]
+-[ORKTappingSample setLocation:]
++[ORKSpatialSpanMemoryGameTouchSample supportsSecureCoding]
+-[ORKSpatialSpanMemoryGameTouchSample encodeWithCoder:]
+-[ORKSpatialSpanMemoryGameTouchSample initWithCoder:]
+-[ORKSpatialSpanMemoryGameTouchSample isEqual:]
+-[ORKSpatialSpanMemoryGameTouchSample hash]
+-[ORKSpatialSpanMemoryGameTouchSample copyWithZone:]
+-[ORKSpatialSpanMemoryGameTouchSample description]
+-[ORKSpatialSpanMemoryGameTouchSample timestamp]
+-[ORKSpatialSpanMemoryGameTouchSample setTimestamp:]
+-[ORKSpatialSpanMemoryGameTouchSample targetIndex]
+-[ORKSpatialSpanMemoryGameTouchSample setTargetIndex:]
+-[ORKSpatialSpanMemoryGameTouchSample location]
+-[ORKSpatialSpanMemoryGameTouchSample setLocation:]
+-[ORKSpatialSpanMemoryGameTouchSample isCorrect]
+-[ORKSpatialSpanMemoryGameTouchSample setCorrect:]
++[ORKSpatialSpanMemoryGameRecord supportsSecureCoding]
+-[ORKSpatialSpanMemoryGameRecord encodeWithCoder:]
+-[ORKSpatialSpanMemoryGameRecord initWithCoder:]
+-[ORKSpatialSpanMemoryGameRecord isEqual:]
+-[ORKSpatialSpanMemoryGameRecord hash]
+-[ORKSpatialSpanMemoryGameRecord copyWithZone:]
+-[ORKSpatialSpanMemoryGameRecord description]
+-[ORKSpatialSpanMemoryGameRecord seed]
+-[ORKSpatialSpanMemoryGameRecord setSeed:]
+-[ORKSpatialSpanMemoryGameRecord sequence]
+-[ORKSpatialSpanMemoryGameRecord setSequence:]
+-[ORKSpatialSpanMemoryGameRecord gameSize]
+-[ORKSpatialSpanMemoryGameRecord setGameSize:]
+-[ORKSpatialSpanMemoryGameRecord targetRects]
+-[ORKSpatialSpanMemoryGameRecord setTargetRects:]
+-[ORKSpatialSpanMemoryGameRecord touchSamples]
+-[ORKSpatialSpanMemoryGameRecord setTouchSamples:]
+-[ORKSpatialSpanMemoryGameRecord gameStatus]
+-[ORKSpatialSpanMemoryGameRecord setGameStatus:]
+-[ORKSpatialSpanMemoryGameRecord score]
+-[ORKSpatialSpanMemoryGameRecord setScore:]
+-[ORKSpatialSpanMemoryGameRecord .cxx_destruct]
+-[ORKSpatialSpanMemoryResult encodeWithCoder:]
+-[ORKSpatialSpanMemoryResult initWithCoder:]
+-[ORKSpatialSpanMemoryResult isEqual:]
+-[ORKSpatialSpanMemoryResult hash]
+-[ORKSpatialSpanMemoryResult copyWithZone:]
+-[ORKSpatialSpanMemoryResult description]
+-[ORKSpatialSpanMemoryResult score]
+-[ORKSpatialSpanMemoryResult setScore:]
+-[ORKSpatialSpanMemoryResult numberOfGames]
+-[ORKSpatialSpanMemoryResult setNumberOfGames:]
+-[ORKSpatialSpanMemoryResult numberOfFailures]
+-[ORKSpatialSpanMemoryResult setNumberOfFailures:]
+-[ORKSpatialSpanMemoryResult gameRecords]
+-[ORKSpatialSpanMemoryResult setGameRecords:]
+-[ORKSpatialSpanMemoryResult .cxx_destruct]
+-[ORKTappingIntervalResult encodeWithCoder:]
+-[ORKTappingIntervalResult initWithCoder:]
+-[ORKTappingIntervalResult isEqual:]
+-[ORKTappingIntervalResult hash]
+-[ORKTappingIntervalResult copyWithZone:]
+-[ORKTappingIntervalResult description]
+-[ORKTappingIntervalResult samples]
+-[ORKTappingIntervalResult setSamples:]
+-[ORKTappingIntervalResult stepViewSize]
+-[ORKTappingIntervalResult setStepViewSize:]
+-[ORKTappingIntervalResult buttonRect1]
+-[ORKTappingIntervalResult setButtonRect1:]
+-[ORKTappingIntervalResult buttonRect2]
+-[ORKTappingIntervalResult setButtonRect2:]
+-[ORKTappingIntervalResult .cxx_destruct]
+-[ORKFileResult isSaveable]
+-[ORKFileResult encodeWithCoder:]
+-[ORKFileResult initWithCoder:]
+-[ORKFileResult isEqual:]
+-[ORKFileResult hash]
+-[ORKFileResult copyWithZone:]
+-[ORKFileResult description]
+-[ORKFileResult contentType]
+-[ORKFileResult setContentType:]
+-[ORKFileResult fileURL]
+-[ORKFileResult setFileURL:]
+-[ORKFileResult .cxx_destruct]
+-[ORKDataResult isSaveable]
+-[ORKDataResult encodeWithCoder:]
+-[ORKDataResult initWithCoder:]
+-[ORKDataResult isEqual:]
+-[ORKDataResult hash]
+-[ORKDataResult copyWithZone:]
+-[ORKDataResult contentType]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKResult_Private.h
+-[ORKDataResult setContentType:]
+-[ORKDataResult filename]
+-[ORKDataResult setFilename:]
+-[ORKDataResult data]
+-[ORKDataResult setData:]
+-[ORKDataResult .cxx_destruct]
+-[ORKConsentSignatureResult encodeWithCoder:]
+-[ORKConsentSignatureResult initWithCoder:]
+-[ORKConsentSignatureResult copyWithZone:]
+-[ORKConsentSignatureResult isEqual:]
+-[ORKConsentSignatureResult hash]
+-[ORKConsentSignatureResult applyToDocument:]
+___45-[ORKConsentSignatureResult applyToDocument:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKConsentSignatureResult signature]
+-[ORKConsentSignatureResult setSignature:]
+-[ORKConsentSignatureResult .cxx_destruct]
+-[ORKQuestionResult isSaveable]
+-[ORKQuestionResult encodeWithCoder:]
+-[ORKQuestionResult initWithCoder:]
+-[ORKQuestionResult isEqual:]
+-[ORKQuestionResult hash]
+-[ORKQuestionResult copyWithZone:]
+-[ORKQuestionResult _serializableDictionary]
+-[ORKQuestionResult _validateAnswer:]
++[ORKQuestionResult answerClass]
+-[ORKQuestionResult setAnswer:]
+-[ORKQuestionResult answer]
+-[ORKQuestionResult questionType]
+-[ORKQuestionResult setQuestionType:]
+-[ORKScaleQuestionResult encodeWithCoder:]
+-[ORKScaleQuestionResult initWithCoder:]
+-[ORKScaleQuestionResult isEqual:]
+-[ORKScaleQuestionResult hash]
+-[ORKScaleQuestionResult copyWithZone:]
+-[ORKScaleQuestionResult _serializableDictionary]
++[ORKScaleQuestionResult answerClass]
+-[ORKScaleQuestionResult setAnswer:]
+-[ORKScaleQuestionResult answer]
+-[ORKScaleQuestionResult scaleAnswer]
+-[ORKScaleQuestionResult setScaleAnswer:]
+-[ORKScaleQuestionResult .cxx_destruct]
+-[ORKChoiceQuestionResult encodeWithCoder:]
+-[ORKChoiceQuestionResult initWithCoder:]
+-[ORKChoiceQuestionResult isEqual:]
+-[ORKChoiceQuestionResult hash]
+-[ORKChoiceQuestionResult copyWithZone:]
+-[ORKChoiceQuestionResult _serializableDictionary]
++[ORKChoiceQuestionResult answerClass]
+-[ORKChoiceQuestionResult setAnswer:]
+-[ORKChoiceQuestionResult answer]
+-[ORKChoiceQuestionResult choiceAnswers]
+-[ORKChoiceQuestionResult setChoiceAnswers:]
+-[ORKChoiceQuestionResult .cxx_destruct]
+-[ORKBooleanQuestionResult encodeWithCoder:]
+-[ORKBooleanQuestionResult initWithCoder:]
+-[ORKBooleanQuestionResult isEqual:]
+-[ORKBooleanQuestionResult hash]
+-[ORKBooleanQuestionResult copyWithZone:]
+-[ORKBooleanQuestionResult _serializableDictionary]
++[ORKBooleanQuestionResult answerClass]
+-[ORKBooleanQuestionResult setAnswer:]
+-[ORKBooleanQuestionResult answer]
+-[ORKBooleanQuestionResult booleanAnswer]
+-[ORKBooleanQuestionResult setBooleanAnswer:]
+-[ORKBooleanQuestionResult .cxx_destruct]
+-[ORKTextQuestionResult encodeWithCoder:]
+-[ORKTextQuestionResult initWithCoder:]
+-[ORKTextQuestionResult isEqual:]
+-[ORKTextQuestionResult hash]
+-[ORKTextQuestionResult copyWithZone:]
+-[ORKTextQuestionResult _serializableDictionary]
++[ORKTextQuestionResult answerClass]
+-[ORKTextQuestionResult setAnswer:]
+-[ORKTextQuestionResult answer]
+-[ORKTextQuestionResult textAnswer]
+-[ORKTextQuestionResult setTextAnswer:]
+-[ORKTextQuestionResult .cxx_destruct]
+-[ORKNumericQuestionResult encodeWithCoder:]
+-[ORKNumericQuestionResult initWithCoder:]
+-[ORKNumericQuestionResult isEqual:]
+-[ORKNumericQuestionResult hash]
+-[ORKNumericQuestionResult copyWithZone:]
+-[ORKNumericQuestionResult _serializableDictionary]
++[ORKNumericQuestionResult answerClass]
+-[ORKNumericQuestionResult setAnswer:]
+-[ORKNumericQuestionResult answer]
+-[ORKNumericQuestionResult numericAnswer]
+-[ORKNumericQuestionResult setNumericAnswer:]
+-[ORKNumericQuestionResult unit]
+-[ORKNumericQuestionResult setUnit:]
+-[ORKNumericQuestionResult .cxx_destruct]
+-[ORKTimeOfDayQuestionResult encodeWithCoder:]
+-[ORKTimeOfDayQuestionResult initWithCoder:]
+-[ORKTimeOfDayQuestionResult isEqual:]
+-[ORKTimeOfDayQuestionResult hash]
+-[ORKTimeOfDayQuestionResult copyWithZone:]
+-[ORKTimeOfDayQuestionResult _serializableDictionary]
++[ORKTimeOfDayQuestionResult answerClass]
+-[ORKTimeOfDayQuestionResult setAnswer:]
+-[ORKTimeOfDayQuestionResult answer]
+-[ORKTimeOfDayQuestionResult dateComponentsAnswer]
+-[ORKTimeOfDayQuestionResult setDateComponentsAnswer:]
+-[ORKTimeOfDayQuestionResult .cxx_destruct]
+-[ORKTimeIntervalQuestionResult encodeWithCoder:]
+-[ORKTimeIntervalQuestionResult initWithCoder:]
+-[ORKTimeIntervalQuestionResult isEqual:]
+-[ORKTimeIntervalQuestionResult hash]
+-[ORKTimeIntervalQuestionResult copyWithZone:]
+-[ORKTimeIntervalQuestionResult _serializableDictionary]
++[ORKTimeIntervalQuestionResult answerClass]
+-[ORKTimeIntervalQuestionResult setAnswer:]
+-[ORKTimeIntervalQuestionResult answer]
+-[ORKTimeIntervalQuestionResult intervalAnswer]
+-[ORKTimeIntervalQuestionResult setIntervalAnswer:]
+-[ORKTimeIntervalQuestionResult .cxx_destruct]
+-[ORKDateQuestionResult encodeWithCoder:]
+-[ORKDateQuestionResult initWithCoder:]
+-[ORKDateQuestionResult isEqual:]
+-[ORKDateQuestionResult hash]
+-[ORKDateQuestionResult copyWithZone:]
+-[ORKDateQuestionResult _serializableDictionary]
++[ORKDateQuestionResult answerClass]
+-[ORKDateQuestionResult setAnswer:]
+-[ORKDateQuestionResult answer]
+-[ORKDateQuestionResult dateAnswer]
+-[ORKDateQuestionResult setDateAnswer:]
+-[ORKDateQuestionResult calendar]
+-[ORKDateQuestionResult setCalendar:]
+-[ORKDateQuestionResult timeZone]
+-[ORKDateQuestionResult setTimeZone:]
+-[ORKDateQuestionResult .cxx_destruct]
+-[ORKCollectionResult isSaveable]
+-[ORKCollectionResult encodeWithCoder:]
+-[ORKCollectionResult initWithCoder:]
+-[ORKCollectionResult isEqual:]
+-[ORKCollectionResult hash]
+-[ORKCollectionResult _setResultsDeepCopy:]
+___43-[ORKCollectionResult _setResultsDeepCopy:]_block_invoke
+___copy_helper_block_589
+___destroy_helper_block_590
+-[ORKCollectionResult copyWithZone:]
+-[ORKCollectionResult _serializableDictionary]
+-[ORKCollectionResult results]
+-[ORKCollectionResult resultForIdentifier:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___43-[ORKCollectionResult resultForIdentifier:]_block_invoke
+___copy_helper_block_604
+___destroy_helper_block_605
+-[ORKCollectionResult firstResult]
+-[ORKCollectionResult setResults:]
+-[ORKCollectionResult .cxx_destruct]
+-[ORKTaskResult initWithTaskIdentifier:taskRunUUID:outputDirectory:]
+-[ORKTaskResult encodeWithCoder:]
+-[ORKTaskResult initWithCoder:]
+-[ORKTaskResult isEqual:]
+-[ORKTaskResult hash]
+-[ORKTaskResult copyWithZone:]
+-[ORKTaskResult stepResultForStepIdentifier:]
+-[ORKTaskResult taskRunUUID]
+-[ORKTaskResult outputDirectory]
+-[ORKTaskResult .cxx_destruct]
+-[ORKStepResult initWithStepIdentifier:results:]
+GCC_except_table128
+GCC_except_table262
+___block_descriptor_tmp
+___block_descriptor_tmp591
+___block_descriptor_tmp606
+_OBJC_IVAR_$_ORKResult._identifier
+_OBJC_IVAR_$_ORKResult._startDate
+_OBJC_IVAR_$_ORKResult._endDate
+_OBJC_IVAR_$_ORKResult._userInfo
+_OBJC_IVAR_$_ORKTappingSample._timestamp
+_OBJC_IVAR_$_ORKTappingSample._location
+_OBJC_IVAR_$_ORKTappingSample._buttonIdentifier
+_OBJC_IVAR_$_ORKSpatialSpanMemoryGameTouchSample._timestamp
+_OBJC_IVAR_$_ORKSpatialSpanMemoryGameTouchSample._targetIndex
+_OBJC_IVAR_$_ORKSpatialSpanMemoryGameTouchSample._location
+_OBJC_IVAR_$_ORKSpatialSpanMemoryGameTouchSample._correct
+_OBJC_IVAR_$_ORKSpatialSpanMemoryGameRecord._seed
+_OBJC_IVAR_$_ORKSpatialSpanMemoryGameRecord._sequence
+_OBJC_IVAR_$_ORKSpatialSpanMemoryGameRecord._gameSize
+_OBJC_IVAR_$_ORKSpatialSpanMemoryGameRecord._touchSamples
+_OBJC_IVAR_$_ORKSpatialSpanMemoryGameRecord._gameStatus
+_OBJC_IVAR_$_ORKSpatialSpanMemoryGameRecord._score
+_OBJC_IVAR_$_ORKSpatialSpanMemoryGameRecord._targetRects
+_OBJC_IVAR_$_ORKSpatialSpanMemoryResult._score
+_OBJC_IVAR_$_ORKSpatialSpanMemoryResult._numberOfGames
+_OBJC_IVAR_$_ORKSpatialSpanMemoryResult._numberOfFailures
+_OBJC_IVAR_$_ORKSpatialSpanMemoryResult._gameRecords
+_OBJC_IVAR_$_ORKTappingIntervalResult._samples
+_OBJC_IVAR_$_ORKTappingIntervalResult._buttonRect1
+_OBJC_IVAR_$_ORKTappingIntervalResult._buttonRect2
+_OBJC_IVAR_$_ORKTappingIntervalResult._stepViewSize
+_OBJC_IVAR_$_ORKFileResult._fileURL
+_OBJC_IVAR_$_ORKFileResult._contentType
+_OBJC_IVAR_$_ORKDataResult._data
+_OBJC_IVAR_$_ORKDataResult._filename
+_OBJC_IVAR_$_ORKDataResult._contentType
+_OBJC_IVAR_$_ORKConsentSignatureResult._signature
+_OBJC_IVAR_$_ORKQuestionResult._questionType
+_OBJC_IVAR_$_ORKScaleQuestionResult._scaleAnswer
+_OBJC_IVAR_$_ORKChoiceQuestionResult._choiceAnswers
+_OBJC_IVAR_$_ORKBooleanQuestionResult._booleanAnswer
+_OBJC_IVAR_$_ORKTextQuestionResult._textAnswer
+_OBJC_IVAR_$_ORKNumericQuestionResult._numericAnswer
+_OBJC_IVAR_$_ORKNumericQuestionResult._unit
+_OBJC_IVAR_$_ORKTimeOfDayQuestionResult._dateComponentsAnswer
+_OBJC_IVAR_$_ORKTimeIntervalQuestionResult._intervalAnswer
+_OBJC_IVAR_$_ORKDateQuestionResult._calendar
+_OBJC_IVAR_$_ORKDateQuestionResult._timeZone
+_OBJC_IVAR_$_ORKDateQuestionResult._dateAnswer
+_OBJC_IVAR_$_ORKCollectionResult._results
+_OBJC_IVAR_$_ORKTaskResult._taskRunUUID
+_OBJC_IVAR_$_ORKTaskResult._outputDirectory
+_OBJC_CLASS_$_ORKResult
+_OBJC_METACLASS_$_ORKResult
+_OBJC_CLASS_$_ORKTappingSample
+_OBJC_METACLASS_$_ORKTappingSample
+_OBJC_CLASS_$_ORKSpatialSpanMemoryGameTouchSample
+_OBJC_METACLASS_$_ORKSpatialSpanMemoryGameTouchSample
+_OBJC_CLASS_$_ORKSpatialSpanMemoryGameRecord
+_OBJC_METACLASS_$_ORKSpatialSpanMemoryGameRecord
+_OBJC_CLASS_$_ORKSpatialSpanMemoryResult
+_OBJC_METACLASS_$_ORKSpatialSpanMemoryResult
+_OBJC_CLASS_$_ORKTappingIntervalResult
+_OBJC_METACLASS_$_ORKTappingIntervalResult
+_OBJC_CLASS_$_ORKFileResult
+_OBJC_METACLASS_$_ORKFileResult
+_OBJC_CLASS_$_ORKDataResult
+_OBJC_METACLASS_$_ORKDataResult
+_OBJC_CLASS_$_ORKConsentSignatureResult
+_OBJC_METACLASS_$_ORKConsentSignatureResult
+_OBJC_CLASS_$_ORKQuestionResult
+_OBJC_METACLASS_$_ORKQuestionResult
+_OBJC_CLASS_$_ORKScaleQuestionResult
+_OBJC_METACLASS_$_ORKScaleQuestionResult
+_OBJC_CLASS_$_ORKChoiceQuestionResult
+_OBJC_METACLASS_$_ORKChoiceQuestionResult
+_OBJC_CLASS_$_ORKBooleanQuestionResult
+_OBJC_METACLASS_$_ORKBooleanQuestionResult
+_OBJC_CLASS_$_ORKTextQuestionResult
+_OBJC_METACLASS_$_ORKTextQuestionResult
+_OBJC_CLASS_$_ORKNumericQuestionResult
+_OBJC_METACLASS_$_ORKNumericQuestionResult
+_OBJC_CLASS_$_ORKTimeOfDayQuestionResult
+_OBJC_METACLASS_$_ORKTimeOfDayQuestionResult
+_OBJC_CLASS_$_ORKTimeIntervalQuestionResult
+_OBJC_METACLASS_$_ORKTimeIntervalQuestionResult
+_OBJC_CLASS_$_ORKDateQuestionResult
+_OBJC_METACLASS_$_ORKDateQuestionResult
+_OBJC_CLASS_$_ORKCollectionResult
+_OBJC_METACLASS_$_ORKCollectionResult
+_OBJC_CLASS_$_ORKTaskResult
+_OBJC_METACLASS_$_ORKTaskResult
+_OBJC_CLASS_$_ORKStepResult
+_OBJC_METACLASS_$_ORKStepResult
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+_ORKInstructionStepView.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKInstructionStepView.o
+-[_ORKInstructionStepView initWithFrame:]
+-[_ORKInstructionStepView setInstructionStep:]
+-[_ORKInstructionStepView _updateConstraintConstants]
+-[_ORKInstructionStepView instructionStep]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/_ORKInstructionStepView.h
+-[_ORKInstructionStepView instructionImageView]
+-[_ORKInstructionStepView setInstructionImageView:]
+-[_ORKInstructionStepView .cxx_destruct]
+_OBJC_IVAR_$__ORKInstructionStepView._instructionImageView
+_OBJC_IVAR_$__ORKInstructionStepView._instructionStep
+_OBJC_IVAR_$__ORKInstructionStepView._isCompletionStep
+_OBJC_IVAR_$__ORKInstructionStepView._instructionImageHeightConstraint
+_OBJC_CLASS_$__ORKInstructionStepView
+_OBJC_METACLASS_$__ORKInstructionStepView
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKErrors.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKErrors.o
+_ORKErrorDomain
+_ORKInvalidArgumentException
+_ORKAbstractMethodException
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKSurveyAnswerCellForScale.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKSurveyAnswerCellForScale.o
+-[ORKSurveyAnswerCellForScale formatProvider]
+-[ORKSurveyAnswerCellForScale prepareView]
+-[ORKSurveyAnswerCellForScale _answerDidChange]
+-[ORKSurveyAnswerCellForScale updateConstraints]
+-[ORKSurveyAnswerCellForScale sliderValueChanged:]
++[ORKSurveyAnswerCellForScale suggestedCellHeightForView:]
+-[ORKSurveyAnswerCellForScale isAccessibilityElement]
+-[ORKSurveyAnswerCellForScale accessibilityElementCount]
+-[ORKSurveyAnswerCellForScale accessibilityElementAtIndex:]
+-[ORKSurveyAnswerCellForScale indexOfAccessibilityElement:]
+-[ORKSurveyAnswerCellForScale slider]
+-[ORKSurveyAnswerCellForScale setSlider:]
+-[ORKSurveyAnswerCellForScale leftTextLabel]
+-[ORKSurveyAnswerCellForScale setLeftTextLabel:]
+-[ORKSurveyAnswerCellForScale rightTextLabel]
+-[ORKSurveyAnswerCellForScale setRightTextLabel:]
+-[ORKSurveyAnswerCellForScale currentValueLabel]
+-[ORKSurveyAnswerCellForScale setCurrentValueLabel:]
+-[ORKSurveyAnswerCellForScale setFormatProvider:]
+-[ORKSurveyAnswerCellForScale .cxx_destruct]
+_OBJC_IVAR_$_ORKSurveyAnswerCellForScale._formatProvider
+_OBJC_IVAR_$_ORKSurveyAnswerCellForScale._leftTextLabel
+_OBJC_IVAR_$_ORKSurveyAnswerCellForScale._rightTextLabel
+_OBJC_IVAR_$_ORKSurveyAnswerCellForScale._slider
+_OBJC_IVAR_$_ORKSurveyAnswerCellForScale._currentValueLabel
+_OBJC_CLASS_$_ORKSurveyAnswerCellForScale
+_OBJC_METACLASS_$_ORKSurveyAnswerCellForScale
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+_ORKCountdownViewController.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKCountdownViewController.o
++[_ORKCountDownViewLabel defaultFont]
+-[_ORKCountdownView init]
+-[_ORKCountdownView tintColorDidChange]
+-[_ORKCountdownView startAnimateWithDuration:]
+-[_ORKCountdownView isAccessibilityElement]
+-[_ORKCountdownView accessibilityLabel]
+-[_ORKCountdownView accessibilityTraits]
+-[_ORKCountdownView textLabel]
+-[_ORKCountdownView setTextLabel:]
+-[_ORKCountdownView timeLabel]
+-[_ORKCountdownView setTimeLabel:]
+-[_ORKCountdownView progressView]
+-[_ORKCountdownView setProgressView:]
+-[_ORKCountdownView .cxx_destruct]
+-[_ORKCountdownStepViewController initWithStep:]
+-[_ORKCountdownStepViewController setStep:]
+-[_ORKCountdownStepViewController viewDidLoad]
+-[_ORKCountdownStepViewController viewDidAppear:]
+-[_ORKCountdownStepViewController _updateCountdownLabel]
+-[_ORKCountdownStepViewController _countDownTimerFired:finished:]
+___65-[_ORKCountdownStepViewController _countDownTimerFired:finished:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKCountdownStepViewController countdownView]
+-[_ORKCountdownStepViewController setCountdownView:]
+-[_ORKCountdownStepViewController .cxx_destruct]
+___block_descriptor_tmp
+_OBJC_IVAR_$__ORKCountdownView._textLabel
+_OBJC_IVAR_$__ORKCountdownView._timeLabel
+_OBJC_IVAR_$__ORKCountdownView._progressView
+_OBJC_IVAR_$__ORKCountdownView._circleLayer
+_OBJC_IVAR_$__ORKCountdownStepViewController._countDown
+_OBJC_IVAR_$__ORKCountdownStepViewController._countdownView
+_OBJC_METACLASS_$__ORKCountDownViewLabel
+_OBJC_CLASS_$__ORKCountDownViewLabel
+_OBJC_CLASS_$__ORKCountdownView
+_OBJC_METACLASS_$__ORKCountdownView
+_OBJC_CLASS_$__ORKCountdownStepViewController
+_OBJC_METACLASS_$__ORKCountdownStepViewController
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+CLLocation+ORKJSONDictionary.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/CLLocation+ORKJSONDictionary.o
+-[CLLocation(ORKJSONDictionary) _ork_JSONDictionary]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKContinueButton.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKContinueButton.o
+-[ORKContinueButton didMoveToWindow]
+-[ORKContinueButton intrinsicContentSize]
++[ORKContinueButton defaultFont]
+-[ORKContinueButton pointInside:withEvent:]
+-[ORKContinueButton isDoneButton]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKContinueButton.h
+-[ORKContinueButton setIsDoneButton:]
+__ORKContinueButton
+_OBJC_IVAR_$_ORKContinueButton._isDoneButton
+_OBJC_CLASS_$_ORKContinueButton
+_OBJC_METACLASS_$_ORKContinueButton
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+UIBarButtonItem+ORKBarButtonItem.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/UIBarButtonItem+ORKBarButtonItem.o
++[UIBarButtonItem(ORKBarButtonItem) _obk_backBarButtonItemWithTarget:action:]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+ORKPedometerRecorder.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKPedometerRecorder.o
+-[ORKPedometerRecorder initWithStep:outputDirectory:]
+-[ORKPedometerRecorder dealloc]
+-[ORKPedometerRecorder _updateStatisticsWithData:]
+-[ORKPedometerRecorder start]
+___29-[ORKPedometerRecorder start]_block_invoke
+___29-[ORKPedometerRecorder start]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___29-[ORKPedometerRecorder start]_block_invoke55
+___copy_helper_block_56
+___destroy_helper_block_57
+___copy_helper_block_59
+___destroy_helper_block_60
+-[ORKPedometerRecorder _recorderType]
+-[ORKPedometerRecorder stop]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___28-[ORKPedometerRecorder stop]_block_invoke
+___copy_helper_block_69
+___destroy_helper_block_70
+-[ORKPedometerRecorder _doStopRecording]
+-[ORKPedometerRecorder finishRecordingWithError:]
+-[ORKPedometerRecorder isRecording]
+-[ORKPedometerRecorder mimeType]
+-[ORKPedometerRecorder _reset]
+-[ORKPedometerRecorder lastUpdateDate]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/ORKPedometerRecorder.h
+-[ORKPedometerRecorder totalNumberOfSteps]
+-[ORKPedometerRecorder totalDistance]
+-[ORKPedometerRecorder pedometer]
+-[ORKPedometerRecorder setPedometer:]
+-[ORKPedometerRecorder recordingError]
+-[ORKPedometerRecorder setRecordingError:]
+-[ORKPedometerRecorder .cxx_destruct]
+-[ORKPedometerRecorderConfiguration init]
+-[ORKPedometerRecorderConfiguration recorderForStep:outputDirectory:]
+-[ORKPedometerRecorderConfiguration initWithCoder:]
+-[ORKPedometerRecorderConfiguration isEqual:]
+-[ORKPedometerRecorderConfiguration initWithDictionary:]
+-[ORKPedometerRecorderConfiguration requestedPermissionMask]
+GCC_except_table3
+GCC_except_table14
+___block_descriptor_tmp
+___block_descriptor_tmp58
+___block_descriptor_tmp62
+___block_descriptor_tmp72
+_OBJC_IVAR_$_ORKPedometerRecorder._logger
+_OBJC_IVAR_$_ORKPedometerRecorder._lastUpdateDate
+_OBJC_IVAR_$_ORKPedometerRecorder._totalNumberOfSteps
+_OBJC_IVAR_$_ORKPedometerRecorder._totalDistance
+_OBJC_IVAR_$_ORKPedometerRecorder._isRecording
+_OBJC_IVAR_$_ORKPedometerRecorder._pedometer
+_OBJC_IVAR_$_ORKPedometerRecorder._recordingError
+_OBJC_CLASS_$_ORKPedometerRecorder
+_OBJC_METACLASS_$_ORKPedometerRecorder
+_OBJC_CLASS_$_ORKPedometerRecorderConfiguration
+_OBJC_METACLASS_$_ORKPedometerRecorderConfiguration
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKScaleRangeLabel.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKScaleRangeLabel.o
++[ORKScaleRangeLabel defaultFont]
+_OBJC_METACLASS_$_ORKScaleRangeLabel
+_OBJC_CLASS_$_ORKScaleRangeLabel
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+CMPedometerData+ORKJSONDictionary.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/CMPedometerData+ORKJSONDictionary.o
+-[CMPedometerData(ORKJSONDictionary) _ork_JSONDictionary]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+_ORKWalkingTaskStep.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKWalkingTaskStep.o
++[_ORKWalkingTaskStep _stepViewControllerClass]
+-[_ORKWalkingTaskStep validateParameters]
+-[_ORKWalkingTaskStep copyWithZone:]
+-[_ORKWalkingTaskStep startsFinished]
+-[_ORKWalkingTaskStep initWithCoder:]
+-[_ORKWalkingTaskStep encodeWithCoder:]
+-[_ORKWalkingTaskStep isEqual:]
+-[_ORKWalkingTaskStep initWithDictionary:]
+-[_ORKWalkingTaskStep dictionaryValue]
+-[_ORKWalkingTaskStep numberOfStepsPerLeg]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/_ORKWalkingTaskStep.h
+-[_ORKWalkingTaskStep setNumberOfStepsPerLeg:]
+_OBJC_IVAR_$__ORKWalkingTaskStep._numberOfStepsPerLeg
+_OBJC_CLASS_$__ORKWalkingTaskStep
+_OBJC_METACLASS_$__ORKWalkingTaskStep
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+_ORKSpatialSpanGameState.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKSpatialSpanGameState.o
+-[_ORKSpatialSpanGameState initWithGame:]
+-[_ORKSpatialSpanGameState dealloc]
+-[_ORKSpatialSpanGameState reset]
+-[_ORKSpatialSpanGameState enumerateTilesWithHandler:]
+-[_ORKSpatialSpanGameState playTileIndex:]
+-[_ORKSpatialSpanGameState currentStepIndex]
+-[_ORKSpatialSpanGameState lastSuccessfulTileIndex]
+-[_ORKSpatialSpanGameState game]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/_ORKSpatialSpanGameState.h
+-[_ORKSpatialSpanGameState isComplete]
+-[_ORKSpatialSpanGameState .cxx_destruct]
+_OBJC_IVAR_$__ORKSpatialSpanGameState._game
+_OBJC_IVAR_$__ORKSpatialSpanGameState._plays
+_OBJC_IVAR_$__ORKSpatialSpanGameState._states
+_OBJC_IVAR_$__ORKSpatialSpanGameState._complete
+_OBJC_CLASS_$__ORKSpatialSpanGameState
+_OBJC_METACLASS_$__ORKSpatialSpanGameState
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKBodyLabel.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKBodyLabel.o
++[ORKBodyLabel defaultFont]
+_OBJC_METACLASS_$_ORKBodyLabel
+_OBJC_CLASS_$_ORKBodyLabel
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+ORKAudioRecorder.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKAudioRecorder.o
+-[ORKAudioRecorder dealloc]
++[ORKAudioRecorder defaultRecorderSettings]
+-[ORKAudioRecorder initWithRecorderSettings:step:outputDirectory:]
+-[ORKAudioRecorder start]
+-[ORKAudioRecorder stop]
+-[ORKAudioRecorder isRecording]
+-[ORKAudioRecorder mimeType]
+-[ORKAudioRecorder _recorderType]
+-[ORKAudioRecorder _doStopRecording]
+-[ORKAudioRecorder finishRecordingWithError:]
+-[ORKAudioRecorder _extension]
+-[ORKAudioRecorder _recordingFileURL]
+-[ORKAudioRecorder _recreateFileWithError:]
+-[ORKAudioRecorder _reset]
+-[ORKAudioRecorder recorderSettings]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/ORKAudioRecorder.h
+-[ORKAudioRecorder setRecorderSettings:]
+-[ORKAudioRecorder audioRecorder]
+-[ORKAudioRecorder setAudioRecorder:]
+-[ORKAudioRecorder .cxx_destruct]
+-[ORKAudioRecorderConfiguration initWithRecorderSettings:]
+-[ORKAudioRecorderConfiguration recorderForStep:outputDirectory:]
+-[ORKAudioRecorderConfiguration initWithCoder:]
+-[ORKAudioRecorderConfiguration encodeWithCoder:]
+-[ORKAudioRecorderConfiguration isEqual:]
+-[ORKAudioRecorderConfiguration initWithDictionary:]
+-[ORKAudioRecorderConfiguration dictionaryValue]
+-[ORKAudioRecorderConfiguration requestedPermissionMask]
+-[ORKAudioRecorderConfiguration recorderSettings]
+-[ORKAudioRecorderConfiguration .cxx_destruct]
+_OBJC_IVAR_$_ORKAudioRecorder._audioRecorder
+_OBJC_IVAR_$_ORKAudioRecorder._recorderSettings
+_OBJC_IVAR_$_ORKAudioRecorderConfiguration._recorderSettings
+_OBJC_CLASS_$_ORKAudioRecorder
+_OBJC_METACLASS_$_ORKAudioRecorder
+_OBJC_CLASS_$_ORKAudioRecorderConfiguration
+_OBJC_METACLASS_$_ORKAudioRecorderConfiguration
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+_ORKTappingIntervalStepViewController.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKTappingIntervalStepViewController.o
+-[_ORKTappingIntervalStepViewController initWithStep:]
+-[_ORKTappingIntervalStepViewController _initializeInternalButtonItems]
+-[_ORKTappingIntervalStepViewController viewDidLoad]
+-[_ORKTappingIntervalStepViewController viewDidAppear:]
+-[_ORKTappingIntervalStepViewController result]
+-[_ORKTappingIntervalStepViewController _receiveTouch:onButton:]
+-[_ORKTappingIntervalStepViewController stepDidFinish]
+-[_ORKTappingIntervalStepViewController _countDownTimerFired:finished:]
+-[_ORKTappingIntervalStepViewController start]
+-[_ORKTappingIntervalStepViewController buttonPressed:forEvent:]
+-[_ORKTappingIntervalStepViewController gestureRecognizer:shouldReceiveTouch:]
+-[_ORKTappingIntervalStepViewController samples]
+-[_ORKTappingIntervalStepViewController setSamples:]
+-[_ORKTappingIntervalStepViewController .cxx_destruct]
+_OBJC_IVAR_$__ORKTappingIntervalStepViewController._tappingStart
+_OBJC_IVAR_$__ORKTappingIntervalStepViewController._touchDownRecognizer
+_OBJC_IVAR_$__ORKTappingIntervalStepViewController._expired
+_OBJC_IVAR_$__ORKTappingIntervalStepViewController._tappingContentView
+_OBJC_IVAR_$__ORKTappingIntervalStepViewController._buttonRect1
+_OBJC_IVAR_$__ORKTappingIntervalStepViewController._buttonRect2
+_OBJC_IVAR_$__ORKTappingIntervalStepViewController._viewSize
+_OBJC_IVAR_$__ORKTappingIntervalStepViewController._samples
+_OBJC_IVAR_$__ORKTappingIntervalStepViewController._hitButtonCount
+_OBJC_CLASS_$__ORKTappingIntervalStepViewController
+_OBJC_METACLASS_$__ORKTappingIntervalStepViewController
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/
+ORKConsentReviewStepViewController.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKConsentReviewStepViewController.o
+-[ORKConsentReviewStepViewController initWithConsentReviewStep:result:]
+-[ORKConsentReviewStepViewController _stepDidChange]
+-[ORKConsentReviewStepViewController viewDidLoad]
+-[ORKConsentReviewStepViewController viewDidAppear:]
+-[ORKConsentReviewStepViewController _goToPreviousPageButtonItem]
+-[ORKConsentReviewStepViewController _updateNavLeftBarButtonItem]
+-[ORKConsentReviewStepViewController _updateBackButton]
+-[ORKConsentReviewStepViewController _makeNameFormViewController]
+-[ORKConsentReviewStepViewController _makeDocumentReviewViewController]
+-[ORKConsentReviewStepViewController _makeSignatureViewController]
+-[ORKConsentReviewStepViewController _goToPreviousPage]
+-[ORKConsentReviewStepViewController _viewControllerForIndex:]
+-[ORKConsentReviewStepViewController result]
+-[ORKConsentReviewStepViewController consentReviewStep]
+-[ORKConsentReviewStepViewController _notifyDelegateOnResultChange]
+-[ORKConsentReviewStepViewController stepViewController:didFinishWithNavigationDirection:]
+-[ORKConsentReviewStepViewController _navigateDelta:]
+-[ORKConsentReviewStepViewController _goToPage:animated:]
+___57-[ORKConsentReviewStepViewController _goToPage:animated:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKConsentReviewStepViewController stepViewControllerResultDidChange:]
+-[ORKConsentReviewStepViewController stepViewControllerDidFail:withError:]
+-[ORKConsentReviewStepViewController stepViewControllerHasNextStep:]
+-[ORKConsentReviewStepViewController stepViewControllerHasPreviousStep:]
+-[ORKConsentReviewStepViewController consentReviewControllerDidAcknowledge:]
+-[ORKConsentReviewStepViewController consentReviewControllerDidCancel:]
+-[ORKConsentReviewStepViewController consentSignatureControllerDidSign:]
+-[ORKConsentReviewStepViewController consentSignatureControllerDidCancel:]
+-[ORKConsentReviewStepViewController encodeRestorableStateWithCoder:]
+-[ORKConsentReviewStepViewController decodeRestorableStateWithCoder:]
+-[ORKConsentReviewStepViewController .cxx_destruct]
+GCC_except_table17
+___block_descriptor_tmp
+_OBJC_IVAR_$_ORKConsentReviewStepViewController._signatureFirst
+_OBJC_IVAR_$_ORKConsentReviewStepViewController._signatureLast
+_OBJC_IVAR_$_ORKConsentReviewStepViewController._signatureImage
+_OBJC_IVAR_$_ORKConsentReviewStepViewController._documentReviewed
+_OBJC_IVAR_$_ORKConsentReviewStepViewController._currentSignature
+_OBJC_IVAR_$_ORKConsentReviewStepViewController._currentPageIndex
+_OBJC_IVAR_$_ORKConsentReviewStepViewController._pageIndices
+_OBJC_IVAR_$_ORKConsentReviewStepViewController._pageViewController
+_OBJC_CLASS_$_ORKConsentReviewStepViewController
+_OBJC_METACLASS_$_ORKConsentReviewStepViewController
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/
+ORKEAGLMoviePlayerView.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKEAGLMoviePlayerView.o
++[ORKEAGLMoviePlayerView layerClass]
+-[ORKEAGLMoviePlayerView initWithFrame:]
+-[ORKEAGLMoviePlayerView setupGL]
+-[ORKEAGLMoviePlayerView setupBuffers]
+-[ORKEAGLMoviePlayerView cleanUpTextures]
+-[ORKEAGLMoviePlayerView dealloc]
+-[ORKEAGLMoviePlayerView consumePixelBuffer:]
+-[ORKEAGLMoviePlayerView render]
+-[ORKEAGLMoviePlayerView loadShaders]
+-[ORKEAGLMoviePlayerView compileShader:type:URL:]
+-[ORKEAGLMoviePlayerView linkProgram:]
+-[ORKEAGLMoviePlayerView validateProgram:]
+-[ORKEAGLMoviePlayerView preferredRotation]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/ORKEAGLMoviePlayerView.h
+-[ORKEAGLMoviePlayerView setPreferredRotation:]
+-[ORKEAGLMoviePlayerView presentationRect]
+-[ORKEAGLMoviePlayerView setPresentationRect:]
+-[ORKEAGLMoviePlayerView program]
+-[ORKEAGLMoviePlayerView setProgram:]
+-[ORKEAGLMoviePlayerView .cxx_destruct]
+_kColorConversion709
+_kColorConversion601
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._context
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._preferredConversion
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._haveSetup
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._videoTextureCache
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._frameBufferHandle
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._colorBufferHandle
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._backingWidth
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._backingHeight
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._lumaTexture
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._chromaTexture
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._preferredRotation
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._presentationRect
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._program
+_OBJC_CLASS_$_ORKEAGLMoviePlayerView
+_OBJC_METACLASS_$_ORKEAGLMoviePlayerView
+_uniforms
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKCompletionStep.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKCompletionStep.o
++[ORKCompletionStep _stepViewControllerClass]
+_OBJC_METACLASS_$_ORKCompletionStep
+_OBJC_CLASS_$_ORKCompletionStep
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+_ORKFitnessStep.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKFitnessStep.o
++[_ORKFitnessStep _stepViewControllerClass]
+-[_ORKFitnessStep validateParameters]
+-[_ORKFitnessStep copyWithZone:]
+-[_ORKFitnessStep startsFinished]
+_OBJC_CLASS_$__ORKFitnessStep
+_OBJC_METACLASS_$__ORKFitnessStep
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+_ORKTappingContentView.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKTappingContentView.o
+-[_ORKTappingContentView init]
+-[_ORKTappingContentView tintColorDidChange]
+-[_ORKTappingContentView setTapCount:]
+-[_ORKTappingContentView setProgress:animated:]
+___47-[_ORKTappingContentView setProgress:animated:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKTappingContentView resetStep:]
+-[_ORKTappingContentView finishStep:]
+-[_ORKTappingContentView willMoveToWindow:]
+-[_ORKTappingContentView updateConstraints]
+-[_ORKTappingContentView tapButton1]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/_ORKTappingContentView.h
+-[_ORKTappingContentView setTapButton1:]
+-[_ORKTappingContentView tapButton2]
+-[_ORKTappingContentView setTapButton2:]
+-[_ORKTappingContentView tapCaptionLabel]
+-[_ORKTappingContentView setTapCaptionLabel:]
+-[_ORKTappingContentView tapCountLabel]
+-[_ORKTappingContentView setTapCountLabel:]
+-[_ORKTappingContentView progressView]
+-[_ORKTappingContentView setProgressView:]
+-[_ORKTappingContentView .cxx_destruct]
+___block_descriptor_tmp
+_OBJC_IVAR_$__ORKTappingContentView._screenType
+_OBJC_IVAR_$__ORKTappingContentView._tapCaptionLabel
+_OBJC_IVAR_$__ORKTappingContentView._tapCountLabel
+_OBJC_IVAR_$__ORKTappingContentView._buttonContainer
+_OBJC_IVAR_$__ORKTappingContentView._progressView
+_OBJC_IVAR_$__ORKTappingContentView._tapButton1
+_OBJC_IVAR_$__ORKTappingContentView._tapButton2
+_OBJC_IVAR_$__ORKTappingContentView._constraints
+_OBJC_CLASS_$__ORKTappingContentView
+_OBJC_METACLASS_$__ORKTappingContentView
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKAnswerTextField.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKAnswerTextField.o
+-[ORKAnswerTextField init]
+-[ORKAnswerTextField initWithFrame:]
+-[ORKAnswerTextField _init_ORKAnswerTextField]
+-[ORKAnswerTextField _updateAppearance]
+-[ORKAnswerTextField setFieldFont:]
+-[ORKAnswerTextField setFieldTextColor:]
+-[ORKAnswerTextField dealloc]
++[ORKAnswerTextField defaultFont]
+-[ORKAnswerTextField accessibilityValue]
+-[ORKAnswerTextField accessibilityFrame]
+-[ORKAnswerTextField fieldFont]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKAnswerTextField.h
+-[ORKAnswerTextField fieldTextColor]
+-[ORKAnswerTextField .cxx_destruct]
+_OBJC_IVAR_$_ORKAnswerTextField._fieldFont
+_OBJC_IVAR_$_ORKAnswerTextField._fieldTextColor
+_OBJC_CLASS_$_ORKAnswerTextField
+_OBJC_METACLASS_$_ORKAnswerTextField
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+_ORKSpatialSpanMemoryStep.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKSpatialSpanMemoryStep.o
++[_ORKSpatialSpanMemoryStep _stepViewControllerClass]
+-[_ORKSpatialSpanMemoryStep initWithIdentifier:]
+-[_ORKSpatialSpanMemoryStep copyWithZone:]
+-[_ORKSpatialSpanMemoryStep validateParameters]
+-[_ORKSpatialSpanMemoryStep startsFinished]
+-[_ORKSpatialSpanMemoryStep initWithCoder:]
+-[_ORKSpatialSpanMemoryStep encodeWithCoder:]
+-[_ORKSpatialSpanMemoryStep isEqual:]
+-[_ORKSpatialSpanMemoryStep initWithDictionary:]
+-[_ORKSpatialSpanMemoryStep dictionaryValue]
+-[_ORKSpatialSpanMemoryStep _shouldAllowBackNavigation]
+-[_ORKSpatialSpanMemoryStep initialSpan]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/_ORKSpatialSpanMemoryStep.h
+-[_ORKSpatialSpanMemoryStep setInitialSpan:]
+-[_ORKSpatialSpanMemoryStep minimumSpan]
+-[_ORKSpatialSpanMemoryStep setMinimumSpan:]
+-[_ORKSpatialSpanMemoryStep maximumSpan]
+-[_ORKSpatialSpanMemoryStep setMaximumSpan:]
+-[_ORKSpatialSpanMemoryStep playSpeed]
+-[_ORKSpatialSpanMemoryStep setPlaySpeed:]
+-[_ORKSpatialSpanMemoryStep maxTests]
+-[_ORKSpatialSpanMemoryStep setMaxTests:]
+-[_ORKSpatialSpanMemoryStep maxConsecutiveFailures]
+-[_ORKSpatialSpanMemoryStep setMaxConsecutiveFailures:]
+-[_ORKSpatialSpanMemoryStep requireReversal]
+-[_ORKSpatialSpanMemoryStep setRequireReversal:]
+-[_ORKSpatialSpanMemoryStep customTargetImage]
+-[_ORKSpatialSpanMemoryStep setCustomTargetImage:]
+-[_ORKSpatialSpanMemoryStep customTargetPluralName]
+-[_ORKSpatialSpanMemoryStep setCustomTargetPluralName:]
+-[_ORKSpatialSpanMemoryStep .cxx_destruct]
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStep._initialSpan
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStep._minimumSpan
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStep._maximumSpan
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStep._playSpeed
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStep._maxTests
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStep._maxConsecutiveFailures
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStep._requireReversal
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStep._customTargetImage
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStep._customTargetPluralName
+_OBJC_CLASS_$__ORKSpatialSpanMemoryStep
+_OBJC_METACLASS_$__ORKSpatialSpanMemoryStep
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKUnitLabel.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKUnitLabel.o
++[ORKUnitLabel defaultFont]
+_OBJC_METACLASS_$_ORKUnitLabel
+_OBJC_CLASS_$_ORKUnitLabel
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKHelpers.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKHelpers.o
+_ORKCreateRandomBaseURL
+_ORKAssetsBundle
+___ORKAssetsBundle_block_invoke
+__ORKFloorToViewScale
+_ORKStringFromDateISO8601
+___ORKStringFromDateISO8601_block_invoke
+_ORKSignatureStringFromDate
+___ORKSignatureStringFromDate_block_invoke
+_ORKRGB
+_ORKStandardMarginForView
+_ORKFontDescriptorForLightStylisticAlternative
+_ORKTimeFontForSize
+__ORKLightFontWithSize
+_ORKFileProtectionFromMode
+_ORKExpectedLabelHeight
+_ORKAdjustHeightForLabel
+_ORKEnableAutoLayoutForViews
+___ORKEnableAutoLayoutForViews_block_invoke
+_ORKResultDateTimeFormatter
+___ORKResultDateTimeFormatter_block_invoke
+_ORKResultTimeFormatter
+___ORKResultTimeFormatter_block_invoke
+_ORKResultDateFormatter
+___ORKResultDateFormatter_block_invoke
+_ORKTimeOfDayLabelFormatter
+___ORKTimeOfDayLabelFormatter_block_invoke
+__ORKBundle
+_ORKTimeIntervalLabelFormatter
+___ORKTimeIntervalLabelFormatter_block_invoke
+_ORKDurationStringFormatter
+___ORKDurationStringFormatter_block_invoke
+_ORKTimeOfDayReferenceCalendar
+___ORKTimeOfDayReferenceCalendar_block_invoke
+_ORKTimeOfDayStringFromComponents
+___ORKTimeOfDayStringFromComponents_block_invoke
+_ORKTimeOfDayComponentsFromString
+___ORKTimeOfDayComponentsFromString_block_invoke
+_ORKTimeOfDayComponentsFromDate
+_ORKTimeOfDayDateFromComponents
+_ORKWantsWideContentMargins
+_ORKTableViewLeftMargin
+__ORKThinFontWithSize
+__ORKMediumFontWithSize
+___AdjustToScale_block_invoke
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp36
+___block_literal_global37
+___block_descriptor_tmp50
+___block_literal_global51
+___block_descriptor_tmp86
+___block_literal_global87
+___block_descriptor_tmp95
+___block_literal_global96
+___block_descriptor_tmp99
+___block_literal_global100
+___block_descriptor_tmp103
+___block_literal_global104
+___block_descriptor_tmp111
+___block_literal_global112
+___block_descriptor_tmp122
+___block_literal_global123
+___block_descriptor_tmp124
+___block_literal_global125
+___block_descriptor_tmp126
+___block_literal_global127
+___block_descriptor_tmp130
+___block_literal_global131
+___block_descriptor_tmp134
+___block_literal_global135
+___block_descriptor_tmp181
+___block_literal_global182
+_AdjustToScale.__s
+__MergedGlobals
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+_ORKAudioContentView.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKAudioContentView.o
+-[_ORKAudioGraphView initWithFrame:]
+-[_ORKAudioGraphView setValues:]
+-[_ORKAudioGraphView setKeyColor:]
+-[_ORKAudioGraphView setAlertColor:]
+-[_ORKAudioGraphView setAlertThreshold:]
+-[_ORKAudioGraphView drawRect:]
+-[_ORKAudioGraphView keyColor]
+-[_ORKAudioGraphView alertColor]
+-[_ORKAudioGraphView values]
+-[_ORKAudioGraphView alertThreshold]
+-[_ORKAudioGraphView .cxx_destruct]
++[_ORKAudioTimerLabel defaultFont]
+-[_ORKAudioContentView initWithFrame:]
+-[_ORKAudioContentView tintColorDidChange]
+-[_ORKAudioContentView setFinished:]
+-[_ORKAudioContentView _applyKeyColor]
+-[_ORKAudioContentView keyColor]
+-[_ORKAudioContentView setKeyColor:]
+-[_ORKAudioContentView setAlertColor:]
+-[_ORKAudioContentView updateConstraints]
+-[_ORKAudioContentView setAlertThreshold:]
+-[_ORKAudioContentView setTimeLeft:]
+-[_ORKAudioContentView _updateTimerLabel]
+___41-[_ORKAudioContentView _updateTimerLabel]_block_invoke
+-[_ORKAudioContentView _updateGraphSamples]
+-[_ORKAudioContentView _updateAlertLabelHidden]
+-[_ORKAudioContentView setSamples:]
+-[_ORKAudioContentView addSample:]
+-[_ORKAudioContentView removeAllSamples]
+-[_ORKAudioContentView isAccessibilityElement]
+-[_ORKAudioContentView accessibilityLabel]
+-[_ORKAudioContentView accessibilityTraits]
+-[_ORKAudioContentView alertColor]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/_ORKAudioContentView.h
+-[_ORKAudioContentView isFinished]
+-[_ORKAudioContentView timeLeft]
+-[_ORKAudioContentView alertThreshold]
+-[_ORKAudioContentView samples]
+-[_ORKAudioContentView alertLabel]
+-[_ORKAudioContentView setAlertLabel:]
+-[_ORKAudioContentView timerLabel]
+-[_ORKAudioContentView setTimerLabel:]
+-[_ORKAudioContentView graphView]
+-[_ORKAudioContentView setGraphView:]
+-[_ORKAudioContentView .cxx_destruct]
+-[_ORKAudioGraphView drawRect:].lengths
+___block_descriptor_tmp
+___block_literal_global
+_OBJC_IVAR_$__ORKAudioGraphView._values
+_OBJC_IVAR_$__ORKAudioGraphView._keyColor
+_OBJC_IVAR_$__ORKAudioGraphView._alertColor
+_OBJC_IVAR_$__ORKAudioGraphView._alertThreshold
+_OBJC_IVAR_$__ORKAudioContentView._alertLabel
+_OBJC_IVAR_$__ORKAudioContentView._timerLabel
+_OBJC_IVAR_$__ORKAudioContentView._graphView
+_OBJC_IVAR_$__ORKAudioContentView._finished
+_OBJC_IVAR_$__ORKAudioContentView._keyColor
+_OBJC_IVAR_$__ORKAudioContentView._alertColor
+_OBJC_IVAR_$__ORKAudioContentView._constraints
+_OBJC_IVAR_$__ORKAudioContentView._alertThreshold
+_OBJC_IVAR_$__ORKAudioContentView._timeLeft
+_OBJC_IVAR_$__ORKAudioContentView._samples
+_OBJC_CLASS_$__ORKAudioGraphView
+_OBJC_METACLASS_$__ORKAudioGraphView
+_OBJC_METACLASS_$__ORKAudioTimerLabel
+_OBJC_CLASS_$__ORKAudioTimerLabel
+_OBJC_CLASS_$__ORKAudioContentView
+_OBJC_METACLASS_$__ORKAudioContentView
+__MergedGlobals
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+ORKActiveStepViewController.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKActiveStepViewController.o
+-[ORKActiveStepViewController initWithStep:]
+-[ORKActiveStepViewController applicationWillResignActive:]
+-[ORKActiveStepViewController applicationDidBecomeActive:]
+-[ORKActiveStepViewController activeStep]
+-[ORKActiveStepViewController activeStepView]
+-[ORKActiveStepViewController viewDidLoad]
+-[ORKActiveStepViewController _stepDidChange]
+-[ORKActiveStepViewController customViewContainer]
+-[ORKActiveStepViewController imageView]
+-[ORKActiveStepViewController setCustomView:]
+-[ORKActiveStepViewController viewWillAppear:]
+-[ORKActiveStepViewController viewDidAppear:]
+___45-[ORKActiveStepViewController viewDidAppear:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKActiveStepViewController viewWillDisappear:]
+-[ORKActiveStepViewController _updateContinueButtonItem]
+-[ORKActiveStepViewController setContinueButtonItem:]
+-[ORKActiveStepViewController setLearnMoreButtonItem:]
+-[ORKActiveStepViewController setSkipButtonItem:]
+-[ORKActiveStepViewController setFinished:]
+-[ORKActiveStepViewController result]
+-[ORKActiveStepViewController recordersDidChange]
+-[ORKActiveStepViewController recordersWillStart]
+-[ORKActiveStepViewController recordersWillStop]
+-[ORKActiveStepViewController _prepareRecorders]
+-[ORKActiveStepViewController setOutputDirectory:]
+-[ORKActiveStepViewController prepareStep]
+-[ORKActiveStepViewController _startRecorders]
+-[ORKActiveStepViewController _stopRecorders]
+-[ORKActiveStepViewController _playSound]
+-[ORKActiveStepViewController start]
+___36-[ORKActiveStepViewController start]_block_invoke
+___copy_helper_block_188
+___destroy_helper_block_189
+-[ORKActiveStepViewController suspend]
+-[ORKActiveStepViewController resume]
+-[ORKActiveStepViewController finish]
+-[ORKActiveStepViewController dealloc]
+-[ORKActiveStepViewController _resetTimer]
+-[ORKActiveStepViewController _startTimer]
+___42-[ORKActiveStepViewController _startTimer]_block_invoke
+___copy_helper_block_226
+___destroy_helper_block_227
+-[ORKActiveStepViewController _countDownTimerFired:finished:]
+-[ORKActiveStepViewController timerActive]
+-[ORKActiveStepViewController timeRemaining]
+-[ORKActiveStepViewController stepDidFinish]
+-[ORKActiveStepViewController recorder:didCompleteWithResult:]
+-[ORKActiveStepViewController recorder:didFailWithError:]
+-[ORKActiveStepViewController encodeRestorableStateWithCoder:]
+-[ORKActiveStepViewController decodeRestorableStateWithCoder:]
+-[ORKActiveStepViewController customView]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/ORKActiveStepViewController.h
+-[ORKActiveStepViewController isFinished]
+-[ORKActiveStepViewController recorders]
+-[ORKActiveStepViewController setRecorders:]
+-[ORKActiveStepViewController suspendIfInactive]
+-[ORKActiveStepViewController setSuspendIfInactive:]
+-[ORKActiveStepViewController isStarted]
+-[ORKActiveStepViewController setStarted:]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/ORKActiveStepViewController_Internal.h
+-[ORKActiveStepViewController timerUpdateInterval]
+-[ORKActiveStepViewController setTimerUpdateInterval:]
+-[ORKActiveStepViewController .cxx_destruct]
+GCC_except_table40
+___block_descriptor_tmp
+___block_descriptor_tmp190
+___block_descriptor_tmp229
+_OBJC_IVAR_$_ORKActiveStepViewController._recorderResults
+_OBJC_IVAR_$_ORKActiveStepViewController._timerUpdateInterval
+_OBJC_IVAR_$_ORKActiveStepViewController._activeStepView
+_OBJC_IVAR_$_ORKActiveStepViewController._customView
+_OBJC_IVAR_$_ORKActiveStepViewController._finished
+_OBJC_IVAR_$_ORKActiveStepViewController._alertSoundURL
+_OBJC_IVAR_$_ORKActiveStepViewController._alertSound
+_OBJC_IVAR_$_ORKActiveStepViewController._activeStepTimer
+_OBJC_IVAR_$_ORKActiveStepViewController._recorders
+_OBJC_IVAR_$_ORKActiveStepViewController._suspendIfInactive
+_OBJC_IVAR_$_ORKActiveStepViewController._started
+_OBJC_CLASS_$_ORKActiveStepViewController
+_OBJC_METACLASS_$_ORKActiveStepViewController
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKAnswerFormat.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKAnswerFormat.o
+_ORKNullAnswerValue
+__ORKQuestionTypeString
+_ORKNumericAnswerStyleFromString
+_ORKNumericAnswerStyleToString
++[ORKAnswerDefaultSource sourceWithHealthStore:]
+-[ORKAnswerDefaultSource initWithHealthStore:]
+-[ORKAnswerDefaultSource dealloc]
+-[ORKAnswerDefaultSource _healthKitUserPreferencesDidChange:]
+-[ORKAnswerDefaultSource _defaultValueForCharacteristicType:error:]
+-[ORKAnswerDefaultSource _fetchDefaultValueForQuantityType:unit:handler:]
+___73-[ORKAnswerDefaultSource _fetchDefaultValueForQuantityType:unit:handler:]_block_invoke
+___73-[ORKAnswerDefaultSource _fetchDefaultValueForQuantityType:unit:handler:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_87
+___destroy_helper_block_88
+-[ORKAnswerDefaultSource fetchDefaultValueForAnswerFormat:handler:]
+-[ORKAnswerDefaultSource defaultHealthKitUnitForAnswerFormat:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___62-[ORKAnswerDefaultSource defaultHealthKitUnitForAnswerFormat:]_block_invoke
+___copy_helper_block_121
+___destroy_helper_block_122
+-[ORKAnswerDefaultSource updateHealthKitUnitForAnswerFormat:force:]
+-[ORKAnswerDefaultSource healthStore]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKAnswerFormat_Internal.h
+-[ORKAnswerDefaultSource .cxx_destruct]
++[ORKAnswerFormat scaleAnswerFormatWithMaxValue:minValue:step:defaultValue:]
++[ORKAnswerFormat continuousScaleAnswerFormatWithMaxValue:minValue:defaultValue:maximumFractionDigits:]
++[ORKAnswerFormat booleanAnswerFormat]
++[ORKAnswerFormat valuePickerAnswerFormatWithTextChoices:]
++[ORKAnswerFormat choiceAnswerFormatWithImageChoices:]
++[ORKAnswerFormat choiceAnswerFormatWithStyle:textChoices:]
++[ORKAnswerFormat decimalAnswerFormatWithUnit:]
++[ORKAnswerFormat integerAnswerFormatWithUnit:]
++[ORKAnswerFormat timeOfDayAnswerFormat]
++[ORKAnswerFormat timeOfDayAnswerFormatWithDefaultComponents:]
++[ORKAnswerFormat dateTimeAnswerFormat]
++[ORKAnswerFormat dateTimeAnswerFormatWithDefaultDate:minimumDate:maximumDate:calendar:]
++[ORKAnswerFormat dateAnswerFormat]
++[ORKAnswerFormat dateAnswerFormatWithDefaultDate:minimumDate:maximumDate:calendar:]
++[ORKAnswerFormat textAnswerFormat]
++[ORKAnswerFormat textAnswerFormatWithMaximumLength:]
++[ORKAnswerFormat timeIntervalAnswerFormat]
++[ORKAnswerFormat timeIntervalAnswerFormatWithDefaultInterval:step:]
+-[ORKAnswerFormat validateParameters]
++[ORKAnswerFormat supportsSecureCoding]
+-[ORKAnswerFormat initWithCoder:]
+-[ORKAnswerFormat encodeWithCoder:]
+-[ORKAnswerFormat copyWithZone:]
+-[ORKAnswerFormat isEqual:]
+-[ORKAnswerFormat hash]
+-[ORKAnswerFormat _calendar]
+-[ORKAnswerFormat _isHealthKitAnswerFormat]
+-[ORKAnswerFormat _healthKitObjectType]
+-[ORKAnswerFormat _healthKitUnit]
+-[ORKAnswerFormat _healthKitUserUnit]
+-[ORKAnswerFormat _setHealthKitUserUnit:]
+-[ORKAnswerFormat questionType]
+-[ORKAnswerFormat _impliedAnswerFormat]
++[ORKAnswerFormat _questionResultClass]
+-[ORKAnswerFormat _resultWithIdentifier:answer:]
+-[ORKAnswerFormat _isAnswerValidWithString:]
+-[ORKAnswerFormat _localizedInvalidValueStringWithAnswerString:]
+-[ORKAnswerFormat initWithDictionary:]
+-[ORKAnswerFormat dictionaryValue]
+-[ORKValuePickerAnswerFormat initWithTextChoices:]
+__ork_processTextChoices
+-[ORKValuePickerAnswerFormat validateParameters]
+__ork_validateChoices
+-[ORKValuePickerAnswerFormat isEqual:]
+-[ORKValuePickerAnswerFormat hash]
+-[ORKValuePickerAnswerFormat initWithDictionary:]
+-[ORKValuePickerAnswerFormat dictionaryValue]
+-[ORKValuePickerAnswerFormat initWithCoder:]
+-[ORKValuePickerAnswerFormat encodeWithCoder:]
++[ORKValuePickerAnswerFormat _questionResultClass]
+-[ORKValuePickerAnswerFormat questionType]
+-[ORKValuePickerAnswerFormat textChoices]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKAnswerFormat.h
+-[ORKValuePickerAnswerFormat .cxx_destruct]
+-[ORKImageChoiceAnswerFormat initWithImageChoices:]
+-[ORKImageChoiceAnswerFormat validateParameters]
+-[ORKImageChoiceAnswerFormat isEqual:]
+-[ORKImageChoiceAnswerFormat hash]
+-[ORKImageChoiceAnswerFormat initWithDictionary:]
+-[ORKImageChoiceAnswerFormat dictionaryValue]
+-[ORKImageChoiceAnswerFormat initWithCoder:]
+-[ORKImageChoiceAnswerFormat encodeWithCoder:]
+-[ORKImageChoiceAnswerFormat questionType]
++[ORKImageChoiceAnswerFormat _questionResultClass]
+-[ORKImageChoiceAnswerFormat imageChoices]
+-[ORKImageChoiceAnswerFormat .cxx_destruct]
+-[ORKTextChoiceAnswerFormat initWithStyle:textChoices:]
+-[ORKTextChoiceAnswerFormat validateParameters]
+-[ORKTextChoiceAnswerFormat isEqual:]
+-[ORKTextChoiceAnswerFormat hash]
+-[ORKTextChoiceAnswerFormat initWithDictionary:]
+-[ORKTextChoiceAnswerFormat dictionaryValue]
+-[ORKTextChoiceAnswerFormat initWithCoder:]
+-[ORKTextChoiceAnswerFormat encodeWithCoder:]
+-[ORKTextChoiceAnswerFormat questionType]
++[ORKTextChoiceAnswerFormat _questionResultClass]
+-[ORKTextChoiceAnswerFormat style]
+-[ORKTextChoiceAnswerFormat textChoices]
+-[ORKTextChoiceAnswerFormat .cxx_destruct]
++[ORKTextChoice choiceWithText:detailText:value:]
++[ORKTextChoice choiceWithText:value:]
+-[ORKTextChoice initWithText:detailText:value:]
++[ORKTextChoice supportsSecureCoding]
+-[ORKTextChoice copyWithZone:]
+-[ORKTextChoice isEqual:]
+-[ORKTextChoice hash]
+-[ORKTextChoice initWithCoder:]
+-[ORKTextChoice encodeWithCoder:]
+-[ORKTextChoice initWithDictionary:]
+-[ORKTextChoice dictionaryValue]
+-[ORKTextChoice text]
+-[ORKTextChoice value]
+-[ORKTextChoice detailText]
+-[ORKTextChoice .cxx_destruct]
++[ORKImageChoice choiceWithNormalImage:selectedImage:text:value:]
+-[ORKImageChoice initWithNormalImage:selectedImage:text:value:]
++[ORKImageChoice supportsSecureCoding]
+-[ORKImageChoice copyWithZone:]
+-[ORKImageChoice text]
+-[ORKImageChoice value]
+-[ORKImageChoice isEqual:]
+-[ORKImageChoice hash]
+-[ORKImageChoice initWithCoder:]
+-[ORKImageChoice encodeWithCoder:]
+-[ORKImageChoice initWithDictionary:]
+-[ORKImageChoice dictionaryValue]
+-[ORKImageChoice normalStateImage]
+-[ORKImageChoice selectedStateImage]
+-[ORKImageChoice .cxx_destruct]
+-[ORKBooleanAnswerFormat questionType]
++[ORKBooleanAnswerFormat _questionResultClass]
+-[ORKTimeOfDayAnswerFormat init]
+-[ORKTimeOfDayAnswerFormat initWithDefaultComponents:]
+-[ORKTimeOfDayAnswerFormat questionType]
++[ORKTimeOfDayAnswerFormat _questionResultClass]
+-[ORKTimeOfDayAnswerFormat _pickerDefaultDate]
+-[ORKTimeOfDayAnswerFormat isEqual:]
+-[ORKTimeOfDayAnswerFormat hash]
+-[ORKTimeOfDayAnswerFormat initWithCoder:]
+-[ORKTimeOfDayAnswerFormat encodeWithCoder:]
+-[ORKTimeOfDayAnswerFormat initWithDictionary:]
+-[ORKTimeOfDayAnswerFormat dictionaryValue]
+-[ORKTimeOfDayAnswerFormat defaultComponents]
+-[ORKTimeOfDayAnswerFormat .cxx_destruct]
++[ORKDateAnswerFormat _questionResultClass]
+-[ORKDateAnswerFormat initWithStyle:]
+-[ORKDateAnswerFormat initWithStyle:defaultDate:minimumDate:maximumDate:calendar:]
+-[ORKDateAnswerFormat isEqual:]
+-[ORKDateAnswerFormat hash]
+-[ORKDateAnswerFormat _calendar]
+-[ORKDateAnswerFormat _currentCalendar]
+-[ORKDateAnswerFormat _resultDateFormatter]
+-[ORKDateAnswerFormat _stringFromDate:]
+-[ORKDateAnswerFormat _dateFromString:]
+-[ORKDateAnswerFormat _pickerDefaultDate]
+-[ORKDateAnswerFormat _pickerMinimumDate]
+-[ORKDateAnswerFormat _pickerMaximumDate]
+-[ORKDateAnswerFormat initWithCoder:]
+-[ORKDateAnswerFormat encodeWithCoder:]
+-[ORKDateAnswerFormat questionType]
++[ORKDateAnswerFormat initialize]
+___33+[ORKDateAnswerFormat initialize]_block_invoke
+-[ORKDateAnswerFormat initWithDictionary:]
+-[ORKDateAnswerFormat dictionaryValue]
+-[ORKDateAnswerFormat style]
+-[ORKDateAnswerFormat defaultDate]
+-[ORKDateAnswerFormat minimumDate]
+-[ORKDateAnswerFormat maximumDate]
+-[ORKDateAnswerFormat calendar]
+-[ORKDateAnswerFormat .cxx_destruct]
++[ORKNumericAnswerFormat _questionResultClass]
+-[ORKNumericAnswerFormat initWithStyle:]
+-[ORKNumericAnswerFormat initWithStyle:unit:minimum:maximum:]
+-[ORKNumericAnswerFormat initWithCoder:]
+-[ORKNumericAnswerFormat encodeWithCoder:]
+-[ORKNumericAnswerFormat copyWithZone:]
+-[ORKNumericAnswerFormat isEqual:]
+-[ORKNumericAnswerFormat hash]
+-[ORKNumericAnswerFormat initWithDictionary:]
+-[ORKNumericAnswerFormat dictionaryValue]
+-[ORKNumericAnswerFormat initWithStyle:unit:]
++[ORKNumericAnswerFormat decimalAnswerFormatWithUnit:]
++[ORKNumericAnswerFormat integerAnswerFormatWithUnit:]
+-[ORKNumericAnswerFormat questionType]
+-[ORKNumericAnswerFormat _isAnswerValidWithString:]
+-[ORKNumericAnswerFormat _makeNumberFormatter]
+-[ORKNumericAnswerFormat _localizedInvalidValueStringWithAnswerString:]
+-[ORKNumericAnswerFormat _removeDecimalSeparatorsFromText:numAllowed:separator:]
+/Applications/Xcode-OkemoZurs/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+-[ORKNumericAnswerFormat _sanitizedTextFieldText:decimalSeparator:]
+-[ORKNumericAnswerFormat style]
+-[ORKNumericAnswerFormat unit]
+-[ORKNumericAnswerFormat minimum]
+-[ORKNumericAnswerFormat setMinimum:]
+-[ORKNumericAnswerFormat maximum]
+-[ORKNumericAnswerFormat setMaximum:]
+-[ORKNumericAnswerFormat .cxx_destruct]
++[ORKScaleAnswerFormat _questionResultClass]
+-[ORKScaleAnswerFormat initWithMaximumValue:minimumValue:step:defaultValue:]
+-[ORKScaleAnswerFormat _minimumNumber]
+-[ORKScaleAnswerFormat _maximumNumber]
+-[ORKScaleAnswerFormat _defaultNumber]
+-[ORKScaleAnswerFormat _localizedStringForNumber:]
+-[ORKScaleAnswerFormat _numberOfSteps]
+-[ORKScaleAnswerFormat _normalizedValueForNumber:]
+-[ORKScaleAnswerFormat validateParameters]
+-[ORKScaleAnswerFormat initWithCoder:]
+-[ORKScaleAnswerFormat encodeWithCoder:]
+-[ORKScaleAnswerFormat isEqual:]
+-[ORKScaleAnswerFormat questionType]
+-[ORKScaleAnswerFormat initWithDictionary:]
+-[ORKScaleAnswerFormat dictionaryValue]
+-[ORKScaleAnswerFormat maximum]
+-[ORKScaleAnswerFormat minimum]
+-[ORKScaleAnswerFormat step]
+-[ORKScaleAnswerFormat defaultValue]
++[ORKContinuousScaleAnswerFormat _questionResultClass]
+-[ORKContinuousScaleAnswerFormat initWithMaximumValue:minimumValue:defaultValue:maximumFractionDigits:]
+-[ORKContinuousScaleAnswerFormat _minimumNumber]
+-[ORKContinuousScaleAnswerFormat _maximumNumber]
+-[ORKContinuousScaleAnswerFormat _defaultNumber]
+-[ORKContinuousScaleAnswerFormat _localizedStringForNumber:]
+-[ORKContinuousScaleAnswerFormat _numberOfSteps]
+-[ORKContinuousScaleAnswerFormat _normalizedValueForNumber:]
+-[ORKContinuousScaleAnswerFormat validateParameters]
+-[ORKContinuousScaleAnswerFormat initWithCoder:]
+-[ORKContinuousScaleAnswerFormat encodeWithCoder:]
+-[ORKContinuousScaleAnswerFormat isEqual:]
+-[ORKContinuousScaleAnswerFormat questionType]
+-[ORKContinuousScaleAnswerFormat initWithDictionary:]
+-[ORKContinuousScaleAnswerFormat dictionaryValue]
+-[ORKContinuousScaleAnswerFormat maximum]
+-[ORKContinuousScaleAnswerFormat minimum]
+-[ORKContinuousScaleAnswerFormat defaultValue]
+-[ORKContinuousScaleAnswerFormat maximumFractionDigits]
+-[ORKContinuousScaleAnswerFormat .cxx_destruct]
++[ORKTextAnswerFormat _questionResultClass]
+-[ORKTextAnswerFormat initWithMaximumLength:]
+-[ORKTextAnswerFormat init]
+-[ORKTextAnswerFormat questionType]
+-[ORKTextAnswerFormat copyWithZone:]
+-[ORKTextAnswerFormat _isAnswerValidWithString:]
+-[ORKTextAnswerFormat initWithCoder:]
+-[ORKTextAnswerFormat encodeWithCoder:]
+-[ORKTextAnswerFormat isEqual:]
+-[ORKTextAnswerFormat initWithDictionary:]
+-[ORKTextAnswerFormat dictionaryValue]
+-[ORKTextAnswerFormat maximumLength]
+-[ORKTextAnswerFormat multipleLines]
+-[ORKTextAnswerFormat setMultipleLines:]
+-[ORKTextAnswerFormat autocapitalizationType]
+-[ORKTextAnswerFormat setAutocapitalizationType:]
+-[ORKTextAnswerFormat autocorrectionType]
+-[ORKTextAnswerFormat setAutocorrectionType:]
+-[ORKTextAnswerFormat spellCheckingType]
+-[ORKTextAnswerFormat setSpellCheckingType:]
++[ORKTimeIntervalAnswerFormat _questionResultClass]
+-[ORKTimeIntervalAnswerFormat init]
+-[ORKTimeIntervalAnswerFormat initWithDefaultInterval:step:]
+-[ORKTimeIntervalAnswerFormat questionType]
+-[ORKTimeIntervalAnswerFormat _pickerDefaultDuration]
+-[ORKTimeIntervalAnswerFormat validateParameters]
+-[ORKTimeIntervalAnswerFormat initWithCoder:]
+-[ORKTimeIntervalAnswerFormat encodeWithCoder:]
+-[ORKTimeIntervalAnswerFormat isEqual:]
+-[ORKTimeIntervalAnswerFormat initWithDictionary:]
+-[ORKTimeIntervalAnswerFormat dictionaryValue]
+-[ORKTimeIntervalAnswerFormat defaultInterval]
+-[ORKTimeIntervalAnswerFormat step]
+_ORKChoiceAnswerStyleTable
+___ORKChoiceAnswerStyleTable_block_invoke
+_ORKNumericAnswerStyleTable
+___ORKNumericAnswerStyleTable_block_invoke
+GCC_except_table17
+___block_descriptor_tmp
+___block_descriptor_tmp90
+___block_descriptor_tmp124
+___block_descriptor_tmp518
+___block_literal_global
+___block_descriptor_tmp785
+___block_literal_global786
+___block_descriptor_tmp801
+___block_literal_global802
+_OBJC_IVAR_$_ORKAnswerDefaultSource._healthStore
+_OBJC_IVAR_$_ORKAnswerDefaultSource._unitsTable
+_OBJC_IVAR_$_ORKValuePickerAnswerFormat._textChoices
+_OBJC_IVAR_$_ORKImageChoiceAnswerFormat._imageChoices
+_OBJC_IVAR_$_ORKTextChoiceAnswerFormat._style
+_OBJC_IVAR_$_ORKTextChoiceAnswerFormat._textChoices
+_OBJC_IVAR_$_ORKTextChoice._text
+_OBJC_IVAR_$_ORKTextChoice._detailText
+_OBJC_IVAR_$_ORKTextChoice._value
+_OBJC_IVAR_$_ORKImageChoice._text
+_OBJC_IVAR_$_ORKImageChoice._value
+_OBJC_IVAR_$_ORKImageChoice._normalStateImage
+_OBJC_IVAR_$_ORKImageChoice._selectedStateImage
+_OBJC_IVAR_$_ORKTimeOfDayAnswerFormat._defaultComponents
+_OBJC_IVAR_$_ORKDateAnswerFormat._style
+_OBJC_IVAR_$_ORKDateAnswerFormat._defaultDate
+_OBJC_IVAR_$_ORKDateAnswerFormat._minimumDate
+_OBJC_IVAR_$_ORKDateAnswerFormat._maximumDate
+_OBJC_IVAR_$_ORKDateAnswerFormat._calendar
+_OBJC_IVAR_$_ORKNumericAnswerFormat._style
+_OBJC_IVAR_$_ORKNumericAnswerFormat._unit
+_OBJC_IVAR_$_ORKNumericAnswerFormat._minimum
+_OBJC_IVAR_$_ORKNumericAnswerFormat._maximum
+_OBJC_IVAR_$_ORKScaleAnswerFormat._minimum
+_OBJC_IVAR_$_ORKScaleAnswerFormat._maximum
+_OBJC_IVAR_$_ORKScaleAnswerFormat._step
+_OBJC_IVAR_$_ORKScaleAnswerFormat._defaultValue
+_OBJC_IVAR_$_ORKContinuousScaleAnswerFormat._minimum
+_OBJC_IVAR_$_ORKContinuousScaleAnswerFormat._maximum
+_OBJC_IVAR_$_ORKContinuousScaleAnswerFormat._defaultValue
+_OBJC_IVAR_$_ORKContinuousScaleAnswerFormat._maximumFractionDigits
+_OBJC_IVAR_$_ORKContinuousScaleAnswerFormat._numberFormatter
+_OBJC_IVAR_$_ORKTextAnswerFormat._maximumLength
+_OBJC_IVAR_$_ORKTextAnswerFormat._autocapitalizationType
+_OBJC_IVAR_$_ORKTextAnswerFormat._autocorrectionType
+_OBJC_IVAR_$_ORKTextAnswerFormat._spellCheckingType
+_OBJC_IVAR_$_ORKTextAnswerFormat._multipleLines
+_OBJC_IVAR_$_ORKTimeIntervalAnswerFormat._defaultInterval
+_OBJC_IVAR_$_ORKTimeIntervalAnswerFormat._step
+_OBJC_CLASS_$_ORKAnswerDefaultSource
+_OBJC_METACLASS_$_ORKAnswerDefaultSource
+_OBJC_CLASS_$_ORKScaleAnswerFormat
+_OBJC_CLASS_$_ORKContinuousScaleAnswerFormat
+_OBJC_CLASS_$_ORKBooleanAnswerFormat
+_OBJC_CLASS_$_ORKValuePickerAnswerFormat
+_OBJC_CLASS_$_ORKImageChoiceAnswerFormat
+_OBJC_CLASS_$_ORKTextChoiceAnswerFormat
+_OBJC_CLASS_$_ORKNumericAnswerFormat
+_OBJC_CLASS_$_ORKTimeOfDayAnswerFormat
+_OBJC_CLASS_$_ORKDateAnswerFormat
+_OBJC_CLASS_$_ORKTextAnswerFormat
+_OBJC_CLASS_$_ORKTimeIntervalAnswerFormat
+_OBJC_CLASS_$_ORKAnswerFormat
+_OBJC_METACLASS_$_ORKAnswerFormat
+_OBJC_METACLASS_$_ORKValuePickerAnswerFormat
+_OBJC_CLASS_$_ORKImageChoice
+_OBJC_METACLASS_$_ORKImageChoiceAnswerFormat
+_OBJC_METACLASS_$_ORKTextChoiceAnswerFormat
+_OBJC_CLASS_$_ORKTextChoice
+_OBJC_METACLASS_$_ORKTextChoice
+_OBJC_METACLASS_$_ORKImageChoice
+_OBJC_METACLASS_$_ORKBooleanAnswerFormat
+_OBJC_METACLASS_$_ORKTimeOfDayAnswerFormat
+_OBJC_METACLASS_$_ORKDateAnswerFormat
+_OBJC_METACLASS_$_ORKNumericAnswerFormat
+_OBJC_METACLASS_$_ORKScaleAnswerFormat
+_OBJC_METACLASS_$_ORKContinuousScaleAnswerFormat
+_OBJC_METACLASS_$_ORKTextAnswerFormat
+_OBJC_METACLASS_$_ORKTimeIntervalAnswerFormat
+__MergedGlobals
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/
+ORKConsentSharingStepViewController.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKConsentSharingStepViewController.o
+-[ORKConsentSharingStepViewController initWithStep:]
+-[ORKConsentSharingStepViewController setLearnMoreButtonItem:]
+-[ORKConsentSharingStepViewController _consentLearnMoreAction:]
+_OBJC_CLASS_$_ORKConsentSharingStepViewController
+_OBJC_METACLASS_$_ORKConsentSharingStepViewController
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/
+ORKConsentSection+AssetLoading.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKConsentSection+AssetLoading.o
+_ORKMovieURLForConsentSectionType
+_movieNameForType
+_ORKImageForConsentSectionType
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKSurveyAnswerCellForImageSelection.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKSurveyAnswerCellForImageSelection.o
+-[ORKSurveyAnswerCellForImageSelection prepareView]
+-[ORKSurveyAnswerCellForImageSelection selectionViewSelectionDidChange:]
+___72-[ORKSurveyAnswerCellForImageSelection selectionViewSelectionDidChange:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKSurveyAnswerCellForImageSelection _answerDidChange]
+___56-[ORKSurveyAnswerCellForImageSelection _answerDidChange]_block_invoke
+___copy_helper_block_70
+___destroy_helper_block_71
+-[ORKSurveyAnswerCellForImageSelection suggestedCellHeightConstraintsForView:]
+-[ORKSurveyAnswerCellForImageSelection isAccessibilityElement]
+-[ORKSurveyAnswerCellForImageSelection accessibilityElements]
+-[ORKSurveyAnswerCellForImageSelection .cxx_destruct]
+___block_descriptor_tmp
+___block_descriptor_tmp73
+_OBJC_IVAR_$_ORKSurveyAnswerCellForImageSelection._options
+_OBJC_IVAR_$_ORKSurveyAnswerCellForImageSelection._selectionView
+_OBJC_CLASS_$_ORKSurveyAnswerCellForImageSelection
+_OBJC_METACLASS_$_ORKSurveyAnswerCellForImageSelection
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+_ORKImageSelectionView.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKImageSelectionView.o
+-[_ORKChoiceButtonView initWithImageOption:]
+-[_ORKChoiceButtonView button]
+-[_ORKChoiceButtonView setButton:]
+-[_ORKChoiceButtonView labelText]
+-[_ORKChoiceButtonView setLabelText:]
+-[_ORKChoiceButtonView .cxx_destruct]
+-[_ORKImageSelectionView _makeLabel]
+-[_ORKImageSelectionView initWithOptions:]
+-[_ORKImageSelectionView _resetLabelText]
+-[_ORKImageSelectionView _setLabelText:]
+-[_ORKImageSelectionView buttonTapped:]
+___39-[_ORKImageSelectionView buttonTapped:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKImageSelectionView selectedIndexes]
+___41-[_ORKImageSelectionView selectedIndexes]_block_invoke
+___copy_helper_block_159
+___destroy_helper_block_160
+-[_ORKImageSelectionView setSelectedIndexes:]
+___45-[_ORKImageSelectionView setSelectedIndexes:]_block_invoke
+___copy_helper_block_170
+___destroy_helper_block_171
+-[_ORKImageSelectionView isAccessibilityElement]
+-[_ORKImageSelectionView delegate]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/_ORKImageSelectionView.h
+-[_ORKImageSelectionView setDelegate:]
+-[_ORKImageSelectionView .cxx_destruct]
+___block_descriptor_tmp
+___block_descriptor_tmp161
+___block_descriptor_tmp173
+_OBJC_IVAR_$__ORKChoiceButtonView._labelText
+_OBJC_IVAR_$__ORKChoiceButtonView._button
+_OBJC_IVAR_$__ORKImageSelectionView._options
+_OBJC_IVAR_$__ORKImageSelectionView._placeHolderLabel
+_OBJC_IVAR_$__ORKImageSelectionView._choiceLabel
+_OBJC_IVAR_$__ORKImageSelectionView._invisibleLabel
+_OBJC_IVAR_$__ORKImageSelectionView._buttonViews
+_OBJC_IVAR_$__ORKImageSelectionView._delegate
+_OBJC_CLASS_$__ORKChoiceButtonView
+_OBJC_METACLASS_$__ORKChoiceButtonView
+_OBJC_METACLASS_$__ORKImageSelectionView
+_OBJC_CLASS_$__ORKImageSelectionView
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKInstructionStepViewController.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKInstructionStepViewController.o
+-[ORKInstructionStepViewController instructionStep]
+-[ORKInstructionStepViewController _stepDidChange]
+-[ORKInstructionStepViewController viewWillAppear:]
+-[ORKInstructionStepViewController viewDidLoad]
+-[ORKInstructionStepViewController useAppropriateButtonTitleAsLastBeginningInstructionStep]
+-[ORKInstructionStepViewController setContinueButtonItem:]
+-[ORKInstructionStepViewController setLearnMoreButtonItem:]
+-[ORKInstructionStepViewController encodeRestorableStateWithCoder:]
+-[ORKInstructionStepViewController decodeRestorableStateWithCoder:]
+-[ORKInstructionStepViewController stepView]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKInstructionStepViewController_Internal.h
+-[ORKInstructionStepViewController setStepView:]
+-[ORKInstructionStepViewController .cxx_destruct]
+_OBJC_IVAR_$_ORKInstructionStepViewController._stepView
+_OBJC_CLASS_$_ORKInstructionStepViewController
+_OBJC_METACLASS_$_ORKInstructionStepViewController
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+ORKAccelerometerRecorder.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKAccelerometerRecorder.o
+-[ORKAccelerometerRecorder initWithFrequency:step:outputDirectory:]
+-[ORKAccelerometerRecorder dealloc]
+-[ORKAccelerometerRecorder _recorderType]
+-[ORKAccelerometerRecorder setFrequency:]
+-[ORKAccelerometerRecorder start]
+___33-[ORKAccelerometerRecorder start]_block_invoke
+___33-[ORKAccelerometerRecorder start]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_52
+___destroy_helper_block_53
+-[ORKAccelerometerRecorder _userInfo]
+-[ORKAccelerometerRecorder stop]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___32-[ORKAccelerometerRecorder stop]_block_invoke
+___copy_helper_block_67
+___destroy_helper_block_68
+-[ORKAccelerometerRecorder _doStopRecording]
+-[ORKAccelerometerRecorder finishRecordingWithError:]
+-[ORKAccelerometerRecorder _reset]
+-[ORKAccelerometerRecorder isRecording]
+-[ORKAccelerometerRecorder mimeType]
+-[ORKAccelerometerRecorder frequency]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/ORKAccelerometerRecorder.h
+-[ORKAccelerometerRecorder motionManager]
+-[ORKAccelerometerRecorder setMotionManager:]
+-[ORKAccelerometerRecorder uptime]
+-[ORKAccelerometerRecorder setUptime:]
+-[ORKAccelerometerRecorder .cxx_destruct]
+-[ORKAccelerometerRecorderConfiguration initWithFrequency:]
+-[ORKAccelerometerRecorderConfiguration recorderForStep:outputDirectory:]
+-[ORKAccelerometerRecorderConfiguration initWithCoder:]
+-[ORKAccelerometerRecorderConfiguration encodeWithCoder:]
+-[ORKAccelerometerRecorderConfiguration isEqual:]
+-[ORKAccelerometerRecorderConfiguration requestedPermissionMask]
+-[ORKAccelerometerRecorderConfiguration initWithDictionary:]
+-[ORKAccelerometerRecorderConfiguration dictionaryValue]
+-[ORKAccelerometerRecorderConfiguration frequency]
+GCC_except_table12
+___block_descriptor_tmp
+___block_descriptor_tmp55
+___block_descriptor_tmp70
+_OBJC_IVAR_$_ORKAccelerometerRecorder._logger
+_OBJC_IVAR_$_ORKAccelerometerRecorder._frequency
+_OBJC_IVAR_$_ORKAccelerometerRecorder._recordingError
+_OBJC_IVAR_$_ORKAccelerometerRecorder._motionManager
+_OBJC_IVAR_$_ORKAccelerometerRecorder._uptime
+_OBJC_IVAR_$_ORKAccelerometerRecorderConfiguration._frequency
+_OBJC_CLASS_$_ORKAccelerometerRecorder
+_OBJC_METACLASS_$_ORKAccelerometerRecorder
+_OBJC_CLASS_$_ORKAccelerometerRecorderConfiguration
+_OBJC_METACLASS_$_ORKAccelerometerRecorderConfiguration
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+ORKActiveStepTimer.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKActiveStepTimer.o
+-[ORKActiveStepTimer initWithDuration:interval:runtime:handler:]
+-[ORKActiveStepTimer dealloc]
+-[ORKActiveStepTimer runtime]
+___29-[ORKActiveStepTimer runtime]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKActiveStepTimer pause]
+___27-[ORKActiveStepTimer pause]_block_invoke
+___copy_helper_block_13
+___destroy_helper_block_14
+-[ORKActiveStepTimer resume]
+___28-[ORKActiveStepTimer resume]_block_invoke
+___copy_helper_block_18
+___destroy_helper_block_19
+-[ORKActiveStepTimer reset]
+___27-[ORKActiveStepTimer reset]_block_invoke
+___copy_helper_block_23
+___destroy_helper_block_24
+-[ORKActiveStepTimer _queue_runtime]
+__TimeIntervalFromMachTime
+-[ORKActiveStepTimer setDuration:]
+___34-[ORKActiveStepTimer setDuration:]_block_invoke
+___copy_helper_block_26
+___destroy_helper_block_27
+-[ORKActiveStepTimer _hiqueue_event]
+___36-[ORKActiveStepTimer _hiqueue_event]_block_invoke
+___copy_helper_block_31
+___destroy_helper_block_32
+-[ORKActiveStepTimer _queue_event]
+___34-[ORKActiveStepTimer _queue_event]_block_invoke
+___34-[ORKActiveStepTimer _queue_event]_block_invoke_2
+___copy_helper_block_38
+___destroy_helper_block_39
+___copy_helper_block_41
+___destroy_helper_block_42
+-[ORKActiveStepTimer _queue_clearTimer]
+-[ORKActiveStepTimer _queue_releaseBackgroundTask]
+___50-[ORKActiveStepTimer _queue_releaseBackgroundTask]_block_invoke
+-[ORKActiveStepTimer _queue_assertBackgroundTask]
+___49-[ORKActiveStepTimer _queue_assertBackgroundTask]_block_invoke
+___49-[ORKActiveStepTimer _queue_assertBackgroundTask]_block_invoke_2
+___copy_helper_block_50
+___destroy_helper_block_51
+___copy_helper_block_53
+___destroy_helper_block_54
+-[ORKActiveStepTimer _queue_resume]
+___35-[ORKActiveStepTimer _queue_resume]_block_invoke
+___copy_helper_block_63
+___destroy_helper_block_64
+-[ORKActiveStepTimer _queue_pauseAtFinish:]
+-[ORKActiveStepTimer _queue_reset]
+-[ORKActiveStepTimer duration]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/ORKActiveStepTimer.h
+-[ORKActiveStepTimer interval]
+-[ORKActiveStepTimer handler]
+-[ORKActiveStepTimer .cxx_destruct]
+GCC_except_table45
+___block_descriptor_tmp
+___block_descriptor_tmp15
+___block_descriptor_tmp20
+___block_descriptor_tmp25
+___block_descriptor_tmp28
+___block_descriptor_tmp33
+___block_descriptor_tmp40
+___block_descriptor_tmp43
+___block_descriptor_tmp49
+___block_descriptor_tmp52
+___block_descriptor_tmp55
+___block_descriptor_tmp65
+_OBJC_IVAR_$_ORKActiveStepTimer._duration
+_OBJC_IVAR_$_ORKActiveStepTimer._interval
+_OBJC_IVAR_$_ORKActiveStepTimer._handler
+_OBJC_IVAR_$_ORKActiveStepTimer._preExistingRuntime
+_OBJC_IVAR_$_ORKActiveStepTimer._backgroundTaskIdentifier
+_OBJC_IVAR_$_ORKActiveStepTimer._queue
+_OBJC_IVAR_$_ORKActiveStepTimer._timer
+_OBJC_IVAR_$_ORKActiveStepTimer._startTime
+_OBJC_IVAR_$_ORKActiveStepTimer._isRunning
+_OBJC_CLASS_$_ORKActiveStepTimer
+_OBJC_METACLASS_$_ORKActiveStepTimer
+__TimeIntervalFromMachTime.sTimebaseInfo
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/
+ORKConsentSharingStep.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKConsentSharingStep.o
++[ORKConsentSharingStep _stepViewControllerClass]
+-[ORKConsentSharingStep _shouldShowProgress]
+-[ORKConsentSharingStep useSurveyMode]
+-[ORKConsentSharingStep initWithIdentifier:investigatorShortDescription:investigatorLongDescription:localizedLearnMoreHTMLContent:]
+-[ORKConsentSharingStep isEqual:]
+-[ORKConsentSharingStep copyWithZone:]
+-[ORKConsentSharingStep initWithCoder:]
+-[ORKConsentSharingStep encodeWithCoder:]
+-[ORKConsentSharingStep localizedLearnMoreHTMLContent]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/ORKConsentSharingStep.h
+-[ORKConsentSharingStep setLocalizedLearnMoreHTMLContent:]
+-[ORKConsentSharingStep .cxx_destruct]
+_OBJC_IVAR_$_ORKConsentSharingStep._localizedLearnMoreHTMLContent
+_OBJC_CLASS_$_ORKConsentSharingStep
+_OBJC_METACLASS_$_ORKConsentSharingStep
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKSurveyAnswerCellForDateTime.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKSurveyAnswerCellForDateTime.o
++[ORKSurveyAnswerCellForDateTime datePickerForStep:]
+-[ORKSurveyAnswerCellForDateTime dealloc]
+-[ORKSurveyAnswerCellForDateTime _setupPicker]
+-[ORKSurveyAnswerCellForDateTime prepareView]
+-[ORKSurveyAnswerCellForDateTime loadDatePicker]
+-[ORKSurveyAnswerCellForDateTime layoutSubviews]
+-[ORKSurveyAnswerCellForDateTime _impliedAnswerFormat]
+-[ORKSurveyAnswerCellForDateTime _timeOfDayAnswerFormat]
+-[ORKSurveyAnswerCellForDateTime _dateAnswerFormat]
+-[ORKSurveyAnswerCellForDateTime _answerDidChange]
+-[ORKSurveyAnswerCellForDateTime _valueChangedDueUserAction:]
+-[ORKSurveyAnswerCellForDateTime _setAnswer:]
+-[ORKSurveyAnswerCellForDateTime valueChanged:]
+-[ORKSurveyAnswerCellForDateTime _restoreValue:]
++[ORKSurveyAnswerCellForDateTime suggestedCellHeightForView:]
+-[ORKSurveyAnswerCellForDateTime pickerView:rowHeightForComponent:]
+-[ORKSurveyAnswerCellForDateTime picker]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKSurveyAnswerCellForDateTime.h
+-[ORKSurveyAnswerCellForDateTime setPicker:]
+-[ORKSurveyAnswerCellForDateTime .cxx_destruct]
+_OBJC_IVAR_$_ORKSurveyAnswerCellForDateTime._picker
+_OBJC_IVAR_$_ORKSurveyAnswerCellForDateTime._tempPicker
+_OBJC_IVAR_$_ORKSurveyAnswerCellForDateTime._valueChangedDueUserAction
+_OBJC_CLASS_$_ORKSurveyAnswerCellForDateTime
+_OBJC_METACLASS_$_ORKSurveyAnswerCellForDateTime
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKVerticalContainerView.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKVerticalContainerView.o
+-[ORKVerticalContainerView initWithFrame:]
+-[ORKVerticalContainerView _swipeOffAction:]
+-[ORKVerticalContainerView _tapOffAction:]
+-[ORKVerticalContainerView dealloc]
+-[ORKVerticalContainerView _registerForKeyboardNotifications:]
+-[ORKVerticalContainerView willMoveToWindow:]
+-[ORKVerticalContainerView _updateToInsets:]
+-[ORKVerticalContainerView _keyboardIntersectionSizeFromNotification:]
+-[ORKVerticalContainerView _animateLayoutForKeyboardNotification:]
+___66-[ORKVerticalContainerView _animateLayoutForKeyboardNotification:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKVerticalContainerView keyboardFrameWillChange:]
+-[ORKVerticalContainerView keyboardWillShow:]
+-[ORKVerticalContainerView keyboardWillHide:]
+-[ORKVerticalContainerView _updateContinueButtonConstraints]
+-[ORKVerticalContainerView _updateConstraintConstants]
+-[ORKVerticalContainerView setContinueHugsContent:]
+-[ORKVerticalContainerView setVerticalCenteringEnabled:]
+-[ORKVerticalContainerView setStepViewFillsAvailableSpace:]
+-[ORKVerticalContainerView setMinimumStepHeaderHeight:]
+-[ORKVerticalContainerView updateConstraints]
+-[ORKVerticalContainerView _updateStepViewContainerConstraints]
+-[ORKVerticalContainerView _updateCustomViewContainerConstraints]
+-[ORKVerticalContainerView setCustomView:]
+-[ORKVerticalContainerView imageView]
+-[ORKVerticalContainerView setStepView:]
+-[ORKVerticalContainerView setImageView:]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKVerticalContainerView.h
+-[ORKVerticalContainerView customViewContainer]
+-[ORKVerticalContainerView setCustomViewContainer:]
+-[ORKVerticalContainerView stepView]
+-[ORKVerticalContainerView customView]
+-[ORKVerticalContainerView headerView]
+-[ORKVerticalContainerView setHeaderView:]
+-[ORKVerticalContainerView continueSkipContainer]
+-[ORKVerticalContainerView setContinueSkipContainer:]
+-[ORKVerticalContainerView continueHugsContent]
+-[ORKVerticalContainerView verticalCenteringEnabled]
+-[ORKVerticalContainerView stepViewFillsAvailableSpace]
+-[ORKVerticalContainerView minimumStepHeaderHeight]
+-[ORKVerticalContainerView screenType]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKVerticalContainerView_Internal.h
+-[ORKVerticalContainerView .cxx_destruct]
+-[ORKActiveStepView initWithFrame:]
+-[ORKActiveStepView _updateStepView]
+-[ORKActiveStepView setActiveStep:]
+-[ORKActiveStepView updateTitle:text:]
+-[ORKActiveStepView setActiveCustomView:]
+-[ORKActiveStepView activeStep]
+-[ORKActiveStepView activeCustomView]
+-[ORKActiveStepView .cxx_destruct]
+-[ORKContinueSkipContainerView initWithFrame:]
+-[ORKContinueSkipContainerView setTopMargin:]
+-[ORKContinueSkipContainerView setBottomMargin:]
+-[ORKContinueSkipContainerView _skipButtonAction:]
+___50-[ORKContinueSkipContainerView _skipButtonAction:]_block_invoke
+___copy_helper_block_385
+___destroy_helper_block_386
+-[ORKContinueSkipContainerView _continueButtonAction:]
+___54-[ORKContinueSkipContainerView _continueButtonAction:]_block_invoke
+___copy_helper_block_390
+___destroy_helper_block_391
+-[ORKContinueSkipContainerView _continueAction:]
+-[ORKContinueSkipContainerView _skipAction:]
+-[ORKContinueSkipContainerView setNeverHasContinueButton:]
+-[ORKContinueSkipContainerView _neverHasSkipButton]
+-[ORKContinueSkipContainerView _skipButtonHidden]
+-[ORKContinueSkipContainerView _skipButtonAlpha]
+-[ORKContinueSkipContainerView hasContinueOrSkip]
+-[ORKContinueSkipContainerView _updateContinueAndSkipEnabled]
+-[ORKContinueSkipContainerView setContinueEnabled:]
+-[ORKContinueSkipContainerView setSkipButtonItem:]
+-[ORKContinueSkipContainerView setContinueButtonItem:]
+-[ORKContinueSkipContainerView _updateConstraintConstants]
+-[ORKContinueSkipContainerView updateConstraints]
+-[ORKContinueSkipContainerView pointInside:withEvent:]
+-[ORKContinueSkipContainerView skipButtonItem]
+-[ORKContinueSkipContainerView continueButtonItem]
+-[ORKContinueSkipContainerView continueEnabled]
+-[ORKContinueSkipContainerView neverHasContinueButton]
+-[ORKContinueSkipContainerView topMargin]
+-[ORKContinueSkipContainerView bottomMargin]
+-[ORKContinueSkipContainerView continueButton]
+-[ORKContinueSkipContainerView setContinueButton:]
+-[ORKContinueSkipContainerView skipButton]
+-[ORKContinueSkipContainerView setSkipButton:]
+-[ORKContinueSkipContainerView useNextForSkip]
+-[ORKContinueSkipContainerView setUseNextForSkip:]
+-[ORKContinueSkipContainerView isOptional]
+-[ORKContinueSkipContainerView setOptional:]
+-[ORKContinueSkipContainerView .cxx_destruct]
+-[ORKStepHeaderView _updateCaptionLabelPreferredWidth]
+-[ORKStepHeaderView setFrame:]
+-[ORKStepHeaderView setBounds:]
+-[ORKStepHeaderView setLayoutMargins:]
+-[ORKStepHeaderView initWithFrame:]
+-[ORKStepHeaderView willMoveToWindow:]
+-[ORKStepHeaderView _learnMoreAction:]
+-[ORKStepHeaderView setLearnMoreButtonItem:]
+-[ORKStepHeaderView layoutSubviews]
+-[ORKStepHeaderView _updateConstraintConstants]
+-[ORKStepHeaderView setHasContentAbove:]
+-[ORKStepHeaderView updateConstraints]
+-[ORKStepHeaderView learnMoreButtonItem]
+-[ORKStepHeaderView captionLabel]
+-[ORKStepHeaderView setCaptionLabel:]
+-[ORKStepHeaderView learnMoreButton]
+-[ORKStepHeaderView setLearnMoreButton:]
+-[ORKStepHeaderView instructionLabel]
+-[ORKStepHeaderView setInstructionLabel:]
+-[ORKStepHeaderView hasContentAbove]
+-[ORKStepHeaderView .cxx_destruct]
+-[ORKQuestionStepView setQuestionCustomView:]
+-[ORKQuestionStepView setQuestionStep:]
+-[ORKQuestionStepView isAccessibilityElement]
+-[ORKQuestionStepView accessibilityElements]
+-[ORKQuestionStepView questionStep]
+-[ORKQuestionStepView questionCustomView]
+-[ORKQuestionStepView .cxx_destruct]
+-[ORKQuestionStepCellHolderView initWithFrame:]
+-[ORKQuestionStepCellHolderView _tapAction]
+-[ORKQuestionStepCellHolderView setCell:]
+-[ORKQuestionStepCellHolderView cell]
+-[ORKQuestionStepCellHolderView .cxx_destruct]
+___block_descriptor_tmp
+___block_descriptor_tmp387
+___block_descriptor_tmp392
+_OBJC_IVAR_$_ORKVerticalContainerView._screenType
+_OBJC_IVAR_$_ORKVerticalContainerView._scrollContainer
+_OBJC_IVAR_$_ORKVerticalContainerView._container
+_OBJC_IVAR_$_ORKVerticalContainerView._headerView
+_OBJC_IVAR_$_ORKVerticalContainerView._stepViewContainer
+_OBJC_IVAR_$_ORKVerticalContainerView._continueSkipContainer
+_OBJC_IVAR_$_ORKVerticalContainerView._customViewContainer
+_OBJC_IVAR_$_ORKVerticalContainerView._keyboardOverlap
+_OBJC_IVAR_$_ORKVerticalContainerView._keyboardIsUp
+_OBJC_IVAR_$_ORKVerticalContainerView._stepView
+_OBJC_IVAR_$_ORKVerticalContainerView._continueAtBottomConstraint
+_OBJC_IVAR_$_ORKVerticalContainerView._continueHugsContent
+_OBJC_IVAR_$_ORKVerticalContainerView._continueInContentConstraint
+_OBJC_IVAR_$_ORKVerticalContainerView._imageView
+_OBJC_IVAR_$_ORKVerticalContainerView._adjustableConstraints
+_OBJC_IVAR_$_ORKVerticalContainerView._minimumStepHeaderHeight
+_OBJC_IVAR_$_ORKVerticalContainerView._verticalCenteringEnabled
+_OBJC_IVAR_$_ORKVerticalContainerView._stepViewFillsAvailableSpace
+_OBJC_IVAR_$_ORKVerticalContainerView._customViewContainerConstraints
+_OBJC_IVAR_$_ORKVerticalContainerView._customView
+_OBJC_IVAR_$_ORKActiveStepView._imageView
+_OBJC_IVAR_$_ORKActiveStepView._activeCustomView
+_OBJC_IVAR_$_ORKActiveStepView._activeStep
+_OBJC_IVAR_$_ORKContinueSkipContainerView._skipButton
+_OBJC_IVAR_$_ORKContinueSkipContainerView._continueButton
+_OBJC_IVAR_$_ORKContinueSkipContainerView._topMargin
+_OBJC_IVAR_$_ORKContinueSkipContainerView._bottomMargin
+_OBJC_IVAR_$_ORKContinueSkipContainerView._useNextForSkip
+_OBJC_IVAR_$_ORKContinueSkipContainerView._skipButtonItem
+_OBJC_IVAR_$_ORKContinueSkipContainerView._continueButtonItem
+_OBJC_IVAR_$_ORKContinueSkipContainerView._continueButtonJustTapped
+_OBJC_IVAR_$_ORKContinueSkipContainerView._neverHasContinueButton
+_OBJC_IVAR_$_ORKContinueSkipContainerView._continueEnabled
+_OBJC_IVAR_$_ORKContinueSkipContainerView._gapConstraint
+_OBJC_IVAR_$_ORKContinueSkipContainerView._localConstraints
+_OBJC_IVAR_$_ORKContinueSkipContainerView._optional
+_OBJC_IVAR_$_ORKStepHeaderView._screenType
+_OBJC_IVAR_$_ORKStepHeaderView._captionLabel
+_OBJC_IVAR_$_ORKStepHeaderView._instructionLabel
+_OBJC_IVAR_$_ORKStepHeaderView._learnMoreButton
+_OBJC_IVAR_$_ORKStepHeaderView._learnMoreButtonItem
+_OBJC_IVAR_$_ORKStepHeaderView._adjustableConstraints
+_OBJC_IVAR_$_ORKStepHeaderView._hasContentAbove
+_OBJC_IVAR_$_ORKStepHeaderView._myConstraints
+_OBJC_IVAR_$_ORKQuestionStepView._questionCustomView
+_OBJC_IVAR_$_ORKQuestionStepView._questionStep
+_OBJC_IVAR_$_ORKQuestionStepCellHolderView._cell
+_OBJC_CLASS_$_ORKVerticalContainerView
+_OBJC_CLASS_$_ORKStepHeaderView
+_OBJC_CLASS_$_ORKContinueSkipContainerView
+_OBJC_METACLASS_$_ORKVerticalContainerView
+_OBJC_CLASS_$_ORKActiveStepView
+_OBJC_METACLASS_$_ORKActiveStepView
+_OBJC_METACLASS_$_ORKContinueSkipContainerView
+_OBJC_METACLASS_$_ORKStepHeaderView
+_OBJC_METACLASS_$_ORKQuestionStepView
+_OBJC_CLASS_$_ORKQuestionStepView
+_OBJC_CLASS_$_ORKQuestionStepCellHolderView
+_OBJC_METACLASS_$_ORKQuestionStepCellHolderView
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKMediaStepViewController.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKMediaStepViewController.o
+-[ORKMediaOverlayView initWithFrame:]
+_questionLabelWithFrame
+-[ORKMediaOverlayView layoutSubviews]
+-[ORKMediaOverlayView label]
+-[ORKMediaOverlayView setLabel:]
+-[ORKMediaOverlayView .cxx_destruct]
+-[ORKMediaStepViewController initWithStep:]
+-[ORKMediaStepViewController viewDidLoad]
+-[ORKMediaStepViewController dealloc]
+-[ORKMediaStepViewController mediaStep]
+-[ORKMediaStepViewController prepareStep]
+-[ORKMediaStepViewController presentPickerAction]
+-[ORKMediaStepViewController presentPickerAnimated:]
+-[ORKMediaStepViewController viewWillAppear:]
+-[ORKMediaStepViewController viewDidAppear:]
+-[ORKMediaStepViewController canContinue]
+-[ORKMediaStepViewController suspend]
+-[ORKMediaStepViewController resume]
+-[ORKMediaStepViewController hasResult]
+-[ORKMediaStepViewController updateNextButton]
+-[ORKMediaStepViewController result]
+-[ORKMediaStepViewController _generateResultWithCompletion:]
+___60-[ORKMediaStepViewController _generateResultWithCompletion:]_block_invoke
+___60-[ORKMediaStepViewController _generateResultWithCompletion:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_156
+___destroy_helper_block_157
+-[ORKMediaStepViewController _notifyDelegateOnResultChange]
+-[ORKMediaStepViewController addCameraOverlay]
+-[ORKMediaStepViewController removeCameraOverlay]
+-[ORKMediaStepViewController imagePickerController:didFinishPickingMediaWithInfo:]
+___82-[ORKMediaStepViewController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke
+___copy_helper_block_168
+___destroy_helper_block_169
+___82-[ORKMediaStepViewController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke174
+___copy_helper_block_175
+___destroy_helper_block_176
+___82-[ORKMediaStepViewController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke180
+___82-[ORKMediaStepViewController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke_2
+___copy_helper_block_183
+___destroy_helper_block_184
+___copy_helper_block_186
+___destroy_helper_block_187
+-[ORKMediaStepViewController imagePickerControllerDidCancel:]
+-[ORKMediaStepViewController .cxx_destruct]
+___block_descriptor_tmp
+___block_descriptor_tmp158
+___block_descriptor_tmp171
+___block_descriptor_tmp177
+___block_descriptor_tmp185
+___block_descriptor_tmp188
+_OBJC_IVAR_$_ORKMediaOverlayView._label
+_OBJC_IVAR_$_ORKMediaStepViewController._requiresResultToContinue
+_OBJC_IVAR_$_ORKMediaStepViewController._previewView
+_OBJC_IVAR_$_ORKMediaStepViewController._questionLabel
+_OBJC_IVAR_$_ORKMediaStepViewController._pickButton
+_OBJC_IVAR_$_ORKMediaStepViewController._overlayView
+_OBJC_IVAR_$_ORKMediaStepViewController._capturedImage
+_OBJC_IVAR_$_ORKMediaStepViewController._picker
+_OBJC_IVAR_$_ORKMediaStepViewController._haveShownOnAppear
+_OBJC_IVAR_$_ORKMediaStepViewController._dataResult
+_OBJC_IVAR_$_ORKMediaStepViewController._imageShotDate
+_OBJC_IVAR_$_ORKMediaStepViewController._sentResult
+_OBJC_CLASS_$_ORKMediaOverlayView
+_OBJC_METACLASS_$_ORKMediaOverlayView
+_OBJC_CLASS_$_ORKMediaStepViewController
+_OBJC_METACLASS_$_ORKMediaStepViewController
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKCompletionStepViewController.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKCompletionStepViewController.o
+-[ORKCompletionStepView initWithFrame:]
+-[ORKCompletionStepView layoutSubviews]
+-[ORKCompletionStepView intrinsicContentSize]
+-[ORKCompletionStepView sizeThatFits:]
+-[ORKCompletionStepView tintColorDidChange]
+-[ORKCompletionStepView setAnimationPoint:]
+-[ORKCompletionStepView setAnimationPoint:animated:]
+-[ORKCompletionStepView isAccessibilityElement]
+-[ORKCompletionStepView accessibilityTraits]
+-[ORKCompletionStepView animationPoint]
+-[ORKCompletionStepView .cxx_destruct]
+-[ORKCompletionStepViewController _stepDidChange]
+-[ORKCompletionStepViewController viewWillAppear:]
+-[ORKCompletionStepViewController viewDidAppear:]
+-[ORKCompletionStepViewController _updateNavRightBarButtonItem]
+-[ORKCompletionStepViewController setContinueButtonItem:]
+-[ORKCompletionStepViewController .cxx_destruct]
+_OBJC_IVAR_$_ORKCompletionStepView._shapeLayer
+_OBJC_IVAR_$_ORKCompletionStepView._animationPoint
+_OBJC_IVAR_$_ORKCompletionStepViewController._completionStepView
+_OBJC_CLASS_$_ORKCompletionStepView
+_OBJC_METACLASS_$_ORKCompletionStepView
+_OBJC_CLASS_$_ORKCompletionStepViewController
+_OBJC_METACLASS_$_ORKCompletionStepViewController
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKQuestionStepViewController.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKQuestionStepViewController.o
+-[ORKQuestionStepViewController _initializeInternalButtonItems]
+-[ORKQuestionStepViewController initWithStep:result:]
+-[ORKQuestionStepViewController initWithStep:]
+-[ORKQuestionStepViewController _stepDidChange]
+-[ORKQuestionStepViewController viewDidLoad]
+-[ORKQuestionStepViewController _showValidityAlertWithMessage:]
+-[ORKQuestionStepViewController viewWillAppear:]
+___48-[ORKQuestionStepViewController viewWillAppear:]_block_invoke
+___48-[ORKQuestionStepViewController viewWillAppear:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_186
+___destroy_helper_block_187
+-[ORKQuestionStepViewController _answerDidChange]
+-[ORKQuestionStepViewController _refreshDefaults]
+___49-[ORKQuestionStepViewController _refreshDefaults]_block_invoke
+___49-[ORKQuestionStepViewController _refreshDefaults]_block_invoke_2
+___copy_helper_block_202
+___destroy_helper_block_203
+___copy_helper_block_205
+___destroy_helper_block_206
+-[ORKQuestionStepViewController _defaultAnswerDidChange]
+-[ORKQuestionStepViewController viewDidAppear:]
+-[ORKQuestionStepViewController viewWillDisappear:]
+-[ORKQuestionStepViewController setCustomQuestionView:]
+-[ORKQuestionStepViewController _updateButtonStates]
+-[ORKQuestionStepViewController setContinueButtonItem:]
+-[ORKQuestionStepViewController setLearnMoreButtonItem:]
+-[ORKQuestionStepViewController setSkipButtonItem:]
+-[ORKQuestionStepViewController result]
+-[ORKQuestionStepViewController questionStep]
+-[ORKQuestionStepViewController _hasAnswer]
+-[ORKQuestionStepViewController saveAnswer:]
+-[ORKQuestionStepViewController skipForward]
+-[ORKQuestionStepViewController _notifyDelegateOnResultChange]
+-[ORKQuestionStepViewController answer]
+-[ORKQuestionStepViewController setAnswer:]
+-[ORKQuestionStepViewController continueButtonEnabled]
+-[ORKQuestionStepViewController allowContinue]
+-[ORKQuestionStepViewController customQuestionStepView:didChangeAnswer:]
+-[ORKQuestionStepViewController numberOfSectionsInTableView:]
+-[ORKQuestionStepViewController tableView:numberOfRowsInSection:]
+-[ORKQuestionStepViewController _choiceAnswerFormat]
+-[ORKQuestionStepViewController _isChoiceSelected:atIndex:]
+-[ORKQuestionStepViewController _selectedOption]
+-[ORKQuestionStepViewController _answerCellForTableView:]
+___57-[ORKQuestionStepViewController _answerCellForTableView:]_block_invoke
+-[ORKQuestionStepViewController tableView:cellForRowAtIndexPath:]
+-[ORKQuestionStepViewController tableView:willDisplayCell:forRowAtIndexPath:]
+-[ORKQuestionStepViewController _shouldContinue]
+-[ORKQuestionStepViewController goForward]
+-[ORKQuestionStepViewController goBackward]
+-[ORKQuestionStepViewController _continueAction:]
+-[ORKQuestionStepViewController tableView:willSelectRowAtIndexPath:]
+-[ORKQuestionStepViewController tableView:shouldHighlightRowAtIndexPath:]
+-[ORKQuestionStepViewController tableView:didSelectRowAtIndexPath:]
+-[ORKQuestionStepViewController tableView:heightForRowAtIndexPath:]
+-[ORKQuestionStepViewController heightForChoiceItemOptionAtIndex:]
+-[ORKQuestionStepViewController answerCell:answerDidChangeTo:]
+-[ORKQuestionStepViewController answerCell:invalidInputAlertWithMessage:]
+-[ORKQuestionStepViewController encodeRestorableStateWithCoder:]
+-[ORKQuestionStepViewController decodeRestorableStateWithCoder:]
+-[ORKQuestionStepViewController customQuestionView]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKQuestionStepViewController_Private.h
+-[ORKQuestionStepViewController tableView]
+-[ORKQuestionStepViewController setTableView:]
+-[ORKQuestionStepViewController questionView]
+-[ORKQuestionStepViewController setQuestionView:]
+-[ORKQuestionStepViewController answerFormat]
+-[ORKQuestionStepViewController setAnswerFormat:]
+-[ORKQuestionStepViewController continueActionButton]
+-[ORKQuestionStepViewController setContinueActionButton:]
+-[ORKQuestionStepViewController answerCell]
+-[ORKQuestionStepViewController setAnswerCell:]
+-[ORKQuestionStepViewController questionLabel]
+-[ORKQuestionStepViewController promptLabel]
+-[ORKQuestionStepViewController haveChangedAnswer]
+-[ORKQuestionStepViewController setHaveChangedAnswer:]
+-[ORKQuestionStepViewController .cxx_destruct]
+___block_descriptor_tmp
+___block_descriptor_tmp189
+___block_descriptor_tmp204
+___block_descriptor_tmp208
+___block_descriptor_tmp333
+___block_literal_global
+_OBJC_IVAR_$_ORKQuestionStepViewController._defaultSource
+_OBJC_IVAR_$_ORKQuestionStepViewController._answerFormat
+_OBJC_IVAR_$_ORKQuestionStepViewController._tableContainer
+_OBJC_IVAR_$_ORKQuestionStepViewController._tableView
+_OBJC_IVAR_$_ORKQuestionStepViewController._headerView
+_OBJC_IVAR_$_ORKQuestionStepViewController._continueSkipView
+_OBJC_IVAR_$_ORKQuestionStepViewController._questionView
+_OBJC_IVAR_$_ORKQuestionStepViewController._customQuestionView
+_OBJC_IVAR_$_ORKQuestionStepViewController._answer
+_OBJC_IVAR_$_ORKQuestionStepViewController._defaultAnswer
+_OBJC_IVAR_$_ORKQuestionStepViewController._visible
+_OBJC_IVAR_$_ORKQuestionStepViewController._savedSystemCalendar
+_OBJC_IVAR_$_ORKQuestionStepViewController._savedSystemTimeZone
+_OBJC_IVAR_$_ORKQuestionStepViewController._haveChangedAnswer
+_OBJC_IVAR_$_ORKQuestionStepViewController._continueActionButton
+_OBJC_IVAR_$_ORKQuestionStepViewController._answerCell
+_OBJC_IVAR_$_ORKQuestionStepViewController._questionLabel
+_OBJC_IVAR_$_ORKQuestionStepViewController._promptLabel
+_OBJC_CLASS_$_ORKQuestionStepViewController
+_OBJC_METACLASS_$_ORKQuestionStepViewController
+__MergedGlobals
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/
+_ORKConsentReviewController.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKConsentReviewController.o
+-[_ORKConsentReviewController initWithHtml:delegate:]
+-[_ORKConsentReviewController viewDidLoad]
+-[_ORKConsentReviewController cancel]
+-[_ORKConsentReviewController doAck]
+-[_ORKConsentReviewController ack]
+___34-[_ORKConsentReviewController ack]_block_invoke
+___34-[_ORKConsentReviewController ack]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_92
+___destroy_helper_block_93
+-[_ORKConsentReviewController webView]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/_ORKConsentReviewController.h
+-[_ORKConsentReviewController setWebView:]
+-[_ORKConsentReviewController delegate]
+-[_ORKConsentReviewController setDelegate:]
+-[_ORKConsentReviewController localizedReasonForConsent]
+-[_ORKConsentReviewController setLocalizedReasonForConsent:]
+-[_ORKConsentReviewController .cxx_destruct]
+___block_descriptor_tmp
+___block_descriptor_tmp95
+_OBJC_IVAR_$__ORKConsentReviewController._htmlString
+_OBJC_IVAR_$__ORKConsentReviewController._delegate
+_OBJC_IVAR_$__ORKConsentReviewController._toolbar
+_OBJC_IVAR_$__ORKConsentReviewController._webView
+_OBJC_IVAR_$__ORKConsentReviewController._toolbarHeightConstraint
+_OBJC_IVAR_$__ORKConsentReviewController._localizedReasonForConsent
+_OBJC_CLASS_$__ORKConsentReviewController
+_OBJC_METACLASS_$__ORKConsentReviewController
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKFormTextView.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKFormTextView.o
++[ORKFormTextView defaultFont]
+_OBJC_METACLASS_$_ORKFormTextView
+_OBJC_CLASS_$_ORKFormTextView
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKTextButton.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKTextButton.o
++[ORKTextButton buttonWithType:]
+-[ORKTextButton init]
+-[ORKTextButton initWithFrame:]
+-[ORKTextButton _init_ORKTextButton]
+-[ORKTextButton tintColorDidChange]
+-[ORKTextButton _defaultFont]
+-[ORKTextButton setCompressFontSize:]
+-[ORKTextButton _updateAppearance]
+-[ORKTextButton setTitleFont:]
+-[ORKTextButton dealloc]
++[ORKTextButton defaultFont]
+-[ORKTextButton intrinsicContentSize]
+-[ORKTextButton titleFont]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKTextButton.h
+-[ORKTextButton compressFontSize]
+-[ORKTextButton .cxx_destruct]
+_OBJC_IVAR_$_ORKTextButton._compressFontSize
+_OBJC_IVAR_$_ORKTextButton._titleFont
+_OBJC_METACLASS_$_ORKTextButton
+_OBJC_CLASS_$_ORKTextButton
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+ORKDataLogger.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKDataLogger.o
+-[NSURL(ORKDataLogger) _ork_logName]
+-[NSURL(ORKDataLogger) _ork_logDateComponent]
+-[NSURL(ORKDataLogger) _ork_isUploaded]
+-[NSURL(ORKDataLogger) _ork_setUploaded:error:]
+-[NSURL(ORKDataLogger) _ork_dataForAttr:]
+-[NSURL(ORKDataLogger) _ork_setData:forAttr:error:]
+-[NSURL(ORKDataLogger) _ork_logNameInDirectory:]
+-[_ORKObjectObserver initWithObject:keys:selector:]
+-[_ORKObjectObserver observeValueForKeyPath:ofObject:change:context:]
+-[_ORKObjectObserver _stopObserving]
+-[_ORKObjectObserver pause]
+-[_ORKObjectObserver resume]
+-[_ORKObjectObserver dealloc]
+-[_ORKObjectObserver object]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/ORKDataLogger_Private.h
+-[_ORKObjectObserver setObject:]
+-[_ORKObjectObserver .cxx_destruct]
+-[ORKLogFormatter canAcceptLogObjectOfClass:]
+-[ORKLogFormatter canAcceptLogObject:]
+-[ORKLogFormatter beginLogWithFileHandle:error:]
+-[ORKLogFormatter _writeData:fileHandle:error:]
+-[ORKLogFormatter _checkpointWithFileHandle:]
+-[ORKLogFormatter _rollbackToCheckpoint:fileHandle:]
+-[ORKLogFormatter appendObject:fileHandle:error:]
+-[ORKLogFormatter appendObjects:fileHandle:error:]
+-[ORKJSONLogFormatter init]
+___27-[ORKJSONLogFormatter init]_block_invoke
+-[ORKJSONLogFormatter canAcceptLogObjectOfClass:]
+-[ORKJSONLogFormatter canAcceptLogObject:]
+-[ORKJSONLogFormatter beginLogWithFileHandle:error:]
+-[ORKJSONLogFormatter _checkpointWithFileHandle:]
+-[ORKJSONLogFormatter _rollbackToCheckpoint:fileHandle:]
+-[ORKJSONLogFormatter appendObject:fileHandle:error:]
+-[ORKJSONLogFormatter appendObjects:fileHandle:error:]
+___54-[ORKJSONLogFormatter appendObjects:fileHandle:error:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[ORKDataLogger JSONDataLoggerWithDirectory:logName:delegate:]
+-[ORKDataLogger initWithDirectory:logName:formatter:delegate:]
+-[ORKDataLogger _initWithDirectory:configuration:delegate:]
+-[ORKDataLogger _configuration]
+-[ORKDataLogger _setupDirectorySource]
+___38-[ORKDataLogger _setupDirectorySource]_block_invoke
+___38-[ORKDataLogger _setupDirectorySource]_block_invoke_2
+___copy_helper_block_287
+___destroy_helper_block_288
+-[ORKDataLogger fileSizeLimitsDidChange]
+___40-[ORKDataLogger fileSizeLimitsDidChange]_block_invoke
+___copy_helper_block_296
+___destroy_helper_block_297
+___40-[ORKDataLogger fileSizeLimitsDidChange]_block_invoke299
+___copy_helper_block_302
+___destroy_helper_block_303
+-[ORKDataLogger finishCurrentLog]
+___33-[ORKDataLogger finishCurrentLog]_block_invoke
+___copy_helper_block_307
+___destroy_helper_block_308
+-[ORKDataLogger currentLogFileURL]
+-[ORKDataLogger _urlMatchesLogName:]
+-[ORKDataLogger _fileHandle]
+-[ORKDataLogger enumerateLogs:error:]
+___37-[ORKDataLogger enumerateLogs:error:]_block_invoke
+___copy_helper_block_320
+___destroy_helper_block_321
+-[ORKDataLogger _enumerateLogsUploaded:block:error:]
+___52-[ORKDataLogger _enumerateLogsUploaded:block:error:]_block_invoke
+___copy_helper_block_325
+___destroy_helper_block_326
+-[ORKDataLogger enumerateLogsNeedingUpload:error:]
+-[ORKDataLogger enumerateLogsAlreadyUploaded:error:]
+-[ORKDataLogger append:error:]
+___30-[ORKDataLogger append:error:]_block_invoke
+___copy_helper_block_334
+___destroy_helper_block_335
+-[ORKDataLogger appendObjects:error:]
+___37-[ORKDataLogger appendObjects:error:]_block_invoke
+___copy_helper_block_341
+___destroy_helper_block_342
+-[ORKDataLogger markFileUploaded:atURL:error:]
+___46-[ORKDataLogger markFileUploaded:atURL:error:]_block_invoke
+___copy_helper_block_346
+___destroy_helper_block_347
+-[ORKDataLogger removeUploadedFiles:withError:]
+___47-[ORKDataLogger removeUploadedFiles:withError:]_block_invoke
+___copy_helper_block_351
+___destroy_helper_block_352
+-[ORKDataLogger removeAllFilesWithError:]
+___41-[ORKDataLogger removeAllFilesWithError:]_block_invoke
+___copy_helper_block_356
+___destroy_helper_block_357
+-[ORKDataLogger isFileUploadedAtURL:]
+-[ORKDataLogger dealloc]
+-[ORKDataLogger _queue_setNeedsUpdateBytes]
+___43-[ORKDataLogger _queue_setNeedsUpdateBytes]_block_invoke
+___copy_helper_block_364
+___destroy_helper_block_365
+-[ORKDataLogger _directoryUpdated]
+___34-[ORKDataLogger _directoryUpdated]_block_invoke
+___copy_helper_block_369
+___destroy_helper_block_370
+-[ORKDataLogger _queue_enumerateLogs:error:]
+___44-[ORKDataLogger _queue_enumerateLogs:error:]_block_invoke
+___44-[ORKDataLogger _queue_enumerateLogs:error:]_block_invoke_2
+-[ORKDataLogger _queue_enumerateLogsUploaded:block:error:]
+___58-[ORKDataLogger _queue_enumerateLogsUploaded:block:error:]_block_invoke
+___copy_helper_block_396
+___destroy_helper_block_397
+-[ORKDataLogger _queue_makeFileHandleWithError:]
+-[ORKDataLogger _queue_fileHandleWithError:]
++[ORKDataLogger _nextUrlForDirectoryUrl:logName:]
+___49+[ORKDataLogger _nextUrlForDirectoryUrl:logName:]_block_invoke
+-[ORKDataLogger _queue_closeAndRenameLog]
+___41-[ORKDataLogger _queue_closeAndRenameLog]_block_invoke
+___copy_helper_block_459
+___destroy_helper_block_460
+-[ORKDataLogger _queue_rolloverIfNeeded]
+-[ORKDataLogger _queue_rollover]
+-[ORKDataLogger _queue_append:error:]
+-[ORKDataLogger _queue_appendObjects:error:]
+-[ORKDataLogger _queue_markFileUploaded:atURL:error:]
+-[ORKDataLogger _queue_removeUploadedFiles:withError:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___54-[ORKDataLogger _queue_removeUploadedFiles:withError:]_block_invoke
+___copy_helper_block_473
+___destroy_helper_block_474
+-[ORKDataLogger _queue_removeAllFilesWithError:]
+___48-[ORKDataLogger _queue_removeAllFilesWithError:]_block_invoke
+___copy_helper_block_480
+___destroy_helper_block_481
+-[ORKDataLogger _queue_updateBytes]
+___35-[ORKDataLogger _queue_updateBytes]_block_invoke
+___copy_helper_block_487
+___destroy_helper_block_488
+-[ORKDataLogger delegate]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/ORKDataLogger.h
+-[ORKDataLogger setDelegate:]
+-[ORKDataLogger logFormatter]
+-[ORKDataLogger _setLogFormatter:]
+-[ORKDataLogger maximumCurrentLogFileSize]
+-[ORKDataLogger setMaximumCurrentLogFileSize:]
+-[ORKDataLogger maximumCurrentLogFileLifetime]
+-[ORKDataLogger setMaximumCurrentLogFileLifetime:]
+-[ORKDataLogger pendingBytes]
+-[ORKDataLogger setPendingBytes:]
+-[ORKDataLogger uploadedBytes]
+-[ORKDataLogger setUploadedBytes:]
+-[ORKDataLogger fileProtectionMode]
+-[ORKDataLogger setFileProtectionMode:]
+-[ORKDataLogger logName]
+-[ORKDataLogger _setLogName:]
+-[ORKDataLogger .cxx_destruct]
+-[ORKDataLoggerManager initWithDirectory:delegate:]
+-[ORKDataLoggerManager _loadConfiguration:]
+-[ORKDataLoggerManager _queue_configuration]
+-[ORKDataLoggerManager _queue_synchronizeConfiguration]
+-[ORKDataLoggerManager _configurationDidChange]
+___47-[ORKDataLoggerManager _configurationDidChange]_block_invoke
+___copy_helper_block_618
+___destroy_helper_block_619
+-[ORKDataLoggerManager addJSONDataLoggerForLogName:]
+-[ORKDataLoggerManager _queue_addDataLoggerForLogName:formatter:]
+-[ORKDataLoggerManager addDataLoggerForLogName:formatter:]
+___58-[ORKDataLoggerManager addDataLoggerForLogName:formatter:]_block_invoke
+___copy_helper_block_627
+___destroy_helper_block_628
+-[ORKDataLoggerManager _queue_removeDataLogger:]
+-[ORKDataLoggerManager removeDataLogger:]
+___41-[ORKDataLoggerManager removeDataLogger:]_block_invoke
+___copy_helper_block_637
+___destroy_helper_block_638
+-[ORKDataLoggerManager dataLoggerForLogName:]
+___45-[ORKDataLoggerManager dataLoggerForLogName:]_block_invoke
+___copy_helper_block_640
+___destroy_helper_block_641
+-[ORKDataLoggerManager logNames]
+___32-[ORKDataLoggerManager logNames]_block_invoke
+___copy_helper_block_645
+___destroy_helper_block_646
+-[ORKDataLoggerManager _queue_enumerateLogsNeedingUpload:error:]
+___64-[ORKDataLoggerManager _queue_enumerateLogsNeedingUpload:error:]_block_invoke
+___copy_helper_block_648
+___destroy_helper_block_649
+___64-[ORKDataLoggerManager _queue_enumerateLogsNeedingUpload:error:]_block_invoke652
+-[ORKDataLoggerManager enumerateLogsNeedingUpload:error:]
+___57-[ORKDataLoggerManager enumerateLogsNeedingUpload:error:]_block_invoke
+___copy_helper_block_661
+___destroy_helper_block_662
+-[ORKDataLoggerManager _queue_removeUploadedFiles:error:]
+-[ORKDataLoggerManager removeUploadedFiles:error:]
+___50-[ORKDataLoggerManager removeUploadedFiles:error:]_block_invoke
+___copy_helper_block_671
+___destroy_helper_block_672
+-[ORKDataLoggerManager _queue_unmarkUploadedFiles:error:]
+-[ORKDataLoggerManager unmarkUploadedFiles:error:]
+___50-[ORKDataLoggerManager unmarkUploadedFiles:error:]_block_invoke
+___copy_helper_block_677
+___destroy_helper_block_678
+-[ORKDataLoggerManager _queue_removeOldAndUploadedLogsToThreshold:error:]
+___73-[ORKDataLoggerManager _queue_removeOldAndUploadedLogsToThreshold:error:]_block_invoke
+___copy_helper_block_682
+___destroy_helper_block_683
+___73-[ORKDataLoggerManager _queue_removeOldAndUploadedLogsToThreshold:error:]_block_invoke686
+___copy_helper_block_687
+___destroy_helper_block_688
+-[ORKDataLoggerManager removeOldAndUploadedLogsToThreshold:error:]
+___66-[ORKDataLoggerManager removeOldAndUploadedLogsToThreshold:error:]_block_invoke
+___copy_helper_block_695
+___destroy_helper_block_696
+-[ORKDataLoggerManager _queue_updateBytes]
+-[ORKDataLoggerManager _setNeedsUpdateBytes]
+___44-[ORKDataLoggerManager _setNeedsUpdateBytes]_block_invoke
+___copy_helper_block_708
+___destroy_helper_block_709
+-[ORKDataLoggerManager dataLogger:finishedLogFile:]
+-[ORKDataLoggerManager dataLoggerByteCountsDidChange:]
+___54-[ORKDataLoggerManager dataLoggerByteCountsDidChange:]_block_invoke
+___copy_helper_block_711
+___destroy_helper_block_712
+-[ORKDataLoggerManager dataLoggerThresholdsDidChange:]
+-[ORKDataLoggerManager delegate]
+-[ORKDataLoggerManager setDelegate:]
+-[ORKDataLoggerManager pendingUploadBytesThreshold]
+-[ORKDataLoggerManager setPendingUploadBytesThreshold:]
+-[ORKDataLoggerManager totalBytesThreshold]
+-[ORKDataLoggerManager setTotalBytesThreshold:]
+-[ORKDataLoggerManager pendingUploadBytes]
+-[ORKDataLoggerManager setPendingUploadBytes:]
+-[ORKDataLoggerManager totalBytes]
+-[ORKDataLoggerManager setTotalBytes:]
+-[ORKDataLoggerManager .cxx_destruct]
+GCC_except_table19
+GCC_except_table32
+GCC_except_table119
+GCC_except_table129
+GCC_except_table177
+GCC_except_table196
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp193
+___block_descriptor_tmp284
+___block_descriptor_tmp289
+___block_descriptor_tmp298
+___block_descriptor_tmp304
+___block_descriptor_tmp309
+___block_descriptor_tmp322
+___block_descriptor_tmp327
+___block_descriptor_tmp336
+___block_descriptor_tmp343
+___block_descriptor_tmp348
+___block_descriptor_tmp353
+___block_descriptor_tmp358
+___block_descriptor_tmp366
+___block_descriptor_tmp371
+___block_descriptor_tmp372
+___block_literal_global373
+___block_descriptor_tmp392
+___block_literal_global393
+___block_descriptor_tmp399
+___block_descriptor_tmp434
+___block_literal_global435
+___block_descriptor_tmp461
+___block_descriptor_tmp475
+___block_descriptor_tmp482
+___block_descriptor_tmp489
+___block_descriptor_tmp620
+___block_descriptor_tmp629
+___block_descriptor_tmp639
+___block_descriptor_tmp642
+___block_descriptor_tmp647
+___block_descriptor_tmp650
+___block_descriptor_tmp654
+___block_literal_global655
+___block_descriptor_tmp663
+___block_descriptor_tmp673
+___block_descriptor_tmp679
+___block_descriptor_tmp684
+___block_descriptor_tmp690
+___block_descriptor_tmp697
+___block_descriptor_tmp710
+___block_descriptor_tmp713
+_OBJC_IVAR_$__ORKObjectObserver._keys
+_OBJC_IVAR_$__ORKObjectObserver._selector
+_OBJC_IVAR_$__ORKObjectObserver._observing
+_OBJC_IVAR_$__ORKObjectObserver._object
+_OBJC_IVAR_$_ORKLogFormatter._checkpoint
+_OBJC_IVAR_$_ORKDataLogger._url
+_OBJC_IVAR_$_ORKDataLogger._queue
+_OBJC_IVAR_$_ORKDataLogger._directoryUpdateGroup
+_OBJC_IVAR_$_ORKDataLogger._logName
+_OBJC_IVAR_$_ORKDataLogger._oldLogsPrefix
+_OBJC_IVAR_$_ORKDataLogger._observer
+_OBJC_IVAR_$_ORKDataLogger._directorySource
+_OBJC_IVAR_$_ORKDataLogger._currentFileHandle
+_OBJC_IVAR_$_ORKDataLogger._directoryDirty
+_OBJC_IVAR_$_ORKDataLogger._delegate
+_OBJC_IVAR_$_ORKDataLogger._logFormatter
+_OBJC_IVAR_$_ORKDataLogger._maximumCurrentLogFileSize
+_OBJC_IVAR_$_ORKDataLogger._maximumCurrentLogFileLifetime
+_OBJC_IVAR_$_ORKDataLogger._pendingBytes
+_OBJC_IVAR_$_ORKDataLogger._uploadedBytes
+_OBJC_IVAR_$_ORKDataLogger._fileProtectionMode
+_OBJC_IVAR_$_ORKDataLoggerManager._directory
+_OBJC_IVAR_$_ORKDataLoggerManager._delegate
+_OBJC_IVAR_$_ORKDataLoggerManager._updateBytesGroup
+_OBJC_IVAR_$_ORKDataLoggerManager._queue
+_OBJC_IVAR_$_ORKDataLoggerManager._observer
+_OBJC_IVAR_$_ORKDataLoggerManager._records
+_OBJC_IVAR_$_ORKDataLoggerManager._pendingUploadDelegateSent
+_OBJC_IVAR_$_ORKDataLoggerManager._totalBytesDelegateSent
+_OBJC_IVAR_$_ORKDataLoggerManager._pendingUploadBytesThreshold
+_OBJC_IVAR_$_ORKDataLoggerManager._totalBytesThreshold
+_OBJC_IVAR_$_ORKDataLoggerManager._pendingUploadBytes
+_OBJC_IVAR_$_ORKDataLoggerManager._totalBytes
+_OBJC_IVAR_$_ORKDataLoggerManager._observers
+_OBJC_IVAR_$_ORKDataLoggerManager._updateBytesPending
+_OBJC_CLASS_$__ORKObjectObserver
+_OBJC_METACLASS_$__ORKObjectObserver
+_OBJC_METACLASS_$_ORKLogFormatter
+_OBJC_CLASS_$_ORKLogFormatter
+_OBJC_CLASS_$_ORKJSONLogFormatter
+_OBJC_METACLASS_$_ORKJSONLogFormatter
+_OBJC_CLASS_$_ORKDataLogger
+_OBJC_METACLASS_$_ORKDataLogger
+_OBJC_CLASS_$_ORKDataLoggerManager
+_OBJC_METACLASS_$_ORKDataLoggerManager
+_ORKObjectObserverContext
+__MergedGlobals
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKCustomStepView.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKCustomStepView.o
+-[ORKActiveStepCustomView resetStep:]
+-[ORKActiveStepCustomView startStep:]
+-[ORKActiveStepCustomView suspendStep:]
+-[ORKActiveStepCustomView resumeStep:]
+-[ORKActiveStepCustomView finishStep:]
+-[ORKActiveStepCustomView updateDisplay:]
+-[ORKActiveStepCustomView activeStepViewController]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKCustomStepView_Internal.h
+-[ORKActiveStepCustomView setActiveStepViewController:]
+-[ORKActiveStepCustomView .cxx_destruct]
+-[ORKQuestionStepCustomView delegate]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKCustomStepView.h
+-[ORKQuestionStepCustomView setDelegate:]
+-[ORKQuestionStepCustomView answer]
+-[ORKQuestionStepCustomView setAnswer:]
+-[ORKQuestionStepCustomView .cxx_destruct]
+_OBJC_IVAR_$_ORKActiveStepCustomView._activeStepViewController
+_OBJC_IVAR_$_ORKQuestionStepCustomView._delegate
+_OBJC_IVAR_$_ORKQuestionStepCustomView._answer
+_OBJC_METACLASS_$_ORKActiveStepCustomView
+_OBJC_CLASS_$_ORKActiveStepCustomView
+_OBJC_METACLASS_$_ORKQuestionStepCustomView
+_OBJC_CLASS_$_ORKQuestionStepCustomView
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/
+_ORKAudioStep.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/_ORKAudioStep.o
++[_ORKAudioStep _stepViewControllerClass]
+-[_ORKAudioStep validateParameters]
+-[_ORKAudioStep copyWithZone:]
+-[_ORKAudioStep startsFinished]
+-[_ORKAudioStep initWithCoder:]
+-[_ORKAudioStep encodeWithCoder:]
+-[_ORKAudioStep isEqual:]
+-[_ORKAudioStep initWithDictionary:]
+-[_ORKAudioStep dictionaryValue]
+-[_ORKAudioStep duration]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/ActiveTasks/_ORKAudioStep.h
+-[_ORKAudioStep setDuration:]
+_OBJC_IVAR_$__ORKAudioStep._duration
+_OBJC_CLASS_$__ORKAudioStep
+_OBJC_METACLASS_$__ORKAudioStep
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKOrderedTask.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKOrderedTask.o
+_ORKTaskProgressMake
+-[ORKOrderedTask initWithIdentifier:steps:]
+-[ORKOrderedTask copyWithZone:]
+-[ORKOrderedTask isEqual:]
+-[ORKOrderedTask hash]
+-[ORKOrderedTask identifier]
+-[ORKOrderedTask _indexOfStep:]
+-[ORKOrderedTask stepAfterStep:withResult:]
+-[ORKOrderedTask stepBeforeStep:withResult:]
+-[ORKOrderedTask stepWithIdentifier:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___37-[ORKOrderedTask stepWithIdentifier:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKOrderedTask progressOfCurrentStep:withResult:]
+-[ORKOrderedTask requestedHealthKitTypesForReading]
+-[ORKOrderedTask requestedHealthKitTypesForWriting]
+-[ORKOrderedTask requestedPermissions]
+-[ORKOrderedTask providesBackgroundAudioPrompts]
++[ORKOrderedTask supportsSecureCoding]
+-[ORKOrderedTask encodeWithCoder:]
+-[ORKOrderedTask initWithCoder:]
+-[ORKOrderedTask initWithDictionary:]
+-[ORKOrderedTask dictionaryValue]
++[ORKOrderedTask _makeCompletionStep]
++[ORKOrderedTask twoFingerTappingIntervalTaskWithIdentifier:intendedUseDescription:duration:options:]
+_ORKStepArrayAddStep
++[ORKOrderedTask audioTaskWithIdentifier:intendedUseDescription:speechInstruction:shortSpeechInstruction:duration:recordingSettings:options:]
++[ORKOrderedTask _textTimeFormatter]
++[ORKOrderedTask fitnessCheckTaskWithIdentifier:intendedUseDescription:walkDuration:restDuration:options:]
++[ORKOrderedTask shortWalkTaskWithIdentifier:intendedUseDescription:numberOfStepsPerLeg:restDuration:options:]
++[ORKOrderedTask spatialSpanMemoryTaskWithIdentifier:intendedUseDescription:initialSpan:minimumSpan:maximumSpan:playSpeed:maxTests:maxConsecutiveFailures:customTargetImage:customTargetPluralName:requireReversal:options:]
+-[ORKOrderedTask steps]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKOrderedTask.h
+-[ORKOrderedTask .cxx_destruct]
+_____ORKArrayDeepCopy_block_invoke
+___copy_helper_block_440
+___destroy_helper_block_441
+GCC_except_table9
+___block_descriptor_tmp
+___block_descriptor_tmp443
+_OBJC_IVAR_$_ORKOrderedTask._identifier
+_OBJC_IVAR_$_ORKOrderedTask._steps
+_OBJC_CLASS_$_ORKOrderedTask
+_OBJC_METACLASS_$_ORKOrderedTask
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKQuestionStep.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKQuestionStep.o
++[ORKQuestionStep _stepViewControllerClass]
++[ORKQuestionStep questionStepWithIdentifier:title:answer:]
+-[ORKQuestionStep initWithIdentifier:]
+-[ORKQuestionStep init]
+-[ORKQuestionStep validateParameters]
+-[ORKQuestionStep copyWithZone:]
+-[ORKQuestionStep isEqual:]
+-[ORKQuestionStep hash]
+-[ORKQuestionStep questionType]
+-[ORKQuestionStep _impliedAnswerFormat]
+-[ORKQuestionStep initWithCoder:]
+-[ORKQuestionStep encodeWithCoder:]
+-[ORKQuestionStep _isFormatImmediateNavigation]
+-[ORKQuestionStep _isFormatChoiceWithImageOptions]
+-[ORKQuestionStep _isFormatChoiceValuePicker]
+-[ORKQuestionStep _isFormatTextfield]
+-[ORKQuestionStep _isFormatFitsChoiceCells]
+-[ORKQuestionStep _formatRequiresTableView]
+-[ORKQuestionStep initWithDictionary:]
+-[ORKQuestionStep dictionaryValue]
+-[ORKQuestionStep answerFormat]
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/ORKQuestionStep.h
+-[ORKQuestionStep setAnswerFormat:]
+-[ORKQuestionStep placeholder]
+-[ORKQuestionStep setPlaceholder:]
+-[ORKQuestionStep .cxx_destruct]
+_OBJC_IVAR_$_ORKQuestionStep._answerFormat
+_OBJC_IVAR_$_ORKQuestionStep._placeholder
+_OBJC_CLASS_$_ORKQuestionStep
+_OBJC_METACLASS_$_ORKQuestionStep
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Common/
+ORKSurveyAnswerCellForSingleSelectionPicker.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKSurveyAnswerCellForSingleSelectionPicker.o
+-[ORKSurveyAnswerCellForSingleSelectionPicker prepareView]
+-[ORKSurveyAnswerCellForSingleSelectionPicker _answerDidChange]
+-[ORKSurveyAnswerCellForSingleSelectionPicker layoutSubviews]
+-[ORKSurveyAnswerCellForSingleSelectionPicker _valuePickerAnswerFormat]
+-[ORKSurveyAnswerCellForSingleSelectionPicker numberOfComponentsInPickerView:]
+-[ORKSurveyAnswerCellForSingleSelectionPicker pickerView:numberOfRowsInComponent:]
+-[ORKSurveyAnswerCellForSingleSelectionPicker pickerView:titleForRow:forComponent:]
+-[ORKSurveyAnswerCellForSingleSelectionPicker pickerView:didSelectRow:inComponent:]
++[ORKSurveyAnswerCellForSingleSelectionPicker suggestedCellHeightForView:]
+-[ORKSurveyAnswerCellForSingleSelectionPicker pickerView]
+-[ORKSurveyAnswerCellForSingleSelectionPicker setPickerView:]
+-[ORKSurveyAnswerCellForSingleSelectionPicker .cxx_destruct]
+_OBJC_IVAR_$_ORKSurveyAnswerCellForSingleSelectionPicker._pickerView
+_OBJC_CLASS_$_ORKSurveyAnswerCellForSingleSelectionPicker
+_OBJC_METACLASS_$_ORKSurveyAnswerCellForSingleSelectionPicker
+/Users/Shared/Jenkins/Home/workspace/ResearchKit/ResearchKit/ResearchKit/Consent/
+ORKVisualConsentTransitionAnimator.m
+/Users/Shared/Jenkins/Library/Developer/Xcode/DerivedData/ResearchKit-adgztyguvqbzpbgnijvwwsgkhlof/Build/Intermediates/ResearchKit.build/Release-iphoneos/OpenResearchKit.build/Objects-normal/arm64/ORKVisualConsentTransitionAnimator.o
+-[ORKVisualConsentAnimationContext direction]
+-[ORKVisualConsentAnimationContext setDirection:]
+-[ORKVisualConsentAnimationContext hasCalledLoadHandler]
+-[ORKVisualConsentAnimationContext setHasCalledLoadHandler:]
+-[ORKVisualConsentAnimationContext handler]
+-[ORKVisualConsentAnimationContext setHandler:]
+-[ORKVisualConsentAnimationContext loadHandler]
+-[ORKVisualConsentAnimationContext setLoadHandler:]
+-[ORKVisualConsentAnimationContext startTime]
+-[ORKVisualConsentAnimationContext setStartTime:]
+-[ORKVisualConsentAnimationContext selfRef]
+-[ORKVisualConsentAnimationContext setSelfRef:]
+-[ORKVisualConsentAnimationContext .cxx_destruct]
+-[ORKVisualConsentTransitionAnimator initWithVisualConsentStepViewController:movieURL:]
+-[ORKVisualConsentTransitionAnimator movieURL]
+-[ORKVisualConsentTransitionAnimator animateTransitionWithDirection:withLoadHandler:completionHandler:]
+-[ORKVisualConsentTransitionAnimator _attemptAnimationWithContext:]
+-[ORKVisualConsentTransitionAnimator observeValueForKeyPath:ofObject:change:context:]
+___85-[ORKVisualConsentTransitionAnimator observeValueForKeyPath:ofObject:change:context:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKVisualConsentTransitionAnimator playbackDidFinish:]
+-[ORKVisualConsentTransitionAnimator _performAnimationWithContext:]
+___67-[ORKVisualConsentTransitionAnimator _performAnimationWithContext:]_block_invoke
+___copy_helper_block_140
+___destroy_helper_block_141
+-[ORKVisualConsentTransitionAnimator _finishAnimationWithContext:]
+-[ORKVisualConsentTransitionAnimator _initialFrameDidDisplay]
+-[ORKVisualConsentTransitionAnimator displayLinkCallback:]
+-[ORKVisualConsentTransitionAnimator outputMediaDataWillChange:]
+-[ORKVisualConsentTransitionAnimator finish]
+-[ORKVisualConsentTransitionAnimator dealloc]
+-[ORKVisualConsentTransitionAnimator .cxx_destruct]
+GCC_except_table22
+___block_descriptor_tmp
+___block_descriptor_tmp143
+_OBJC_IVAR_$_ORKVisualConsentAnimationContext._direction
+_OBJC_IVAR_$_ORKVisualConsentAnimationContext._hasCalledLoadHandler
+_OBJC_IVAR_$_ORKVisualConsentAnimationContext._handler
+_OBJC_IVAR_$_ORKVisualConsentAnimationContext._loadHandler
+_OBJC_IVAR_$_ORKVisualConsentAnimationContext._startTime
+_OBJC_IVAR_$_ORKVisualConsentAnimationContext._selfRef
+_OBJC_IVAR_$_ORKVisualConsentTransitionAnimator._stepViewController
+_OBJC_IVAR_$_ORKVisualConsentTransitionAnimator._movieURL
+_OBJC_IVAR_$_ORKVisualConsentTransitionAnimator._moviePlayer
+_OBJC_IVAR_$_ORKVisualConsentTransitionAnimator._displayLink
+_OBJC_IVAR_$_ORKVisualConsentTransitionAnimator._videoOutput
+_OBJC_IVAR_$_ORKVisualConsentTransitionAnimator._videoOutputQueue
+_OBJC_IVAR_$_ORKVisualConsentTransitionAnimator._playerItem
+_OBJC_IVAR_$_ORKVisualConsentTransitionAnimator._observingPlayerDurationKey
+_OBJC_IVAR_$_ORKVisualConsentTransitionAnimator._observingPlayerItemStatusKey
+_OBJC_IVAR_$_ORKVisualConsentTransitionAnimator._pendingContext
+_OBJC_IVAR_$_ORKVisualConsentTransitionAnimator._frameCounter
+_OBJC_METACLASS_$_ORKVisualConsentAnimationContext
+_OBJC_CLASS_$_ORKVisualConsentAnimationContext
+_OBJC_CLASS_$_ORKVisualConsentTransitionAnimator
+_OBJC_METACLASS_$_ORKVisualConsentTransitionAnimator
+-[_ORKFitnessStepViewController initWithStep:]
+-[_ORKFitnessStepViewController fitnessStep]
+-[_ORKFitnessStepViewController _stepDidChange]
+-[_ORKFitnessStepViewController viewDidLoad]
+-[_ORKFitnessStepViewController didReceiveMemoryWarning]
+-[_ORKFitnessStepViewController _updateHeartRateWithQuantity:unit:]
+-[_ORKFitnessStepViewController _updateDistance:]
+-[_ORKFitnessStepViewController recordersDidChange]
+-[_ORKFitnessStepViewController _countDownTimerFired:finished:]
+-[_ORKFitnessStepViewController healthQuantityTypeRecorderDidUpdate:]
+-[_ORKFitnessStepViewController pedometerRecorderDidUpdate:]
+-[_ORKFitnessStepViewController .cxx_destruct]
++[ORKVisualConsentStep _stepViewControllerClass]
+-[ORKVisualConsentStep initWithIdentifier:document:]
+-[ORKVisualConsentStep copyWithZone:]
+-[ORKVisualConsentStep initWithCoder:]
+-[ORKVisualConsentStep encodeWithCoder:]
+-[ORKVisualConsentStep isEqual:]
+-[ORKVisualConsentStep hash]
+-[ORKVisualConsentStep initWithDictionary:]
+-[ORKVisualConsentStep dictionaryValue]
+-[ORKVisualConsentStep _shouldShowProgress]
+-[ORKVisualConsentStep consentDocument]
+-[ORKVisualConsentStep setConsentDocument:]
+-[ORKVisualConsentStep .cxx_destruct]
+-[ORKLocationRecorder initWithStep:outputDirectory:]
+-[ORKLocationRecorder dealloc]
+-[ORKLocationRecorder _recorderType]
+-[ORKLocationRecorder start]
+-[ORKLocationRecorder _doStopRecording]
+-[ORKLocationRecorder stop]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___27-[ORKLocationRecorder stop]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKLocationRecorder locationManager:didUpdateLocations:]
+___58-[ORKLocationRecorder locationManager:didUpdateLocations:]_block_invoke
+___copy_helper_block_66
+___destroy_helper_block_67
+___58-[ORKLocationRecorder locationManager:didUpdateLocations:]_block_invoke74
+___copy_helper_block_75
+___destroy_helper_block_76
+-[ORKLocationRecorder finishRecordingWithError:]
+-[ORKLocationRecorder isRecording]
+-[ORKLocationRecorder _reset]
+-[ORKLocationRecorder mimeType]
+-[ORKLocationRecorder locationManager]
+-[ORKLocationRecorder setLocationManager:]
+-[ORKLocationRecorder uptime]
+-[ORKLocationRecorder setUptime:]
+-[ORKLocationRecorder .cxx_destruct]
+-[ORKLocationRecorderConfiguration recorderForStep:outputDirectory:]
+-[ORKLocationRecorderConfiguration initWithCoder:]
+-[ORKLocationRecorderConfiguration isEqual:]
+-[ORKLocationRecorderConfiguration initWithDictionary:]
+-[ORKLocationRecorderConfiguration requestedPermissionMask]
+-[ORKTouchGestureRecognizer init]
+-[ORKTouchGestureRecognizer reportTouches:]
+-[ORKTouchGestureRecognizer touchesBegan:withEvent:]
+-[ORKTouchGestureRecognizer touchesMoved:withEvent:]
+-[ORKTouchGestureRecognizer touchesEnded:withEvent:]
+-[ORKTouchGestureRecognizer touchesCancelled:withEvent:]
+-[ORKTouchGestureRecognizer eventDelegate]
+-[ORKTouchGestureRecognizer setEventDelegate:]
+-[ORKTouchGestureRecognizer .cxx_destruct]
+-[ORKTouchRecorder initWithStep:outputDirectory:]
+-[ORKTouchRecorder dealloc]
+-[ORKTouchRecorder viewController:willStartStepWithView:]
+-[ORKTouchRecorder start]
+-[ORKTouchRecorder gestureRecognizer]
+-[ORKTouchRecorder stop]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___24-[ORKTouchRecorder stop]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKTouchRecorder _doStopRecording]
+-[ORKTouchRecorder finishRecordingWithError:]
+-[ORKTouchRecorder _recorderType]
+-[ORKTouchRecorder mimeType]
+-[ORKTouchRecorder _reset]
+-[ORKTouchRecorder view:didDetectTouch:]
+-[ORKTouchRecorder touchView]
+-[ORKTouchRecorder setGestureRecognizer:]
+-[ORKTouchRecorder touchArray]
+-[ORKTouchRecorder setTouchArray:]
+-[ORKTouchRecorder uptime]
+-[ORKTouchRecorder setUptime:]
+-[ORKTouchRecorder recordingError]
+-[ORKTouchRecorder setRecordingError:]
+-[ORKTouchRecorder .cxx_destruct]
++[ORKTouchRecorderConfiguration configuration]
+-[ORKTouchRecorderConfiguration recorderForStep:outputDirectory:]
+-[ORKTouchRecorderConfiguration initWithCoder:]
+-[ORKTouchRecorderConfiguration initWithDictionary:]
++[ORKTapCountLabel defaultFont]
+-[ORKLabel init]
+-[ORKLabel initWithFrame:]
+-[ORKLabel _init_ORKLabel]
+-[ORKLabel willMoveToWindow:]
+-[ORKLabel _updateAppearance]
+-[ORKLabel setLabelFont:]
+-[ORKLabel setLabelTextColor:]
+-[ORKLabel dealloc]
++[ORKLabel defaultFont]
+-[ORKLabel labelFont]
+-[ORKLabel labelTextColor]
+-[ORKLabel .cxx_destruct]
+-[ORKDeviceMotionRecorder initWithFrequency:step:outputDirectory:]
+-[ORKDeviceMotionRecorder dealloc]
+-[ORKDeviceMotionRecorder setFrequency:]
+-[ORKDeviceMotionRecorder start]
+___32-[ORKDeviceMotionRecorder start]_block_invoke
+___32-[ORKDeviceMotionRecorder start]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_41
+___destroy_helper_block_42
+-[ORKDeviceMotionRecorder _recorderType]
+-[ORKDeviceMotionRecorder stop]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___31-[ORKDeviceMotionRecorder stop]_block_invoke
+___copy_helper_block_50
+___destroy_helper_block_51
+-[ORKDeviceMotionRecorder _doStopRecording]
+-[ORKDeviceMotionRecorder finishRecordingWithError:]
+-[ORKDeviceMotionRecorder isRecording]
+-[ORKDeviceMotionRecorder mimeType]
+-[ORKDeviceMotionRecorder _reset]
+-[ORKDeviceMotionRecorder frequency]
+-[ORKDeviceMotionRecorder motionManager]
+-[ORKDeviceMotionRecorder setMotionManager:]
+-[ORKDeviceMotionRecorder uptime]
+-[ORKDeviceMotionRecorder setUptime:]
+-[ORKDeviceMotionRecorder .cxx_destruct]
+-[ORKDeviceMotionRecorderConfiguration initWithFrequency:]
+-[ORKDeviceMotionRecorderConfiguration recorderForStep:outputDirectory:]
+-[ORKDeviceMotionRecorderConfiguration initWithCoder:]
+-[ORKDeviceMotionRecorderConfiguration encodeWithCoder:]
+-[ORKDeviceMotionRecorderConfiguration isEqual:]
+-[ORKDeviceMotionRecorderConfiguration initWithDictionary:]
+-[ORKDeviceMotionRecorderConfiguration dictionaryValue]
+-[ORKDeviceMotionRecorderConfiguration requestedPermissionMask]
+-[ORKDeviceMotionRecorderConfiguration frequency]
+-[ORKStepViewController _initializeInternalButtonItems]
+-[ORKStepViewController initWithCoder:]
+-[ORKStepViewController initWithNibName:bundle:]
+-[ORKStepViewController initWithStep:]
+-[ORKStepViewController initWithStep:result:]
+-[ORKStepViewController viewDidLoad]
+-[ORKStepViewController _setupButtons]
+-[ORKStepViewController setStep:]
+-[ORKStepViewController _stepDidChange]
+-[ORKStepViewController viewWillAppear:]
+-[ORKStepViewController viewWillDisappear:]
+-[ORKStepViewController viewDidDisappear:]
+-[ORKStepViewController _willNavigateDirection:]
+-[ORKStepViewController setContinueButtonTitle:]
+-[ORKStepViewController continueButtonTitle]
+-[ORKStepViewController setLearnMoreButtonTitle:]
+-[ORKStepViewController learnMoreButtonTitle]
+-[ORKStepViewController setSkipButtonTitle:]
+-[ORKStepViewController skipButtonTitle]
+-[ORKStepViewController _setBackButtonItem:]
+-[ORKStepViewController setBackButtonItem:]
+-[ORKStepViewController _updateNavRightBarButtonItem]
+-[ORKStepViewController _updateNavLeftBarButtonItem]
+-[ORKStepViewController setCancelButtonItem:]
+-[ORKStepViewController hasPreviousStep]
+-[ORKStepViewController hasNextStep]
+-[ORKStepViewController result]
+-[ORKStepViewController _notifyDelegateOnResultChange]
+-[ORKStepViewController goForward]
+-[ORKStepViewController goBackward]
+-[ORKStepViewController skipForward]
+-[ORKStepViewController taskViewController]
+-[ORKStepViewController _showValidityAlertWithMessage:]
+___55-[ORKStepViewController _showValidityAlertWithMessage:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKStepViewController encodeRestorableStateWithCoder:]
+-[ORKStepViewController decodeRestorableStateWithCoder:]
++[ORKStepViewController viewControllerWithRestorationIdentifierPath:coder:]
+-[ORKStepViewController step]
+-[ORKStepViewController delegate]
+-[ORKStepViewController setDelegate:]
+-[ORKStepViewController backButtonItem]
+-[ORKStepViewController cancelButtonItem]
+-[ORKStepViewController outputDirectory]
+-[ORKStepViewController setOutputDirectory:]
+-[ORKStepViewController internalContinueButtonItem]
+-[ORKStepViewController setInternalContinueButtonItem:]
+-[ORKStepViewController internalBackButtonItem]
+-[ORKStepViewController setInternalBackButtonItem:]
+-[ORKStepViewController internalDoneButtonItem]
+-[ORKStepViewController setInternalDoneButtonItem:]
+-[ORKStepViewController internalSkipButtonItem]
+-[ORKStepViewController setInternalSkipButtonItem:]
+-[ORKStepViewController continueButtonItem]
+-[ORKStepViewController setContinueButtonItem:]
+-[ORKStepViewController learnMoreButtonItem]
+-[ORKStepViewController setLearnMoreButtonItem:]
+-[ORKStepViewController skipButtonItem]
+-[ORKStepViewController setSkipButtonItem:]
+-[ORKStepViewController presentedDate]
+-[ORKStepViewController setPresentedDate:]
+-[ORKStepViewController dismissedDate]
+-[ORKStepViewController setDismissedDate:]
+-[ORKStepViewController restoredStepIdentifier]
+-[ORKStepViewController setRestoredStepIdentifier:]
+-[ORKStepViewController flexSpace]
+-[ORKStepViewController fixedSpace]
+-[ORKStepViewController .cxx_destruct]
+-[_ORKConsentSignatureWrapperView willMoveToWindow:]
+-[_ORKConsentSignatureWrapperView initWithFrame:]
+-[_ORKConsentSignatureWrapperView setClearButtonEnabled:]
+___57-[_ORKConsentSignatureWrapperView setClearButtonEnabled:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___57-[_ORKConsentSignatureWrapperView setClearButtonEnabled:]_block_invoke36
+-[_ORKConsentSignatureWrapperView updateConstraints]
+-[_ORKConsentSignatureWrapperView signatureView]
+-[_ORKConsentSignatureWrapperView setSignatureView:]
+-[_ORKConsentSignatureWrapperView clearButton]
+-[_ORKConsentSignatureWrapperView setClearButton:]
+-[_ORKConsentSignatureWrapperView clearButtonEnabled]
+-[_ORKConsentSignatureWrapperView .cxx_destruct]
+-[ORKConsentSigningView initWithFrame:]
+-[ORKConsentSigningView wrapperView]
+-[ORKConsentSigningView setWrapperView:]
+-[ORKConsentSigningView .cxx_destruct]
+-[_ORKConsentSignatureController initWithNibName:bundle:]
+-[_ORKConsentSignatureController viewDidLoad]
+-[_ORKConsentSignatureController _updateContinueButtonItem]
+-[_ORKConsentSignatureController setLocalizedContinueButtonTitle:]
+-[_ORKConsentSignatureController signatureView]
+-[_ORKConsentSignatureController done]
+-[_ORKConsentSignatureController _clearAction:]
+-[_ORKConsentSignatureController signatureViewDidEditImage:]
+-[_ORKConsentSignatureController delegate]
+-[_ORKConsentSignatureController setDelegate:]
+-[_ORKConsentSignatureController localizedContinueButtonTitle]
+-[_ORKConsentSignatureController signingView]
+-[_ORKConsentSignatureController setSigningView:]
+-[_ORKConsentSignatureController .cxx_destruct]
++[UIColor(ORKColor) ork_midGrayTintColor]
+___41+[UIColor(ORKColor) ork_midGrayTintColor]_block_invoke
++[UIColor(ORKColor) ork_redColor]
+___33+[UIColor(ORKColor) ork_redColor]_block_invoke
++[UIColor(ORKColor) ork_grayColor]
+___34+[UIColor(ORKColor) ork_grayColor]_block_invoke
++[UIColor(ORKColor) ork_darkGrayColor]
+___38+[UIColor(ORKColor) ork_darkGrayColor]_block_invoke
+_ORKColor
+_ORKGetMetricForScreenType
+_ORKGetScreenTypeForWindow
+_colors
+___colors_block_invoke
++[ORKFormStep _stepViewControllerClass]
+-[ORKFormStep initWithIdentifier:title:text:]
+-[ORKFormStep initWithIdentifier:]
+-[ORKFormStep init]
+-[ORKFormStep validateParameters]
+-[ORKFormStep copyWithZone:]
+-[ORKFormStep isEqual:]
+-[ORKFormStep hash]
+-[ORKFormStep initWithCoder:]
+-[ORKFormStep encodeWithCoder:]
+-[ORKFormStep initWithDictionary:]
+-[ORKFormStep dictionaryValue]
+-[ORKFormStep setFormItems:]
+-[ORKFormStep formItems]
+-[ORKFormStep .cxx_destruct]
+-[ORKFormItem initWithIdentifier:text:answerFormat:]
+-[ORKFormItem initWithSectionTitle:]
++[ORKFormItem supportsSecureCoding]
+-[ORKFormItem copyWithZone:]
+-[ORKFormItem initWithCoder:]
+-[ORKFormItem encodeWithCoder:]
+-[ORKFormItem isEqual:]
+-[ORKFormItem hash]
+-[ORKFormItem initWithDictionary:]
+-[ORKFormItem dictionaryValue]
+-[ORKFormItem _impliedAnswerFormat]
+-[ORKFormItem questionType]
+-[ORKFormItem identifier]
+-[ORKFormItem text]
+-[ORKFormItem placeholder]
+-[ORKFormItem setPlaceholder:]
+-[ORKFormItem answerFormat]
+-[ORKFormItem step]
+-[ORKFormItem setStep:]
+-[ORKFormItem .cxx_destruct]
+_____ORKArrayDeepCopy_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKTableContainerView initWithFrame:]
+-[_ORKTableContainerView layoutSubviews]
+-[_ORKTableContainerView _updateContinueButtonConstraints]
+-[_ORKTableContainerView updateConstraints]
+-[_ORKTableContainerView _view:hasFirstResponderOrTableViewCellContainingPoint:]
+-[_ORKTableContainerView gestureRecognizer:shouldReceiveTouch:]
+-[_ORKTableContainerView _tapOffAction:]
+-[_ORKTableContainerView dealloc]
+-[_ORKTableContainerView _registerForKeyboardNotifications:]
+-[_ORKTableContainerView willMoveToWindow:]
+-[_ORKTableContainerView _updateToInsets:]
+-[_ORKTableContainerView _keyboardIntersectionSizeFromNotification:]
+-[_ORKTableContainerView scrollCellVisible:animated:]
+___53-[_ORKTableContainerView scrollCellVisible:animated:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKTableContainerView _animateLayoutForKeyboardNotification:]
+___64-[_ORKTableContainerView _animateLayoutForKeyboardNotification:]_block_invoke
+___copy_helper_block_160
+___destroy_helper_block_161
+-[_ORKTableContainerView keyboardFrameWillChange:]
+-[_ORKTableContainerView keyboardWillShow:]
+-[_ORKTableContainerView keyboardWillHide:]
+-[_ORKTableContainerView tableView]
+-[_ORKTableContainerView stepHeaderView]
+-[_ORKTableContainerView continueSkipContainerView]
+-[_ORKTableContainerView .cxx_destruct]
+-[_ORKSpatialSpanGame _generateSequence]
+-[_ORKSpatialSpanGame dealloc]
+-[_ORKSpatialSpanGame initWithGameSize:sequenceLength:seed:]
+-[_ORKSpatialSpanGame enumerateSequenceWithHandler:]
+-[_ORKSpatialSpanGame tileIndexForStep:]
+-[_ORKSpatialSpanGame gameSize]
+-[_ORKSpatialSpanGame sequenceLength]
+-[_ORKSpatialSpanGame seed]
++[_ORKState stateWithState:entryHandler:exitHandler:context:]
+-[_ORKState state]
+-[_ORKState setState:]
+-[_ORKState context]
+-[_ORKState setContext:]
+-[_ORKState entryHandler]
+-[_ORKState setEntryHandler:]
+-[_ORKState exitHandler]
+-[_ORKState setExitHandler:]
+-[_ORKState .cxx_destruct]
+-[_ORKSpatialSpanMemoryStepViewController spatialSpanStep]
+-[_ORKSpatialSpanMemoryStepViewController initWithStep:]
+-[_ORKSpatialSpanMemoryStepViewController viewDidLoad]
+-[_ORKSpatialSpanMemoryStepViewController _stepDidChange]
+-[_ORKSpatialSpanMemoryStepViewController start]
+-[_ORKSpatialSpanMemoryStepViewController suspend]
+-[_ORKSpatialSpanMemoryStepViewController resume]
+-[_ORKSpatialSpanMemoryStepViewController finish]
+-[_ORKSpatialSpanMemoryStepViewController result]
+___49-[_ORKSpatialSpanMemoryStepViewController result]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKSpatialSpanMemoryStepViewController _currentGameRecord]
+-[_ORKSpatialSpanMemoryStepViewController _createGameRecord]
+___60-[_ORKSpatialSpanMemoryStepViewController _createGameRecord]_block_invoke
+___copy_helper_block_151
+___destroy_helper_block_152
+-[_ORKSpatialSpanMemoryStepViewController _updateGameRecordTargetRects]
+-[_ORKSpatialSpanMemoryStepViewController _updateGameRecordOnStartingGamePlay]
+-[_ORKSpatialSpanMemoryStepViewController _handleUserTap:]
+-[_ORKSpatialSpanMemoryStepViewController _updateGameRecordOnTouch:location:]
+-[_ORKSpatialSpanMemoryStepViewController _updateGameRecordOnSuccess]
+-[_ORKSpatialSpanMemoryStepViewController _updateGameRecordOnFailure]
+-[_ORKSpatialSpanMemoryStepViewController _updateGameRecordOnTimeout]
+-[_ORKSpatialSpanMemoryStepViewController _updateGameRecordScore]
+-[_ORKSpatialSpanMemoryStepViewController _updateGameRecordOnPause]
+-[_ORKSpatialSpanMemoryStepViewController _gridSizeForSpan:]
+-[_ORKSpatialSpanMemoryStepViewController _resetGameAndUI]
+-[_ORKSpatialSpanMemoryStepViewController _resetUI]
+-[_ORKSpatialSpanMemoryStepViewController _resetForNewGame]
+-[_ORKSpatialSpanMemoryStepViewController _applyTargetState:toSequenceIndex:duration:]
+___86-[_ORKSpatialSpanMemoryStepViewController _applyTargetState:toSequenceIndex:duration:]_block_invoke
+___copy_helper_block_237
+___destroy_helper_block_238
+-[_ORKSpatialSpanMemoryStepViewController _playbackNextItem]
+-[_ORKSpatialSpanMemoryStepViewController _startPlayback]
+-[_ORKSpatialSpanMemoryStepViewController _finishPlayback]
+-[_ORKSpatialSpanMemoryStepViewController _setNumberOfItems:]
+-[_ORKSpatialSpanMemoryStepViewController _setScore:]
+-[_ORKSpatialSpanMemoryStepViewController _activityTimeout]
+-[_ORKSpatialSpanMemoryStepViewController _resetActivityTimer]
+-[_ORKSpatialSpanMemoryStepViewController _startGameplay]
+-[_ORKSpatialSpanMemoryStepViewController _finishGameplay]
+-[_ORKSpatialSpanMemoryStepViewController gameView:didTapTileWithIndex:recognizer:]
+-[_ORKSpatialSpanMemoryStepViewController _updateGameCountersForSuccess:]
+-[_ORKSpatialSpanMemoryStepViewController _continueAction]
+-[_ORKSpatialSpanMemoryStepViewController _showSuccess]
+___55-[_ORKSpatialSpanMemoryStepViewController _showSuccess]_block_invoke
+___copy_helper_block_324
+___destroy_helper_block_325
+-[_ORKSpatialSpanMemoryStepViewController _tryAgainAction]
+-[_ORKSpatialSpanMemoryStepViewController _finishIfCompletedGames]
+-[_ORKSpatialSpanMemoryStepViewController _showFailed]
+-[_ORKSpatialSpanMemoryStepViewController _showTimeout]
+-[_ORKSpatialSpanMemoryStepViewController _showComplete]
+___56-[_ORKSpatialSpanMemoryStepViewController _showComplete]_block_invoke
+___copy_helper_block_341
+___destroy_helper_block_342
+-[_ORKSpatialSpanMemoryStepViewController _doRestart]
+___53-[_ORKSpatialSpanMemoryStepViewController _doRestart]_block_invoke
+___copy_helper_block_344
+___destroy_helper_block_345
+-[_ORKSpatialSpanMemoryStepViewController _showPausedFromState:]
+-[_ORKSpatialSpanMemoryStepViewController _initializeStates]
+___60-[_ORKSpatialSpanMemoryStepViewController _initializeStates]_block_invoke
+___60-[_ORKSpatialSpanMemoryStepViewController _initializeStates]_block_invoke_2
+___60-[_ORKSpatialSpanMemoryStepViewController _initializeStates]_block_invoke_3
+___60-[_ORKSpatialSpanMemoryStepViewController _initializeStates]_block_invoke_4
+___60-[_ORKSpatialSpanMemoryStepViewController _initializeStates]_block_invoke_5
+___60-[_ORKSpatialSpanMemoryStepViewController _initializeStates]_block_invoke_6
+___60-[_ORKSpatialSpanMemoryStepViewController _initializeStates]_block_invoke_7
+___60-[_ORKSpatialSpanMemoryStepViewController _initializeStates]_block_invoke_8
+___60-[_ORKSpatialSpanMemoryStepViewController _initializeStates]_block_invoke_9
+___60-[_ORKSpatialSpanMemoryStepViewController _initializeStates]_block_invoke_10
+___60-[_ORKSpatialSpanMemoryStepViewController _initializeStates]_block_invoke_11
+-[_ORKSpatialSpanMemoryStepViewController _transitionToState:]
+-[_ORKSpatialSpanMemoryStepViewController .cxx_destruct]
+-[_ORKCaretOptionalTextField hitTest:withEvent:]
+-[_ORKCaretOptionalTextField caretRectForPosition:]
+-[_ORKCaretOptionalTextField allowsSelection]
+-[_ORKCaretOptionalTextField setAllowsSelection:]
+-[_ORKCaretOptionalTextField hitClearButton]
+-[_ORKCaretOptionalTextField setHitClearButton:]
+-[_ORKUnitTextField init]
+-[_ORKUnitTextField ork_createTextLabelWithTextColor:]
+-[_ORKUnitTextField ork_setSuffix:withColor:]
+-[_ORKUnitTextField ork_updateSuffix:]
+-[_ORKUnitTextField ork_updateSuffix:withColor:]
+-[_ORKUnitTextField setManageUnitAndPlaceholder:]
+-[_ORKUnitTextField setPlaceholder:]
+-[_ORKUnitTextField _setPlaceholder:]
+-[_ORKUnitTextField setUnit:]
+-[_ORKUnitTextField _updateManagedUnitAndPlaceholder]
+-[_ORKUnitTextField _textFieldDidBeginEditing:]
+-[_ORKUnitTextField _textFieldDidEndEditing:]
+-[_ORKUnitTextField _textFieldDidChange:]
+-[_ORKUnitTextField setText:]
+-[_ORKUnitTextField isPlaceholderVisible]
+-[_ORKUnitTextField _suffixWidthForBounds:]
+-[_ORKUnitTextField textRectForBounds:]
+-[_ORKUnitTextField editingRectForBounds:]
+-[_ORKUnitTextField placeholderRectForBounds:]
+-[_ORKUnitTextField ork_suffixFrame]
+-[_ORKUnitTextField layoutSubviews]
+-[_ORKUnitTextField dealloc]
+-[_ORKUnitTextField accessibilityValue]
+-[_ORKUnitTextField unit]
+-[_ORKUnitTextField manageUnitAndPlaceholder]
+-[_ORKUnitTextField .cxx_destruct]
+-[_ORKTextFieldView init]
+-[_ORKTextFieldView updateConstraints]
+-[_ORKTextFieldView textField]
+-[_ORKTextFieldView setTextField:]
+-[_ORKTextFieldView .cxx_destruct]
++[ORKSelectionSubTitleLabel defaultFont]
+-[_ORKLocationAuthorizationRequester initWithHandler:]
+-[_ORKLocationAuthorizationRequester dealloc]
+-[_ORKLocationAuthorizationRequester resume]
+-[_ORKLocationAuthorizationRequester _finishWithResult:]
+-[_ORKLocationAuthorizationRequester locationManager:didChangeAuthorizationStatus:]
+-[_ORKLocationAuthorizationRequester .cxx_destruct]
+-[_ORKObserver observeValueForKeyPath:ofObject:change:context:]
+-[_ORKObserver startObserving]
+-[_ORKObserver _stopObserving]
+-[_ORKObserver dealloc]
+-[_ORKObserver keyPaths]
+-[_ORKObserver setKeyPaths:]
+-[_ORKObserver target]
+-[_ORKObserver setTarget:]
+-[_ORKObserver observing]
+-[_ORKObserver setObserving:]
+-[_ORKObserver context]
+-[_ORKObserver setContext:]
+-[_ORKObserver responder]
+-[_ORKObserver setResponder:]
+-[_ORKObserver action]
+-[_ORKObserver setAction:]
+-[_ORKObserver .cxx_destruct]
+-[_ORKTaskViewControllerObserver initWithTargetViewContoller:taskViewController:]
+-[_ORKScrollViewObserver initWithTargetView:taskViewController:]
++[ORKTaskViewController initialize]
++[ORKTaskViewController _pageVc]
+-[ORKTaskViewController setChildNavigationController:]
+-[ORKTaskViewController _commonInitWithTask:taskRunUUID:]
+-[ORKTaskViewController initWithNibName:bundle:]
+-[ORKTaskViewController initWithCoder:]
+-[ORKTaskViewController initWithTask:taskRunUUID:]
+-[ORKTaskViewController initWithTask:restorationData:]
+-[ORKTaskViewController setTaskRunUUID:]
+-[ORKTaskViewController setTask:]
+-[ORKTaskViewController _defaultCancelButtonItem]
+-[ORKTaskViewController _defaultLearnMoreButtonItem]
+-[ORKTaskViewController _requestHealthStoreAccessWithReadTypes:writeTypes:handler:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___83-[ORKTaskViewController _requestHealthStoreAccessWithReadTypes:writeTypes:handler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKTaskViewController _requestPedometerAccessWithHandler:]
+___60-[ORKTaskViewController _requestPedometerAccessWithHandler:]_block_invoke
+___60-[ORKTaskViewController _requestPedometerAccessWithHandler:]_block_invoke_2
+___copy_helper_block_381
+___destroy_helper_block_382
+___copy_helper_block_385
+___destroy_helper_block_386
+-[ORKTaskViewController _requestAudioRecordingAccessWithHandler:]
+___65-[ORKTaskViewController _requestAudioRecordingAccessWithHandler:]_block_invoke
+___65-[ORKTaskViewController _requestAudioRecordingAccessWithHandler:]_block_invoke_2
+___copy_helper_block_394
+___destroy_helper_block_395
+___copy_helper_block_397
+___destroy_helper_block_398
+-[ORKTaskViewController _requestLocationAccessWithHandler:]
+___59-[ORKTaskViewController _requestLocationAccessWithHandler:]_block_invoke
+___copy_helper_block_404
+___destroy_helper_block_405
+-[ORKTaskViewController desiredPermissions]
+-[ORKTaskViewController _requestHealthAuthorizationWithCompletion:]
+___67-[ORKTaskViewController _requestHealthAuthorizationWithCompletion:]_block_invoke
+___67-[ORKTaskViewController _requestHealthAuthorizationWithCompletion:]_block_invoke_2
+___67-[ORKTaskViewController _requestHealthAuthorizationWithCompletion:]_block_invoke_3
+___copy_helper_block_418
+___destroy_helper_block_419
+___copy_helper_block_423
+___destroy_helper_block_424
+___67-[ORKTaskViewController _requestHealthAuthorizationWithCompletion:]_block_invoke426
+___67-[ORKTaskViewController _requestHealthAuthorizationWithCompletion:]_block_invoke_2427
+___copy_helper_block_428
+___destroy_helper_block_429
+___copy_helper_block_433
+___destroy_helper_block_434
+___67-[ORKTaskViewController _requestHealthAuthorizationWithCompletion:]_block_invoke436
+___67-[ORKTaskViewController _requestHealthAuthorizationWithCompletion:]_block_invoke_2437
+___copy_helper_block_438
+___destroy_helper_block_439
+___copy_helper_block_443
+___destroy_helper_block_444
+___67-[ORKTaskViewController _requestHealthAuthorizationWithCompletion:]_block_invoke446
+___67-[ORKTaskViewController _requestHealthAuthorizationWithCompletion:]_block_invoke_2447
+___copy_helper_block_448
+___destroy_helper_block_449
+___copy_helper_block_453
+___destroy_helper_block_454
+___67-[ORKTaskViewController _requestHealthAuthorizationWithCompletion:]_block_invoke456
+___copy_helper_block_457
+___destroy_helper_block_458
+___copy_helper_block_460
+___destroy_helper_block_461
+-[ORKTaskViewController _startAudioPromptSessionIfNeeded]
+-[ORKTaskViewController _startAudioPromptSessionWithError:]
+-[ORKTaskViewController _finishAudioPromptSession]
+-[ORKTaskViewController _requestedHealthTypesForRead]
+-[ORKTaskViewController _requestedHealthTypesForWrite]
+-[ORKTaskViewController loadView]
+-[ORKTaskViewController viewWillAppear:]
+-[ORKTaskViewController viewDidDisappear:]
+-[ORKTaskViewController _findHairlineViewUnder:]
+-[ORKTaskViewController managedResults]
+___39-[ORKTaskViewController managedResults]_block_invoke
+___copy_helper_block_505
+___destroy_helper_block_506
+-[ORKTaskViewController _setManagedResult:forKey:]
+-[ORKTaskViewController taskRunUUID]
+-[ORKTaskViewController result]
+-[ORKTaskViewController restorationData]
+-[ORKTaskViewController setOutputDirectory:]
+-[ORKTaskViewController setRegisteredScrollView:]
+-[ORKTaskViewController suspend]
+-[ORKTaskViewController resume]
+-[ORKTaskViewController goForward]
+-[ORKTaskViewController goBackward]
+-[ORKTaskViewController _updateLastBeginningInstructionStepIdentifierForStep:goForward:]
+-[ORKTaskViewController _isStepLastBeginningInstructionStep:]
+-[ORKTaskViewController _showViewController:goForward:animated:]
+___64-[ORKTaskViewController _showViewController:goForward:animated:]_block_invoke
+___copy_helper_block_598
+___destroy_helper_block_599
+___64-[ORKTaskViewController _showViewController:goForward:animated:]_block_invoke621
+___copy_helper_block_626
+___destroy_helper_block_627
+-[ORKTaskViewController shouldPresentStep:]
+-[ORKTaskViewController _nextStep]
+-[ORKTaskViewController _prevStep]
+-[ORKTaskViewController _collectToolbarItemsFromViewController:]
+-[ORKTaskViewController _registeredScrollViewDidScroll:]
+-[ORKTaskViewController _viewControllerForStep:]
+-[ORKTaskViewController _finishWithResult:error:]
+-[ORKTaskViewController _presentCancelOptions:]
+___47-[ORKTaskViewController _presentCancelOptions:]_block_invoke
+___47-[ORKTaskViewController _presentCancelOptions:]_block_invoke_2
+___copy_helper_block_692
+___destroy_helper_block_693
+___copy_helper_block_695
+___destroy_helper_block_696
+___47-[ORKTaskViewController _presentCancelOptions:]_block_invoke707
+___47-[ORKTaskViewController _presentCancelOptions:]_block_invoke_2708
+___copy_helper_block_709
+___destroy_helper_block_710
+___copy_helper_block_712
+___destroy_helper_block_713
+-[ORKTaskViewController _cancelAction:]
+-[ORKTaskViewController _learnMoreAction:]
+-[ORKTaskViewController _reportError:onStep:]
+-[ORKTaskViewController _flipToNextPageFrom:]
+-[ORKTaskViewController _flipToPreviousPageFrom:]
+-[ORKTaskViewController stepViewControllerWillAppear:]
+-[ORKTaskViewController stepViewController:didFinishWithNavigationDirection:]
+-[ORKTaskViewController stepViewControllerDidFail:withError:]
+-[ORKTaskViewController stepViewControllerResultDidChange:]
+-[ORKTaskViewController stepViewControllerHasPreviousStep:]
+-[ORKTaskViewController stepViewControllerHasNextStep:]
+-[ORKTaskViewController _stepBeforeStep:]
+-[ORKTaskViewController _stepAfterStep:]
+-[ORKTaskViewController encodeRestorableStateWithCoder:]
+-[ORKTaskViewController decodeRestorableStateWithCoder:]
+-[ORKTaskViewController applicationFinishedRestoringState]
++[ORKTaskViewController viewControllerWithRestorationIdentifierPath:coder:]
+-[ORKTaskViewController setNavigationBarHidden:]
+-[ORKTaskViewController isNavigationBarHidden]
+-[ORKTaskViewController setNavigationBarHidden:animated:]
+-[ORKTaskViewController navigationBar]
+-[ORKTaskViewController delegate]
+-[ORKTaskViewController setDelegate:]
+-[ORKTaskViewController task]
+-[ORKTaskViewController defaultResultSource]
+-[ORKTaskViewController setDefaultResultSource:]
+-[ORKTaskViewController outputDirectory]
+-[ORKTaskViewController showsProgressInNavigationBar]
+-[ORKTaskViewController setShowsProgressInNavigationBar:]
+-[ORKTaskViewController currentStepViewController]
+-[ORKTaskViewController setCurrentStepViewController:]
+-[ORKTaskViewController registeredScrollView]
+-[ORKTaskViewController hairline]
+-[ORKTaskViewController setHairline:]
+-[ORKTaskViewController childNavigationController]
+-[ORKTaskViewController pageViewController]
+-[ORKTaskViewController setPageViewController:]
+-[ORKTaskViewController .cxx_destruct]
+-[ORKConsentLearnMoreViewController initWithHtmlContent:]
+-[ORKConsentLearnMoreViewController viewDidLoad]
+-[ORKConsentLearnMoreViewController _cancel:]
+-[ORKConsentLearnMoreViewController webView]
+-[ORKConsentLearnMoreViewController setWebView:]
+-[ORKConsentLearnMoreViewController content]
+-[ORKConsentLearnMoreViewController setContent:]
+-[ORKConsentLearnMoreViewController .cxx_destruct]
+-[ORKScaleSlider initWithFrame:]
+-[ORKScaleSlider setShowThumb:]
+-[ORKScaleSlider sliderTouched:]
+-[ORKScaleSlider updateValueForTouchAtPoint:]
+-[ORKScaleSlider drawRect:]
+-[ORKScaleSlider trackRectForBounds:]
+-[ORKScaleSlider thumbRectForBounds:trackRect:value:]
+-[ORKScaleSlider isAccessibilityElement]
+-[ORKScaleSlider announceNewValue]
+-[ORKScaleSlider accessibilityIncrement]
+-[ORKScaleSlider accessibilityDecrement]
+-[ORKScaleSlider accessibilityLabel]
+-[ORKScaleSlider accessibilityValue]
+-[ORKScaleSlider accessibilityFrame]
+-[ORKScaleSlider _axBumpValue:]
+-[ORKScaleSlider showThumb]
+-[ORKScaleSlider numberOfSteps]
+-[ORKScaleSlider setNumberOfSteps:]
++[ORKActiveStep _stepViewControllerClass]
+-[ORKActiveStep startsFinished]
+-[ORKActiveStep hasCountDown]
+-[ORKActiveStep hasTitle]
+-[ORKActiveStep hasText]
+-[ORKActiveStep hasVoice]
+-[ORKActiveStep isRestorable]
++[ORKActiveStep supportsSecureCoding]
+-[ORKActiveStep initWithIdentifier:]
+-[ORKActiveStep copyWithZone:]
+-[ORKActiveStep initWithCoder:]
+-[ORKActiveStep encodeWithCoder:]
+-[ORKActiveStep isEqual:]
+-[ORKActiveStep initWithDictionary:]
+-[ORKActiveStep dictionaryValue]
+-[ORKActiveStep requestedHealthKitTypesForReading]
+-[ORKActiveStep requestedPermissions]
+-[ORKActiveStep stepDuration]
+-[ORKActiveStep setStepDuration:]
+-[ORKActiveStep shouldShowDefaultTimer]
+-[ORKActiveStep setShouldShowDefaultTimer:]
+-[ORKActiveStep shouldSpeakCountDown]
+-[ORKActiveStep setShouldSpeakCountDown:]
+-[ORKActiveStep shouldStartTimerAutomatically]
+-[ORKActiveStep setShouldStartTimerAutomatically:]
+-[ORKActiveStep shouldPlaySoundOnStart]
+-[ORKActiveStep setShouldPlaySoundOnStart:]
+-[ORKActiveStep shouldPlaySoundOnFinish]
+-[ORKActiveStep setShouldPlaySoundOnFinish:]
+-[ORKActiveStep shouldVibrateOnStart]
+-[ORKActiveStep setShouldVibrateOnStart:]
+-[ORKActiveStep shouldVibrateOnFinish]
+-[ORKActiveStep setShouldVibrateOnFinish:]
+-[ORKActiveStep shouldUseNextAsSkipButton]
+-[ORKActiveStep setShouldUseNextAsSkipButton:]
+-[ORKActiveStep shouldContinueOnFinish]
+-[ORKActiveStep setShouldContinueOnFinish:]
+-[ORKActiveStep spokenInstruction]
+-[ORKActiveStep setSpokenInstruction:]
+-[ORKActiveStep image]
+-[ORKActiveStep setImage:]
+-[ORKActiveStep recorderConfigurations]
+-[ORKActiveStep setRecorderConfigurations:]
+-[ORKActiveStep .cxx_destruct]
+-[ORKRoundTappingButton _init_ORKTextButton]
+-[ORKRoundTappingButton intrinsicContentSize]
++[ORKRoundTappingButton defaultFont]
+-[ORKRoundTappingButton accessibilityTraits]
+-[ORKSignatureGestureRecognizer touchesBegan:withEvent:]
+-[ORKSignatureGestureRecognizer touchesMoved:withEvent:]
+-[ORKSignatureGestureRecognizer touchesEnded:withEvent:]
+-[ORKSignatureGestureRecognizer shouldRequireFailureOfGestureRecognizer:]
+-[ORKSignatureGestureRecognizer eventDelegate]
+-[ORKSignatureGestureRecognizer setEventDelegate:]
+-[ORKSignatureGestureRecognizer .cxx_destruct]
++[ORKSignatureView initialize]
+-[ORKSignatureView init]
+-[ORKSignatureView pathWithRoundedStyle]
+-[ORKSignatureView makeSignatureGestureRecognizer]
+-[ORKSignatureView lineColor]
+-[ORKSignatureView lineWidth]
+-[ORKSignatureView pathArray]
+-[ORKSignatureView placeholderPoint]
+-[ORKSignatureView backgroundLines]
+-[ORKSignatureView gestureTouchesBegan:withEvent:]
+-[ORKSignatureView gestureTouchesMoved:withEvent:]
+-[ORKSignatureView gestureTouchesEnded:withEvent:]
+-[ORKSignatureView drawRect:]
+-[ORKSignatureView signatureImage]
+-[ORKSignatureView signatureExists]
+-[ORKSignatureView clear]
+-[ORKSignatureView isAccessibilityElement]
+-[ORKSignatureView accessibilityLabel]
+-[ORKSignatureView accessibilityValue]
+-[ORKSignatureView accessibilityHint]
+-[ORKSignatureView accessibilityTraits]
+-[ORKSignatureView setLineColor:]
+-[ORKSignatureView setLineWidth:]
+-[ORKSignatureView delegate]
+-[ORKSignatureView setDelegate:]
+-[ORKSignatureView signatureGestureRecognizer]
+-[ORKSignatureView setSignatureGestureRecognizer:]
+-[ORKSignatureView currentPath]
+-[ORKSignatureView setCurrentPath:]
+-[ORKSignatureView setPathArray:]
+-[ORKSignatureView setBackgroundLines:]
+-[ORKSignatureView .cxx_destruct]
++[ORKVoiceEngine sharedVoiceEngine]
+___35+[ORKVoiceEngine sharedVoiceEngine]_block_invoke
+-[ORKVoiceEngine init]
+-[ORKVoiceEngine dealloc]
+-[ORKVoiceEngine speakText:]
+-[ORKVoiceEngine speakInt:]
+-[ORKVoiceEngine stopTalking]
+-[ORKVoiceEngine speechSynthesizer:didFinishSpeechUtterance:]
+-[ORKVoiceEngine isSpeaking]
+-[ORKVoiceEngine speechSynthesizer]
+-[ORKVoiceEngine setSpeechSynthesizer:]
+-[ORKVoiceEngine .cxx_destruct]
+-[_ORKSegmentedControl touchesEnded:withEvent:]
+-[_ORKFormItemCell initWithReuseIdentifier:formItem:answer:maxLabelWidth:screenType:]
+-[_ORKFormItemCell setExpectedLayoutWidth:]
+-[_ORKFormItemCell _parentTableView]
+-[_ORKFormItemCell _cellInit]
+-[_ORKFormItemCell _inputValueDidChange]
+-[_ORKFormItemCell _inputValueDidClear]
+-[_ORKFormItemCell _answerDidChange]
+-[_ORKFormItemCell _defaultAnswerDidChange]
+-[_ORKFormItemCell setDefaultAnswer:]
+-[_ORKFormItemCell becomeFirstResponder]
+-[_ORKFormItemCell resignFirstResponder]
+-[_ORKFormItemCell prepareForReuse]
+-[_ORKFormItemCell _setAnswer:]
+-[_ORKFormItemCell setAnswer:]
+-[_ORKFormItemCell _showValidityAlertWithMessage:]
+-[_ORKFormItemCell delegate]
+-[_ORKFormItemCell setDelegate:]
+-[_ORKFormItemCell answer]
+-[_ORKFormItemCell formItem]
+-[_ORKFormItemCell setFormItem:]
+-[_ORKFormItemCell defaultAnswer]
+-[_ORKFormItemCell maxLabelWidth]
+-[_ORKFormItemCell setMaxLabelWidth:]
+-[_ORKFormItemCell screenType]
+-[_ORKFormItemCell setScreenType:]
+-[_ORKFormItemCell expectedLayoutWidth]
+-[_ORKFormItemCell labelLabel]
+-[_ORKFormItemCell setLabelLabel:]
+-[_ORKFormItemCell set_parentTableView:]
+-[_ORKFormItemCell haveChangedAnswer]
+-[_ORKFormItemCell setHaveChangedAnswer:]
+-[_ORKFormItemCell myConstraints]
+-[_ORKFormItemCell setMyConstraints:]
+-[_ORKFormItemCell .cxx_destruct]
+-[_ORKFormItemTextFieldBasedCell initWithReuseIdentifier:formItem:answer:maxLabelWidth:screenType:]
+-[_ORKFormItemTextFieldBasedCell textField]
+-[_ORKFormItemTextFieldBasedCell _cellInit]
+-[_ORKFormItemTextFieldBasedCell updateConstraints]
+-[_ORKFormItemTextFieldBasedCell setEditingHighlight:]
+-[_ORKFormItemTextFieldBasedCell dealloc]
+-[_ORKFormItemTextFieldBasedCell setLabel:]
+-[_ORKFormItemTextFieldBasedCell label]
+-[_ORKFormItemTextFieldBasedCell formattedValue]
+-[_ORKFormItemTextFieldBasedCell shortenedFormattedValue]
+-[_ORKFormItemTextFieldBasedCell updateValueLabel]
+-[_ORKFormItemTextFieldBasedCell becomeFirstResponder]
+-[_ORKFormItemTextFieldBasedCell resignFirstResponder]
+-[_ORKFormItemTextFieldBasedCell _inputValueDidClear]
+-[_ORKFormItemTextFieldBasedCell textFieldShouldBeginEditing:]
+-[_ORKFormItemTextFieldBasedCell textFieldDidBeginEditing:]
+-[_ORKFormItemTextFieldBasedCell textFieldDidEndEditing:]
+-[_ORKFormItemTextFieldBasedCell textFieldShouldClear:]
+-[_ORKFormItemTextFieldBasedCell textFieldShouldReturn:]
+-[_ORKFormItemTextFieldBasedCell isAccessibilityElement]
+-[_ORKFormItemTextFieldBasedCell textFieldView]
+-[_ORKFormItemTextFieldBasedCell editingHighlight]
+-[_ORKFormItemTextFieldBasedCell .cxx_destruct]
+-[_ORKFormItemTimeOfDayCell setAnswer:]
+-[_ORKFormItemTimeOfDayCell setFormItem:]
+-[_ORKFormItemTimeOfDayCell _cellInit]
+-[_ORKFormItemTimeOfDayCell _currentLocaleDidChange:]
+-[_ORKFormItemTimeOfDayCell _answerDidChange]
+-[_ORKFormItemTimeOfDayCell _loadPicker]
+-[_ORKFormItemTimeOfDayCell _inputValueDidChange]
+-[_ORKFormItemTimeOfDayCell textFieldShouldClear:]
+___50-[_ORKFormItemTimeOfDayCell textFieldShouldClear:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKFormItemTimeOfDayCell textFieldShouldBeginEditing:]
+-[_ORKFormItemTimeOfDayCell textField:shouldChangeCharactersInRange:replacementString:]
+-[_ORKFormItemTimeOfDayCell .cxx_destruct]
+-[_ORKFormItemDateCell setAnswer:]
+-[_ORKFormItemDateCell setFormItem:]
+-[_ORKFormItemDateCell _cellInit]
+-[_ORKFormItemDateCell _currentLocaleDidChange:]
+-[_ORKFormItemDateCell dealloc]
+-[_ORKFormItemDateCell setDefaultAnswer:]
+-[_ORKFormItemDateCell _answerDidChange]
+-[_ORKFormItemDateCell _labelFormatterWithCalendar:]
+-[_ORKFormItemDateCell _loadPicker]
+-[_ORKFormItemDateCell _inputValueDidChange]
+-[_ORKFormItemDateCell textFieldShouldClear:]
+___45-[_ORKFormItemDateCell textFieldShouldClear:]_block_invoke
+___copy_helper_block_385
+___destroy_helper_block_386
+-[_ORKFormItemDateCell textFieldShouldBeginEditing:]
+-[_ORKFormItemDateCell textField:shouldChangeCharactersInRange:replacementString:]
+-[_ORKFormItemDateCell .cxx_destruct]
+-[_ORKFormItemTextFieldCell _cellInit]
+-[_ORKFormItemTextFieldCell _inputValueDidChange]
+-[_ORKFormItemTextFieldCell _answerDidChange]
+-[_ORKFormItemTextFieldCell textFieldDidEndEditing:]
+-[_ORKFormItemTextFieldCell textField:shouldChangeCharactersInRange:replacementString:]
+-[_ORKFormItemNumericCell _cellInit]
+-[_ORKFormItemNumericCell dealloc]
+-[_ORKFormItemNumericCell _localeDidChange:]
+-[_ORKFormItemNumericCell _inputValueDidChange]
+-[_ORKFormItemNumericCell _answerDidChange]
+-[_ORKFormItemNumericCell _isAnswerValid]
+-[_ORKFormItemNumericCell textFieldShouldEndEditing:]
+-[_ORKFormItemNumericCell textFieldDidEndEditing:]
+-[_ORKFormItemNumericCell textFieldShouldReturn:]
+-[_ORKFormItemNumericCell textFieldShouldClear:]
+-[_ORKFormItemNumericCell _valueFieldDidChange:]
+-[_ORKFormItemNumericCell _setAnswerWithText:]
+-[_ORKFormItemNumericCell .cxx_destruct]
+-[_ORKFormItemTextCell _cellInit]
+-[_ORKFormItemTextCell _applyAnswerFormat]
+-[_ORKFormItemTextCell setFormItem:]
+-[_ORKFormItemTextCell _answerDidChange]
+-[_ORKFormItemTextCell becomeFirstResponder]
+-[_ORKFormItemTextCell resignFirstResponder]
+-[_ORKFormItemTextCell _inputValueDidChange]
+-[_ORKFormItemTextCell _placeholderColor]
+-[_ORKFormItemTextCell textViewDidChange:]
+-[_ORKFormItemTextCell textViewDidBeginEditing:]
+-[_ORKFormItemTextCell textViewDidEndEditing:]
+-[_ORKFormItemTextCell textView:shouldChangeTextInRange:replacementText:]
+-[_ORKFormItemTextCell .cxx_destruct]
+-[_ORKFormItemTimeIntervalCell _cellInit]
+-[_ORKFormItemTimeIntervalCell _impliedAnswerFormat]
+-[_ORKFormItemTimeIntervalCell _setupScale]
+-[_ORKFormItemTimeIntervalCell _currentValue]
+-[_ORKFormItemTimeIntervalCell _answerDidChange]
+-[_ORKFormItemTimeIntervalCell _updateLabelValue]
+-[_ORKFormItemTimeIntervalCell _configurePicker]
+-[_ORKFormItemTimeIntervalCell _inputValueDidChange]
+-[_ORKFormItemTimeIntervalCell textFieldShouldClear:]
+___53-[_ORKFormItemTimeIntervalCell textFieldShouldClear:]_block_invoke
+___copy_helper_block_576
+___destroy_helper_block_577
+-[_ORKFormItemTimeIntervalCell textFieldShouldBeginEditing:]
+-[_ORKFormItemTimeIntervalCell .cxx_destruct]
+-[_ORKFormItemImageSelectionCell _cellInit]
+-[_ORKFormItemImageSelectionCell selectionViewSelectionDidChange:]
+-[_ORKFormItemImageSelectionCell _inputValueDidChange]
+___54-[_ORKFormItemImageSelectionCell _inputValueDidChange]_block_invoke
+___copy_helper_block_610
+___destroy_helper_block_611
+-[_ORKFormItemImageSelectionCell _answerDidChange]
+___50-[_ORKFormItemImageSelectionCell _answerDidChange]_block_invoke
+___copy_helper_block_623
+___destroy_helper_block_624
+-[_ORKFormItemImageSelectionCell .cxx_destruct]
+-[_ORKFormItemValuePickerCell _cellInit]
+-[_ORKFormItemValuePickerCell _configurePicker]
+-[_ORKFormItemValuePickerCell _inputValueDidChange]
+-[_ORKFormItemValuePickerCell _answerDidChange]
+-[_ORKFormItemValuePickerCell textFieldShouldClear:]
+-[_ORKFormItemValuePickerCell textField:shouldChangeCharactersInRange:replacementString:]
+-[_ORKFormItemValuePickerCell _valuePickerAnswerFormat]
+-[_ORKFormItemValuePickerCell numberOfComponentsInPickerView:]
+-[_ORKFormItemValuePickerCell pickerView:numberOfRowsInComponent:]
+-[_ORKFormItemValuePickerCell pickerView:titleForRow:forComponent:]
+-[_ORKFormItemValuePickerCell pickerView:didSelectRow:inComponent:]
+-[_ORKFormItemValuePickerCell textFieldShouldBeginEditing:]
+-[_ORKFormItemValuePickerCell .cxx_destruct]
+-[UITouch(ORKJSONDictionary) _ork_JSONDictionaryInView:allTouches:]
+___ORKAccessibilityFormatNumber_block_invoke
+___ORKAccessibilityPerformBlockAfterDelay_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKSurveyAnswerCellForText initWithFrame:]
+-[ORKSurveyAnswerCellForText _applyAnswerFormat]
+-[ORKSurveyAnswerCellForText becomeFirstResponder]
+-[ORKSurveyAnswerCellForText setStep:]
+-[ORKSurveyAnswerCellForText traitCollectionDidChange:]
+-[ORKSurveyAnswerCellForText prepareView]
+-[ORKSurveyAnswerCellForText _answerDidChange]
+-[ORKSurveyAnswerCellForText updateConstraints]
++[ORKSurveyAnswerCellForText _shouldDisplayWithSeparators]
+-[ORKSurveyAnswerCellForText _textDidChange]
+-[ORKSurveyAnswerCellForText textViewDidEndEditing:]
+-[ORKSurveyAnswerCellForText textViewDidBeginEditing:]
+-[ORKSurveyAnswerCellForText textView:shouldChangeTextInRange:replacementText:]
+-[ORKSurveyAnswerCellForText textViewDidChange:]
++[ORKSurveyAnswerCellForText suggestedCellHeightForView:]
+-[ORKSurveyAnswerCellForText textView]
+-[ORKSurveyAnswerCellForText setTextView:]
+-[ORKSurveyAnswerCellForText placeHolder]
+-[ORKSurveyAnswerCellForText setPlaceHolder:]
+-[ORKSurveyAnswerCellForText .cxx_destruct]
+-[ORKSurveyAnswerCellForTextField becomeFirstResponder]
+-[ORKSurveyAnswerCellForTextField _textFieldCell_initialize]
+-[ORKSurveyAnswerCellForTextField traitCollectionDidChange:]
+-[ORKSurveyAnswerCellForTextField updateConstraints]
++[ORKSurveyAnswerCellForTextField _shouldDisplayWithSeparators]
+-[ORKSurveyAnswerCellForTextField prepareView]
+-[ORKSurveyAnswerCellForTextField shouldContinue]
+-[ORKSurveyAnswerCellForTextField _answerDidChange]
+-[ORKSurveyAnswerCellForTextField _correctValueIfNeeded]
+-[ORKSurveyAnswerCellForTextField _correctionNeededForText:]
+-[ORKSurveyAnswerCellForTextField textField:shouldChangeCharactersInRange:replacementString:]
+-[ORKSurveyAnswerCellForTextField textFieldShouldEndEditing:]
+-[ORKSurveyAnswerCellForTextField textFieldShouldReturn:]
+-[ORKSurveyAnswerCellForTextField textFieldDidEndEditing:]
+-[ORKSurveyAnswerCellForTextField textField]
+-[ORKSurveyAnswerCellForTextField setTextField:]
+-[ORKSurveyAnswerCellForTextField .cxx_destruct]
+-[ORKAnswerTextView init]
+-[ORKAnswerTextView initWithFrame:]
+-[ORKAnswerTextView initWithFrame:textContainer:]
+-[ORKAnswerTextView _init_ORKAnswerTextView]
+-[ORKAnswerTextView _updateAppearance]
+-[ORKAnswerTextView setFieldFont:]
+-[ORKAnswerTextView setFieldTextColor:]
+-[ORKAnswerTextView setFont:]
+-[ORKAnswerTextView setPlaceHolder:]
+-[ORKAnswerTextView dealloc]
++[ORKAnswerTextView defaultFont]
+-[ORKAnswerTextView fieldFont]
+-[ORKAnswerTextView fieldTextColor]
+-[ORKAnswerTextView placeHolder]
+-[ORKAnswerTextView .cxx_destruct]
++[ORKImageChoiceLabel defaultFont]
+-[ORKImageChoiceLabel intrinsicContentSize]
+-[ORKImageChoiceLabel textArray]
+-[ORKImageChoiceLabel setTextArray:]
+-[ORKImageChoiceLabel .cxx_destruct]
++[ORKConsentReviewStep _stepViewControllerClass]
+-[ORKConsentReviewStep initWithIdentifier:signature:inDocument:]
+-[ORKConsentReviewStep copyWithZone:]
+-[ORKConsentReviewStep initWithCoder:]
+-[ORKConsentReviewStep encodeWithCoder:]
+-[ORKConsentReviewStep isEqual:]
+-[ORKConsentReviewStep hash]
+-[ORKConsentReviewStep _shouldShowProgress]
+-[ORKConsentReviewStep initWithDictionary:]
+-[ORKConsentReviewStep dictionaryValue]
+-[ORKConsentReviewStep consentDocument]
+-[ORKConsentReviewStep signature]
+-[ORKConsentReviewStep reasonForConsent]
+-[ORKConsentReviewStep setReasonForConsent:]
+-[ORKConsentReviewStep .cxx_destruct]
++[ORKFormSectionTitleLabel defaultFont]
+-[ORKSurveyAnswerCell initWithStyle:reuseIdentifier:step:answer:delegate:]
+-[ORKSurveyAnswerCell setStep:]
+-[ORKSurveyAnswerCell prepareView]
+-[ORKSurveyAnswerCell layoutSubviews]
+-[ORKSurveyAnswerCell textField]
+-[ORKSurveyAnswerCell shouldContinue]
+-[ORKSurveyAnswerCell textView]
+-[ORKSurveyAnswerCell _answerDidChange]
++[ORKSurveyAnswerCell _shouldDisplayWithSeparators]
+-[ORKSurveyAnswerCell dealloc]
+-[ORKSurveyAnswerCell _setAnswer:]
+-[ORKSurveyAnswerCell setAnswer:]
+-[ORKSurveyAnswerCell _showValidityAlertWithMessage:]
+-[ORKSurveyAnswerCell registerForKeyboardNotifications]
+-[ORKSurveyAnswerCell keyboardWillAppear:]
+-[ORKSurveyAnswerCell keyboardWillHide:]
+___40-[ORKSurveyAnswerCell keyboardWillHide:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___40-[ORKSurveyAnswerCell keyboardWillHide:]_block_invoke64
+-[ORKSurveyAnswerCell suggestedCellHeightConstraintsForView:]
++[ORKSurveyAnswerCell suggestedCellHeightForView:]
+-[ORKSurveyAnswerCell step]
+-[ORKSurveyAnswerCell delegate]
+-[ORKSurveyAnswerCell setDelegate:]
+-[ORKSurveyAnswerCell answer]
+-[ORKSurveyAnswerCell cachedContentInsets]
+-[ORKSurveyAnswerCell setCachedContentInsets:]
+-[ORKSurveyAnswerCell cachedScrollIndicatorInsets]
+-[ORKSurveyAnswerCell setCachedScrollIndicatorInsets:]
+-[ORKSurveyAnswerCell .cxx_destruct]
+-[ORKBorderedButton _init_ORKTextButton]
+-[ORKBorderedButton tintColorDidChange]
+-[ORKBorderedButton setHighlighted:]
+-[ORKBorderedButton setEnabled:]
+-[ORKBorderedButton _fadeHighlightColor]
+-[ORKBorderedButton _updateBorderColor]
++[ORKBorderedButton defaultFont]
+-[ORKBorderedButton fadeDelay]
+-[ORKBorderedButton setFadeDelay:]
+-[ORKBorderedButton .cxx_destruct]
++[ORKConsentSignature signatureForPersonWithTitle:dateFormatString:identifier:firstName:lastName:signatureImage:dateString:]
++[ORKConsentSignature signatureForPersonWithTitle:dateFormatString:identifier:]
+-[ORKConsentSignature init]
+-[ORKConsentSignature setIdentifier:]
++[ORKConsentSignature supportsSecureCoding]
+-[ORKConsentSignature initWithCoder:]
+-[ORKConsentSignature encodeWithCoder:]
+-[ORKConsentSignature isEqual:]
+-[ORKConsentSignature hash]
+-[ORKConsentSignature copyWithZone:]
+-[ORKConsentSignature initWithDictionary:]
+-[ORKConsentSignature dictionaryValue]
+-[ORKConsentSignature requiresName]
+-[ORKConsentSignature setRequiresName:]
+-[ORKConsentSignature requiresSignatureImage]
+-[ORKConsentSignature setRequiresSignatureImage:]
+-[ORKConsentSignature identifier]
+-[ORKConsentSignature title]
+-[ORKConsentSignature setTitle:]
+-[ORKConsentSignature firstName]
+-[ORKConsentSignature setFirstName:]
+-[ORKConsentSignature lastName]
+-[ORKConsentSignature setLastName:]
+-[ORKConsentSignature signatureImage]
+-[ORKConsentSignature setSignatureImage:]
+-[ORKConsentSignature signatureDate]
+-[ORKConsentSignature setSignatureDate:]
+-[ORKConsentSignature signatureDateFormatString]
+-[ORKConsentSignature setSignatureDateFormatString:]
+-[ORKConsentSignature .cxx_destruct]
+-[_ORKWalkingProgressCircleView initWithFrame:]
+-[_ORKWalkingProgressCircleView tintColorDidChange]
+-[_ORKWalkingProgressCircleView intrinsicContentSize]
+-[_ORKWalkingProgressCircleView sizeThatFits:]
+-[_ORKWalkingProgressCircleView setCompleted:]
+-[_ORKWalkingProgressCircleView completed]
+-[_ORKWalkingProgressView initWithFrame:]
+-[_ORKWalkingProgressView dealloc]
+-[_ORKWalkingProgressView setCount:]
+-[_ORKWalkingProgressView setIndex:]
+___36-[_ORKWalkingProgressView setIndex:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKWalkingProgressView didMoveToWindow]
+-[_ORKWalkingProgressView stopAnimating]
+-[_ORKWalkingProgressView incrementIndex]
+-[_ORKWalkingProgressView startAnimating]
+-[_ORKWalkingProgressView sizeThatFits:]
+-[_ORKWalkingProgressView intrinsicContentSize]
+-[_ORKWalkingProgressView layoutSubviews]
+-[_ORKWalkingProgressView count]
+-[_ORKWalkingProgressView .cxx_destruct]
+-[_ORKWalkingContentView willMoveToWindow:]
+-[_ORKWalkingContentView initWithFrame:]
+-[_ORKWalkingContentView updateConstraintConstants]
+-[_ORKWalkingContentView updateConstraints]
+-[_ORKWalkingContentView progressView]
+-[_ORKWalkingContentView .cxx_destruct]
+-[_ORKWalkingTaskStepViewController initWithStep:]
+-[_ORKWalkingTaskStepViewController walkingTaskStep]
+-[_ORKWalkingTaskStepViewController viewDidLoad]
+-[_ORKWalkingTaskStepViewController _stepDidChange]
+-[_ORKWalkingTaskStepViewController didReceiveMemoryWarning]
+-[_ORKWalkingTaskStepViewController pedometerRecorderDidUpdate:]
+-[_ORKWalkingTaskStepViewController .cxx_destruct]
+-[ORKAnimationPlaceholderView initWithFrame:]
+-[ORKAnimationPlaceholderView willMoveToWindow:]
+-[ORKAnimationPlaceholderView layoutSubviews]
+-[ORKAnimationPlaceholderView playerView]
+-[ORKAnimationPlaceholderView setPlayerView:]
+-[ORKAnimationPlaceholderView .cxx_destruct]
+-[ORKVisualConsentStepViewController _stepDidChange]
+-[ORKVisualConsentStepViewController animationPlayerView]
+-[ORKVisualConsentStepViewController viewDidLoad]
+-[ORKVisualConsentStepViewController visualConsentStep]
+-[ORKVisualConsentStepViewController viewWillAppear:]
+-[ORKVisualConsentStepViewController _willNavigateDirection:]
+-[ORKVisualConsentStepViewController _goToPreviousPageButton]
+-[ORKVisualConsentStepViewController _setBackButtonItem:]
+-[ORKVisualConsentStepViewController _updateNavLeftBarButtonItem]
+-[ORKVisualConsentStepViewController _updateBackButton]
+-[ORKVisualConsentStepViewController _goToPreviousPage]
+-[ORKVisualConsentStepViewController _next]
+-[ORKVisualConsentStepViewController scrollView]
+-[ORKVisualConsentStepViewController _updatePageIndex]
+-[ORKVisualConsentStepViewController _setScrollEnabled:]
+-[ORKVisualConsentStepViewController _visualSections]
+-[ORKVisualConsentStepViewController _pageCount]
+-[ORKVisualConsentStepViewController _findHairlineImageViewUnder:]
+-[ORKVisualConsentStepViewController _doShowViewController:direction:animated:semaphore:]
+___89-[ORKVisualConsentStepViewController _doShowViewController:direction:animated:semaphore:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKVisualConsentStepViewController _doAnimateFromViewController:toController:direction:semaphore:url:animateBeforeTransition:transitionBeforeAnimate:]
+___152-[ORKVisualConsentStepViewController _doAnimateFromViewController:toController:direction:semaphore:url:animateBeforeTransition:transitionBeforeAnimate:]_block_invoke
+___152-[ORKVisualConsentStepViewController _doAnimateFromViewController:toController:direction:semaphore:url:animateBeforeTransition:transitionBeforeAnimate:]_block_invoke_2
+___copy_helper_block_176
+___destroy_helper_block_177
+___copy_helper_block_180
+___destroy_helper_block_181
+___152-[ORKVisualConsentStepViewController _doAnimateFromViewController:toController:direction:semaphore:url:animateBeforeTransition:transitionBeforeAnimate:]_block_invoke184
+___152-[ORKVisualConsentStepViewController _doAnimateFromViewController:toController:direction:semaphore:url:animateBeforeTransition:transitionBeforeAnimate:]_block_invoke_2185
+___copy_helper_block_186
+___destroy_helper_block_187
+___copy_helper_block_191
+___destroy_helper_block_192
+-[ORKVisualConsentStepViewController _finishTransitioningAnimator:]
+-[ORKVisualConsentStepViewController _showViewController:forward:animated:]
+___75-[ORKVisualConsentStepViewController _showViewController:forward:animated:]_block_invoke
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___75-[ORKVisualConsentStepViewController _showViewController:forward:animated:]_block_invoke210
+___copy_helper_block_213
+___destroy_helper_block_214
+___75-[ORKVisualConsentStepViewController _showViewController:forward:animated:]_block_invoke216
+___copy_helper_block_217
+___destroy_helper_block_218
+___copy_helper_block_220
+___destroy_helper_block_221
+-[ORKVisualConsentStepViewController _viewControllerForIndex:]
+-[ORKVisualConsentStepViewController _indexOfViewController:]
+-[ORKVisualConsentStepViewController _currentIndex]
+-[ORKVisualConsentStepViewController pageViewController:viewControllerBeforeViewController:]
+-[ORKVisualConsentStepViewController pageViewController:viewControllerAfterViewController:]
+-[ORKVisualConsentStepViewController pageViewController:didFinishAnimating:previousViewControllers:transitionCompleted:]
+-[ORKVisualConsentStepViewController encodeRestorableStateWithCoder:]
+-[ORKVisualConsentStepViewController decodeRestorableStateWithCoder:]
+-[ORKVisualConsentStepViewController animationView]
+-[ORKVisualConsentStepViewController setAnimationView:]
+-[ORKVisualConsentStepViewController pageViewController]
+-[ORKVisualConsentStepViewController setPageViewController:]
+-[ORKVisualConsentStepViewController viewControllers]
+-[ORKVisualConsentStepViewController setViewControllers:]
+-[ORKVisualConsentStepViewController setScrollView:]
+-[ORKVisualConsentStepViewController currentPage]
+-[ORKVisualConsentStepViewController setCurrentPage:]
+-[ORKVisualConsentStepViewController continueActionButton]
+-[ORKVisualConsentStepViewController setContinueActionButton:]
+-[ORKVisualConsentStepViewController .cxx_destruct]
+___ORKAccessibilityPostNotificationAfterDelay_block_invoke
+___copy_helper_block_376
+___destroy_helper_block_377
++[ORKMediaStep _stepViewControllerClass]
+-[ORKMediaStep initWithCoder:]
+-[ORKMediaStep encodeWithCoder:]
+-[ORKMediaStep copyWithZone:]
++[ORKMediaStep mediaTypeTable]
+___30+[ORKMediaStep mediaTypeTable]_block_invoke
+-[ORKMediaStep initWithDictionary:]
+-[ORKMediaStep dictionaryValue]
+-[ORKMediaStep request]
+-[ORKMediaStep setRequest:]
+-[ORKMediaStep mediaType]
+-[ORKMediaStep setMediaType:]
+-[ORKMediaStep allowsEditing]
+-[ORKMediaStep setAllowsEditing:]
+-[ORKMediaStep .cxx_destruct]
+-[UIView(ORKAccessibility) _ork_superviewOfType:]
+-[ORKHtmlPdfPageRenderer paperRect]
+-[ORKHtmlPdfPageRenderer printableRect]
+-[ORKHtmlPdfPageRenderer drawFooterForPageAtIndex:inRect:]
+-[ORKHtmlPdfPageRenderer pageMargins]
+-[ORKHtmlPdfPageRenderer setPageMargins:]
+-[ORKHtmlPdfWriter writePdfFromHtml:withCompletionBlock:]
+-[ORKHtmlPdfWriter _timeout]
+-[ORKHtmlPdfWriter _savePdf]
++[ORKHtmlPdfWriter defaultPageSize]
+-[ORKHtmlPdfWriter webViewDidFinishLoad:]
+-[ORKHtmlPdfWriter webView:didFailLoadWithError:]
+-[ORKHtmlPdfWriter pageSize]
+-[ORKHtmlPdfWriter setPageSize:]
+-[ORKHtmlPdfWriter pageMargins]
+-[ORKHtmlPdfWriter setPageMargins:]
+-[ORKHtmlPdfWriter webView]
+-[ORKHtmlPdfWriter setWebView:]
+-[ORKHtmlPdfWriter data]
+-[ORKHtmlPdfWriter setData:]
+-[ORKHtmlPdfWriter error]
+-[ORKHtmlPdfWriter setError:]
+-[ORKHtmlPdfWriter completionBlock]
+-[ORKHtmlPdfWriter setCompletionBlock:]
+-[ORKHtmlPdfWriter .cxx_destruct]
+__ORKHKBiologicalSexString
+__ORKHKBloodTypeString
+-[ORKHealthKitCharacteristicTypeAnswerFormat _isHealthKitAnswerFormat]
+-[ORKHealthKitCharacteristicTypeAnswerFormat _healthKitObjectType]
++[ORKHealthKitCharacteristicTypeAnswerFormat answerFormatWithCharacteristicType:]
+-[ORKHealthKitCharacteristicTypeAnswerFormat initWithCharacteristicType:]
+-[ORKHealthKitCharacteristicTypeAnswerFormat initWithDictionary:]
+-[ORKHealthKitCharacteristicTypeAnswerFormat isEqual:]
+-[ORKHealthKitCharacteristicTypeAnswerFormat hash]
+-[ORKHealthKitCharacteristicTypeAnswerFormat dictionaryValue]
+-[ORKHealthKitCharacteristicTypeAnswerFormat _impliedAnswerFormat]
+-[ORKHealthKitCharacteristicTypeAnswerFormat initWithCoder:]
+-[ORKHealthKitCharacteristicTypeAnswerFormat encodeWithCoder:]
+-[ORKHealthKitCharacteristicTypeAnswerFormat characteristicType]
+-[ORKHealthKitCharacteristicTypeAnswerFormat .cxx_destruct]
+-[ORKHealthKitQuantityTypeAnswerFormat _isHealthKitAnswerFormat]
+-[ORKHealthKitQuantityTypeAnswerFormat _healthKitObjectType]
++[ORKHealthKitQuantityTypeAnswerFormat answerFormatWithQuantityType:unit:style:]
+-[ORKHealthKitQuantityTypeAnswerFormat initWithQuantityType:unit:style:]
+-[ORKHealthKitQuantityTypeAnswerFormat isEqual:]
+-[ORKHealthKitQuantityTypeAnswerFormat hash]
+-[ORKHealthKitQuantityTypeAnswerFormat initWithDictionary:]
+-[ORKHealthKitQuantityTypeAnswerFormat dictionaryValue]
+-[ORKHealthKitQuantityTypeAnswerFormat _impliedAnswerFormat]
+-[ORKHealthKitQuantityTypeAnswerFormat _healthKitUnit]
+-[ORKHealthKitQuantityTypeAnswerFormat _healthKitUserUnit]
+-[ORKHealthKitQuantityTypeAnswerFormat _setHealthKitUserUnit:]
+-[ORKHealthKitQuantityTypeAnswerFormat initWithCoder:]
+-[ORKHealthKitQuantityTypeAnswerFormat encodeWithCoder:]
+-[ORKHealthKitQuantityTypeAnswerFormat quantityType]
+-[ORKHealthKitQuantityTypeAnswerFormat unit]
+-[ORKHealthKitQuantityTypeAnswerFormat numericAnswerStyle]
+-[ORKHealthKitQuantityTypeAnswerFormat .cxx_destruct]
+-[NSObject(DictionarySerialization) _ork_setIVar:fromDictionary:defaultValue:expectingClass:]
++[ORKSelectionTitleLabel defaultFont]
+-[ORKChoiceViewCell initWithStyle:reuseIdentifier:]
+-[ORKChoiceViewCell layoutSubviews]
+-[ORKChoiceViewCell shortLabel]
+-[ORKChoiceViewCell longLabel]
+-[ORKChoiceViewCell _updateSelectedItem]
+-[ORKChoiceViewCell setSelectedItem:]
++[ORKChoiceViewCell suggestedCellHeightForShortText:LongText:inTableView:]
+-[ORKChoiceViewCell accessibilityLabel]
+-[ORKChoiceViewCell setShortLabel:]
+-[ORKChoiceViewCell setLongLabel:]
+-[ORKChoiceViewCell isSelectedItem]
+-[ORKChoiceViewCell .cxx_destruct]
+-[_ORKPathView initWithBezierPath:canvasSize:canvasMargins:color:]
+-[_ORKPathView setColor:]
+-[_ORKPathView drawRect:]
+-[_ORKPathView tintColorDidChange]
+-[_ORKPathView canvasMargins]
+-[_ORKPathView canvasSize]
+-[_ORKPathView path]
+-[_ORKPathView color]
+-[_ORKPathView .cxx_destruct]
+-[_ORKSpatialSpanTargetView _newFlowerViewWithImage:]
+-[_ORKSpatialSpanTargetView initWithFrame:]
+-[_ORKSpatialSpanTargetView setCustomTargetImage:]
+-[_ORKSpatialSpanTargetView handleTap:]
+-[_ORKSpatialSpanTargetView setState:]
+-[_ORKSpatialSpanTargetView tintColorDidChange]
+-[_ORKSpatialSpanTargetView setState:animated:]
+___47-[_ORKSpatialSpanTargetView setState:animated:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKSpatialSpanTargetView layoutSubviews]
+-[_ORKSpatialSpanTargetView isAccessibilityElement]
+-[_ORKSpatialSpanTargetView accessibilityLabel]
+-[_ORKSpatialSpanTargetView delegate]
+-[_ORKSpatialSpanTargetView setDelegate:]
+-[_ORKSpatialSpanTargetView state]
+-[_ORKSpatialSpanTargetView color]
+-[_ORKSpatialSpanTargetView setColor:]
+-[_ORKSpatialSpanTargetView customTargetImage]
+-[_ORKSpatialSpanTargetView .cxx_destruct]
++[ORKSubheadlineLabel defaultFont]
+-[ORKSubheadlineLabel _normalFontSize]
+-[ORKSubheadlineLabel _defaultFont]
+-[ORKSubheadlineLabel setCompressFontSize:]
+-[ORKSubheadlineLabel _updateAppearance]
+-[ORKSubheadlineLabel compressFontSize]
+-[_ORKSpatialSpanMemoryGameView setGridSize:]
+-[_ORKSpatialSpanMemoryGameView numberOfTiles]
+-[_ORKSpatialSpanMemoryGameView _makeTargetView]
+-[_ORKSpatialSpanMemoryGameView resetTilesAnimated:]
+___52-[_ORKSpatialSpanMemoryGameView resetTilesAnimated:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKSpatialSpanMemoryGameView setCustomTargetImage:]
+-[_ORKSpatialSpanMemoryGameView targetView:recognizer:]
+-[_ORKSpatialSpanMemoryGameView layoutSubviews]
+-[_ORKSpatialSpanMemoryGameView setState:forTileIndex:animated:]
+-[_ORKSpatialSpanMemoryGameView stateForTileIndex:]
+-[_ORKSpatialSpanMemoryGameView isAccessibilityElement]
+-[_ORKSpatialSpanMemoryGameView delegate]
+-[_ORKSpatialSpanMemoryGameView setDelegate:]
+-[_ORKSpatialSpanMemoryGameView gridSize]
+-[_ORKSpatialSpanMemoryGameView tileViews]
+-[_ORKSpatialSpanMemoryGameView customTargetImage]
+-[_ORKSpatialSpanMemoryGameView .cxx_destruct]
+-[_ORKSpatialSpanMemoryContentView _countView]
+-[_ORKSpatialSpanMemoryContentView _scoreView]
+-[_ORKSpatialSpanMemoryContentView initWithFrame:]
+-[_ORKSpatialSpanMemoryContentView setCapitalizedPluralItemDescription:]
+-[_ORKSpatialSpanMemoryContentView setNumberOfItems:]
+-[_ORKSpatialSpanMemoryContentView setScore:]
+-[_ORKSpatialSpanMemoryContentView _updateFooterHidden]
+-[_ORKSpatialSpanMemoryContentView setFooterHidden:]
+-[_ORKSpatialSpanMemoryContentView setButtonItem:]
+-[_ORKSpatialSpanMemoryContentView _updateMargins]
+-[_ORKSpatialSpanMemoryContentView traitCollectionDidChange:]
+-[_ORKSpatialSpanMemoryContentView updateConstraints]
+-[_ORKSpatialSpanMemoryContentView gameView]
+-[_ORKSpatialSpanMemoryContentView isFooterHidden]
+-[_ORKSpatialSpanMemoryContentView capitalizedPluralItemDescription]
+-[_ORKSpatialSpanMemoryContentView numberOfItems]
+-[_ORKSpatialSpanMemoryContentView score]
+-[_ORKSpatialSpanMemoryContentView buttonItem]
+-[_ORKSpatialSpanMemoryContentView .cxx_destruct]
+-[HKSample(ORKJSONDictionary) _ork_JSONDictionaryWithOptions:unit:]
+-[HKCategorySample(ORKJSONDictionary) _ork_JSONDictionaryWithOptions:unit:]
+-[HKQuantitySample(ORKJSONDictionary) _ork_JSONDictionaryWithOptions:unit:]
+-[HKCorrelation(ORKJSONDictionary) _ork_JSONDictionaryWithOptions:sampleTypes:units:]
++[ORKInstructionStep _stepViewControllerClass]
+-[ORKInstructionStep initWithCoder:]
+-[ORKInstructionStep encodeWithCoder:]
+-[ORKInstructionStep copyWithZone:]
+-[ORKInstructionStep isEqual:]
+-[ORKInstructionStep hash]
+-[ORKInstructionStep initWithDictionary:]
+-[ORKInstructionStep dictionaryValue]
+-[ORKInstructionStep detailText]
+-[ORKInstructionStep setDetailText:]
+-[ORKInstructionStep image]
+-[ORKInstructionStep setImage:]
+-[ORKInstructionStep .cxx_destruct]
+-[_ORKFitnessContentView _distanceView]
+-[_ORKFitnessContentView _heartRateView]
+-[_ORKFitnessContentView initWithFrame:]
+-[_ORKFitnessContentView willMoveToWindow:]
+-[_ORKFitnessContentView updateConstraintConstants]
+-[_ORKFitnessContentView updateConstraints]
+-[_ORKFitnessContentView setImage:]
+-[_ORKFitnessContentView setHasDistance:]
+-[_ORKFitnessContentView setHasHeartRate:]
+-[_ORKFitnessContentView setHeartRate:]
+-[_ORKFitnessContentView _updateKeylineVisible]
+-[_ORKFitnessContentView setDistanceInMeters:]
+-[_ORKFitnessContentView setTimeLeft:]
+-[_ORKFitnessContentView _updateTimerLabel]
+___43-[_ORKFitnessContentView _updateTimerLabel]_block_invoke
+-[_ORKFitnessContentView isFinished]
+-[_ORKFitnessContentView setFinished:]
+-[_ORKFitnessContentView hasHeartRate]
+-[_ORKFitnessContentView hasDistance]
+-[_ORKFitnessContentView heartRate]
+-[_ORKFitnessContentView distanceInMeters]
+-[_ORKFitnessContentView image]
+-[_ORKFitnessContentView timeLeft]
+-[_ORKFitnessContentView .cxx_destruct]
+-[ORKConsentSection initWithType:]
++[ORKConsentSection supportsSecureCoding]
+-[ORKConsentSection setContent:]
+-[ORKConsentSection escapedContent]
+-[ORKConsentSection initWithCoder:]
+-[ORKConsentSection encodeWithCoder:]
+-[ORKConsentSection isEqual:]
+-[ORKConsentSection hash]
+-[ORKConsentSection copyWithZone:]
+-[ORKConsentSection initWithDictionary:]
+-[ORKConsentSection dictionaryValue]
+-[ORKConsentSection type]
+-[ORKConsentSection title]
+-[ORKConsentSection setTitle:]
+-[ORKConsentSection formalTitle]
+-[ORKConsentSection setFormalTitle:]
+-[ORKConsentSection summary]
+-[ORKConsentSection setSummary:]
+-[ORKConsentSection content]
+-[ORKConsentSection htmlContent]
+-[ORKConsentSection setHtmlContent:]
+-[ORKConsentSection customImage]
+-[ORKConsentSection setCustomImage:]
+-[ORKConsentSection customLearnMoreButtonTitle]
+-[ORKConsentSection setCustomLearnMoreButtonTitle:]
+-[ORKConsentSection customAnimationURL]
+-[ORKConsentSection setCustomAnimationURL:]
+-[ORKConsentSection .cxx_destruct]
++[_ORKCountdownStep _stepViewControllerClass]
+-[_ORKCountdownStep initWithIdentifier:]
+-[_ORKCountdownStep validateParameters]
+-[ORKHealthQuantityTypeRecorder initWithHealthQuantityType:unit:step:outputDirectory:]
+-[ORKHealthQuantityTypeRecorder dealloc]
+-[ORKHealthQuantityTypeRecorder _updateMostRecentSample:]
+-[ORKHealthQuantityTypeRecorder _query_logResults:withAnchor:]
+___62-[ORKHealthQuantityTypeRecorder _query_logResults:withAnchor:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___62-[ORKHealthQuantityTypeRecorder _query_logResults:withAnchor:]_block_invoke28
+___copy_helper_block_39
+___destroy_helper_block_40
+-[ORKHealthQuantityTypeRecorder _doFetchNewData]
+___48-[ORKHealthQuantityTypeRecorder _doFetchNewData]_block_invoke
+___copy_helper_block_48
+___destroy_helper_block_49
+-[ORKHealthQuantityTypeRecorder start]
+___38-[ORKHealthQuantityTypeRecorder start]_block_invoke
+___38-[ORKHealthQuantityTypeRecorder start]_block_invoke_2
+___38-[ORKHealthQuantityTypeRecorder start]_block_invoke_3
+___copy_helper_block_86
+___destroy_helper_block_87
+___copy_helper_block_89
+___destroy_helper_block_90
+-[ORKHealthQuantityTypeRecorder _recorderType]
+-[ORKHealthQuantityTypeRecorder stop]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___37-[ORKHealthQuantityTypeRecorder stop]_block_invoke
+___copy_helper_block_99
+___destroy_helper_block_100
+-[ORKHealthQuantityTypeRecorder _doStopRecording]
+-[ORKHealthQuantityTypeRecorder finishRecordingWithError:]
+-[ORKHealthQuantityTypeRecorder isRecording]
+-[ORKHealthQuantityTypeRecorder mimeType]
+-[ORKHealthQuantityTypeRecorder _reset]
+-[ORKHealthQuantityTypeRecorder quantityType]
+-[ORKHealthQuantityTypeRecorder unit]
+-[ORKHealthQuantityTypeRecorder lastSample]
+-[ORKHealthQuantityTypeRecorder recordingError]
+-[ORKHealthQuantityTypeRecorder setRecordingError:]
+-[ORKHealthQuantityTypeRecorder .cxx_destruct]
+-[ORKHealthQuantityTypeRecorderConfiguration initWithHealthQuantityType:unit:]
+-[ORKHealthQuantityTypeRecorderConfiguration recorderForStep:outputDirectory:]
+-[ORKHealthQuantityTypeRecorderConfiguration initWithCoder:]
+-[ORKHealthQuantityTypeRecorderConfiguration encodeWithCoder:]
+-[ORKHealthQuantityTypeRecorderConfiguration isEqual:]
+-[ORKHealthQuantityTypeRecorderConfiguration initWithDictionary:]
+-[ORKHealthQuantityTypeRecorderConfiguration dictionaryValue]
+-[ORKHealthQuantityTypeRecorderConfiguration requestedHealthKitTypesForReading]
+-[ORKHealthQuantityTypeRecorderConfiguration quantityType]
+-[ORKHealthQuantityTypeRecorderConfiguration unit]
+-[ORKHealthQuantityTypeRecorderConfiguration .cxx_destruct]
+-[ORKTableViewCell initWithStyle:reuseIdentifier:]
+___50-[ORKTableViewCell initWithStyle:reuseIdentifier:]_block_invoke
+-[ORKTableViewCell traitCollectionDidChange:]
+-[ORKTableViewCell setShowBottomSeparator:]
+-[ORKTableViewCell setShowTopSeparator:]
+-[ORKTableViewCell setBottomSeparatorLeftInset:]
+-[ORKTableViewCell setTopSeparatorLeftInset:]
+-[ORKTableViewCell layoutSubviews]
+-[ORKTableViewCell _init_ORKTableViewCell]
+-[ORKTableViewCell _updateAppearance]
+-[ORKTableViewCell setLabelFont:]
+-[ORKTableViewCell setLabelTextColor:]
+-[ORKTableViewCell dealloc]
+-[ORKTableViewCell labelFont]
+-[ORKTableViewCell labelTextColor]
+-[ORKTableViewCell rkSeparatorColor]
+-[ORKTableViewCell setRkSeparatorColor:]
+-[ORKTableViewCell showBottomSeparator]
+-[ORKTableViewCell showTopSeparator]
+-[ORKTableViewCell topSeparatorLeftInset]
+-[ORKTableViewCell bottomSeparatorLeftInset]
+-[ORKTableViewCell topSeparator]
+-[ORKTableViewCell setTopSeparator:]
+-[ORKTableViewCell bottomSeparator]
+-[ORKTableViewCell setBottomSeparator:]
+-[ORKTableViewCell .cxx_destruct]
+-[CMAccelerometerData(ORKJSONDictionary) _ork_JSONDictionary]
+-[CMMotionActivity(ORKJSONDictionary) _ork_JSONDictionary]
++[ORKScaleValueLabel defaultFont]
+-[ORKStep initWithIdentifier:]
++[ORKStep _stepViewControllerClass]
+-[ORKStep copyWithZone:]
+-[ORKStep isEqual:]
+-[ORKStep hash]
++[ORKStep supportsSecureCoding]
+-[ORKStep initWithCoder:]
+-[ORKStep encodeWithCoder:]
+-[ORKStep description]
+-[ORKStep _shouldShowProgress]
+-[ORKStep _shouldAllowBackNavigation]
+-[ORKStep isRestorable]
+-[ORKStep validateParameters]
+-[ORKStep initWithDictionary:]
+-[ORKStep dictionaryValue]
+-[ORKStep identifier]
+-[ORKStep isOptional]
+-[ORKStep setOptional:]
+-[ORKStep title]
+-[ORKStep setTitle:]
+-[ORKStep text]
+-[ORKStep setText:]
+-[ORKStep task]
+-[ORKStep setTask:]
+-[ORKStep shouldTintImages]
+-[ORKStep setShouldTintImages:]
+-[ORKStep useSurveyMode]
+-[ORKStep setUseSurveyMode:]
+-[ORKStep .cxx_destruct]
++[ORKHeadlineLabel defaultFontInSurveyMode:]
++[ORKHeadlineLabel defaultFont]
+-[ORKHeadlineLabel _defaultFont]
+-[ORKHeadlineLabel setUseSurveyMode:]
+-[ORKHeadlineLabel _updateAppearance]
+-[ORKHeadlineLabel accessibilityTraits]
+-[ORKHeadlineLabel useSurveyMode]
++[ORKCaption1Label defaultFont]
+-[ORKConsentDocument setSignatures:]
+-[ORKConsentDocument addSignature:]
+-[ORKConsentDocument signatures]
+-[ORKConsentDocument makePDFWithCompletionHandler:]
+___51-[ORKConsentDocument makePDFWithCompletionHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKConsentDocument _mobileHtmlWithTitle:detail:]
++[ORKConsentDocument _cssStyleSheet:]
++[ORKConsentDocument wrapHtmlBody:mobile:]
+-[ORKConsentDocument _htmlForMobile:withTitle:detail:]
++[ORKConsentDocument supportsSecureCoding]
+-[ORKConsentDocument initWithCoder:]
+-[ORKConsentDocument encodeWithCoder:]
+-[ORKConsentDocument isEqual:]
+-[ORKConsentDocument hash]
+-[ORKConsentDocument copyWithZone:]
+-[ORKConsentDocument initWithDictionary:]
+-[ORKConsentDocument dictionaryValue]
+-[ORKConsentDocument title]
+-[ORKConsentDocument setTitle:]
+-[ORKConsentDocument sections]
+-[ORKConsentDocument setSections:]
+-[ORKConsentDocument signaturePageTitle]
+-[ORKConsentDocument setSignaturePageTitle:]
+-[ORKConsentDocument signaturePageContent]
+-[ORKConsentDocument setSignaturePageContent:]
+-[ORKConsentDocument htmlReviewContent]
+-[ORKConsentDocument setHtmlReviewContent:]
+-[ORKConsentDocument writer]
+-[ORKConsentDocument setWriter:]
+-[ORKConsentDocument .cxx_destruct]
+_____ORKArrayDeepCopy_block_invoke
+___copy_helper_block_332
+___destroy_helper_block_333
+-[_ORKTintedImageView setShouldApplyTint:]
+-[_ORKTintedImageView _imageByTintingImage:]
+-[_ORKTintedImageView setImage:]
+-[_ORKTintedImageView tintColorDidChange]
+-[_ORKTintedImageView shouldApplyTint]
+-[_ORKTintedImageView .cxx_destruct]
+-[UIApplication(ResearchKit) _ork_currentFirstResponder]
++[_ORKQuantityLabel defaultFont]
+-[_ORKActiveStepQuantityView initWithFrame:]
+-[_ORKActiveStepQuantityView setEnabled:]
+-[_ORKActiveStepQuantityView setTitle:]
+-[_ORKActiveStepQuantityView setValue:]
+-[_ORKActiveStepQuantityView setImage:]
+-[_ORKActiveStepQuantityView updateConstraints]
+-[_ORKActiveStepQuantityView isAccessibilityElement]
+-[_ORKActiveStepQuantityView accessibilityLabel]
+-[_ORKActiveStepQuantityView accessibilityValue]
+-[_ORKActiveStepQuantityView accessibilityTraits]
+-[_ORKActiveStepQuantityView title]
+-[_ORKActiveStepQuantityView value]
+-[_ORKActiveStepQuantityView image]
+-[_ORKActiveStepQuantityView enabled]
+-[_ORKActiveStepQuantityView titleLabel]
+-[_ORKActiveStepQuantityView valueLabel]
+-[_ORKActiveStepQuantityView .cxx_destruct]
+-[_ORKQuantityPairView initWithFrame:]
+-[_ORKQuantityPairView updateConstraints]
+-[_ORKQuantityPairView setKeylineHidden:]
+-[_ORKQuantityPairView leftView]
+-[_ORKQuantityPairView setLeftView:]
+-[_ORKQuantityPairView rightView]
+-[_ORKQuantityPairView setRightView:]
+-[_ORKQuantityPairView keylineHidden]
+-[_ORKQuantityPairView .cxx_destruct]
+-[CMDeviceMotion(ORKJSONDictionary) _ork_JSONDictionary]
+-[UIResponder(ResearchKit) _ork_updateCurrentFirstResponder:]
+-[_ORKTableCellItem initWithFormItem:]
+-[_ORKTableCellItem initWithFormItem:choiceIndex:]
+-[_ORKTableCellItem textChoiceAnswerFormat]
+-[_ORKTableCellItem booleanAnswerFormat]
+-[_ORKTableCellItem labelWidth]
+-[_ORKTableCellItem formItem]
+-[_ORKTableCellItem setFormItem:]
+-[_ORKTableCellItem answerFormat]
+-[_ORKTableCellItem setAnswerFormat:]
+-[_ORKTableCellItem singleChoice]
+-[_ORKTableCellItem choice]
+-[_ORKTableCellItem choiceIndex]
+-[_ORKTableCellItem .cxx_destruct]
+-[_ORKTableSection init]
+-[_ORKTableSection setTitle:]
+-[_ORKTableSection addFormItem:]
+___32-[_ORKTableSection addFormItem:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKTableSection maxLabelWidth]
+-[_ORKTableSection title]
+-[_ORKTableSection items]
+-[_ORKTableSection hasChoiceRows]
+-[_ORKTableSection .cxx_destruct]
+-[ORKFormStepViewController _ORKFormStepViewController_initWithResult:]
+-[ORKFormStepViewController initWithStep:]
+-[ORKFormStepViewController initWithStep:result:]
+-[ORKFormStepViewController viewWillAppear:]
+___44-[ORKFormStepViewController viewWillAppear:]_block_invoke
+___44-[ORKFormStepViewController viewWillAppear:]_block_invoke_2
+___copy_helper_block_172
+___destroy_helper_block_173
+___copy_helper_block_176
+___destroy_helper_block_177
+-[ORKFormStepViewController viewDidAppear:]
+-[ORKFormStepViewController _updateDefaults:]
+-[ORKFormStepViewController _refreshDefaults]
+___45-[ORKFormStepViewController _refreshDefaults]_block_invoke
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___45-[ORKFormStepViewController _refreshDefaults]_block_invoke221
+___copy_helper_block_224
+___destroy_helper_block_225
+___45-[ORKFormStepViewController _refreshDefaults]_block_invoke230
+___copy_helper_block_233
+___destroy_helper_block_234
+___copy_helper_block_236
+___destroy_helper_block_237
+-[ORKFormStepViewController _removeAnswerForIdentifier:]
+-[ORKFormStepViewController _setAnswer:forIdentifier:]
+-[ORKFormStepViewController setContinueButtonItem:]
+-[ORKFormStepViewController setLearnMoreButtonItem:]
+-[ORKFormStepViewController setSkipButtonItem:]
+-[ORKFormStepViewController _stepDidChange]
+-[ORKFormStepViewController _buildSections]
+___43-[ORKFormStepViewController _buildSections]_block_invoke
+___copy_helper_block_337
+___destroy_helper_block_338
+-[ORKFormStepViewController _numAnswered]
+___41-[ORKFormStepViewController _numAnswered]_block_invoke
+___copy_helper_block_342
+___destroy_helper_block_343
+-[ORKFormStepViewController _allAnswered]
+-[ORKFormStepViewController continueButtonEnabled]
+-[ORKFormStepViewController _updateButtonStates]
+-[ORKFormStepViewController _formStep]
+-[ORKFormStepViewController _allFormItems]
+-[ORKFormStepViewController _formItems]
+___39-[ORKFormStepViewController _formItems]_block_invoke
+___copy_helper_block_356
+___destroy_helper_block_357
+-[ORKFormStepViewController _showValidityAlertWithMessage:]
+-[ORKFormStepViewController result]
+-[ORKFormStepViewController skipForward]
+-[ORKFormStepViewController _isLastSection:]
+-[ORKFormStepViewController _isSeparatorRow:]
+-[ORKFormStepViewController numberOfSectionsInTableView:]
+-[ORKFormStepViewController tableView:numberOfRowsInSection:]
+-[ORKFormStepViewController tableView:cellForRowAtIndexPath:]
+-[ORKFormStepViewController _isChoiceSelected:atIndex:answer:]
+-[ORKFormStepViewController tableView:shouldHighlightRowAtIndexPath:]
+-[ORKFormStepViewController tableView:didSelectRowAtIndexPath:]
+___63-[ORKFormStepViewController tableView:didSelectRowAtIndexPath:]_block_invoke
+___copy_helper_block_454
+___destroy_helper_block_455
+-[ORKFormStepViewController tableView:heightForRowAtIndexPath:]
+-[ORKFormStepViewController tableView:heightForHeaderInSection:]
+-[ORKFormStepViewController tableView:viewForHeaderInSection:]
+-[ORKFormStepViewController tableView:willDisplayCell:forRowAtIndexPath:]
+-[ORKFormStepViewController formItemCellDidBecomeFirstResponder:]
+-[ORKFormStepViewController formItemCell:invalidInputAlertWithMessage:]
+-[ORKFormStepViewController formItemCell:answerDidChangeTo:]
+-[ORKFormStepViewController encodeRestorableStateWithCoder:]
+-[ORKFormStepViewController decodeRestorableStateWithCoder:]
+-[ORKFormStepViewController viewWillTransitionToSize:withTransitionCoordinator:]
+-[ORKFormStepViewController tableContainer]
+-[ORKFormStepViewController setTableContainer:]
+-[ORKFormStepViewController tableView]
+-[ORKFormStepViewController setTableView:]
+-[ORKFormStepViewController headerView]
+-[ORKFormStepViewController setHeaderView:]
+-[ORKFormStepViewController savedAnswers]
+-[ORKFormStepViewController setSavedAnswers:]
+-[ORKFormStepViewController savedAnswerDates]
+-[ORKFormStepViewController setSavedAnswerDates:]
+-[ORKFormStepViewController savedSystemCalendars]
+-[ORKFormStepViewController setSavedSystemCalendars:]
+-[ORKFormStepViewController savedSystemTimeZones]
+-[ORKFormStepViewController setSavedSystemTimeZones:]
+-[ORKFormStepViewController savedDefaults]
+-[ORKFormStepViewController setSavedDefaults:]
+-[ORKFormStepViewController .cxx_destruct]
+-[ORKSurveyAnswerCellForTimeInterval _impliedAnswerFormat]
+-[ORKSurveyAnswerCellForTimeInterval _setupScale]
+-[ORKSurveyAnswerCellForTimeInterval prepareView]
+-[ORKSurveyAnswerCellForTimeInterval _answerDidChange]
+-[ORKSurveyAnswerCellForTimeInterval layoutSubviews]
+-[ORKSurveyAnswerCellForTimeInterval valueChanged:]
++[ORKSurveyAnswerCellForTimeInterval suggestedCellHeightForView:]
+-[ORKSurveyAnswerCellForTimeInterval picker]
+-[ORKSurveyAnswerCellForTimeInterval setPicker:]
+-[ORKSurveyAnswerCellForTimeInterval .cxx_destruct]
+-[ORKActiveStepTimerView initWithFrame:]
+-[ORKActiveStepTimerView _applicationDidBecomeActive:]
+-[ORKActiveStepTimerView _setRegisteredForNotifications:]
+-[ORKActiveStepTimerView didMoveToWindow]
+-[ORKActiveStepTimerView setStep:]
+-[ORKActiveStepTimerView _startTimerButtonTapped:]
+-[ORKActiveStepTimerView updateDisplay:]
+-[ORKActiveStepTimerView resetStep:]
+-[ORKActiveStepTimerView startStep:]
+-[ORKActiveStepTimerView suspendStep:]
+-[ORKActiveStepTimerView resumeStep:]
+-[ORKActiveStepTimerView finishStep:]
+-[ORKActiveStepTimerView setNeedsUpdateConstraints]
+-[ORKActiveStepTimerView updateConstraints]
+-[ORKActiveStepTimerView countDownLabel]
+-[ORKActiveStepTimerView setCountDownLabel:]
+-[ORKActiveStepTimerView startTimerButton]
+-[ORKActiveStepTimerView setStartTimerButton:]
+-[ORKActiveStepTimerView step]
+-[ORKActiveStepTimerView .cxx_destruct]
+-[_ORKAudioStepViewController initWithStep:]
+-[_ORKAudioStepViewController viewDidLoad]
+-[_ORKAudioStepViewController viewDidAppear:]
+-[_ORKAudioStepViewController _audioRecorderDidChange]
+-[_ORKAudioStepViewController recordersDidChange]
+-[_ORKAudioStepViewController audioStep]
+-[_ORKAudioStepViewController _doSample]
+-[_ORKAudioStepViewController _startNewTimerIfNeeded]
+___53-[_ORKAudioStepViewController _startNewTimerIfNeeded]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKAudioStepViewController start]
+-[_ORKAudioStepViewController suspend]
+-[_ORKAudioStepViewController resume]
+-[_ORKAudioStepViewController finish]
+-[_ORKAudioStepViewController stepDidFinish]
+-[_ORKAudioStepViewController setAvAudioRecorder:]
+-[_ORKAudioStepViewController avAudioRecorder]
+-[_ORKAudioStepViewController .cxx_destruct]
+-[ORKCountdownLabel _updateAppearance]
+-[ORKCountdownLabel _setCountDownValue:]
+-[ORKCountdownLabel _renderText]
+-[ORKCountdownLabel setFont:]
+-[ORKCountdownLabel intrinsicContentSize]
+-[ORKCountdownLabel mmString]
+-[ORKCountdownLabel setMmString:]
+-[ORKCountdownLabel ssString]
+-[ORKCountdownLabel setSsString:]
+-[ORKCountdownLabel .cxx_destruct]
+-[ORKConsentSceneView setConsentSection:]
+-[ORKConsentSceneView consentSection]
+-[ORKConsentSceneView .cxx_destruct]
+-[ORKConsentSceneViewController initWithSection:]
+-[ORKConsentSceneViewController loadView]
+-[ORKConsentSceneViewController viewDidLoad]
+__LocalizedLearnMoreForType
+-[ORKConsentSceneViewController setImageHidden:]
+-[ORKConsentSceneViewController setContinueButtonItem:]
+-[ORKConsentSceneViewController setLearnMoreButtonTitle:]
+-[ORKConsentSceneViewController showContent:]
+-[ORKConsentSceneViewController adaptivePresentationStyleForPresentationController:]
+-[ORKConsentSceneViewController section]
+-[ORKConsentSceneViewController continueButtonItem]
+-[ORKConsentSceneViewController learnMoreButtonTitle]
+-[ORKConsentSceneViewController imageHidden]
+-[ORKConsentSceneViewController .cxx_destruct]
+-[ORKRecorderConfiguration _init]
+-[ORKRecorderConfiguration initWithCoder:]
+-[ORKRecorderConfiguration encodeWithCoder:]
+-[ORKRecorderConfiguration isEqual:]
+-[ORKRecorderConfiguration hash]
++[ORKRecorderConfiguration supportsSecureCoding]
+-[ORKRecorderConfiguration recorderForStep:outputDirectory:]
+-[ORKRecorderConfiguration requestedHealthKitTypesForReading]
+-[ORKRecorderConfiguration requestedPermissionMask]
+-[ORKRecorderConfiguration initWithDictionary:]
+-[ORKRecorderConfiguration dictionaryValue]
+-[ORKRecorder init]
+-[ORKRecorder _init]
+-[ORKRecorder initWithStep:outputDirectory:]
+-[ORKRecorder viewController:willStartStepWithView:]
+-[ORKRecorder start]
+___20-[ORKRecorder start]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKRecorder stop]
+-[ORKRecorder finishRecordingWithError:]
+___40-[ORKRecorder finishRecordingWithError:]_block_invoke
+-[ORKRecorder _recordingDirectoryURL]
+-[ORKRecorder _recorderType]
+-[ORKRecorder logName]
+-[ORKRecorder _makeJSONDataLoggerWithError:]
+-[ORKRecorder _reset]
+-[ORKRecorder mimeType]
+-[ORKRecorder _userInfo]
+-[ORKRecorder _applyFileProtection:toFileAtURL:]
+-[ORKRecorder _reportFileResultWithFile:error:]
+-[ORKRecorder delegate]
+-[ORKRecorder setDelegate:]
+-[ORKRecorder step]
+-[ORKRecorder setStep:]
+-[ORKRecorder outputDirectory]
+-[ORKRecorder isRecording]
+-[ORKRecorder continuesInBackground]
+-[ORKRecorder setContinuesInBackground:]
+-[ORKRecorder startDate]
+-[ORKRecorder setStartDate:]
+-[ORKRecorder .cxx_destruct]
+-[ORKSurveyAnswerCellForNumber textField]
+-[ORKSurveyAnswerCellForNumber _numberCell_initialize]
+-[ORKSurveyAnswerCellForNumber dealloc]
+-[ORKSurveyAnswerCellForNumber _localeDidChange:]
+-[ORKSurveyAnswerCellForNumber setNeedsUpdateConstraints]
+-[ORKSurveyAnswerCellForNumber traitCollectionDidChange:]
+-[ORKSurveyAnswerCellForNumber updateConstraints]
+-[ORKSurveyAnswerCellForNumber becomeFirstResponder]
+-[ORKSurveyAnswerCellForNumber prepareView]
+-[ORKSurveyAnswerCellForNumber _isAnswerValid]
+-[ORKSurveyAnswerCellForNumber shouldContinue]
+-[ORKSurveyAnswerCellForNumber _answerDidChange]
+-[ORKSurveyAnswerCellForNumber _valueFieldDidChange:]
+-[ORKSurveyAnswerCellForNumber textFieldShouldClear:]
+-[ORKSurveyAnswerCellForNumber _setAnswerWithText:]
+-[ORKSurveyAnswerCellForNumber textFieldShouldEndEditing:]
++[ORKSurveyAnswerCellForNumber _shouldDisplayWithSeparators]
+-[ORKSurveyAnswerCellForNumber textFieldShouldReturn:]
+-[ORKSurveyAnswerCellForNumber textFieldDidEndEditing:]
+-[ORKSurveyAnswerCellForNumber containerView]
+-[ORKSurveyAnswerCellForNumber setContainerView:]
+-[ORKSurveyAnswerCellForNumber textFieldView]
+-[ORKSurveyAnswerCellForNumber setTextFieldView:]
+-[ORKSurveyAnswerCellForNumber .cxx_destruct]
++[_ORKTappingIntervalStep _stepViewControllerClass]
+-[_ORKTappingIntervalStep validateParameters]
+-[ORKResult initWithIdentifier:]
+-[ORKResult isSaveable]
++[ORKResult supportsSecureCoding]
+-[ORKResult encodeWithCoder:]
+-[ORKResult initWithCoder:]
+-[ORKResult isEqual:]
+-[ORKResult hash]
+-[ORKResult copyWithZone:]
+-[ORKResult init]
+-[ORKResult _serializableDictionary]
+-[ORKResult identifier]
+-[ORKResult setIdentifier:]
+-[ORKResult startDate]
+-[ORKResult setStartDate:]
+-[ORKResult endDate]
+-[ORKResult setEndDate:]
+-[ORKResult userInfo]
+-[ORKResult setUserInfo:]
+-[ORKResult .cxx_destruct]
++[ORKTappingSample supportsSecureCoding]
+-[ORKTappingSample encodeWithCoder:]
+-[ORKTappingSample initWithCoder:]
+-[ORKTappingSample isEqual:]
+-[ORKTappingSample copyWithZone:]
+-[ORKTappingSample description]
+-[ORKTappingSample timestamp]
+-[ORKTappingSample setTimestamp:]
+-[ORKTappingSample buttonIdentifier]
+-[ORKTappingSample setButtonIdentifier:]
+-[ORKTappingSample location]
+-[ORKTappingSample setLocation:]
++[ORKSpatialSpanMemoryGameTouchSample supportsSecureCoding]
+-[ORKSpatialSpanMemoryGameTouchSample encodeWithCoder:]
+-[ORKSpatialSpanMemoryGameTouchSample initWithCoder:]
+-[ORKSpatialSpanMemoryGameTouchSample isEqual:]
+-[ORKSpatialSpanMemoryGameTouchSample hash]
+-[ORKSpatialSpanMemoryGameTouchSample copyWithZone:]
+-[ORKSpatialSpanMemoryGameTouchSample description]
+-[ORKSpatialSpanMemoryGameTouchSample timestamp]
+-[ORKSpatialSpanMemoryGameTouchSample setTimestamp:]
+-[ORKSpatialSpanMemoryGameTouchSample targetIndex]
+-[ORKSpatialSpanMemoryGameTouchSample setTargetIndex:]
+-[ORKSpatialSpanMemoryGameTouchSample location]
+-[ORKSpatialSpanMemoryGameTouchSample setLocation:]
+-[ORKSpatialSpanMemoryGameTouchSample isCorrect]
+-[ORKSpatialSpanMemoryGameTouchSample setCorrect:]
++[ORKSpatialSpanMemoryGameRecord supportsSecureCoding]
+-[ORKSpatialSpanMemoryGameRecord encodeWithCoder:]
+-[ORKSpatialSpanMemoryGameRecord initWithCoder:]
+-[ORKSpatialSpanMemoryGameRecord isEqual:]
+-[ORKSpatialSpanMemoryGameRecord hash]
+-[ORKSpatialSpanMemoryGameRecord copyWithZone:]
+-[ORKSpatialSpanMemoryGameRecord description]
+-[ORKSpatialSpanMemoryGameRecord seed]
+-[ORKSpatialSpanMemoryGameRecord setSeed:]
+-[ORKSpatialSpanMemoryGameRecord sequence]
+-[ORKSpatialSpanMemoryGameRecord setSequence:]
+-[ORKSpatialSpanMemoryGameRecord gameSize]
+-[ORKSpatialSpanMemoryGameRecord setGameSize:]
+-[ORKSpatialSpanMemoryGameRecord targetRects]
+-[ORKSpatialSpanMemoryGameRecord setTargetRects:]
+-[ORKSpatialSpanMemoryGameRecord touchSamples]
+-[ORKSpatialSpanMemoryGameRecord setTouchSamples:]
+-[ORKSpatialSpanMemoryGameRecord gameStatus]
+-[ORKSpatialSpanMemoryGameRecord setGameStatus:]
+-[ORKSpatialSpanMemoryGameRecord score]
+-[ORKSpatialSpanMemoryGameRecord setScore:]
+-[ORKSpatialSpanMemoryGameRecord .cxx_destruct]
+-[ORKSpatialSpanMemoryResult encodeWithCoder:]
+-[ORKSpatialSpanMemoryResult initWithCoder:]
+-[ORKSpatialSpanMemoryResult isEqual:]
+-[ORKSpatialSpanMemoryResult hash]
+-[ORKSpatialSpanMemoryResult copyWithZone:]
+-[ORKSpatialSpanMemoryResult description]
+-[ORKSpatialSpanMemoryResult score]
+-[ORKSpatialSpanMemoryResult setScore:]
+-[ORKSpatialSpanMemoryResult numberOfGames]
+-[ORKSpatialSpanMemoryResult setNumberOfGames:]
+-[ORKSpatialSpanMemoryResult numberOfFailures]
+-[ORKSpatialSpanMemoryResult setNumberOfFailures:]
+-[ORKSpatialSpanMemoryResult gameRecords]
+-[ORKSpatialSpanMemoryResult setGameRecords:]
+-[ORKSpatialSpanMemoryResult .cxx_destruct]
+-[ORKTappingIntervalResult encodeWithCoder:]
+-[ORKTappingIntervalResult initWithCoder:]
+-[ORKTappingIntervalResult isEqual:]
+-[ORKTappingIntervalResult hash]
+-[ORKTappingIntervalResult copyWithZone:]
+-[ORKTappingIntervalResult description]
+-[ORKTappingIntervalResult samples]
+-[ORKTappingIntervalResult setSamples:]
+-[ORKTappingIntervalResult stepViewSize]
+-[ORKTappingIntervalResult setStepViewSize:]
+-[ORKTappingIntervalResult buttonRect1]
+-[ORKTappingIntervalResult setButtonRect1:]
+-[ORKTappingIntervalResult buttonRect2]
+-[ORKTappingIntervalResult setButtonRect2:]
+-[ORKTappingIntervalResult .cxx_destruct]
+-[ORKFileResult isSaveable]
+-[ORKFileResult encodeWithCoder:]
+-[ORKFileResult initWithCoder:]
+-[ORKFileResult isEqual:]
+-[ORKFileResult hash]
+-[ORKFileResult copyWithZone:]
+-[ORKFileResult description]
+-[ORKFileResult contentType]
+-[ORKFileResult setContentType:]
+-[ORKFileResult fileURL]
+-[ORKFileResult setFileURL:]
+-[ORKFileResult .cxx_destruct]
+-[ORKDataResult isSaveable]
+-[ORKDataResult encodeWithCoder:]
+-[ORKDataResult initWithCoder:]
+-[ORKDataResult isEqual:]
+-[ORKDataResult hash]
+-[ORKDataResult copyWithZone:]
+-[ORKDataResult contentType]
+-[ORKDataResult setContentType:]
+-[ORKDataResult filename]
+-[ORKDataResult setFilename:]
+-[ORKDataResult data]
+-[ORKDataResult setData:]
+-[ORKDataResult .cxx_destruct]
+-[ORKConsentSignatureResult encodeWithCoder:]
+-[ORKConsentSignatureResult initWithCoder:]
+-[ORKConsentSignatureResult copyWithZone:]
+-[ORKConsentSignatureResult isEqual:]
+-[ORKConsentSignatureResult hash]
+-[ORKConsentSignatureResult applyToDocument:]
+___45-[ORKConsentSignatureResult applyToDocument:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKConsentSignatureResult signature]
+-[ORKConsentSignatureResult setSignature:]
+-[ORKConsentSignatureResult .cxx_destruct]
+-[ORKQuestionResult isSaveable]
+-[ORKQuestionResult encodeWithCoder:]
+-[ORKQuestionResult initWithCoder:]
+-[ORKQuestionResult isEqual:]
+-[ORKQuestionResult hash]
+-[ORKQuestionResult copyWithZone:]
+-[ORKQuestionResult _serializableDictionary]
+-[ORKQuestionResult _validateAnswer:]
++[ORKQuestionResult answerClass]
+-[ORKQuestionResult setAnswer:]
+-[ORKQuestionResult answer]
+-[ORKQuestionResult questionType]
+-[ORKQuestionResult setQuestionType:]
+-[ORKScaleQuestionResult encodeWithCoder:]
+-[ORKScaleQuestionResult initWithCoder:]
+-[ORKScaleQuestionResult isEqual:]
+-[ORKScaleQuestionResult hash]
+-[ORKScaleQuestionResult copyWithZone:]
+-[ORKScaleQuestionResult _serializableDictionary]
++[ORKScaleQuestionResult answerClass]
+-[ORKScaleQuestionResult setAnswer:]
+-[ORKScaleQuestionResult answer]
+-[ORKScaleQuestionResult scaleAnswer]
+-[ORKScaleQuestionResult setScaleAnswer:]
+-[ORKScaleQuestionResult .cxx_destruct]
+-[ORKChoiceQuestionResult encodeWithCoder:]
+-[ORKChoiceQuestionResult initWithCoder:]
+-[ORKChoiceQuestionResult isEqual:]
+-[ORKChoiceQuestionResult hash]
+-[ORKChoiceQuestionResult copyWithZone:]
+-[ORKChoiceQuestionResult _serializableDictionary]
++[ORKChoiceQuestionResult answerClass]
+-[ORKChoiceQuestionResult setAnswer:]
+-[ORKChoiceQuestionResult answer]
+-[ORKChoiceQuestionResult choiceAnswers]
+-[ORKChoiceQuestionResult setChoiceAnswers:]
+-[ORKChoiceQuestionResult .cxx_destruct]
+-[ORKBooleanQuestionResult encodeWithCoder:]
+-[ORKBooleanQuestionResult initWithCoder:]
+-[ORKBooleanQuestionResult isEqual:]
+-[ORKBooleanQuestionResult hash]
+-[ORKBooleanQuestionResult copyWithZone:]
+-[ORKBooleanQuestionResult _serializableDictionary]
++[ORKBooleanQuestionResult answerClass]
+-[ORKBooleanQuestionResult setAnswer:]
+-[ORKBooleanQuestionResult answer]
+-[ORKBooleanQuestionResult booleanAnswer]
+-[ORKBooleanQuestionResult setBooleanAnswer:]
+-[ORKBooleanQuestionResult .cxx_destruct]
+-[ORKTextQuestionResult encodeWithCoder:]
+-[ORKTextQuestionResult initWithCoder:]
+-[ORKTextQuestionResult isEqual:]
+-[ORKTextQuestionResult hash]
+-[ORKTextQuestionResult copyWithZone:]
+-[ORKTextQuestionResult _serializableDictionary]
++[ORKTextQuestionResult answerClass]
+-[ORKTextQuestionResult setAnswer:]
+-[ORKTextQuestionResult answer]
+-[ORKTextQuestionResult textAnswer]
+-[ORKTextQuestionResult setTextAnswer:]
+-[ORKTextQuestionResult .cxx_destruct]
+-[ORKNumericQuestionResult encodeWithCoder:]
+-[ORKNumericQuestionResult initWithCoder:]
+-[ORKNumericQuestionResult isEqual:]
+-[ORKNumericQuestionResult hash]
+-[ORKNumericQuestionResult copyWithZone:]
+-[ORKNumericQuestionResult _serializableDictionary]
++[ORKNumericQuestionResult answerClass]
+-[ORKNumericQuestionResult setAnswer:]
+-[ORKNumericQuestionResult answer]
+-[ORKNumericQuestionResult numericAnswer]
+-[ORKNumericQuestionResult setNumericAnswer:]
+-[ORKNumericQuestionResult unit]
+-[ORKNumericQuestionResult setUnit:]
+-[ORKNumericQuestionResult .cxx_destruct]
+-[ORKTimeOfDayQuestionResult encodeWithCoder:]
+-[ORKTimeOfDayQuestionResult initWithCoder:]
+-[ORKTimeOfDayQuestionResult isEqual:]
+-[ORKTimeOfDayQuestionResult hash]
+-[ORKTimeOfDayQuestionResult copyWithZone:]
+-[ORKTimeOfDayQuestionResult _serializableDictionary]
++[ORKTimeOfDayQuestionResult answerClass]
+-[ORKTimeOfDayQuestionResult setAnswer:]
+-[ORKTimeOfDayQuestionResult answer]
+-[ORKTimeOfDayQuestionResult dateComponentsAnswer]
+-[ORKTimeOfDayQuestionResult setDateComponentsAnswer:]
+-[ORKTimeOfDayQuestionResult .cxx_destruct]
+-[ORKTimeIntervalQuestionResult encodeWithCoder:]
+-[ORKTimeIntervalQuestionResult initWithCoder:]
+-[ORKTimeIntervalQuestionResult isEqual:]
+-[ORKTimeIntervalQuestionResult hash]
+-[ORKTimeIntervalQuestionResult copyWithZone:]
+-[ORKTimeIntervalQuestionResult _serializableDictionary]
++[ORKTimeIntervalQuestionResult answerClass]
+-[ORKTimeIntervalQuestionResult setAnswer:]
+-[ORKTimeIntervalQuestionResult answer]
+-[ORKTimeIntervalQuestionResult intervalAnswer]
+-[ORKTimeIntervalQuestionResult setIntervalAnswer:]
+-[ORKTimeIntervalQuestionResult .cxx_destruct]
+-[ORKDateQuestionResult encodeWithCoder:]
+-[ORKDateQuestionResult initWithCoder:]
+-[ORKDateQuestionResult isEqual:]
+-[ORKDateQuestionResult hash]
+-[ORKDateQuestionResult copyWithZone:]
+-[ORKDateQuestionResult _serializableDictionary]
++[ORKDateQuestionResult answerClass]
+-[ORKDateQuestionResult setAnswer:]
+-[ORKDateQuestionResult answer]
+-[ORKDateQuestionResult dateAnswer]
+-[ORKDateQuestionResult setDateAnswer:]
+-[ORKDateQuestionResult calendar]
+-[ORKDateQuestionResult setCalendar:]
+-[ORKDateQuestionResult timeZone]
+-[ORKDateQuestionResult setTimeZone:]
+-[ORKDateQuestionResult .cxx_destruct]
+-[ORKCollectionResult isSaveable]
+-[ORKCollectionResult encodeWithCoder:]
+-[ORKCollectionResult initWithCoder:]
+-[ORKCollectionResult isEqual:]
+-[ORKCollectionResult hash]
+-[ORKCollectionResult _setResultsDeepCopy:]
+___43-[ORKCollectionResult _setResultsDeepCopy:]_block_invoke
+___copy_helper_block_589
+___destroy_helper_block_590
+-[ORKCollectionResult copyWithZone:]
+-[ORKCollectionResult _serializableDictionary]
+-[ORKCollectionResult results]
+-[ORKCollectionResult resultForIdentifier:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___43-[ORKCollectionResult resultForIdentifier:]_block_invoke
+___copy_helper_block_604
+___destroy_helper_block_605
+-[ORKCollectionResult firstResult]
+-[ORKCollectionResult setResults:]
+-[ORKCollectionResult .cxx_destruct]
+-[ORKTaskResult initWithTaskIdentifier:taskRunUUID:outputDirectory:]
+-[ORKTaskResult encodeWithCoder:]
+-[ORKTaskResult initWithCoder:]
+-[ORKTaskResult isEqual:]
+-[ORKTaskResult hash]
+-[ORKTaskResult copyWithZone:]
+-[ORKTaskResult stepResultForStepIdentifier:]
+-[ORKTaskResult taskRunUUID]
+-[ORKTaskResult outputDirectory]
+-[ORKTaskResult .cxx_destruct]
+-[ORKStepResult initWithStepIdentifier:results:]
+-[_ORKInstructionStepView initWithFrame:]
+-[_ORKInstructionStepView setInstructionStep:]
+-[_ORKInstructionStepView _updateConstraintConstants]
+-[_ORKInstructionStepView instructionStep]
+-[_ORKInstructionStepView instructionImageView]
+-[_ORKInstructionStepView setInstructionImageView:]
+-[_ORKInstructionStepView .cxx_destruct]
+-[ORKSurveyAnswerCellForScale formatProvider]
+-[ORKSurveyAnswerCellForScale prepareView]
+-[ORKSurveyAnswerCellForScale _answerDidChange]
+-[ORKSurveyAnswerCellForScale updateConstraints]
+-[ORKSurveyAnswerCellForScale sliderValueChanged:]
++[ORKSurveyAnswerCellForScale suggestedCellHeightForView:]
+-[ORKSurveyAnswerCellForScale isAccessibilityElement]
+-[ORKSurveyAnswerCellForScale accessibilityElementCount]
+-[ORKSurveyAnswerCellForScale accessibilityElementAtIndex:]
+-[ORKSurveyAnswerCellForScale indexOfAccessibilityElement:]
+-[ORKSurveyAnswerCellForScale slider]
+-[ORKSurveyAnswerCellForScale setSlider:]
+-[ORKSurveyAnswerCellForScale leftTextLabel]
+-[ORKSurveyAnswerCellForScale setLeftTextLabel:]
+-[ORKSurveyAnswerCellForScale rightTextLabel]
+-[ORKSurveyAnswerCellForScale setRightTextLabel:]
+-[ORKSurveyAnswerCellForScale currentValueLabel]
+-[ORKSurveyAnswerCellForScale setCurrentValueLabel:]
+-[ORKSurveyAnswerCellForScale setFormatProvider:]
+-[ORKSurveyAnswerCellForScale .cxx_destruct]
++[_ORKCountDownViewLabel defaultFont]
+-[_ORKCountdownView init]
+-[_ORKCountdownView tintColorDidChange]
+-[_ORKCountdownView startAnimateWithDuration:]
+-[_ORKCountdownView isAccessibilityElement]
+-[_ORKCountdownView accessibilityLabel]
+-[_ORKCountdownView accessibilityTraits]
+-[_ORKCountdownView textLabel]
+-[_ORKCountdownView setTextLabel:]
+-[_ORKCountdownView timeLabel]
+-[_ORKCountdownView setTimeLabel:]
+-[_ORKCountdownView progressView]
+-[_ORKCountdownView setProgressView:]
+-[_ORKCountdownView .cxx_destruct]
+-[_ORKCountdownStepViewController initWithStep:]
+-[_ORKCountdownStepViewController setStep:]
+-[_ORKCountdownStepViewController viewDidLoad]
+-[_ORKCountdownStepViewController viewDidAppear:]
+-[_ORKCountdownStepViewController _updateCountdownLabel]
+-[_ORKCountdownStepViewController _countDownTimerFired:finished:]
+___65-[_ORKCountdownStepViewController _countDownTimerFired:finished:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKCountdownStepViewController countdownView]
+-[_ORKCountdownStepViewController setCountdownView:]
+-[_ORKCountdownStepViewController .cxx_destruct]
+-[CLLocation(ORKJSONDictionary) _ork_JSONDictionary]
+-[ORKContinueButton didMoveToWindow]
+-[ORKContinueButton intrinsicContentSize]
++[ORKContinueButton defaultFont]
+-[ORKContinueButton pointInside:withEvent:]
+-[ORKContinueButton isDoneButton]
+-[ORKContinueButton setIsDoneButton:]
+__ORKContinueButton
++[UIBarButtonItem(ORKBarButtonItem) _obk_backBarButtonItemWithTarget:action:]
+-[ORKPedometerRecorder initWithStep:outputDirectory:]
+-[ORKPedometerRecorder dealloc]
+-[ORKPedometerRecorder _updateStatisticsWithData:]
+-[ORKPedometerRecorder start]
+___29-[ORKPedometerRecorder start]_block_invoke
+___29-[ORKPedometerRecorder start]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___29-[ORKPedometerRecorder start]_block_invoke55
+___copy_helper_block_56
+___destroy_helper_block_57
+___copy_helper_block_59
+___destroy_helper_block_60
+-[ORKPedometerRecorder _recorderType]
+-[ORKPedometerRecorder stop]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___28-[ORKPedometerRecorder stop]_block_invoke
+___copy_helper_block_69
+___destroy_helper_block_70
+-[ORKPedometerRecorder _doStopRecording]
+-[ORKPedometerRecorder finishRecordingWithError:]
+-[ORKPedometerRecorder isRecording]
+-[ORKPedometerRecorder mimeType]
+-[ORKPedometerRecorder _reset]
+-[ORKPedometerRecorder lastUpdateDate]
+-[ORKPedometerRecorder totalNumberOfSteps]
+-[ORKPedometerRecorder totalDistance]
+-[ORKPedometerRecorder pedometer]
+-[ORKPedometerRecorder setPedometer:]
+-[ORKPedometerRecorder recordingError]
+-[ORKPedometerRecorder setRecordingError:]
+-[ORKPedometerRecorder .cxx_destruct]
+-[ORKPedometerRecorderConfiguration init]
+-[ORKPedometerRecorderConfiguration recorderForStep:outputDirectory:]
+-[ORKPedometerRecorderConfiguration initWithCoder:]
+-[ORKPedometerRecorderConfiguration isEqual:]
+-[ORKPedometerRecorderConfiguration initWithDictionary:]
+-[ORKPedometerRecorderConfiguration requestedPermissionMask]
++[ORKScaleRangeLabel defaultFont]
+-[CMPedometerData(ORKJSONDictionary) _ork_JSONDictionary]
++[_ORKWalkingTaskStep _stepViewControllerClass]
+-[_ORKWalkingTaskStep validateParameters]
+-[_ORKWalkingTaskStep copyWithZone:]
+-[_ORKWalkingTaskStep startsFinished]
+-[_ORKWalkingTaskStep initWithCoder:]
+-[_ORKWalkingTaskStep encodeWithCoder:]
+-[_ORKWalkingTaskStep isEqual:]
+-[_ORKWalkingTaskStep initWithDictionary:]
+-[_ORKWalkingTaskStep dictionaryValue]
+-[_ORKWalkingTaskStep numberOfStepsPerLeg]
+-[_ORKWalkingTaskStep setNumberOfStepsPerLeg:]
+-[_ORKSpatialSpanGameState initWithGame:]
+-[_ORKSpatialSpanGameState dealloc]
+-[_ORKSpatialSpanGameState reset]
+-[_ORKSpatialSpanGameState enumerateTilesWithHandler:]
+-[_ORKSpatialSpanGameState playTileIndex:]
+-[_ORKSpatialSpanGameState currentStepIndex]
+-[_ORKSpatialSpanGameState lastSuccessfulTileIndex]
+-[_ORKSpatialSpanGameState game]
+-[_ORKSpatialSpanGameState isComplete]
+-[_ORKSpatialSpanGameState .cxx_destruct]
++[ORKBodyLabel defaultFont]
+-[ORKAudioRecorder dealloc]
++[ORKAudioRecorder defaultRecorderSettings]
+-[ORKAudioRecorder initWithRecorderSettings:step:outputDirectory:]
+-[ORKAudioRecorder start]
+-[ORKAudioRecorder stop]
+-[ORKAudioRecorder isRecording]
+-[ORKAudioRecorder mimeType]
+-[ORKAudioRecorder _recorderType]
+-[ORKAudioRecorder _doStopRecording]
+-[ORKAudioRecorder finishRecordingWithError:]
+-[ORKAudioRecorder _extension]
+-[ORKAudioRecorder _recordingFileURL]
+-[ORKAudioRecorder _recreateFileWithError:]
+-[ORKAudioRecorder _reset]
+-[ORKAudioRecorder recorderSettings]
+-[ORKAudioRecorder setRecorderSettings:]
+-[ORKAudioRecorder audioRecorder]
+-[ORKAudioRecorder setAudioRecorder:]
+-[ORKAudioRecorder .cxx_destruct]
+-[ORKAudioRecorderConfiguration initWithRecorderSettings:]
+-[ORKAudioRecorderConfiguration recorderForStep:outputDirectory:]
+-[ORKAudioRecorderConfiguration initWithCoder:]
+-[ORKAudioRecorderConfiguration encodeWithCoder:]
+-[ORKAudioRecorderConfiguration isEqual:]
+-[ORKAudioRecorderConfiguration initWithDictionary:]
+-[ORKAudioRecorderConfiguration dictionaryValue]
+-[ORKAudioRecorderConfiguration requestedPermissionMask]
+-[ORKAudioRecorderConfiguration recorderSettings]
+-[ORKAudioRecorderConfiguration .cxx_destruct]
+-[_ORKTappingIntervalStepViewController initWithStep:]
+-[_ORKTappingIntervalStepViewController _initializeInternalButtonItems]
+-[_ORKTappingIntervalStepViewController viewDidLoad]
+-[_ORKTappingIntervalStepViewController viewDidAppear:]
+-[_ORKTappingIntervalStepViewController result]
+-[_ORKTappingIntervalStepViewController _receiveTouch:onButton:]
+-[_ORKTappingIntervalStepViewController stepDidFinish]
+-[_ORKTappingIntervalStepViewController _countDownTimerFired:finished:]
+-[_ORKTappingIntervalStepViewController start]
+-[_ORKTappingIntervalStepViewController buttonPressed:forEvent:]
+-[_ORKTappingIntervalStepViewController gestureRecognizer:shouldReceiveTouch:]
+-[_ORKTappingIntervalStepViewController samples]
+-[_ORKTappingIntervalStepViewController setSamples:]
+-[_ORKTappingIntervalStepViewController .cxx_destruct]
+-[ORKConsentReviewStepViewController initWithConsentReviewStep:result:]
+-[ORKConsentReviewStepViewController _stepDidChange]
+-[ORKConsentReviewStepViewController viewDidLoad]
+-[ORKConsentReviewStepViewController viewDidAppear:]
+-[ORKConsentReviewStepViewController _goToPreviousPageButtonItem]
+-[ORKConsentReviewStepViewController _updateNavLeftBarButtonItem]
+-[ORKConsentReviewStepViewController _updateBackButton]
+-[ORKConsentReviewStepViewController _makeNameFormViewController]
+-[ORKConsentReviewStepViewController _makeDocumentReviewViewController]
+-[ORKConsentReviewStepViewController _makeSignatureViewController]
+-[ORKConsentReviewStepViewController _goToPreviousPage]
+-[ORKConsentReviewStepViewController _viewControllerForIndex:]
+-[ORKConsentReviewStepViewController result]
+-[ORKConsentReviewStepViewController consentReviewStep]
+-[ORKConsentReviewStepViewController _notifyDelegateOnResultChange]
+-[ORKConsentReviewStepViewController stepViewController:didFinishWithNavigationDirection:]
+-[ORKConsentReviewStepViewController _navigateDelta:]
+-[ORKConsentReviewStepViewController _goToPage:animated:]
+___57-[ORKConsentReviewStepViewController _goToPage:animated:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKConsentReviewStepViewController stepViewControllerResultDidChange:]
+-[ORKConsentReviewStepViewController stepViewControllerDidFail:withError:]
+-[ORKConsentReviewStepViewController stepViewControllerHasNextStep:]
+-[ORKConsentReviewStepViewController stepViewControllerHasPreviousStep:]
+-[ORKConsentReviewStepViewController consentReviewControllerDidAcknowledge:]
+-[ORKConsentReviewStepViewController consentReviewControllerDidCancel:]
+-[ORKConsentReviewStepViewController consentSignatureControllerDidSign:]
+-[ORKConsentReviewStepViewController consentSignatureControllerDidCancel:]
+-[ORKConsentReviewStepViewController encodeRestorableStateWithCoder:]
+-[ORKConsentReviewStepViewController decodeRestorableStateWithCoder:]
+-[ORKConsentReviewStepViewController .cxx_destruct]
++[ORKEAGLMoviePlayerView layerClass]
+-[ORKEAGLMoviePlayerView initWithFrame:]
+-[ORKEAGLMoviePlayerView setupGL]
+-[ORKEAGLMoviePlayerView setupBuffers]
+-[ORKEAGLMoviePlayerView cleanUpTextures]
+-[ORKEAGLMoviePlayerView dealloc]
+-[ORKEAGLMoviePlayerView consumePixelBuffer:]
+-[ORKEAGLMoviePlayerView render]
+-[ORKEAGLMoviePlayerView loadShaders]
+-[ORKEAGLMoviePlayerView compileShader:type:URL:]
+-[ORKEAGLMoviePlayerView linkProgram:]
+-[ORKEAGLMoviePlayerView validateProgram:]
+-[ORKEAGLMoviePlayerView preferredRotation]
+-[ORKEAGLMoviePlayerView setPreferredRotation:]
+-[ORKEAGLMoviePlayerView presentationRect]
+-[ORKEAGLMoviePlayerView setPresentationRect:]
+-[ORKEAGLMoviePlayerView program]
+-[ORKEAGLMoviePlayerView setProgram:]
+-[ORKEAGLMoviePlayerView .cxx_destruct]
++[ORKCompletionStep _stepViewControllerClass]
++[_ORKFitnessStep _stepViewControllerClass]
+-[_ORKFitnessStep validateParameters]
+-[_ORKFitnessStep copyWithZone:]
+-[_ORKFitnessStep startsFinished]
+-[_ORKTappingContentView init]
+-[_ORKTappingContentView tintColorDidChange]
+-[_ORKTappingContentView setTapCount:]
+-[_ORKTappingContentView setProgress:animated:]
+___47-[_ORKTappingContentView setProgress:animated:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKTappingContentView resetStep:]
+-[_ORKTappingContentView finishStep:]
+-[_ORKTappingContentView willMoveToWindow:]
+-[_ORKTappingContentView updateConstraints]
+-[_ORKTappingContentView tapButton1]
+-[_ORKTappingContentView setTapButton1:]
+-[_ORKTappingContentView tapButton2]
+-[_ORKTappingContentView setTapButton2:]
+-[_ORKTappingContentView tapCaptionLabel]
+-[_ORKTappingContentView setTapCaptionLabel:]
+-[_ORKTappingContentView tapCountLabel]
+-[_ORKTappingContentView setTapCountLabel:]
+-[_ORKTappingContentView progressView]
+-[_ORKTappingContentView setProgressView:]
+-[_ORKTappingContentView .cxx_destruct]
+-[ORKAnswerTextField init]
+-[ORKAnswerTextField initWithFrame:]
+-[ORKAnswerTextField _init_ORKAnswerTextField]
+-[ORKAnswerTextField _updateAppearance]
+-[ORKAnswerTextField setFieldFont:]
+-[ORKAnswerTextField setFieldTextColor:]
+-[ORKAnswerTextField dealloc]
++[ORKAnswerTextField defaultFont]
+-[ORKAnswerTextField accessibilityValue]
+-[ORKAnswerTextField accessibilityFrame]
+-[ORKAnswerTextField fieldFont]
+-[ORKAnswerTextField fieldTextColor]
+-[ORKAnswerTextField .cxx_destruct]
++[_ORKSpatialSpanMemoryStep _stepViewControllerClass]
+-[_ORKSpatialSpanMemoryStep initWithIdentifier:]
+-[_ORKSpatialSpanMemoryStep copyWithZone:]
+-[_ORKSpatialSpanMemoryStep validateParameters]
+-[_ORKSpatialSpanMemoryStep startsFinished]
+-[_ORKSpatialSpanMemoryStep initWithCoder:]
+-[_ORKSpatialSpanMemoryStep encodeWithCoder:]
+-[_ORKSpatialSpanMemoryStep isEqual:]
+-[_ORKSpatialSpanMemoryStep initWithDictionary:]
+-[_ORKSpatialSpanMemoryStep dictionaryValue]
+-[_ORKSpatialSpanMemoryStep _shouldAllowBackNavigation]
+-[_ORKSpatialSpanMemoryStep initialSpan]
+-[_ORKSpatialSpanMemoryStep setInitialSpan:]
+-[_ORKSpatialSpanMemoryStep minimumSpan]
+-[_ORKSpatialSpanMemoryStep setMinimumSpan:]
+-[_ORKSpatialSpanMemoryStep maximumSpan]
+-[_ORKSpatialSpanMemoryStep setMaximumSpan:]
+-[_ORKSpatialSpanMemoryStep playSpeed]
+-[_ORKSpatialSpanMemoryStep setPlaySpeed:]
+-[_ORKSpatialSpanMemoryStep maxTests]
+-[_ORKSpatialSpanMemoryStep setMaxTests:]
+-[_ORKSpatialSpanMemoryStep maxConsecutiveFailures]
+-[_ORKSpatialSpanMemoryStep setMaxConsecutiveFailures:]
+-[_ORKSpatialSpanMemoryStep requireReversal]
+-[_ORKSpatialSpanMemoryStep setRequireReversal:]
+-[_ORKSpatialSpanMemoryStep customTargetImage]
+-[_ORKSpatialSpanMemoryStep setCustomTargetImage:]
+-[_ORKSpatialSpanMemoryStep customTargetPluralName]
+-[_ORKSpatialSpanMemoryStep setCustomTargetPluralName:]
+-[_ORKSpatialSpanMemoryStep .cxx_destruct]
++[ORKUnitLabel defaultFont]
+_ORKCreateRandomBaseURL
+_ORKAssetsBundle
+___ORKAssetsBundle_block_invoke
+__ORKFloorToViewScale
+_ORKStringFromDateISO8601
+___ORKStringFromDateISO8601_block_invoke
+_ORKSignatureStringFromDate
+___ORKSignatureStringFromDate_block_invoke
+_ORKRGB
+_ORKStandardMarginForView
+_ORKFontDescriptorForLightStylisticAlternative
+_ORKTimeFontForSize
+__ORKLightFontWithSize
+_ORKExpectedLabelHeight
+_ORKAdjustHeightForLabel
+_ORKEnableAutoLayoutForViews
+___ORKEnableAutoLayoutForViews_block_invoke
+_ORKResultDateTimeFormatter
+___ORKResultDateTimeFormatter_block_invoke
+_ORKResultTimeFormatter
+___ORKResultTimeFormatter_block_invoke
+_ORKResultDateFormatter
+___ORKResultDateFormatter_block_invoke
+_ORKTimeOfDayLabelFormatter
+___ORKTimeOfDayLabelFormatter_block_invoke
+_ORKTimeIntervalLabelFormatter
+___ORKTimeIntervalLabelFormatter_block_invoke
+_ORKDurationStringFormatter
+___ORKDurationStringFormatter_block_invoke
+_ORKTimeOfDayReferenceCalendar
+___ORKTimeOfDayReferenceCalendar_block_invoke
+_ORKTimeOfDayStringFromComponents
+___ORKTimeOfDayStringFromComponents_block_invoke
+_ORKTimeOfDayComponentsFromString
+___ORKTimeOfDayComponentsFromString_block_invoke
+_ORKTimeOfDayComponentsFromDate
+_ORKTimeOfDayDateFromComponents
+_ORKWantsWideContentMargins
+_ORKTableViewLeftMargin
+__ORKThinFontWithSize
+__ORKMediumFontWithSize
+___AdjustToScale_block_invoke
+-[_ORKAudioGraphView initWithFrame:]
+-[_ORKAudioGraphView setValues:]
+-[_ORKAudioGraphView setKeyColor:]
+-[_ORKAudioGraphView setAlertColor:]
+-[_ORKAudioGraphView setAlertThreshold:]
+-[_ORKAudioGraphView drawRect:]
+-[_ORKAudioGraphView keyColor]
+-[_ORKAudioGraphView alertColor]
+-[_ORKAudioGraphView values]
+-[_ORKAudioGraphView alertThreshold]
+-[_ORKAudioGraphView .cxx_destruct]
++[_ORKAudioTimerLabel defaultFont]
+-[_ORKAudioContentView initWithFrame:]
+-[_ORKAudioContentView tintColorDidChange]
+-[_ORKAudioContentView setFinished:]
+-[_ORKAudioContentView _applyKeyColor]
+-[_ORKAudioContentView keyColor]
+-[_ORKAudioContentView setKeyColor:]
+-[_ORKAudioContentView setAlertColor:]
+-[_ORKAudioContentView updateConstraints]
+-[_ORKAudioContentView setAlertThreshold:]
+-[_ORKAudioContentView setTimeLeft:]
+-[_ORKAudioContentView _updateTimerLabel]
+___41-[_ORKAudioContentView _updateTimerLabel]_block_invoke
+-[_ORKAudioContentView _updateGraphSamples]
+-[_ORKAudioContentView _updateAlertLabelHidden]
+-[_ORKAudioContentView setSamples:]
+-[_ORKAudioContentView addSample:]
+-[_ORKAudioContentView removeAllSamples]
+-[_ORKAudioContentView isAccessibilityElement]
+-[_ORKAudioContentView accessibilityLabel]
+-[_ORKAudioContentView accessibilityTraits]
+-[_ORKAudioContentView alertColor]
+-[_ORKAudioContentView isFinished]
+-[_ORKAudioContentView timeLeft]
+-[_ORKAudioContentView alertThreshold]
+-[_ORKAudioContentView samples]
+-[_ORKAudioContentView alertLabel]
+-[_ORKAudioContentView setAlertLabel:]
+-[_ORKAudioContentView timerLabel]
+-[_ORKAudioContentView setTimerLabel:]
+-[_ORKAudioContentView graphView]
+-[_ORKAudioContentView setGraphView:]
+-[_ORKAudioContentView .cxx_destruct]
+-[ORKActiveStepViewController initWithStep:]
+-[ORKActiveStepViewController applicationWillResignActive:]
+-[ORKActiveStepViewController applicationDidBecomeActive:]
+-[ORKActiveStepViewController activeStep]
+-[ORKActiveStepViewController activeStepView]
+-[ORKActiveStepViewController viewDidLoad]
+-[ORKActiveStepViewController _stepDidChange]
+-[ORKActiveStepViewController customViewContainer]
+-[ORKActiveStepViewController imageView]
+-[ORKActiveStepViewController setCustomView:]
+-[ORKActiveStepViewController viewWillAppear:]
+-[ORKActiveStepViewController viewDidAppear:]
+___45-[ORKActiveStepViewController viewDidAppear:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKActiveStepViewController viewWillDisappear:]
+-[ORKActiveStepViewController _updateContinueButtonItem]
+-[ORKActiveStepViewController setContinueButtonItem:]
+-[ORKActiveStepViewController setLearnMoreButtonItem:]
+-[ORKActiveStepViewController setSkipButtonItem:]
+-[ORKActiveStepViewController setFinished:]
+-[ORKActiveStepViewController result]
+-[ORKActiveStepViewController recordersDidChange]
+-[ORKActiveStepViewController recordersWillStart]
+-[ORKActiveStepViewController recordersWillStop]
+-[ORKActiveStepViewController _prepareRecorders]
+-[ORKActiveStepViewController setOutputDirectory:]
+-[ORKActiveStepViewController prepareStep]
+-[ORKActiveStepViewController _startRecorders]
+-[ORKActiveStepViewController _stopRecorders]
+-[ORKActiveStepViewController _playSound]
+-[ORKActiveStepViewController start]
+___36-[ORKActiveStepViewController start]_block_invoke
+___copy_helper_block_188
+___destroy_helper_block_189
+-[ORKActiveStepViewController suspend]
+-[ORKActiveStepViewController resume]
+-[ORKActiveStepViewController finish]
+-[ORKActiveStepViewController dealloc]
+-[ORKActiveStepViewController _resetTimer]
+-[ORKActiveStepViewController _startTimer]
+___42-[ORKActiveStepViewController _startTimer]_block_invoke
+___copy_helper_block_226
+___destroy_helper_block_227
+-[ORKActiveStepViewController _countDownTimerFired:finished:]
+-[ORKActiveStepViewController timerActive]
+-[ORKActiveStepViewController timeRemaining]
+-[ORKActiveStepViewController stepDidFinish]
+-[ORKActiveStepViewController recorder:didCompleteWithResult:]
+-[ORKActiveStepViewController recorder:didFailWithError:]
+-[ORKActiveStepViewController encodeRestorableStateWithCoder:]
+-[ORKActiveStepViewController decodeRestorableStateWithCoder:]
+-[ORKActiveStepViewController customView]
+-[ORKActiveStepViewController isFinished]
+-[ORKActiveStepViewController recorders]
+-[ORKActiveStepViewController setRecorders:]
+-[ORKActiveStepViewController suspendIfInactive]
+-[ORKActiveStepViewController setSuspendIfInactive:]
+-[ORKActiveStepViewController isStarted]
+-[ORKActiveStepViewController setStarted:]
+-[ORKActiveStepViewController timerUpdateInterval]
+-[ORKActiveStepViewController setTimerUpdateInterval:]
+-[ORKActiveStepViewController .cxx_destruct]
+_ORKNullAnswerValue
+__ORKQuestionTypeString
+_ORKNumericAnswerStyleFromString
+_ORKNumericAnswerStyleToString
++[ORKAnswerDefaultSource sourceWithHealthStore:]
+-[ORKAnswerDefaultSource initWithHealthStore:]
+-[ORKAnswerDefaultSource dealloc]
+-[ORKAnswerDefaultSource _healthKitUserPreferencesDidChange:]
+-[ORKAnswerDefaultSource _defaultValueForCharacteristicType:error:]
+-[ORKAnswerDefaultSource _fetchDefaultValueForQuantityType:unit:handler:]
+___73-[ORKAnswerDefaultSource _fetchDefaultValueForQuantityType:unit:handler:]_block_invoke
+___73-[ORKAnswerDefaultSource _fetchDefaultValueForQuantityType:unit:handler:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_87
+___destroy_helper_block_88
+-[ORKAnswerDefaultSource fetchDefaultValueForAnswerFormat:handler:]
+-[ORKAnswerDefaultSource defaultHealthKitUnitForAnswerFormat:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___62-[ORKAnswerDefaultSource defaultHealthKitUnitForAnswerFormat:]_block_invoke
+___copy_helper_block_121
+___destroy_helper_block_122
+-[ORKAnswerDefaultSource updateHealthKitUnitForAnswerFormat:force:]
+-[ORKAnswerDefaultSource healthStore]
+-[ORKAnswerDefaultSource .cxx_destruct]
++[ORKAnswerFormat scaleAnswerFormatWithMaxValue:minValue:step:defaultValue:]
++[ORKAnswerFormat continuousScaleAnswerFormatWithMaxValue:minValue:defaultValue:maximumFractionDigits:]
++[ORKAnswerFormat booleanAnswerFormat]
++[ORKAnswerFormat valuePickerAnswerFormatWithTextChoices:]
++[ORKAnswerFormat choiceAnswerFormatWithImageChoices:]
++[ORKAnswerFormat choiceAnswerFormatWithStyle:textChoices:]
++[ORKAnswerFormat decimalAnswerFormatWithUnit:]
++[ORKAnswerFormat integerAnswerFormatWithUnit:]
++[ORKAnswerFormat timeOfDayAnswerFormat]
++[ORKAnswerFormat timeOfDayAnswerFormatWithDefaultComponents:]
++[ORKAnswerFormat dateTimeAnswerFormat]
++[ORKAnswerFormat dateTimeAnswerFormatWithDefaultDate:minimumDate:maximumDate:calendar:]
++[ORKAnswerFormat dateAnswerFormat]
++[ORKAnswerFormat dateAnswerFormatWithDefaultDate:minimumDate:maximumDate:calendar:]
++[ORKAnswerFormat textAnswerFormat]
++[ORKAnswerFormat textAnswerFormatWithMaximumLength:]
++[ORKAnswerFormat timeIntervalAnswerFormat]
++[ORKAnswerFormat timeIntervalAnswerFormatWithDefaultInterval:step:]
+-[ORKAnswerFormat validateParameters]
++[ORKAnswerFormat supportsSecureCoding]
+-[ORKAnswerFormat initWithCoder:]
+-[ORKAnswerFormat encodeWithCoder:]
+-[ORKAnswerFormat copyWithZone:]
+-[ORKAnswerFormat isEqual:]
+-[ORKAnswerFormat hash]
+-[ORKAnswerFormat _calendar]
+-[ORKAnswerFormat _isHealthKitAnswerFormat]
+-[ORKAnswerFormat _healthKitObjectType]
+-[ORKAnswerFormat _healthKitUnit]
+-[ORKAnswerFormat _healthKitUserUnit]
+-[ORKAnswerFormat _setHealthKitUserUnit:]
+-[ORKAnswerFormat questionType]
+-[ORKAnswerFormat _impliedAnswerFormat]
++[ORKAnswerFormat _questionResultClass]
+-[ORKAnswerFormat _resultWithIdentifier:answer:]
+-[ORKAnswerFormat _isAnswerValidWithString:]
+-[ORKAnswerFormat _localizedInvalidValueStringWithAnswerString:]
+-[ORKAnswerFormat initWithDictionary:]
+-[ORKAnswerFormat dictionaryValue]
+-[ORKValuePickerAnswerFormat initWithTextChoices:]
+__ork_processTextChoices
+-[ORKValuePickerAnswerFormat validateParameters]
+__ork_validateChoices
+-[ORKValuePickerAnswerFormat isEqual:]
+-[ORKValuePickerAnswerFormat hash]
+-[ORKValuePickerAnswerFormat initWithDictionary:]
+-[ORKValuePickerAnswerFormat dictionaryValue]
+-[ORKValuePickerAnswerFormat initWithCoder:]
+-[ORKValuePickerAnswerFormat encodeWithCoder:]
++[ORKValuePickerAnswerFormat _questionResultClass]
+-[ORKValuePickerAnswerFormat questionType]
+-[ORKValuePickerAnswerFormat textChoices]
+-[ORKValuePickerAnswerFormat .cxx_destruct]
+-[ORKImageChoiceAnswerFormat initWithImageChoices:]
+-[ORKImageChoiceAnswerFormat validateParameters]
+-[ORKImageChoiceAnswerFormat isEqual:]
+-[ORKImageChoiceAnswerFormat hash]
+-[ORKImageChoiceAnswerFormat initWithDictionary:]
+-[ORKImageChoiceAnswerFormat dictionaryValue]
+-[ORKImageChoiceAnswerFormat initWithCoder:]
+-[ORKImageChoiceAnswerFormat encodeWithCoder:]
+-[ORKImageChoiceAnswerFormat questionType]
++[ORKImageChoiceAnswerFormat _questionResultClass]
+-[ORKImageChoiceAnswerFormat imageChoices]
+-[ORKImageChoiceAnswerFormat .cxx_destruct]
+-[ORKTextChoiceAnswerFormat initWithStyle:textChoices:]
+-[ORKTextChoiceAnswerFormat validateParameters]
+-[ORKTextChoiceAnswerFormat isEqual:]
+-[ORKTextChoiceAnswerFormat hash]
+-[ORKTextChoiceAnswerFormat initWithDictionary:]
+-[ORKTextChoiceAnswerFormat dictionaryValue]
+-[ORKTextChoiceAnswerFormat initWithCoder:]
+-[ORKTextChoiceAnswerFormat encodeWithCoder:]
+-[ORKTextChoiceAnswerFormat questionType]
++[ORKTextChoiceAnswerFormat _questionResultClass]
+-[ORKTextChoiceAnswerFormat style]
+-[ORKTextChoiceAnswerFormat textChoices]
+-[ORKTextChoiceAnswerFormat .cxx_destruct]
++[ORKTextChoice choiceWithText:detailText:value:]
++[ORKTextChoice choiceWithText:value:]
+-[ORKTextChoice initWithText:detailText:value:]
++[ORKTextChoice supportsSecureCoding]
+-[ORKTextChoice copyWithZone:]
+-[ORKTextChoice isEqual:]
+-[ORKTextChoice hash]
+-[ORKTextChoice initWithCoder:]
+-[ORKTextChoice encodeWithCoder:]
+-[ORKTextChoice initWithDictionary:]
+-[ORKTextChoice dictionaryValue]
+-[ORKTextChoice text]
+-[ORKTextChoice value]
+-[ORKTextChoice detailText]
+-[ORKTextChoice .cxx_destruct]
++[ORKImageChoice choiceWithNormalImage:selectedImage:text:value:]
+-[ORKImageChoice initWithNormalImage:selectedImage:text:value:]
++[ORKImageChoice supportsSecureCoding]
+-[ORKImageChoice copyWithZone:]
+-[ORKImageChoice text]
+-[ORKImageChoice value]
+-[ORKImageChoice isEqual:]
+-[ORKImageChoice hash]
+-[ORKImageChoice initWithCoder:]
+-[ORKImageChoice encodeWithCoder:]
+-[ORKImageChoice initWithDictionary:]
+-[ORKImageChoice dictionaryValue]
+-[ORKImageChoice normalStateImage]
+-[ORKImageChoice selectedStateImage]
+-[ORKImageChoice .cxx_destruct]
+-[ORKBooleanAnswerFormat questionType]
++[ORKBooleanAnswerFormat _questionResultClass]
+-[ORKTimeOfDayAnswerFormat init]
+-[ORKTimeOfDayAnswerFormat initWithDefaultComponents:]
+-[ORKTimeOfDayAnswerFormat questionType]
++[ORKTimeOfDayAnswerFormat _questionResultClass]
+-[ORKTimeOfDayAnswerFormat _pickerDefaultDate]
+-[ORKTimeOfDayAnswerFormat isEqual:]
+-[ORKTimeOfDayAnswerFormat hash]
+-[ORKTimeOfDayAnswerFormat initWithCoder:]
+-[ORKTimeOfDayAnswerFormat encodeWithCoder:]
+-[ORKTimeOfDayAnswerFormat initWithDictionary:]
+-[ORKTimeOfDayAnswerFormat dictionaryValue]
+-[ORKTimeOfDayAnswerFormat defaultComponents]
+-[ORKTimeOfDayAnswerFormat .cxx_destruct]
++[ORKDateAnswerFormat _questionResultClass]
+-[ORKDateAnswerFormat initWithStyle:]
+-[ORKDateAnswerFormat initWithStyle:defaultDate:minimumDate:maximumDate:calendar:]
+-[ORKDateAnswerFormat isEqual:]
+-[ORKDateAnswerFormat hash]
+-[ORKDateAnswerFormat _calendar]
+-[ORKDateAnswerFormat _currentCalendar]
+-[ORKDateAnswerFormat _resultDateFormatter]
+-[ORKDateAnswerFormat _stringFromDate:]
+-[ORKDateAnswerFormat _dateFromString:]
+-[ORKDateAnswerFormat _pickerDefaultDate]
+-[ORKDateAnswerFormat _pickerMinimumDate]
+-[ORKDateAnswerFormat _pickerMaximumDate]
+-[ORKDateAnswerFormat initWithCoder:]
+-[ORKDateAnswerFormat encodeWithCoder:]
+-[ORKDateAnswerFormat questionType]
++[ORKDateAnswerFormat initialize]
+___33+[ORKDateAnswerFormat initialize]_block_invoke
+-[ORKDateAnswerFormat initWithDictionary:]
+-[ORKDateAnswerFormat dictionaryValue]
+-[ORKDateAnswerFormat style]
+-[ORKDateAnswerFormat defaultDate]
+-[ORKDateAnswerFormat minimumDate]
+-[ORKDateAnswerFormat maximumDate]
+-[ORKDateAnswerFormat calendar]
+-[ORKDateAnswerFormat .cxx_destruct]
++[ORKNumericAnswerFormat _questionResultClass]
+-[ORKNumericAnswerFormat initWithStyle:]
+-[ORKNumericAnswerFormat initWithStyle:unit:minimum:maximum:]
+-[ORKNumericAnswerFormat initWithCoder:]
+-[ORKNumericAnswerFormat encodeWithCoder:]
+-[ORKNumericAnswerFormat copyWithZone:]
+-[ORKNumericAnswerFormat isEqual:]
+-[ORKNumericAnswerFormat hash]
+-[ORKNumericAnswerFormat initWithDictionary:]
+-[ORKNumericAnswerFormat dictionaryValue]
+-[ORKNumericAnswerFormat initWithStyle:unit:]
++[ORKNumericAnswerFormat decimalAnswerFormatWithUnit:]
++[ORKNumericAnswerFormat integerAnswerFormatWithUnit:]
+-[ORKNumericAnswerFormat questionType]
+-[ORKNumericAnswerFormat _isAnswerValidWithString:]
+-[ORKNumericAnswerFormat _makeNumberFormatter]
+-[ORKNumericAnswerFormat _localizedInvalidValueStringWithAnswerString:]
+-[ORKNumericAnswerFormat _removeDecimalSeparatorsFromText:numAllowed:separator:]
+-[ORKNumericAnswerFormat _sanitizedTextFieldText:decimalSeparator:]
+-[ORKNumericAnswerFormat style]
+-[ORKNumericAnswerFormat unit]
+-[ORKNumericAnswerFormat minimum]
+-[ORKNumericAnswerFormat setMinimum:]
+-[ORKNumericAnswerFormat maximum]
+-[ORKNumericAnswerFormat setMaximum:]
+-[ORKNumericAnswerFormat .cxx_destruct]
++[ORKScaleAnswerFormat _questionResultClass]
+-[ORKScaleAnswerFormat initWithMaximumValue:minimumValue:step:defaultValue:]
+-[ORKScaleAnswerFormat _minimumNumber]
+-[ORKScaleAnswerFormat _maximumNumber]
+-[ORKScaleAnswerFormat _defaultNumber]
+-[ORKScaleAnswerFormat _localizedStringForNumber:]
+-[ORKScaleAnswerFormat _numberOfSteps]
+-[ORKScaleAnswerFormat _normalizedValueForNumber:]
+-[ORKScaleAnswerFormat validateParameters]
+-[ORKScaleAnswerFormat initWithCoder:]
+-[ORKScaleAnswerFormat encodeWithCoder:]
+-[ORKScaleAnswerFormat isEqual:]
+-[ORKScaleAnswerFormat questionType]
+-[ORKScaleAnswerFormat initWithDictionary:]
+-[ORKScaleAnswerFormat dictionaryValue]
+-[ORKScaleAnswerFormat maximum]
+-[ORKScaleAnswerFormat minimum]
+-[ORKScaleAnswerFormat step]
+-[ORKScaleAnswerFormat defaultValue]
++[ORKContinuousScaleAnswerFormat _questionResultClass]
+-[ORKContinuousScaleAnswerFormat initWithMaximumValue:minimumValue:defaultValue:maximumFractionDigits:]
+-[ORKContinuousScaleAnswerFormat _minimumNumber]
+-[ORKContinuousScaleAnswerFormat _maximumNumber]
+-[ORKContinuousScaleAnswerFormat _defaultNumber]
+-[ORKContinuousScaleAnswerFormat _localizedStringForNumber:]
+-[ORKContinuousScaleAnswerFormat _numberOfSteps]
+-[ORKContinuousScaleAnswerFormat _normalizedValueForNumber:]
+-[ORKContinuousScaleAnswerFormat validateParameters]
+-[ORKContinuousScaleAnswerFormat initWithCoder:]
+-[ORKContinuousScaleAnswerFormat encodeWithCoder:]
+-[ORKContinuousScaleAnswerFormat isEqual:]
+-[ORKContinuousScaleAnswerFormat questionType]
+-[ORKContinuousScaleAnswerFormat initWithDictionary:]
+-[ORKContinuousScaleAnswerFormat dictionaryValue]
+-[ORKContinuousScaleAnswerFormat maximum]
+-[ORKContinuousScaleAnswerFormat minimum]
+-[ORKContinuousScaleAnswerFormat defaultValue]
+-[ORKContinuousScaleAnswerFormat maximumFractionDigits]
+-[ORKContinuousScaleAnswerFormat .cxx_destruct]
++[ORKTextAnswerFormat _questionResultClass]
+-[ORKTextAnswerFormat initWithMaximumLength:]
+-[ORKTextAnswerFormat init]
+-[ORKTextAnswerFormat questionType]
+-[ORKTextAnswerFormat copyWithZone:]
+-[ORKTextAnswerFormat _isAnswerValidWithString:]
+-[ORKTextAnswerFormat initWithCoder:]
+-[ORKTextAnswerFormat encodeWithCoder:]
+-[ORKTextAnswerFormat isEqual:]
+-[ORKTextAnswerFormat initWithDictionary:]
+-[ORKTextAnswerFormat dictionaryValue]
+-[ORKTextAnswerFormat maximumLength]
+-[ORKTextAnswerFormat multipleLines]
+-[ORKTextAnswerFormat setMultipleLines:]
+-[ORKTextAnswerFormat autocapitalizationType]
+-[ORKTextAnswerFormat setAutocapitalizationType:]
+-[ORKTextAnswerFormat autocorrectionType]
+-[ORKTextAnswerFormat setAutocorrectionType:]
+-[ORKTextAnswerFormat spellCheckingType]
+-[ORKTextAnswerFormat setSpellCheckingType:]
++[ORKTimeIntervalAnswerFormat _questionResultClass]
+-[ORKTimeIntervalAnswerFormat init]
+-[ORKTimeIntervalAnswerFormat initWithDefaultInterval:step:]
+-[ORKTimeIntervalAnswerFormat questionType]
+-[ORKTimeIntervalAnswerFormat _pickerDefaultDuration]
+-[ORKTimeIntervalAnswerFormat validateParameters]
+-[ORKTimeIntervalAnswerFormat initWithCoder:]
+-[ORKTimeIntervalAnswerFormat encodeWithCoder:]
+-[ORKTimeIntervalAnswerFormat isEqual:]
+-[ORKTimeIntervalAnswerFormat initWithDictionary:]
+-[ORKTimeIntervalAnswerFormat dictionaryValue]
+-[ORKTimeIntervalAnswerFormat defaultInterval]
+-[ORKTimeIntervalAnswerFormat step]
+_ORKChoiceAnswerStyleTable
+___ORKChoiceAnswerStyleTable_block_invoke
+_ORKNumericAnswerStyleTable
+___ORKNumericAnswerStyleTable_block_invoke
+-[ORKConsentSharingStepViewController initWithStep:]
+-[ORKConsentSharingStepViewController setLearnMoreButtonItem:]
+-[ORKConsentSharingStepViewController _consentLearnMoreAction:]
+_ORKMovieURLForConsentSectionType
+_movieNameForType
+_ORKImageForConsentSectionType
+-[ORKSurveyAnswerCellForImageSelection prepareView]
+-[ORKSurveyAnswerCellForImageSelection selectionViewSelectionDidChange:]
+___72-[ORKSurveyAnswerCellForImageSelection selectionViewSelectionDidChange:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKSurveyAnswerCellForImageSelection _answerDidChange]
+___56-[ORKSurveyAnswerCellForImageSelection _answerDidChange]_block_invoke
+___copy_helper_block_70
+___destroy_helper_block_71
+-[ORKSurveyAnswerCellForImageSelection suggestedCellHeightConstraintsForView:]
+-[ORKSurveyAnswerCellForImageSelection isAccessibilityElement]
+-[ORKSurveyAnswerCellForImageSelection accessibilityElements]
+-[ORKSurveyAnswerCellForImageSelection .cxx_destruct]
+-[_ORKChoiceButtonView initWithImageOption:]
+-[_ORKChoiceButtonView button]
+-[_ORKChoiceButtonView setButton:]
+-[_ORKChoiceButtonView labelText]
+-[_ORKChoiceButtonView setLabelText:]
+-[_ORKChoiceButtonView .cxx_destruct]
+-[_ORKImageSelectionView _makeLabel]
+-[_ORKImageSelectionView initWithOptions:]
+-[_ORKImageSelectionView _resetLabelText]
+-[_ORKImageSelectionView _setLabelText:]
+-[_ORKImageSelectionView buttonTapped:]
+___39-[_ORKImageSelectionView buttonTapped:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_ORKImageSelectionView selectedIndexes]
+___41-[_ORKImageSelectionView selectedIndexes]_block_invoke
+___copy_helper_block_159
+___destroy_helper_block_160
+-[_ORKImageSelectionView setSelectedIndexes:]
+___45-[_ORKImageSelectionView setSelectedIndexes:]_block_invoke
+___copy_helper_block_170
+___destroy_helper_block_171
+-[_ORKImageSelectionView isAccessibilityElement]
+-[_ORKImageSelectionView delegate]
+-[_ORKImageSelectionView setDelegate:]
+-[_ORKImageSelectionView .cxx_destruct]
+-[ORKInstructionStepViewController instructionStep]
+-[ORKInstructionStepViewController _stepDidChange]
+-[ORKInstructionStepViewController viewWillAppear:]
+-[ORKInstructionStepViewController viewDidLoad]
+-[ORKInstructionStepViewController useAppropriateButtonTitleAsLastBeginningInstructionStep]
+-[ORKInstructionStepViewController setContinueButtonItem:]
+-[ORKInstructionStepViewController setLearnMoreButtonItem:]
+-[ORKInstructionStepViewController encodeRestorableStateWithCoder:]
+-[ORKInstructionStepViewController decodeRestorableStateWithCoder:]
+-[ORKInstructionStepViewController stepView]
+-[ORKInstructionStepViewController setStepView:]
+-[ORKInstructionStepViewController .cxx_destruct]
+-[ORKAccelerometerRecorder initWithFrequency:step:outputDirectory:]
+-[ORKAccelerometerRecorder dealloc]
+-[ORKAccelerometerRecorder _recorderType]
+-[ORKAccelerometerRecorder setFrequency:]
+-[ORKAccelerometerRecorder start]
+___33-[ORKAccelerometerRecorder start]_block_invoke
+___33-[ORKAccelerometerRecorder start]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_52
+___destroy_helper_block_53
+-[ORKAccelerometerRecorder _userInfo]
+-[ORKAccelerometerRecorder stop]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___32-[ORKAccelerometerRecorder stop]_block_invoke
+___copy_helper_block_67
+___destroy_helper_block_68
+-[ORKAccelerometerRecorder _doStopRecording]
+-[ORKAccelerometerRecorder finishRecordingWithError:]
+-[ORKAccelerometerRecorder _reset]
+-[ORKAccelerometerRecorder isRecording]
+-[ORKAccelerometerRecorder mimeType]
+-[ORKAccelerometerRecorder frequency]
+-[ORKAccelerometerRecorder motionManager]
+-[ORKAccelerometerRecorder setMotionManager:]
+-[ORKAccelerometerRecorder uptime]
+-[ORKAccelerometerRecorder setUptime:]
+-[ORKAccelerometerRecorder .cxx_destruct]
+-[ORKAccelerometerRecorderConfiguration initWithFrequency:]
+-[ORKAccelerometerRecorderConfiguration recorderForStep:outputDirectory:]
+-[ORKAccelerometerRecorderConfiguration initWithCoder:]
+-[ORKAccelerometerRecorderConfiguration encodeWithCoder:]
+-[ORKAccelerometerRecorderConfiguration isEqual:]
+-[ORKAccelerometerRecorderConfiguration requestedPermissionMask]
+-[ORKAccelerometerRecorderConfiguration initWithDictionary:]
+-[ORKAccelerometerRecorderConfiguration dictionaryValue]
+-[ORKAccelerometerRecorderConfiguration frequency]
+-[ORKActiveStepTimer initWithDuration:interval:runtime:handler:]
+-[ORKActiveStepTimer dealloc]
+-[ORKActiveStepTimer runtime]
+___29-[ORKActiveStepTimer runtime]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKActiveStepTimer pause]
+___27-[ORKActiveStepTimer pause]_block_invoke
+___copy_helper_block_13
+___destroy_helper_block_14
+-[ORKActiveStepTimer resume]
+___28-[ORKActiveStepTimer resume]_block_invoke
+___copy_helper_block_18
+___destroy_helper_block_19
+-[ORKActiveStepTimer reset]
+___27-[ORKActiveStepTimer reset]_block_invoke
+___copy_helper_block_23
+___destroy_helper_block_24
+-[ORKActiveStepTimer _queue_runtime]
+__TimeIntervalFromMachTime
+-[ORKActiveStepTimer setDuration:]
+___34-[ORKActiveStepTimer setDuration:]_block_invoke
+___copy_helper_block_26
+___destroy_helper_block_27
+-[ORKActiveStepTimer _hiqueue_event]
+___36-[ORKActiveStepTimer _hiqueue_event]_block_invoke
+___copy_helper_block_31
+___destroy_helper_block_32
+-[ORKActiveStepTimer _queue_event]
+___34-[ORKActiveStepTimer _queue_event]_block_invoke
+___34-[ORKActiveStepTimer _queue_event]_block_invoke_2
+___copy_helper_block_38
+___destroy_helper_block_39
+___copy_helper_block_41
+___destroy_helper_block_42
+-[ORKActiveStepTimer _queue_clearTimer]
+-[ORKActiveStepTimer _queue_releaseBackgroundTask]
+___50-[ORKActiveStepTimer _queue_releaseBackgroundTask]_block_invoke
+-[ORKActiveStepTimer _queue_assertBackgroundTask]
+___49-[ORKActiveStepTimer _queue_assertBackgroundTask]_block_invoke
+___49-[ORKActiveStepTimer _queue_assertBackgroundTask]_block_invoke_2
+___copy_helper_block_50
+___destroy_helper_block_51
+___copy_helper_block_53
+___destroy_helper_block_54
+-[ORKActiveStepTimer _queue_resume]
+___35-[ORKActiveStepTimer _queue_resume]_block_invoke
+___copy_helper_block_63
+___destroy_helper_block_64
+-[ORKActiveStepTimer _queue_pauseAtFinish:]
+-[ORKActiveStepTimer _queue_reset]
+-[ORKActiveStepTimer duration]
+-[ORKActiveStepTimer interval]
+-[ORKActiveStepTimer handler]
+-[ORKActiveStepTimer .cxx_destruct]
++[ORKConsentSharingStep _stepViewControllerClass]
+-[ORKConsentSharingStep _shouldShowProgress]
+-[ORKConsentSharingStep useSurveyMode]
+-[ORKConsentSharingStep initWithIdentifier:investigatorShortDescription:investigatorLongDescription:localizedLearnMoreHTMLContent:]
+-[ORKConsentSharingStep isEqual:]
+-[ORKConsentSharingStep copyWithZone:]
+-[ORKConsentSharingStep initWithCoder:]
+-[ORKConsentSharingStep encodeWithCoder:]
+-[ORKConsentSharingStep localizedLearnMoreHTMLContent]
+-[ORKConsentSharingStep setLocalizedLearnMoreHTMLContent:]
+-[ORKConsentSharingStep .cxx_destruct]
++[ORKSurveyAnswerCellForDateTime datePickerForStep:]
+-[ORKSurveyAnswerCellForDateTime dealloc]
+-[ORKSurveyAnswerCellForDateTime _setupPicker]
+-[ORKSurveyAnswerCellForDateTime prepareView]
+-[ORKSurveyAnswerCellForDateTime loadDatePicker]
+-[ORKSurveyAnswerCellForDateTime layoutSubviews]
+-[ORKSurveyAnswerCellForDateTime _impliedAnswerFormat]
+-[ORKSurveyAnswerCellForDateTime _timeOfDayAnswerFormat]
+-[ORKSurveyAnswerCellForDateTime _dateAnswerFormat]
+-[ORKSurveyAnswerCellForDateTime _answerDidChange]
+-[ORKSurveyAnswerCellForDateTime _valueChangedDueUserAction:]
+-[ORKSurveyAnswerCellForDateTime _setAnswer:]
+-[ORKSurveyAnswerCellForDateTime valueChanged:]
+-[ORKSurveyAnswerCellForDateTime _restoreValue:]
++[ORKSurveyAnswerCellForDateTime suggestedCellHeightForView:]
+-[ORKSurveyAnswerCellForDateTime pickerView:rowHeightForComponent:]
+-[ORKSurveyAnswerCellForDateTime picker]
+-[ORKSurveyAnswerCellForDateTime setPicker:]
+-[ORKSurveyAnswerCellForDateTime .cxx_destruct]
+-[ORKVerticalContainerView initWithFrame:]
+-[ORKVerticalContainerView _swipeOffAction:]
+-[ORKVerticalContainerView _tapOffAction:]
+-[ORKVerticalContainerView dealloc]
+-[ORKVerticalContainerView _registerForKeyboardNotifications:]
+-[ORKVerticalContainerView willMoveToWindow:]
+-[ORKVerticalContainerView _updateToInsets:]
+-[ORKVerticalContainerView _keyboardIntersectionSizeFromNotification:]
+-[ORKVerticalContainerView _animateLayoutForKeyboardNotification:]
+___66-[ORKVerticalContainerView _animateLayoutForKeyboardNotification:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKVerticalContainerView keyboardFrameWillChange:]
+-[ORKVerticalContainerView keyboardWillShow:]
+-[ORKVerticalContainerView keyboardWillHide:]
+-[ORKVerticalContainerView _updateContinueButtonConstraints]
+-[ORKVerticalContainerView _updateConstraintConstants]
+-[ORKVerticalContainerView setContinueHugsContent:]
+-[ORKVerticalContainerView setVerticalCenteringEnabled:]
+-[ORKVerticalContainerView setStepViewFillsAvailableSpace:]
+-[ORKVerticalContainerView setMinimumStepHeaderHeight:]
+-[ORKVerticalContainerView updateConstraints]
+-[ORKVerticalContainerView _updateStepViewContainerConstraints]
+-[ORKVerticalContainerView _updateCustomViewContainerConstraints]
+-[ORKVerticalContainerView setCustomView:]
+-[ORKVerticalContainerView imageView]
+-[ORKVerticalContainerView setStepView:]
+-[ORKVerticalContainerView setImageView:]
+-[ORKVerticalContainerView customViewContainer]
+-[ORKVerticalContainerView setCustomViewContainer:]
+-[ORKVerticalContainerView stepView]
+-[ORKVerticalContainerView customView]
+-[ORKVerticalContainerView headerView]
+-[ORKVerticalContainerView setHeaderView:]
+-[ORKVerticalContainerView continueSkipContainer]
+-[ORKVerticalContainerView setContinueSkipContainer:]
+-[ORKVerticalContainerView continueHugsContent]
+-[ORKVerticalContainerView verticalCenteringEnabled]
+-[ORKVerticalContainerView stepViewFillsAvailableSpace]
+-[ORKVerticalContainerView minimumStepHeaderHeight]
+-[ORKVerticalContainerView screenType]
+-[ORKVerticalContainerView .cxx_destruct]
+-[ORKActiveStepView initWithFrame:]
+-[ORKActiveStepView _updateStepView]
+-[ORKActiveStepView setActiveStep:]
+-[ORKActiveStepView updateTitle:text:]
+-[ORKActiveStepView setActiveCustomView:]
+-[ORKActiveStepView activeStep]
+-[ORKActiveStepView activeCustomView]
+-[ORKActiveStepView .cxx_destruct]
+-[ORKContinueSkipContainerView initWithFrame:]
+-[ORKContinueSkipContainerView setTopMargin:]
+-[ORKContinueSkipContainerView setBottomMargin:]
+-[ORKContinueSkipContainerView _skipButtonAction:]
+___50-[ORKContinueSkipContainerView _skipButtonAction:]_block_invoke
+___copy_helper_block_385
+___destroy_helper_block_386
+-[ORKContinueSkipContainerView _continueButtonAction:]
+___54-[ORKContinueSkipContainerView _continueButtonAction:]_block_invoke
+___copy_helper_block_390
+___destroy_helper_block_391
+-[ORKContinueSkipContainerView _continueAction:]
+-[ORKContinueSkipContainerView _skipAction:]
+-[ORKContinueSkipContainerView setNeverHasContinueButton:]
+-[ORKContinueSkipContainerView _neverHasSkipButton]
+-[ORKContinueSkipContainerView _skipButtonHidden]
+-[ORKContinueSkipContainerView _skipButtonAlpha]
+-[ORKContinueSkipContainerView hasContinueOrSkip]
+-[ORKContinueSkipContainerView _updateContinueAndSkipEnabled]
+-[ORKContinueSkipContainerView setContinueEnabled:]
+-[ORKContinueSkipContainerView setSkipButtonItem:]
+-[ORKContinueSkipContainerView setContinueButtonItem:]
+-[ORKContinueSkipContainerView _updateConstraintConstants]
+-[ORKContinueSkipContainerView updateConstraints]
+-[ORKContinueSkipContainerView pointInside:withEvent:]
+-[ORKContinueSkipContainerView skipButtonItem]
+-[ORKContinueSkipContainerView continueButtonItem]
+-[ORKContinueSkipContainerView continueEnabled]
+-[ORKContinueSkipContainerView neverHasContinueButton]
+-[ORKContinueSkipContainerView topMargin]
+-[ORKContinueSkipContainerView bottomMargin]
+-[ORKContinueSkipContainerView continueButton]
+-[ORKContinueSkipContainerView setContinueButton:]
+-[ORKContinueSkipContainerView skipButton]
+-[ORKContinueSkipContainerView setSkipButton:]
+-[ORKContinueSkipContainerView useNextForSkip]
+-[ORKContinueSkipContainerView setUseNextForSkip:]
+-[ORKContinueSkipContainerView isOptional]
+-[ORKContinueSkipContainerView setOptional:]
+-[ORKContinueSkipContainerView .cxx_destruct]
+-[ORKStepHeaderView _updateCaptionLabelPreferredWidth]
+-[ORKStepHeaderView setFrame:]
+-[ORKStepHeaderView setBounds:]
+-[ORKStepHeaderView setLayoutMargins:]
+-[ORKStepHeaderView initWithFrame:]
+-[ORKStepHeaderView willMoveToWindow:]
+-[ORKStepHeaderView _learnMoreAction:]
+-[ORKStepHeaderView setLearnMoreButtonItem:]
+-[ORKStepHeaderView layoutSubviews]
+-[ORKStepHeaderView _updateConstraintConstants]
+-[ORKStepHeaderView setHasContentAbove:]
+-[ORKStepHeaderView updateConstraints]
+-[ORKStepHeaderView learnMoreButtonItem]
+-[ORKStepHeaderView captionLabel]
+-[ORKStepHeaderView setCaptionLabel:]
+-[ORKStepHeaderView learnMoreButton]
+-[ORKStepHeaderView setLearnMoreButton:]
+-[ORKStepHeaderView instructionLabel]
+-[ORKStepHeaderView setInstructionLabel:]
+-[ORKStepHeaderView hasContentAbove]
+-[ORKStepHeaderView .cxx_destruct]
+-[ORKQuestionStepView setQuestionCustomView:]
+-[ORKQuestionStepView setQuestionStep:]
+-[ORKQuestionStepView isAccessibilityElement]
+-[ORKQuestionStepView accessibilityElements]
+-[ORKQuestionStepView questionStep]
+-[ORKQuestionStepView questionCustomView]
+-[ORKQuestionStepView .cxx_destruct]
+-[ORKQuestionStepCellHolderView initWithFrame:]
+-[ORKQuestionStepCellHolderView _tapAction]
+-[ORKQuestionStepCellHolderView setCell:]
+-[ORKQuestionStepCellHolderView cell]
+-[ORKQuestionStepCellHolderView .cxx_destruct]
+-[ORKMediaOverlayView initWithFrame:]
+_questionLabelWithFrame
+-[ORKMediaOverlayView layoutSubviews]
+-[ORKMediaOverlayView label]
+-[ORKMediaOverlayView setLabel:]
+-[ORKMediaOverlayView .cxx_destruct]
+-[ORKMediaStepViewController initWithStep:]
+-[ORKMediaStepViewController viewDidLoad]
+-[ORKMediaStepViewController dealloc]
+-[ORKMediaStepViewController mediaStep]
+-[ORKMediaStepViewController prepareStep]
+-[ORKMediaStepViewController presentPickerAction]
+-[ORKMediaStepViewController presentPickerAnimated:]
+-[ORKMediaStepViewController viewWillAppear:]
+-[ORKMediaStepViewController viewDidAppear:]
+-[ORKMediaStepViewController canContinue]
+-[ORKMediaStepViewController suspend]
+-[ORKMediaStepViewController resume]
+-[ORKMediaStepViewController hasResult]
+-[ORKMediaStepViewController updateNextButton]
+-[ORKMediaStepViewController result]
+-[ORKMediaStepViewController _generateResultWithCompletion:]
+___60-[ORKMediaStepViewController _generateResultWithCompletion:]_block_invoke
+___60-[ORKMediaStepViewController _generateResultWithCompletion:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_156
+___destroy_helper_block_157
+-[ORKMediaStepViewController _notifyDelegateOnResultChange]
+-[ORKMediaStepViewController addCameraOverlay]
+-[ORKMediaStepViewController removeCameraOverlay]
+-[ORKMediaStepViewController imagePickerController:didFinishPickingMediaWithInfo:]
+___82-[ORKMediaStepViewController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke
+___copy_helper_block_168
+___destroy_helper_block_169
+___82-[ORKMediaStepViewController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke174
+___copy_helper_block_175
+___destroy_helper_block_176
+___82-[ORKMediaStepViewController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke180
+___82-[ORKMediaStepViewController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke_2
+___copy_helper_block_183
+___destroy_helper_block_184
+___copy_helper_block_186
+___destroy_helper_block_187
+-[ORKMediaStepViewController imagePickerControllerDidCancel:]
+-[ORKMediaStepViewController .cxx_destruct]
+-[ORKCompletionStepView initWithFrame:]
+-[ORKCompletionStepView layoutSubviews]
+-[ORKCompletionStepView intrinsicContentSize]
+-[ORKCompletionStepView sizeThatFits:]
+-[ORKCompletionStepView tintColorDidChange]
+-[ORKCompletionStepView setAnimationPoint:]
+-[ORKCompletionStepView setAnimationPoint:animated:]
+-[ORKCompletionStepView isAccessibilityElement]
+-[ORKCompletionStepView accessibilityTraits]
+-[ORKCompletionStepView animationPoint]
+-[ORKCompletionStepView .cxx_destruct]
+-[ORKCompletionStepViewController _stepDidChange]
+-[ORKCompletionStepViewController viewWillAppear:]
+-[ORKCompletionStepViewController viewDidAppear:]
+-[ORKCompletionStepViewController _updateNavRightBarButtonItem]
+-[ORKCompletionStepViewController setContinueButtonItem:]
+-[ORKCompletionStepViewController .cxx_destruct]
+-[ORKQuestionStepViewController _initializeInternalButtonItems]
+-[ORKQuestionStepViewController initWithStep:result:]
+-[ORKQuestionStepViewController initWithStep:]
+-[ORKQuestionStepViewController _stepDidChange]
+-[ORKQuestionStepViewController viewDidLoad]
+-[ORKQuestionStepViewController _showValidityAlertWithMessage:]
+-[ORKQuestionStepViewController viewWillAppear:]
+___48-[ORKQuestionStepViewController viewWillAppear:]_block_invoke
+___48-[ORKQuestionStepViewController viewWillAppear:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_186
+___destroy_helper_block_187
+-[ORKQuestionStepViewController _answerDidChange]
+-[ORKQuestionStepViewController _refreshDefaults]
+___49-[ORKQuestionStepViewController _refreshDefaults]_block_invoke
+___49-[ORKQuestionStepViewController _refreshDefaults]_block_invoke_2
+___copy_helper_block_202
+___destroy_helper_block_203
+___copy_helper_block_205
+___destroy_helper_block_206
+-[ORKQuestionStepViewController _defaultAnswerDidChange]
+-[ORKQuestionStepViewController viewDidAppear:]
+-[ORKQuestionStepViewController viewWillDisappear:]
+-[ORKQuestionStepViewController setCustomQuestionView:]
+-[ORKQuestionStepViewController _updateButtonStates]
+-[ORKQuestionStepViewController setContinueButtonItem:]
+-[ORKQuestionStepViewController setLearnMoreButtonItem:]
+-[ORKQuestionStepViewController setSkipButtonItem:]
+-[ORKQuestionStepViewController result]
+-[ORKQuestionStepViewController questionStep]
+-[ORKQuestionStepViewController _hasAnswer]
+-[ORKQuestionStepViewController saveAnswer:]
+-[ORKQuestionStepViewController skipForward]
+-[ORKQuestionStepViewController _notifyDelegateOnResultChange]
+-[ORKQuestionStepViewController answer]
+-[ORKQuestionStepViewController setAnswer:]
+-[ORKQuestionStepViewController continueButtonEnabled]
+-[ORKQuestionStepViewController allowContinue]
+-[ORKQuestionStepViewController customQuestionStepView:didChangeAnswer:]
+-[ORKQuestionStepViewController numberOfSectionsInTableView:]
+-[ORKQuestionStepViewController tableView:numberOfRowsInSection:]
+-[ORKQuestionStepViewController _choiceAnswerFormat]
+-[ORKQuestionStepViewController _isChoiceSelected:atIndex:]
+-[ORKQuestionStepViewController _selectedOption]
+-[ORKQuestionStepViewController _answerCellForTableView:]
+___57-[ORKQuestionStepViewController _answerCellForTableView:]_block_invoke
+-[ORKQuestionStepViewController tableView:cellForRowAtIndexPath:]
+-[ORKQuestionStepViewController tableView:willDisplayCell:forRowAtIndexPath:]
+-[ORKQuestionStepViewController _shouldContinue]
+-[ORKQuestionStepViewController goForward]
+-[ORKQuestionStepViewController goBackward]
+-[ORKQuestionStepViewController _continueAction:]
+-[ORKQuestionStepViewController tableView:willSelectRowAtIndexPath:]
+-[ORKQuestionStepViewController tableView:shouldHighlightRowAtIndexPath:]
+-[ORKQuestionStepViewController tableView:didSelectRowAtIndexPath:]
+-[ORKQuestionStepViewController tableView:heightForRowAtIndexPath:]
+-[ORKQuestionStepViewController heightForChoiceItemOptionAtIndex:]
+-[ORKQuestionStepViewController answerCell:answerDidChangeTo:]
+-[ORKQuestionStepViewController answerCell:invalidInputAlertWithMessage:]
+-[ORKQuestionStepViewController encodeRestorableStateWithCoder:]
+-[ORKQuestionStepViewController decodeRestorableStateWithCoder:]
+-[ORKQuestionStepViewController customQuestionView]
+-[ORKQuestionStepViewController tableView]
+-[ORKQuestionStepViewController setTableView:]
+-[ORKQuestionStepViewController questionView]
+-[ORKQuestionStepViewController setQuestionView:]
+-[ORKQuestionStepViewController answerFormat]
+-[ORKQuestionStepViewController setAnswerFormat:]
+-[ORKQuestionStepViewController continueActionButton]
+-[ORKQuestionStepViewController setContinueActionButton:]
+-[ORKQuestionStepViewController answerCell]
+-[ORKQuestionStepViewController setAnswerCell:]
+-[ORKQuestionStepViewController questionLabel]
+-[ORKQuestionStepViewController promptLabel]
+-[ORKQuestionStepViewController haveChangedAnswer]
+-[ORKQuestionStepViewController setHaveChangedAnswer:]
+-[ORKQuestionStepViewController .cxx_destruct]
+-[_ORKConsentReviewController initWithHtml:delegate:]
+-[_ORKConsentReviewController viewDidLoad]
+-[_ORKConsentReviewController cancel]
+-[_ORKConsentReviewController doAck]
+-[_ORKConsentReviewController ack]
+___34-[_ORKConsentReviewController ack]_block_invoke
+___34-[_ORKConsentReviewController ack]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_92
+___destroy_helper_block_93
+-[_ORKConsentReviewController webView]
+-[_ORKConsentReviewController setWebView:]
+-[_ORKConsentReviewController delegate]
+-[_ORKConsentReviewController setDelegate:]
+-[_ORKConsentReviewController localizedReasonForConsent]
+-[_ORKConsentReviewController setLocalizedReasonForConsent:]
+-[_ORKConsentReviewController .cxx_destruct]
++[ORKFormTextView defaultFont]
++[ORKTextButton buttonWithType:]
+-[ORKTextButton init]
+-[ORKTextButton initWithFrame:]
+-[ORKTextButton _init_ORKTextButton]
+-[ORKTextButton tintColorDidChange]
+-[ORKTextButton _defaultFont]
+-[ORKTextButton setCompressFontSize:]
+-[ORKTextButton _updateAppearance]
+-[ORKTextButton setTitleFont:]
+-[ORKTextButton dealloc]
++[ORKTextButton defaultFont]
+-[ORKTextButton intrinsicContentSize]
+-[ORKTextButton titleFont]
+-[ORKTextButton compressFontSize]
+-[ORKTextButton .cxx_destruct]
+-[NSURL(ORKDataLogger) _ork_logName]
+-[NSURL(ORKDataLogger) _ork_logDateComponent]
+-[NSURL(ORKDataLogger) _ork_isUploaded]
+-[NSURL(ORKDataLogger) _ork_setUploaded:error:]
+-[NSURL(ORKDataLogger) _ork_dataForAttr:]
+-[NSURL(ORKDataLogger) _ork_setData:forAttr:error:]
+-[NSURL(ORKDataLogger) _ork_logNameInDirectory:]
+-[_ORKObjectObserver initWithObject:keys:selector:]
+-[_ORKObjectObserver observeValueForKeyPath:ofObject:change:context:]
+-[_ORKObjectObserver _stopObserving]
+-[_ORKObjectObserver pause]
+-[_ORKObjectObserver resume]
+-[_ORKObjectObserver dealloc]
+-[_ORKObjectObserver object]
+-[_ORKObjectObserver setObject:]
+-[_ORKObjectObserver .cxx_destruct]
+-[ORKLogFormatter canAcceptLogObjectOfClass:]
+-[ORKLogFormatter canAcceptLogObject:]
+-[ORKLogFormatter beginLogWithFileHandle:error:]
+-[ORKLogFormatter _writeData:fileHandle:error:]
+-[ORKLogFormatter _checkpointWithFileHandle:]
+-[ORKLogFormatter _rollbackToCheckpoint:fileHandle:]
+-[ORKLogFormatter appendObject:fileHandle:error:]
+-[ORKLogFormatter appendObjects:fileHandle:error:]
+-[ORKJSONLogFormatter init]
+___27-[ORKJSONLogFormatter init]_block_invoke
+-[ORKJSONLogFormatter canAcceptLogObjectOfClass:]
+-[ORKJSONLogFormatter canAcceptLogObject:]
+-[ORKJSONLogFormatter beginLogWithFileHandle:error:]
+-[ORKJSONLogFormatter _checkpointWithFileHandle:]
+-[ORKJSONLogFormatter _rollbackToCheckpoint:fileHandle:]
+-[ORKJSONLogFormatter appendObject:fileHandle:error:]
+-[ORKJSONLogFormatter appendObjects:fileHandle:error:]
+___54-[ORKJSONLogFormatter appendObjects:fileHandle:error:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[ORKDataLogger JSONDataLoggerWithDirectory:logName:delegate:]
+-[ORKDataLogger initWithDirectory:logName:formatter:delegate:]
+-[ORKDataLogger _initWithDirectory:configuration:delegate:]
+-[ORKDataLogger _configuration]
+-[ORKDataLogger _setupDirectorySource]
+___38-[ORKDataLogger _setupDirectorySource]_block_invoke
+___38-[ORKDataLogger _setupDirectorySource]_block_invoke_2
+___copy_helper_block_287
+___destroy_helper_block_288
+-[ORKDataLogger fileSizeLimitsDidChange]
+___40-[ORKDataLogger fileSizeLimitsDidChange]_block_invoke
+___copy_helper_block_296
+___destroy_helper_block_297
+___40-[ORKDataLogger fileSizeLimitsDidChange]_block_invoke299
+___copy_helper_block_302
+___destroy_helper_block_303
+-[ORKDataLogger finishCurrentLog]
+___33-[ORKDataLogger finishCurrentLog]_block_invoke
+___copy_helper_block_307
+___destroy_helper_block_308
+-[ORKDataLogger currentLogFileURL]
+-[ORKDataLogger _urlMatchesLogName:]
+-[ORKDataLogger _fileHandle]
+-[ORKDataLogger enumerateLogs:error:]
+___37-[ORKDataLogger enumerateLogs:error:]_block_invoke
+___copy_helper_block_320
+___destroy_helper_block_321
+-[ORKDataLogger _enumerateLogsUploaded:block:error:]
+___52-[ORKDataLogger _enumerateLogsUploaded:block:error:]_block_invoke
+___copy_helper_block_325
+___destroy_helper_block_326
+-[ORKDataLogger enumerateLogsNeedingUpload:error:]
+-[ORKDataLogger enumerateLogsAlreadyUploaded:error:]
+-[ORKDataLogger append:error:]
+___30-[ORKDataLogger append:error:]_block_invoke
+___copy_helper_block_334
+___destroy_helper_block_335
+-[ORKDataLogger appendObjects:error:]
+___37-[ORKDataLogger appendObjects:error:]_block_invoke
+___copy_helper_block_341
+___destroy_helper_block_342
+-[ORKDataLogger markFileUploaded:atURL:error:]
+___46-[ORKDataLogger markFileUploaded:atURL:error:]_block_invoke
+___copy_helper_block_346
+___destroy_helper_block_347
+-[ORKDataLogger removeUploadedFiles:withError:]
+___47-[ORKDataLogger removeUploadedFiles:withError:]_block_invoke
+___copy_helper_block_351
+___destroy_helper_block_352
+-[ORKDataLogger removeAllFilesWithError:]
+___41-[ORKDataLogger removeAllFilesWithError:]_block_invoke
+___copy_helper_block_356
+___destroy_helper_block_357
+-[ORKDataLogger isFileUploadedAtURL:]
+-[ORKDataLogger dealloc]
+-[ORKDataLogger _queue_setNeedsUpdateBytes]
+___43-[ORKDataLogger _queue_setNeedsUpdateBytes]_block_invoke
+___copy_helper_block_364
+___destroy_helper_block_365
+-[ORKDataLogger _directoryUpdated]
+___34-[ORKDataLogger _directoryUpdated]_block_invoke
+___copy_helper_block_369
+___destroy_helper_block_370
+-[ORKDataLogger _queue_enumerateLogs:error:]
+___44-[ORKDataLogger _queue_enumerateLogs:error:]_block_invoke
+___44-[ORKDataLogger _queue_enumerateLogs:error:]_block_invoke_2
+-[ORKDataLogger _queue_enumerateLogsUploaded:block:error:]
+___58-[ORKDataLogger _queue_enumerateLogsUploaded:block:error:]_block_invoke
+___copy_helper_block_396
+___destroy_helper_block_397
+-[ORKDataLogger _queue_makeFileHandleWithError:]
+-[ORKDataLogger _queue_fileHandleWithError:]
++[ORKDataLogger _nextUrlForDirectoryUrl:logName:]
+___49+[ORKDataLogger _nextUrlForDirectoryUrl:logName:]_block_invoke
+-[ORKDataLogger _queue_closeAndRenameLog]
+___41-[ORKDataLogger _queue_closeAndRenameLog]_block_invoke
+___copy_helper_block_459
+___destroy_helper_block_460
+-[ORKDataLogger _queue_rolloverIfNeeded]
+-[ORKDataLogger _queue_rollover]
+-[ORKDataLogger _queue_append:error:]
+-[ORKDataLogger _queue_appendObjects:error:]
+-[ORKDataLogger _queue_markFileUploaded:atURL:error:]
+-[ORKDataLogger _queue_removeUploadedFiles:withError:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___54-[ORKDataLogger _queue_removeUploadedFiles:withError:]_block_invoke
+___copy_helper_block_473
+___destroy_helper_block_474
+-[ORKDataLogger _queue_removeAllFilesWithError:]
+___48-[ORKDataLogger _queue_removeAllFilesWithError:]_block_invoke
+___copy_helper_block_480
+___destroy_helper_block_481
+-[ORKDataLogger _queue_updateBytes]
+___35-[ORKDataLogger _queue_updateBytes]_block_invoke
+___copy_helper_block_487
+___destroy_helper_block_488
+-[ORKDataLogger delegate]
+-[ORKDataLogger setDelegate:]
+-[ORKDataLogger logFormatter]
+-[ORKDataLogger _setLogFormatter:]
+-[ORKDataLogger maximumCurrentLogFileSize]
+-[ORKDataLogger setMaximumCurrentLogFileSize:]
+-[ORKDataLogger maximumCurrentLogFileLifetime]
+-[ORKDataLogger setMaximumCurrentLogFileLifetime:]
+-[ORKDataLogger pendingBytes]
+-[ORKDataLogger setPendingBytes:]
+-[ORKDataLogger uploadedBytes]
+-[ORKDataLogger setUploadedBytes:]
+-[ORKDataLogger fileProtectionMode]
+-[ORKDataLogger setFileProtectionMode:]
+-[ORKDataLogger logName]
+-[ORKDataLogger _setLogName:]
+-[ORKDataLogger .cxx_destruct]
+-[ORKDataLoggerManager initWithDirectory:delegate:]
+-[ORKDataLoggerManager _loadConfiguration:]
+-[ORKDataLoggerManager _queue_configuration]
+-[ORKDataLoggerManager _queue_synchronizeConfiguration]
+-[ORKDataLoggerManager _configurationDidChange]
+___47-[ORKDataLoggerManager _configurationDidChange]_block_invoke
+___copy_helper_block_618
+___destroy_helper_block_619
+-[ORKDataLoggerManager addJSONDataLoggerForLogName:]
+-[ORKDataLoggerManager _queue_addDataLoggerForLogName:formatter:]
+-[ORKDataLoggerManager addDataLoggerForLogName:formatter:]
+___58-[ORKDataLoggerManager addDataLoggerForLogName:formatter:]_block_invoke
+___copy_helper_block_627
+___destroy_helper_block_628
+-[ORKDataLoggerManager _queue_removeDataLogger:]
+-[ORKDataLoggerManager removeDataLogger:]
+___41-[ORKDataLoggerManager removeDataLogger:]_block_invoke
+___copy_helper_block_637
+___destroy_helper_block_638
+-[ORKDataLoggerManager dataLoggerForLogName:]
+___45-[ORKDataLoggerManager dataLoggerForLogName:]_block_invoke
+___copy_helper_block_640
+___destroy_helper_block_641
+-[ORKDataLoggerManager logNames]
+___32-[ORKDataLoggerManager logNames]_block_invoke
+___copy_helper_block_645
+___destroy_helper_block_646
+-[ORKDataLoggerManager _queue_enumerateLogsNeedingUpload:error:]
+___64-[ORKDataLoggerManager _queue_enumerateLogsNeedingUpload:error:]_block_invoke
+___copy_helper_block_648
+___destroy_helper_block_649
+___64-[ORKDataLoggerManager _queue_enumerateLogsNeedingUpload:error:]_block_invoke652
+-[ORKDataLoggerManager enumerateLogsNeedingUpload:error:]
+___57-[ORKDataLoggerManager enumerateLogsNeedingUpload:error:]_block_invoke
+___copy_helper_block_661
+___destroy_helper_block_662
+-[ORKDataLoggerManager _queue_removeUploadedFiles:error:]
+-[ORKDataLoggerManager removeUploadedFiles:error:]
+___50-[ORKDataLoggerManager removeUploadedFiles:error:]_block_invoke
+___copy_helper_block_671
+___destroy_helper_block_672
+-[ORKDataLoggerManager _queue_unmarkUploadedFiles:error:]
+-[ORKDataLoggerManager unmarkUploadedFiles:error:]
+___50-[ORKDataLoggerManager unmarkUploadedFiles:error:]_block_invoke
+___copy_helper_block_677
+___destroy_helper_block_678
+-[ORKDataLoggerManager _queue_removeOldAndUploadedLogsToThreshold:error:]
+___73-[ORKDataLoggerManager _queue_removeOldAndUploadedLogsToThreshold:error:]_block_invoke
+___copy_helper_block_682
+___destroy_helper_block_683
+___73-[ORKDataLoggerManager _queue_removeOldAndUploadedLogsToThreshold:error:]_block_invoke686
+___copy_helper_block_687
+___destroy_helper_block_688
+-[ORKDataLoggerManager removeOldAndUploadedLogsToThreshold:error:]
+___66-[ORKDataLoggerManager removeOldAndUploadedLogsToThreshold:error:]_block_invoke
+___copy_helper_block_695
+___destroy_helper_block_696
+-[ORKDataLoggerManager _queue_updateBytes]
+-[ORKDataLoggerManager _setNeedsUpdateBytes]
+___44-[ORKDataLoggerManager _setNeedsUpdateBytes]_block_invoke
+___copy_helper_block_708
+___destroy_helper_block_709
+-[ORKDataLoggerManager dataLogger:finishedLogFile:]
+-[ORKDataLoggerManager dataLoggerByteCountsDidChange:]
+___54-[ORKDataLoggerManager dataLoggerByteCountsDidChange:]_block_invoke
+___copy_helper_block_711
+___destroy_helper_block_712
+-[ORKDataLoggerManager dataLoggerThresholdsDidChange:]
+-[ORKDataLoggerManager delegate]
+-[ORKDataLoggerManager setDelegate:]
+-[ORKDataLoggerManager pendingUploadBytesThreshold]
+-[ORKDataLoggerManager setPendingUploadBytesThreshold:]
+-[ORKDataLoggerManager totalBytesThreshold]
+-[ORKDataLoggerManager setTotalBytesThreshold:]
+-[ORKDataLoggerManager pendingUploadBytes]
+-[ORKDataLoggerManager setPendingUploadBytes:]
+-[ORKDataLoggerManager totalBytes]
+-[ORKDataLoggerManager setTotalBytes:]
+-[ORKDataLoggerManager .cxx_destruct]
+-[ORKActiveStepCustomView resetStep:]
+-[ORKActiveStepCustomView startStep:]
+-[ORKActiveStepCustomView suspendStep:]
+-[ORKActiveStepCustomView resumeStep:]
+-[ORKActiveStepCustomView finishStep:]
+-[ORKActiveStepCustomView updateDisplay:]
+-[ORKActiveStepCustomView activeStepViewController]
+-[ORKActiveStepCustomView setActiveStepViewController:]
+-[ORKActiveStepCustomView .cxx_destruct]
+-[ORKQuestionStepCustomView delegate]
+-[ORKQuestionStepCustomView setDelegate:]
+-[ORKQuestionStepCustomView answer]
+-[ORKQuestionStepCustomView setAnswer:]
+-[ORKQuestionStepCustomView .cxx_destruct]
++[_ORKAudioStep _stepViewControllerClass]
+-[_ORKAudioStep validateParameters]
+-[_ORKAudioStep copyWithZone:]
+-[_ORKAudioStep startsFinished]
+-[_ORKAudioStep initWithCoder:]
+-[_ORKAudioStep encodeWithCoder:]
+-[_ORKAudioStep isEqual:]
+-[_ORKAudioStep initWithDictionary:]
+-[_ORKAudioStep dictionaryValue]
+-[_ORKAudioStep duration]
+-[_ORKAudioStep setDuration:]
+-[ORKOrderedTask initWithIdentifier:steps:]
+-[ORKOrderedTask copyWithZone:]
+-[ORKOrderedTask isEqual:]
+-[ORKOrderedTask hash]
+-[ORKOrderedTask identifier]
+-[ORKOrderedTask _indexOfStep:]
+-[ORKOrderedTask stepAfterStep:withResult:]
+-[ORKOrderedTask stepBeforeStep:withResult:]
+-[ORKOrderedTask stepWithIdentifier:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___37-[ORKOrderedTask stepWithIdentifier:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKOrderedTask progressOfCurrentStep:withResult:]
+-[ORKOrderedTask requestedHealthKitTypesForReading]
+-[ORKOrderedTask requestedHealthKitTypesForWriting]
+-[ORKOrderedTask requestedPermissions]
+-[ORKOrderedTask providesBackgroundAudioPrompts]
++[ORKOrderedTask supportsSecureCoding]
+-[ORKOrderedTask encodeWithCoder:]
+-[ORKOrderedTask initWithCoder:]
+-[ORKOrderedTask initWithDictionary:]
+-[ORKOrderedTask dictionaryValue]
++[ORKOrderedTask _makeCompletionStep]
++[ORKOrderedTask twoFingerTappingIntervalTaskWithIdentifier:intendedUseDescription:duration:options:]
+_ORKStepArrayAddStep
++[ORKOrderedTask audioTaskWithIdentifier:intendedUseDescription:speechInstruction:shortSpeechInstruction:duration:recordingSettings:options:]
++[ORKOrderedTask _textTimeFormatter]
++[ORKOrderedTask fitnessCheckTaskWithIdentifier:intendedUseDescription:walkDuration:restDuration:options:]
++[ORKOrderedTask shortWalkTaskWithIdentifier:intendedUseDescription:numberOfStepsPerLeg:restDuration:options:]
++[ORKOrderedTask spatialSpanMemoryTaskWithIdentifier:intendedUseDescription:initialSpan:minimumSpan:maximumSpan:playSpeed:maxTests:maxConsecutiveFailures:customTargetImage:customTargetPluralName:requireReversal:options:]
+-[ORKOrderedTask steps]
+-[ORKOrderedTask .cxx_destruct]
+_____ORKArrayDeepCopy_block_invoke
+___copy_helper_block_440
+___destroy_helper_block_441
++[ORKQuestionStep _stepViewControllerClass]
++[ORKQuestionStep questionStepWithIdentifier:title:answer:]
+-[ORKQuestionStep initWithIdentifier:]
+-[ORKQuestionStep init]
+-[ORKQuestionStep validateParameters]
+-[ORKQuestionStep copyWithZone:]
+-[ORKQuestionStep isEqual:]
+-[ORKQuestionStep hash]
+-[ORKQuestionStep questionType]
+-[ORKQuestionStep _impliedAnswerFormat]
+-[ORKQuestionStep initWithCoder:]
+-[ORKQuestionStep encodeWithCoder:]
+-[ORKQuestionStep _isFormatImmediateNavigation]
+-[ORKQuestionStep _isFormatChoiceWithImageOptions]
+-[ORKQuestionStep _isFormatChoiceValuePicker]
+-[ORKQuestionStep _isFormatTextfield]
+-[ORKQuestionStep _isFormatFitsChoiceCells]
+-[ORKQuestionStep _formatRequiresTableView]
+-[ORKQuestionStep initWithDictionary:]
+-[ORKQuestionStep dictionaryValue]
+-[ORKQuestionStep answerFormat]
+-[ORKQuestionStep setAnswerFormat:]
+-[ORKQuestionStep placeholder]
+-[ORKQuestionStep setPlaceholder:]
+-[ORKQuestionStep .cxx_destruct]
+-[ORKSurveyAnswerCellForSingleSelectionPicker prepareView]
+-[ORKSurveyAnswerCellForSingleSelectionPicker _answerDidChange]
+-[ORKSurveyAnswerCellForSingleSelectionPicker layoutSubviews]
+-[ORKSurveyAnswerCellForSingleSelectionPicker _valuePickerAnswerFormat]
+-[ORKSurveyAnswerCellForSingleSelectionPicker numberOfComponentsInPickerView:]
+-[ORKSurveyAnswerCellForSingleSelectionPicker pickerView:numberOfRowsInComponent:]
+-[ORKSurveyAnswerCellForSingleSelectionPicker pickerView:titleForRow:forComponent:]
+-[ORKSurveyAnswerCellForSingleSelectionPicker pickerView:didSelectRow:inComponent:]
++[ORKSurveyAnswerCellForSingleSelectionPicker suggestedCellHeightForView:]
+-[ORKSurveyAnswerCellForSingleSelectionPicker pickerView]
+-[ORKSurveyAnswerCellForSingleSelectionPicker setPickerView:]
+-[ORKSurveyAnswerCellForSingleSelectionPicker .cxx_destruct]
+-[ORKVisualConsentAnimationContext direction]
+-[ORKVisualConsentAnimationContext setDirection:]
+-[ORKVisualConsentAnimationContext hasCalledLoadHandler]
+-[ORKVisualConsentAnimationContext setHasCalledLoadHandler:]
+-[ORKVisualConsentAnimationContext handler]
+-[ORKVisualConsentAnimationContext setHandler:]
+-[ORKVisualConsentAnimationContext loadHandler]
+-[ORKVisualConsentAnimationContext setLoadHandler:]
+-[ORKVisualConsentAnimationContext startTime]
+-[ORKVisualConsentAnimationContext setStartTime:]
+-[ORKVisualConsentAnimationContext selfRef]
+-[ORKVisualConsentAnimationContext setSelfRef:]
+-[ORKVisualConsentAnimationContext .cxx_destruct]
+-[ORKVisualConsentTransitionAnimator initWithVisualConsentStepViewController:movieURL:]
+-[ORKVisualConsentTransitionAnimator movieURL]
+-[ORKVisualConsentTransitionAnimator animateTransitionWithDirection:withLoadHandler:completionHandler:]
+-[ORKVisualConsentTransitionAnimator _attemptAnimationWithContext:]
+-[ORKVisualConsentTransitionAnimator observeValueForKeyPath:ofObject:change:context:]
+___85-[ORKVisualConsentTransitionAnimator observeValueForKeyPath:ofObject:change:context:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[ORKVisualConsentTransitionAnimator playbackDidFinish:]
+-[ORKVisualConsentTransitionAnimator _performAnimationWithContext:]
+___67-[ORKVisualConsentTransitionAnimator _performAnimationWithContext:]_block_invoke
+___copy_helper_block_140
+___destroy_helper_block_141
+-[ORKVisualConsentTransitionAnimator _finishAnimationWithContext:]
+-[ORKVisualConsentTransitionAnimator _initialFrameDidDisplay]
+-[ORKVisualConsentTransitionAnimator displayLinkCallback:]
+-[ORKVisualConsentTransitionAnimator outputMediaDataWillChange:]
+-[ORKVisualConsentTransitionAnimator finish]
+-[ORKVisualConsentTransitionAnimator dealloc]
+-[ORKVisualConsentTransitionAnimator .cxx_destruct]
+GCC_except_table5
+GCC_except_table14
+GCC_except_table11
+GCC_except_table18
+GCC_except_table37
+GCC_except_table43
+GCC_except_table57
+GCC_except_table118
+GCC_except_table28
+GCC_except_table42
+GCC_except_table10
+GCC_except_table14
+GCC_except_table23
+GCC_except_table37
+GCC_except_table58
+GCC_except_table7
+GCC_except_table128
+GCC_except_table262
+GCC_except_table3
+GCC_except_table14
+GCC_except_table17
+GCC_except_table40
+GCC_except_table17
+GCC_except_table12
+GCC_except_table45
+GCC_except_table19
+GCC_except_table32
+GCC_except_table119
+GCC_except_table129
+GCC_except_table177
+GCC_except_table196
+GCC_except_table9
+GCC_except_table22
+_ORKGetMetricForScreenType.metrics
+_kColorConversion709
+_kColorConversion601
+-[_ORKAudioGraphView drawRect:].lengths
+___block_descriptor_tmp
+___block_descriptor_tmp69
+___block_descriptor_tmp78
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp44
+___block_descriptor_tmp53
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp38
+___block_literal_global
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp16
+___block_literal_global17
+___block_descriptor_tmp18
+___block_literal_global19
+___block_descriptor_tmp20
+___block_literal_global21
+___block_descriptor_tmp46
+___block_literal_global47
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp162
+___block_descriptor_tmp
+___block_descriptor_tmp154
+___block_descriptor_tmp240
+___block_descriptor_tmp326
+___block_descriptor_tmp343
+___block_descriptor_tmp346
+___block_descriptor_tmp359
+___block_literal_global
+___block_descriptor_tmp365
+___block_literal_global366
+___block_descriptor_tmp369
+___block_literal_global370
+___block_descriptor_tmp373
+___block_literal_global374
+___block_descriptor_tmp377
+___block_literal_global378
+___block_descriptor_tmp381
+___block_literal_global382
+___block_descriptor_tmp385
+___block_literal_global386
+___block_descriptor_tmp389
+___block_literal_global390
+___block_descriptor_tmp393
+___block_literal_global394
+___block_descriptor_tmp397
+___block_literal_global398
+___block_descriptor_tmp401
+___block_literal_global402
+___block_descriptor_tmp
+___block_descriptor_tmp384
+___block_descriptor_tmp388
+___block_descriptor_tmp396
+___block_descriptor_tmp400
+___block_descriptor_tmp406
+___block_descriptor_tmp420
+___block_descriptor_tmp425
+___block_descriptor_tmp430
+___block_descriptor_tmp435
+___block_descriptor_tmp440
+___block_descriptor_tmp445
+___block_descriptor_tmp450
+___block_descriptor_tmp455
+___block_descriptor_tmp459
+___block_descriptor_tmp462
+___block_descriptor_tmp508
+___block_descriptor_tmp600
+___block_descriptor_tmp628
+___block_descriptor_tmp694
+___block_descriptor_tmp698
+___block_descriptor_tmp711
+___block_descriptor_tmp714
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp387
+___block_descriptor_tmp578
+___block_descriptor_tmp613
+___block_descriptor_tmp626
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp8
+___block_descriptor_tmp
+___block_descriptor_tmp66
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp179
+___block_descriptor_tmp183
+___block_descriptor_tmp188
+___block_descriptor_tmp193
+___block_descriptor_tmp215
+___block_descriptor_tmp219
+___block_descriptor_tmp222
+___block_descriptor_tmp378
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp42
+___block_descriptor_tmp51
+___block_descriptor_tmp76
+___block_literal_global
+___block_descriptor_tmp88
+___block_descriptor_tmp92
+___block_descriptor_tmp102
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp335
+___block_descriptor_tmp
+___block_descriptor_tmp175
+___block_descriptor_tmp179
+___block_descriptor_tmp227
+___block_descriptor_tmp235
+___block_descriptor_tmp238
+___block_descriptor_tmp339
+___block_descriptor_tmp345
+___block_descriptor_tmp358
+___block_descriptor_tmp456
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp110
+___block_descriptor_tmp
+___block_descriptor_tmp591
+___block_descriptor_tmp606
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp58
+___block_descriptor_tmp62
+___block_descriptor_tmp72
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp36
+___block_literal_global37
+___block_descriptor_tmp50
+___block_literal_global51
+___block_descriptor_tmp86
+___block_literal_global87
+___block_descriptor_tmp95
+___block_literal_global96
+___block_descriptor_tmp99
+___block_literal_global100
+___block_descriptor_tmp103
+___block_literal_global104
+___block_descriptor_tmp111
+___block_literal_global112
+___block_descriptor_tmp122
+___block_literal_global123
+___block_descriptor_tmp124
+___block_literal_global125
+___block_descriptor_tmp126
+___block_literal_global127
+___block_descriptor_tmp130
+___block_literal_global131
+___block_descriptor_tmp134
+___block_literal_global135
+___block_descriptor_tmp181
+___block_literal_global182
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp190
+___block_descriptor_tmp229
+___block_descriptor_tmp
+___block_descriptor_tmp90
+___block_descriptor_tmp124
+___block_descriptor_tmp518
+___block_literal_global
+___block_descriptor_tmp785
+___block_literal_global786
+___block_descriptor_tmp801
+___block_literal_global802
+___block_descriptor_tmp
+___block_descriptor_tmp73
+___block_descriptor_tmp
+___block_descriptor_tmp161
+___block_descriptor_tmp173
+___block_descriptor_tmp
+___block_descriptor_tmp55
+___block_descriptor_tmp70
+___block_descriptor_tmp
+___block_descriptor_tmp15
+___block_descriptor_tmp20
+___block_descriptor_tmp25
+___block_descriptor_tmp28
+___block_descriptor_tmp33
+___block_descriptor_tmp40
+___block_descriptor_tmp43
+___block_descriptor_tmp49
+___block_descriptor_tmp52
+___block_descriptor_tmp55
+___block_descriptor_tmp65
+___block_descriptor_tmp
+___block_descriptor_tmp387
+___block_descriptor_tmp392
+___block_descriptor_tmp
+___block_descriptor_tmp158
+___block_descriptor_tmp171
+___block_descriptor_tmp177
+___block_descriptor_tmp185
+___block_descriptor_tmp188
+___block_descriptor_tmp
+___block_descriptor_tmp189
+___block_descriptor_tmp204
+___block_descriptor_tmp208
+___block_descriptor_tmp333
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp95
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp193
+___block_descriptor_tmp284
+___block_descriptor_tmp289
+___block_descriptor_tmp298
+___block_descriptor_tmp304
+___block_descriptor_tmp309
+___block_descriptor_tmp322
+___block_descriptor_tmp327
+___block_descriptor_tmp336
+___block_descriptor_tmp343
+___block_descriptor_tmp348
+___block_descriptor_tmp353
+___block_descriptor_tmp358
+___block_descriptor_tmp366
+___block_descriptor_tmp371
+___block_descriptor_tmp372
+___block_literal_global373
+___block_descriptor_tmp392
+___block_literal_global393
+___block_descriptor_tmp399
+___block_descriptor_tmp434
+___block_literal_global435
+___block_descriptor_tmp461
+___block_descriptor_tmp475
+___block_descriptor_tmp482
+___block_descriptor_tmp489
+___block_descriptor_tmp620
+___block_descriptor_tmp629
+___block_descriptor_tmp639
+___block_descriptor_tmp642
+___block_descriptor_tmp647
+___block_descriptor_tmp650
+___block_descriptor_tmp654
+___block_literal_global655
+___block_descriptor_tmp663
+___block_descriptor_tmp673
+___block_descriptor_tmp679
+___block_descriptor_tmp684
+___block_descriptor_tmp690
+___block_descriptor_tmp697
+___block_descriptor_tmp710
+___block_descriptor_tmp713
+___block_descriptor_tmp
+___block_descriptor_tmp443
+___block_descriptor_tmp
+___block_descriptor_tmp143
+_OBJC_IVAR_$__ORKFitnessStepViewController._hrFormatter
+_OBJC_IVAR_$__ORKFitnessStepViewController._contentView
+_OBJC_IVAR_$__ORKFitnessStepViewController._intendedSteps
+_OBJC_IVAR_$_ORKVisualConsentStep._consentDocument
+_OBJC_IVAR_$_ORKLocationRecorder._logger
+_OBJC_IVAR_$_ORKLocationRecorder._recordingError
+_OBJC_IVAR_$_ORKLocationRecorder._locationManager
+_OBJC_IVAR_$_ORKLocationRecorder._uptime
+_OBJC_IVAR_$_ORKLocationRecorder._started
+_OBJC_IVAR_$_ORKTouchGestureRecognizer._eventDelegate
+_OBJC_IVAR_$_ORKTouchRecorder._logger
+_OBJC_IVAR_$_ORKTouchRecorder._touchView
+_OBJC_IVAR_$_ORKTouchRecorder._uptime
+_OBJC_IVAR_$_ORKTouchRecorder._gestureRecognizer
+_OBJC_IVAR_$_ORKTouchRecorder._touchArray
+_OBJC_IVAR_$_ORKTouchRecorder._recordingError
+_OBJC_IVAR_$_ORKLabel._labelFont
+_OBJC_IVAR_$_ORKLabel._labelTextColor
+_OBJC_IVAR_$_ORKDeviceMotionRecorder._logger
+_OBJC_IVAR_$_ORKDeviceMotionRecorder._frequency
+_OBJC_IVAR_$_ORKDeviceMotionRecorder._motionManager
+_OBJC_IVAR_$_ORKDeviceMotionRecorder._uptime
+_OBJC_IVAR_$_ORKDeviceMotionRecorderConfiguration._frequency
+_OBJC_IVAR_$_ORKStepViewController._internalBackButtonItem
+_OBJC_IVAR_$_ORKStepViewController._internalContinueButtonItem
+_OBJC_IVAR_$_ORKStepViewController._internalDoneButtonItem
+_OBJC_IVAR_$_ORKStepViewController._internalSkipButtonItem
+_OBJC_IVAR_$_ORKStepViewController._backButtonItem
+_OBJC_IVAR_$_ORKStepViewController._hasBeenPresented
+_OBJC_IVAR_$_ORKStepViewController._step
+_OBJC_IVAR_$_ORKStepViewController._dismissing
+_OBJC_IVAR_$_ORKStepViewController._cancelButtonItem
+_OBJC_IVAR_$_ORKStepViewController._presentingAlert
+_OBJC_IVAR_$_ORKStepViewController._presentedDate
+_OBJC_IVAR_$_ORKStepViewController._outputDirectory
+_OBJC_IVAR_$_ORKStepViewController._restoredStepIdentifier
+_OBJC_IVAR_$_ORKStepViewController._delegate
+_OBJC_IVAR_$_ORKStepViewController._continueButtonItem
+_OBJC_IVAR_$_ORKStepViewController._learnMoreButtonItem
+_OBJC_IVAR_$_ORKStepViewController._skipButtonItem
+_OBJC_IVAR_$_ORKStepViewController._dismissedDate
+_OBJC_IVAR_$_ORKStepViewController._flexSpace
+_OBJC_IVAR_$_ORKStepViewController._fixedSpace
+_OBJC_IVAR_$__ORKConsentSignatureWrapperView._signatureView
+_OBJC_IVAR_$__ORKConsentSignatureWrapperView._clearButton
+_OBJC_IVAR_$__ORKConsentSignatureWrapperView._clearButtonEnabled
+_OBJC_IVAR_$__ORKConsentSignatureWrapperView._constraints
+_OBJC_IVAR_$_ORKConsentSigningView._wrapperView
+_OBJC_IVAR_$__ORKConsentSignatureController._signingView
+_OBJC_IVAR_$__ORKConsentSignatureController._localizedContinueButtonTitle
+_OBJC_IVAR_$__ORKConsentSignatureController._delegate
+_OBJC_IVAR_$_ORKFormStep._formItems
+_OBJC_IVAR_$_ORKFormItem._identifier
+_OBJC_IVAR_$_ORKFormItem._text
+_OBJC_IVAR_$_ORKFormItem._answerFormat
+_OBJC_IVAR_$_ORKFormItem._placeholder
+_OBJC_IVAR_$_ORKFormItem._step
+_OBJC_IVAR_$__ORKTableContainerView._tableView
+_OBJC_IVAR_$__ORKTableContainerView._scrollView
+_OBJC_IVAR_$__ORKTableContainerView._realFooterView
+_OBJC_IVAR_$__ORKTableContainerView._stepHeaderView
+_OBJC_IVAR_$__ORKTableContainerView._continueSkipContainerView
+_OBJC_IVAR_$__ORKTableContainerView._bottomConstraint
+_OBJC_IVAR_$__ORKTableContainerView._keyboardOverlap
+_OBJC_IVAR_$__ORKTableContainerView._constraints
+_OBJC_IVAR_$__ORKTableContainerView._keyboardIsUp
+_OBJC_IVAR_$__ORKSpatialSpanGame._gameSize
+_OBJC_IVAR_$__ORKSpatialSpanGame._sequence
+_OBJC_IVAR_$__ORKSpatialSpanGame._seed
+_OBJC_IVAR_$__ORKSpatialSpanGame._sequenceLength
+_OBJC_IVAR_$__ORKState._state
+_OBJC_IVAR_$__ORKState._context
+_OBJC_IVAR_$__ORKState._entryHandler
+_OBJC_IVAR_$__ORKState._exitHandler
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._contentView
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._state
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._gameRecords
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._currentGameState
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._score
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._lastRoundScore
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._gameStartTime
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._numberOfItems
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._gamesCounter
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._consecutiveGamesFailed
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._nextGameSequenceLength
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._gridSize
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._playbackIndex
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._playbackTimer
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._activityTimer
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStepViewController._states
+_OBJC_IVAR_$__ORKCaretOptionalTextField._hitClearButton
+_OBJC_IVAR_$__ORKCaretOptionalTextField._allowsSelection
+_OBJC_IVAR_$__ORKUnitTextField._suffixLabel
+_OBJC_IVAR_$__ORKUnitTextField._savedSuffixColor
+_OBJC_IVAR_$__ORKUnitTextField._savedSuffixText
+_OBJC_IVAR_$__ORKUnitTextField._manageUnitAndPlaceholder
+_OBJC_IVAR_$__ORKUnitTextField._managedPlaceholder
+_OBJC_IVAR_$__ORKUnitTextField._unit
+_OBJC_IVAR_$__ORKUnitTextField._unitWithPlaceholder
+_OBJC_IVAR_$__ORKUnitTextField._unitWithNumber
+_OBJC_IVAR_$__ORKUnitTextField._unitRegularColor
+_OBJC_IVAR_$__ORKUnitTextField._unitActiveColor
+_OBJC_IVAR_$__ORKTextFieldView._textField
+_OBJC_IVAR_$__ORKLocationAuthorizationRequester._handler
+_OBJC_IVAR_$__ORKLocationAuthorizationRequester._manager
+_OBJC_IVAR_$__ORKLocationAuthorizationRequester._started
+_OBJC_IVAR_$__ORKObserver._observing
+_OBJC_IVAR_$__ORKObserver._keyPaths
+_OBJC_IVAR_$__ORKObserver._target
+_OBJC_IVAR_$__ORKObserver._context
+_OBJC_IVAR_$__ORKObserver._responder
+_OBJC_IVAR_$__ORKObserver._action
+_OBJC_IVAR_$_ORKTaskViewController._childNavigationController
+_OBJC_IVAR_$_ORKTaskViewController._pageViewController
+_OBJC_IVAR_$_ORKTaskViewController._managedResults
+_OBJC_IVAR_$_ORKTaskViewController._managedStepIdentifiers
+_OBJC_IVAR_$_ORKTaskViewController._hasBeenPresented
+_OBJC_IVAR_$_ORKTaskViewController._taskRunUUID
+_OBJC_IVAR_$_ORKTaskViewController._hasRequestedHealthData
+_OBJC_IVAR_$_ORKTaskViewController._task
+_OBJC_IVAR_$_ORKTaskViewController._requestedHealthTypesForRead
+_OBJC_IVAR_$_ORKTaskViewController._requestedHealthTypesForWrite
+_OBJC_IVAR_$_ORKTaskViewController._grantedPermissions
+_OBJC_IVAR_$_ORKTaskViewController._haveAudioSession
+_OBJC_IVAR_$_ORKTaskViewController._presentedDate
+_OBJC_IVAR_$_ORKTaskViewController._dismissedDate
+_OBJC_IVAR_$_ORKTaskViewController._outputDirectory
+_OBJC_IVAR_$_ORKTaskViewController._registeredScrollView
+_OBJC_IVAR_$_ORKTaskViewController._scrollViewObserver
+_OBJC_IVAR_$_ORKTaskViewController._currentStepViewController
+_OBJC_IVAR_$_ORKTaskViewController._lastBeginningInstructionStepIdentifier
+_OBJC_IVAR_$_ORKTaskViewController._lastRestorableStepIdentifier
+_OBJC_IVAR_$_ORKTaskViewController._haveSetProgressLabel
+_OBJC_IVAR_$_ORKTaskViewController._defaultResultSource
+_OBJC_IVAR_$_ORKTaskViewController._stepVCObserver
+_OBJC_IVAR_$_ORKTaskViewController._restoredTaskIdentifier
+_OBJC_IVAR_$_ORKTaskViewController._restoredStepIdentifier
+_OBJC_IVAR_$_ORKTaskViewController._delegate
+_OBJC_IVAR_$_ORKTaskViewController._showsProgressInNavigationBar
+_OBJC_IVAR_$_ORKTaskViewController._hairline
+_OBJC_IVAR_$_ORKConsentLearnMoreViewController._webView
+_OBJC_IVAR_$_ORKConsentLearnMoreViewController._content
+_OBJC_IVAR_$_ORKScaleSlider._numberOfSteps
+_OBJC_IVAR_$_ORKScaleSlider._axLastOutputTime
+_OBJC_IVAR_$_ORKScaleSlider._showThumb
+_OBJC_IVAR_$_ORKActiveStep._stepDuration
+_OBJC_IVAR_$_ORKActiveStep._shouldShowDefaultTimer
+_OBJC_IVAR_$_ORKActiveStep._spokenInstruction
+_OBJC_IVAR_$_ORKActiveStep._shouldStartTimerAutomatically
+_OBJC_IVAR_$_ORKActiveStep._shouldSpeakCountDown
+_OBJC_IVAR_$_ORKActiveStep._shouldPlaySoundOnStart
+_OBJC_IVAR_$_ORKActiveStep._shouldPlaySoundOnFinish
+_OBJC_IVAR_$_ORKActiveStep._shouldVibrateOnStart
+_OBJC_IVAR_$_ORKActiveStep._shouldVibrateOnFinish
+_OBJC_IVAR_$_ORKActiveStep._shouldUseNextAsSkipButton
+_OBJC_IVAR_$_ORKActiveStep._shouldContinueOnFinish
+_OBJC_IVAR_$_ORKActiveStep._image
+_OBJC_IVAR_$_ORKActiveStep._recorderConfigurations
+_OBJC_IVAR_$_ORKSignatureGestureRecognizer._eventDelegate
+_OBJC_IVAR_$_ORKSignatureView._signatureGestureRecognizer
+_OBJC_IVAR_$_ORKSignatureView._lineColor
+_OBJC_IVAR_$_ORKSignatureView._lineWidth
+_OBJC_IVAR_$_ORKSignatureView._pathArray
+_OBJC_IVAR_$_ORKSignatureView._backgroundLines
+_OBJC_IVAR_$_ORKSignatureView.previousPoint1
+_OBJC_IVAR_$_ORKSignatureView.previousPoint2
+_OBJC_IVAR_$_ORKSignatureView.currentPoint
+_OBJC_IVAR_$_ORKSignatureView._delegate
+_OBJC_IVAR_$_ORKSignatureView._currentPath
+_OBJC_IVAR_$_ORKVoiceEngine._speechSynthesizer
+_OBJC_IVAR_$__ORKFormItemCell._screenType
+_OBJC_IVAR_$__ORKFormItemCell._maxLabelWidth
+_OBJC_IVAR_$__ORKFormItemCell._answer
+_OBJC_IVAR_$__ORKFormItemCell._labelLabel
+_OBJC_IVAR_$__ORKFormItemCell._expectedLayoutWidth
+_OBJC_IVAR_$__ORKFormItemCell.__parentTableView
+_OBJC_IVAR_$__ORKFormItemCell._defaultAnswer
+_OBJC_IVAR_$__ORKFormItemCell._delegate
+_OBJC_IVAR_$__ORKFormItemCell._formItem
+_OBJC_IVAR_$__ORKFormItemCell._haveChangedAnswer
+_OBJC_IVAR_$__ORKFormItemCell._myConstraints
+_OBJC_IVAR_$__ORKFormItemTextFieldBasedCell._textFieldView
+_OBJC_IVAR_$__ORKFormItemTextFieldBasedCell._editingHighlight
+_OBJC_IVAR_$__ORKFormItemTimeOfDayCell._labelFormatter
+_OBJC_IVAR_$__ORKFormItemTimeOfDayCell._picker
+_OBJC_IVAR_$__ORKFormItemDateCell._questionType
+_OBJC_IVAR_$__ORKFormItemDateCell._labelFormatter
+_OBJC_IVAR_$__ORKFormItemDateCell._picker
+_OBJC_IVAR_$__ORKFormItemNumericCell._numberFormatter
+_OBJC_IVAR_$__ORKFormItemTextCell._lastSeenLineCount
+_OBJC_IVAR_$__ORKFormItemTextCell._textView
+_OBJC_IVAR_$__ORKFormItemTextCell._maxLength
+_OBJC_IVAR_$__ORKFormItemTimeIntervalCell._stepInMinute
+_OBJC_IVAR_$__ORKFormItemTimeIntervalCell._haveDefault
+_OBJC_IVAR_$__ORKFormItemTimeIntervalCell._haveValue
+_OBJC_IVAR_$__ORKFormItemTimeIntervalCell._picker
+_OBJC_IVAR_$__ORKFormItemImageSelectionCell._options
+_OBJC_IVAR_$__ORKFormItemImageSelectionCell._selectionView
+_OBJC_IVAR_$__ORKFormItemValuePickerCell._picker
+_OBJC_IVAR_$_ORKSurveyAnswerCellForText._maxLength
+_OBJC_IVAR_$_ORKSurveyAnswerCellForText._placeHolder
+_OBJC_IVAR_$_ORKSurveyAnswerCellForText._textView
+_OBJC_IVAR_$_ORKSurveyAnswerCellForText._constraints
+_OBJC_IVAR_$_ORKSurveyAnswerCellForTextField._textField
+_OBJC_IVAR_$_ORKAnswerTextView._fieldFont
+_OBJC_IVAR_$_ORKAnswerTextView._fieldTextColor
+_OBJC_IVAR_$_ORKAnswerTextView._placeHolder
+_OBJC_IVAR_$_ORKImageChoiceLabel._textArray
+_OBJC_IVAR_$_ORKConsentReviewStep._consentDocument
+_OBJC_IVAR_$_ORKConsentReviewStep._signature
+_OBJC_IVAR_$_ORKConsentReviewStep._reasonForConsent
+_OBJC_IVAR_$_ORKSurveyAnswerCell._delegate
+_OBJC_IVAR_$_ORKSurveyAnswerCell._answer
+_OBJC_IVAR_$_ORKSurveyAnswerCell._step
+_OBJC_IVAR_$_ORKSurveyAnswerCell._cachedContentInsets
+_OBJC_IVAR_$_ORKSurveyAnswerCell._cachedScrollIndicatorInsets
+_OBJC_IVAR_$_ORKBorderedButton._normalTintColor
+_OBJC_IVAR_$_ORKBorderedButton._normalHighlightTintColor
+_OBJC_IVAR_$_ORKBorderedButton._disableTintColor
+_OBJC_IVAR_$_ORKBorderedButton._fadeDelay
+_OBJC_IVAR_$_ORKConsentSignature._requiresName
+_OBJC_IVAR_$_ORKConsentSignature._requiresSignatureImage
+_OBJC_IVAR_$_ORKConsentSignature._identifier
+_OBJC_IVAR_$_ORKConsentSignature._title
+_OBJC_IVAR_$_ORKConsentSignature._firstName
+_OBJC_IVAR_$_ORKConsentSignature._lastName
+_OBJC_IVAR_$_ORKConsentSignature._signatureDate
+_OBJC_IVAR_$_ORKConsentSignature._signatureImage
+_OBJC_IVAR_$_ORKConsentSignature._signatureDateFormatString
+_OBJC_IVAR_$__ORKWalkingProgressCircleView._completed
+_OBJC_IVAR_$__ORKWalkingProgressView._timer
+_OBJC_IVAR_$__ORKWalkingProgressView._count
+_OBJC_IVAR_$__ORKWalkingProgressView._circles
+_OBJC_IVAR_$__ORKWalkingProgressView._index
+_OBJC_IVAR_$__ORKWalkingContentView._screenType
+_OBJC_IVAR_$__ORKWalkingContentView._progressView
+_OBJC_IVAR_$__ORKWalkingContentView._topConstraint
+_OBJC_IVAR_$__ORKWalkingTaskStepViewController._contentView
+_OBJC_IVAR_$__ORKWalkingTaskStepViewController._intendedSteps
+_OBJC_IVAR_$_ORKAnimationPlaceholderView._playerView
+_OBJC_IVAR_$_ORKVisualConsentStepViewController._visualSections
+_OBJC_IVAR_$_ORKVisualConsentStepViewController._viewControllers
+_OBJC_IVAR_$_ORKVisualConsentStepViewController._animationView
+_OBJC_IVAR_$_ORKVisualConsentStepViewController._pageViewController
+_OBJC_IVAR_$_ORKVisualConsentStepViewController._hasAppeared
+_OBJC_IVAR_$_ORKVisualConsentStepViewController._navDirection
+_OBJC_IVAR_$_ORKVisualConsentStepViewController._scrollView
+_OBJC_IVAR_$_ORKVisualConsentStepViewController._currentPage
+_OBJC_IVAR_$_ORKVisualConsentStepViewController._animator
+_OBJC_IVAR_$_ORKVisualConsentStepViewController._transitioning
+_OBJC_IVAR_$_ORKVisualConsentStepViewController._continueActionButton
+_OBJC_IVAR_$_ORKMediaStep._mediaType
+_OBJC_IVAR_$_ORKMediaStep._allowsEditing
+_OBJC_IVAR_$_ORKMediaStep._request
+_OBJC_IVAR_$_ORKHtmlPdfPageRenderer._pageMargins
+_OBJC_IVAR_$_ORKHtmlPdfWriter._pageMargins
+_OBJC_IVAR_$_ORKHtmlPdfWriter._pageSize
+_OBJC_IVAR_$_ORKHtmlPdfWriter._data
+_OBJC_IVAR_$_ORKHtmlPdfWriter._error
+_OBJC_IVAR_$_ORKHtmlPdfWriter._selfRetain
+_OBJC_IVAR_$_ORKHtmlPdfWriter._webView
+_OBJC_IVAR_$_ORKHtmlPdfWriter._completionBlock
+_OBJC_IVAR_$_ORKHealthKitCharacteristicTypeAnswerFormat._characteristicType
+_OBJC_IVAR_$_ORKHealthKitCharacteristicTypeAnswerFormat._impliedAnswerFormat
+_OBJC_IVAR_$_ORKHealthKitQuantityTypeAnswerFormat._quantityType
+_OBJC_IVAR_$_ORKHealthKitQuantityTypeAnswerFormat._unit
+_OBJC_IVAR_$_ORKHealthKitQuantityTypeAnswerFormat._numericAnswerStyle
+_OBJC_IVAR_$_ORKHealthKitQuantityTypeAnswerFormat._impliedAnswerFormat
+_OBJC_IVAR_$_ORKHealthKitQuantityTypeAnswerFormat._userUnit
+_OBJC_IVAR_$_ORKChoiceViewCell._checkView
+_OBJC_IVAR_$_ORKChoiceViewCell._shortLabel
+_OBJC_IVAR_$_ORKChoiceViewCell._longLabel
+_OBJC_IVAR_$_ORKChoiceViewCell._selectedItem
+_OBJC_IVAR_$__ORKPathView._canvasMargins
+_OBJC_IVAR_$__ORKPathView._canvasSize
+_OBJC_IVAR_$__ORKPathView._path
+_OBJC_IVAR_$__ORKPathView._color
+_OBJC_IVAR_$__ORKSpatialSpanTargetView._tapRecognizer
+_OBJC_IVAR_$__ORKSpatialSpanTargetView._flowerScaleFactor
+_OBJC_IVAR_$__ORKSpatialSpanTargetView._flowerView
+_OBJC_IVAR_$__ORKSpatialSpanTargetView._checkView
+_OBJC_IVAR_$__ORKSpatialSpanTargetView._errorView
+_OBJC_IVAR_$__ORKSpatialSpanTargetView._customTargetImage
+_OBJC_IVAR_$__ORKSpatialSpanTargetView._delegate
+_OBJC_IVAR_$__ORKSpatialSpanTargetView._state
+_OBJC_IVAR_$__ORKSpatialSpanTargetView._color
+_OBJC_IVAR_$_ORKSubheadlineLabel._compressFontSize
+_OBJC_IVAR_$__ORKSpatialSpanMemoryGameView._gridSize
+_OBJC_IVAR_$__ORKSpatialSpanMemoryGameView._customTargetImage
+_OBJC_IVAR_$__ORKSpatialSpanMemoryGameView._tileViews
+_OBJC_IVAR_$__ORKSpatialSpanMemoryGameView._delegate
+_OBJC_IVAR_$__ORKSpatialSpanMemoryContentView._quantityPairView
+_OBJC_IVAR_$__ORKSpatialSpanMemoryContentView._gameView
+_OBJC_IVAR_$__ORKSpatialSpanMemoryContentView._continueView
+_OBJC_IVAR_$__ORKSpatialSpanMemoryContentView._capitalizedPluralItemDescription
+_OBJC_IVAR_$__ORKSpatialSpanMemoryContentView._footerHidden
+_OBJC_IVAR_$__ORKSpatialSpanMemoryContentView._buttonItem
+_OBJC_IVAR_$__ORKSpatialSpanMemoryContentView._constraints
+_OBJC_IVAR_$__ORKSpatialSpanMemoryContentView._numberOfItems
+_OBJC_IVAR_$__ORKSpatialSpanMemoryContentView._score
+_OBJC_IVAR_$__ORKSpatialSpanMemoryContentView._topConstraint
+_OBJC_IVAR_$_ORKInstructionStep._detailText
+_OBJC_IVAR_$_ORKInstructionStep._image
+_OBJC_IVAR_$__ORKFitnessContentView._quantityPairView
+_OBJC_IVAR_$__ORKFitnessContentView._screenType
+_OBJC_IVAR_$__ORKFitnessContentView._timerLabel
+_OBJC_IVAR_$__ORKFitnessContentView._imageSpacer1
+_OBJC_IVAR_$__ORKFitnessContentView._imageSpacer2
+_OBJC_IVAR_$__ORKFitnessContentView._imageView
+_OBJC_IVAR_$__ORKFitnessContentView._lengthFormatter
+_OBJC_IVAR_$__ORKFitnessContentView._topConstraint
+_OBJC_IVAR_$__ORKFitnessContentView._constraints
+_OBJC_IVAR_$__ORKFitnessContentView._image
+_OBJC_IVAR_$__ORKFitnessContentView._imageRatioConstraint
+_OBJC_IVAR_$__ORKFitnessContentView._hasDistance
+_OBJC_IVAR_$__ORKFitnessContentView._hasHeartRate
+_OBJC_IVAR_$__ORKFitnessContentView._heartRate
+_OBJC_IVAR_$__ORKFitnessContentView._distanceInMeters
+_OBJC_IVAR_$__ORKFitnessContentView._timeLeft
+_OBJC_IVAR_$__ORKFitnessContentView._finished
+_OBJC_IVAR_$_ORKConsentSection._type
+_OBJC_IVAR_$_ORKConsentSection._title
+_OBJC_IVAR_$_ORKConsentSection._summary
+_OBJC_IVAR_$_ORKConsentSection._content
+_OBJC_IVAR_$_ORKConsentSection._escapedContent
+_OBJC_IVAR_$_ORKConsentSection._htmlContent
+_OBJC_IVAR_$_ORKConsentSection._formalTitle
+_OBJC_IVAR_$_ORKConsentSection._customImage
+_OBJC_IVAR_$_ORKConsentSection._customAnimationURL
+_OBJC_IVAR_$_ORKConsentSection._customLearnMoreButtonTitle
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorder._quantityType
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorder._unit
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorder._anchor
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorder._logger
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorder._lastSample
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorder._healthStore
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorder._isRecording
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorder._samplePredicate
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorder._observerQuery
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorder._recordingError
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorderConfiguration._quantityType
+_OBJC_IVAR_$_ORKHealthQuantityTypeRecorderConfiguration._unit
+_OBJC_IVAR_$_ORKTableViewCell._rkSeparatorColor
+_OBJC_IVAR_$_ORKTableViewCell._topSeparatorLeftInset
+_OBJC_IVAR_$_ORKTableViewCell._bottomSeparatorLeftInset
+_OBJC_IVAR_$_ORKTableViewCell._topSeparator
+_OBJC_IVAR_$_ORKTableViewCell._bottomSeparator
+_OBJC_IVAR_$_ORKTableViewCell._showBottomSeparator
+_OBJC_IVAR_$_ORKTableViewCell._showTopSeparator
+_OBJC_IVAR_$_ORKTableViewCell._labelFont
+_OBJC_IVAR_$_ORKTableViewCell._labelTextColor
+_OBJC_IVAR_$_ORKStep._identifier
+_OBJC_IVAR_$_ORKStep._title
+_OBJC_IVAR_$_ORKStep._optional
+_OBJC_IVAR_$_ORKStep._text
+_OBJC_IVAR_$_ORKStep._shouldTintImages
+_OBJC_IVAR_$_ORKStep._useSurveyMode
+_OBJC_IVAR_$_ORKStep._task
+_OBJC_IVAR_$_ORKHeadlineLabel._useSurveyMode
+_OBJC_IVAR_$_ORKConsentDocument._signatures
+_OBJC_IVAR_$_ORKConsentDocument._writer
+_OBJC_IVAR_$_ORKConsentDocument._htmlReviewContent
+_OBJC_IVAR_$_ORKConsentDocument._title
+_OBJC_IVAR_$_ORKConsentDocument._sections
+_OBJC_IVAR_$_ORKConsentDocument._signaturePageTitle
+_OBJC_IVAR_$_ORKConsentDocument._signaturePageContent
+_OBJC_IVAR_$__ORKTintedImageView._shouldApplyTint
+_OBJC_IVAR_$__ORKTintedImageView._originalImage
+_OBJC_IVAR_$__ORKActiveStepQuantityView._titleLabel
+_OBJC_IVAR_$__ORKActiveStepQuantityView._valueLabel
+_OBJC_IVAR_$__ORKActiveStepQuantityView._imageView
+_OBJC_IVAR_$__ORKActiveStepQuantityView._valueHolder
+_OBJC_IVAR_$__ORKActiveStepQuantityView._enabled
+_OBJC_IVAR_$__ORKActiveStepQuantityView._title
+_OBJC_IVAR_$__ORKActiveStepQuantityView._value
+_OBJC_IVAR_$__ORKActiveStepQuantityView._image
+_OBJC_IVAR_$__ORKQuantityPairView._leftView
+_OBJC_IVAR_$__ORKQuantityPairView._rightView
+_OBJC_IVAR_$__ORKQuantityPairView._metricKeyline
+_OBJC_IVAR_$__ORKQuantityPairView._constraints
+_OBJC_IVAR_$__ORKQuantityPairView._keylineHidden
+_OBJC_IVAR_$__ORKTableCellItem._answerFormat
+_OBJC_IVAR_$__ORKTableCellItem._choiceIndex
+_OBJC_IVAR_$__ORKTableCellItem._singleChoice
+_OBJC_IVAR_$__ORKTableCellItem._choice
+_OBJC_IVAR_$__ORKTableCellItem._formItem
+_OBJC_IVAR_$__ORKTableSection._items
+_OBJC_IVAR_$__ORKTableSection._title
+_OBJC_IVAR_$__ORKTableSection._hasChoiceRows
+_OBJC_IVAR_$_ORKFormStepViewController._defaultSource
+_OBJC_IVAR_$_ORKFormStepViewController._tableView
+_OBJC_IVAR_$_ORKFormStepViewController._skipped
+_OBJC_IVAR_$_ORKFormStepViewController._savedDefaults
+_OBJC_IVAR_$_ORKFormStepViewController._sections
+_OBJC_IVAR_$_ORKFormStepViewController._savedAnswers
+_OBJC_IVAR_$_ORKFormStepViewController._savedAnswerDates
+_OBJC_IVAR_$_ORKFormStepViewController._savedSystemCalendars
+_OBJC_IVAR_$_ORKFormStepViewController._savedSystemTimeZones
+_OBJC_IVAR_$_ORKFormStepViewController._continueSkipView
+_OBJC_IVAR_$_ORKFormStepViewController._headerView
+_OBJC_IVAR_$_ORKFormStepViewController._tableContainer
+_OBJC_IVAR_$_ORKFormStepViewController._formItemCells
+_OBJC_IVAR_$_ORKSurveyAnswerCellForTimeInterval._stepInMinute
+_OBJC_IVAR_$_ORKSurveyAnswerCellForTimeInterval._picker
+_OBJC_IVAR_$_ORKActiveStepTimerView._countDownLabel
+_OBJC_IVAR_$_ORKActiveStepTimerView._startTimerButton
+_OBJC_IVAR_$_ORKActiveStepTimerView._registeredForNotifications
+_OBJC_IVAR_$_ORKActiveStepTimerView._step
+_OBJC_IVAR_$_ORKActiveStepTimerView._started
+_OBJC_IVAR_$__ORKAudioStepViewController._audioContentView
+_OBJC_IVAR_$__ORKAudioStepViewController._audioRecorder
+_OBJC_IVAR_$__ORKAudioStepViewController._avAudioRecorder
+_OBJC_IVAR_$__ORKAudioStepViewController._timer
+_OBJC_IVAR_$_ORKCountdownLabel._mmString
+_OBJC_IVAR_$_ORKCountdownLabel._ssString
+_OBJC_IVAR_$_ORKConsentSceneView._consentSection
+_OBJC_IVAR_$_ORKConsentSceneViewController._section
+_OBJC_IVAR_$_ORKConsentSceneViewController._sceneView
+_OBJC_IVAR_$_ORKConsentSceneViewController._continueButtonItem
+_OBJC_IVAR_$_ORKConsentSceneViewController._imageHidden
+_OBJC_IVAR_$_ORKConsentSceneViewController._learnMoreButtonTitle
+_OBJC_IVAR_$_ORKRecorder._outputDirectory
+_OBJC_IVAR_$_ORKRecorder._backgroundTask
+_OBJC_IVAR_$_ORKRecorder._recorderUUID
+_OBJC_IVAR_$_ORKRecorder._delegate
+_OBJC_IVAR_$_ORKRecorder._step
+_OBJC_IVAR_$_ORKRecorder._recording
+_OBJC_IVAR_$_ORKRecorder._continuesInBackground
+_OBJC_IVAR_$_ORKRecorder._startDate
+_OBJC_IVAR_$_ORKSurveyAnswerCellForNumber._textFieldView
+_OBJC_IVAR_$_ORKSurveyAnswerCellForNumber._numberFormatter
+_OBJC_IVAR_$_ORKSurveyAnswerCellForNumber._containerView
+_OBJC_IVAR_$_ORKResult._identifier
+_OBJC_IVAR_$_ORKResult._startDate
+_OBJC_IVAR_$_ORKResult._endDate
+_OBJC_IVAR_$_ORKResult._userInfo
+_OBJC_IVAR_$_ORKTappingSample._timestamp
+_OBJC_IVAR_$_ORKTappingSample._location
+_OBJC_IVAR_$_ORKTappingSample._buttonIdentifier
+_OBJC_IVAR_$_ORKSpatialSpanMemoryGameTouchSample._timestamp
+_OBJC_IVAR_$_ORKSpatialSpanMemoryGameTouchSample._targetIndex
+_OBJC_IVAR_$_ORKSpatialSpanMemoryGameTouchSample._location
+_OBJC_IVAR_$_ORKSpatialSpanMemoryGameTouchSample._correct
+_OBJC_IVAR_$_ORKSpatialSpanMemoryGameRecord._seed
+_OBJC_IVAR_$_ORKSpatialSpanMemoryGameRecord._sequence
+_OBJC_IVAR_$_ORKSpatialSpanMemoryGameRecord._gameSize
+_OBJC_IVAR_$_ORKSpatialSpanMemoryGameRecord._touchSamples
+_OBJC_IVAR_$_ORKSpatialSpanMemoryGameRecord._gameStatus
+_OBJC_IVAR_$_ORKSpatialSpanMemoryGameRecord._score
+_OBJC_IVAR_$_ORKSpatialSpanMemoryGameRecord._targetRects
+_OBJC_IVAR_$_ORKSpatialSpanMemoryResult._score
+_OBJC_IVAR_$_ORKSpatialSpanMemoryResult._numberOfGames
+_OBJC_IVAR_$_ORKSpatialSpanMemoryResult._numberOfFailures
+_OBJC_IVAR_$_ORKSpatialSpanMemoryResult._gameRecords
+_OBJC_IVAR_$_ORKTappingIntervalResult._samples
+_OBJC_IVAR_$_ORKTappingIntervalResult._buttonRect1
+_OBJC_IVAR_$_ORKTappingIntervalResult._buttonRect2
+_OBJC_IVAR_$_ORKTappingIntervalResult._stepViewSize
+_OBJC_IVAR_$_ORKFileResult._fileURL
+_OBJC_IVAR_$_ORKFileResult._contentType
+_OBJC_IVAR_$_ORKDataResult._data
+_OBJC_IVAR_$_ORKDataResult._filename
+_OBJC_IVAR_$_ORKDataResult._contentType
+_OBJC_IVAR_$_ORKConsentSignatureResult._signature
+_OBJC_IVAR_$_ORKQuestionResult._questionType
+_OBJC_IVAR_$_ORKScaleQuestionResult._scaleAnswer
+_OBJC_IVAR_$_ORKChoiceQuestionResult._choiceAnswers
+_OBJC_IVAR_$_ORKBooleanQuestionResult._booleanAnswer
+_OBJC_IVAR_$_ORKTextQuestionResult._textAnswer
+_OBJC_IVAR_$_ORKNumericQuestionResult._numericAnswer
+_OBJC_IVAR_$_ORKNumericQuestionResult._unit
+_OBJC_IVAR_$_ORKTimeOfDayQuestionResult._dateComponentsAnswer
+_OBJC_IVAR_$_ORKTimeIntervalQuestionResult._intervalAnswer
+_OBJC_IVAR_$_ORKDateQuestionResult._calendar
+_OBJC_IVAR_$_ORKDateQuestionResult._timeZone
+_OBJC_IVAR_$_ORKDateQuestionResult._dateAnswer
+_OBJC_IVAR_$_ORKCollectionResult._results
+_OBJC_IVAR_$_ORKTaskResult._taskRunUUID
+_OBJC_IVAR_$_ORKTaskResult._outputDirectory
+_OBJC_IVAR_$__ORKInstructionStepView._instructionImageView
+_OBJC_IVAR_$__ORKInstructionStepView._instructionStep
+_OBJC_IVAR_$__ORKInstructionStepView._isCompletionStep
+_OBJC_IVAR_$__ORKInstructionStepView._instructionImageHeightConstraint
+_OBJC_IVAR_$_ORKSurveyAnswerCellForScale._formatProvider
+_OBJC_IVAR_$_ORKSurveyAnswerCellForScale._leftTextLabel
+_OBJC_IVAR_$_ORKSurveyAnswerCellForScale._rightTextLabel
+_OBJC_IVAR_$_ORKSurveyAnswerCellForScale._slider
+_OBJC_IVAR_$_ORKSurveyAnswerCellForScale._currentValueLabel
+_OBJC_IVAR_$__ORKCountdownView._textLabel
+_OBJC_IVAR_$__ORKCountdownView._timeLabel
+_OBJC_IVAR_$__ORKCountdownView._progressView
+_OBJC_IVAR_$__ORKCountdownView._circleLayer
+_OBJC_IVAR_$__ORKCountdownStepViewController._countDown
+_OBJC_IVAR_$__ORKCountdownStepViewController._countdownView
+_OBJC_IVAR_$_ORKContinueButton._isDoneButton
+_OBJC_IVAR_$_ORKPedometerRecorder._logger
+_OBJC_IVAR_$_ORKPedometerRecorder._lastUpdateDate
+_OBJC_IVAR_$_ORKPedometerRecorder._totalNumberOfSteps
+_OBJC_IVAR_$_ORKPedometerRecorder._totalDistance
+_OBJC_IVAR_$_ORKPedometerRecorder._isRecording
+_OBJC_IVAR_$_ORKPedometerRecorder._pedometer
+_OBJC_IVAR_$_ORKPedometerRecorder._recordingError
+_OBJC_IVAR_$__ORKWalkingTaskStep._numberOfStepsPerLeg
+_OBJC_IVAR_$__ORKSpatialSpanGameState._game
+_OBJC_IVAR_$__ORKSpatialSpanGameState._plays
+_OBJC_IVAR_$__ORKSpatialSpanGameState._states
+_OBJC_IVAR_$__ORKSpatialSpanGameState._complete
+_OBJC_IVAR_$_ORKAudioRecorder._audioRecorder
+_OBJC_IVAR_$_ORKAudioRecorder._recorderSettings
+_OBJC_IVAR_$_ORKAudioRecorderConfiguration._recorderSettings
+_OBJC_IVAR_$__ORKTappingIntervalStepViewController._tappingStart
+_OBJC_IVAR_$__ORKTappingIntervalStepViewController._touchDownRecognizer
+_OBJC_IVAR_$__ORKTappingIntervalStepViewController._expired
+_OBJC_IVAR_$__ORKTappingIntervalStepViewController._tappingContentView
+_OBJC_IVAR_$__ORKTappingIntervalStepViewController._buttonRect1
+_OBJC_IVAR_$__ORKTappingIntervalStepViewController._buttonRect2
+_OBJC_IVAR_$__ORKTappingIntervalStepViewController._viewSize
+_OBJC_IVAR_$__ORKTappingIntervalStepViewController._samples
+_OBJC_IVAR_$__ORKTappingIntervalStepViewController._hitButtonCount
+_OBJC_IVAR_$_ORKConsentReviewStepViewController._signatureFirst
+_OBJC_IVAR_$_ORKConsentReviewStepViewController._signatureLast
+_OBJC_IVAR_$_ORKConsentReviewStepViewController._signatureImage
+_OBJC_IVAR_$_ORKConsentReviewStepViewController._documentReviewed
+_OBJC_IVAR_$_ORKConsentReviewStepViewController._currentSignature
+_OBJC_IVAR_$_ORKConsentReviewStepViewController._currentPageIndex
+_OBJC_IVAR_$_ORKConsentReviewStepViewController._pageIndices
+_OBJC_IVAR_$_ORKConsentReviewStepViewController._pageViewController
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._context
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._preferredConversion
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._haveSetup
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._videoTextureCache
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._frameBufferHandle
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._colorBufferHandle
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._backingWidth
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._backingHeight
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._lumaTexture
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._chromaTexture
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._preferredRotation
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._presentationRect
+_OBJC_IVAR_$_ORKEAGLMoviePlayerView._program
+_OBJC_IVAR_$__ORKTappingContentView._screenType
+_OBJC_IVAR_$__ORKTappingContentView._tapCaptionLabel
+_OBJC_IVAR_$__ORKTappingContentView._tapCountLabel
+_OBJC_IVAR_$__ORKTappingContentView._buttonContainer
+_OBJC_IVAR_$__ORKTappingContentView._progressView
+_OBJC_IVAR_$__ORKTappingContentView._tapButton1
+_OBJC_IVAR_$__ORKTappingContentView._tapButton2
+_OBJC_IVAR_$__ORKTappingContentView._constraints
+_OBJC_IVAR_$_ORKAnswerTextField._fieldFont
+_OBJC_IVAR_$_ORKAnswerTextField._fieldTextColor
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStep._initialSpan
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStep._minimumSpan
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStep._maximumSpan
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStep._playSpeed
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStep._maxTests
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStep._maxConsecutiveFailures
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStep._requireReversal
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStep._customTargetImage
+_OBJC_IVAR_$__ORKSpatialSpanMemoryStep._customTargetPluralName
+_OBJC_IVAR_$__ORKAudioGraphView._values
+_OBJC_IVAR_$__ORKAudioGraphView._keyColor
+_OBJC_IVAR_$__ORKAudioGraphView._alertColor
+_OBJC_IVAR_$__ORKAudioGraphView._alertThreshold
+_OBJC_IVAR_$__ORKAudioContentView._alertLabel
+_OBJC_IVAR_$__ORKAudioContentView._timerLabel
+_OBJC_IVAR_$__ORKAudioContentView._graphView
+_OBJC_IVAR_$__ORKAudioContentView._finished
+_OBJC_IVAR_$__ORKAudioContentView._keyColor
+_OBJC_IVAR_$__ORKAudioContentView._alertColor
+_OBJC_IVAR_$__ORKAudioContentView._constraints
+_OBJC_IVAR_$__ORKAudioContentView._alertThreshold
+_OBJC_IVAR_$__ORKAudioContentView._timeLeft
+_OBJC_IVAR_$__ORKAudioContentView._samples
+_OBJC_IVAR_$_ORKActiveStepViewController._recorderResults
+_OBJC_IVAR_$_ORKActiveStepViewController._timerUpdateInterval
+_OBJC_IVAR_$_ORKActiveStepViewController._activeStepView
+_OBJC_IVAR_$_ORKActiveStepViewController._customView
+_OBJC_IVAR_$_ORKActiveStepViewController._finished
+_OBJC_IVAR_$_ORKActiveStepViewController._alertSoundURL
+_OBJC_IVAR_$_ORKActiveStepViewController._alertSound
+_OBJC_IVAR_$_ORKActiveStepViewController._activeStepTimer
+_OBJC_IVAR_$_ORKActiveStepViewController._recorders
+_OBJC_IVAR_$_ORKActiveStepViewController._suspendIfInactive
+_OBJC_IVAR_$_ORKActiveStepViewController._started
+_OBJC_IVAR_$_ORKAnswerDefaultSource._healthStore
+_OBJC_IVAR_$_ORKAnswerDefaultSource._unitsTable
+_OBJC_IVAR_$_ORKValuePickerAnswerFormat._textChoices
+_OBJC_IVAR_$_ORKImageChoiceAnswerFormat._imageChoices
+_OBJC_IVAR_$_ORKTextChoiceAnswerFormat._style
+_OBJC_IVAR_$_ORKTextChoiceAnswerFormat._textChoices
+_OBJC_IVAR_$_ORKTextChoice._text
+_OBJC_IVAR_$_ORKTextChoice._detailText
+_OBJC_IVAR_$_ORKTextChoice._value
+_OBJC_IVAR_$_ORKImageChoice._text
+_OBJC_IVAR_$_ORKImageChoice._value
+_OBJC_IVAR_$_ORKImageChoice._normalStateImage
+_OBJC_IVAR_$_ORKImageChoice._selectedStateImage
+_OBJC_IVAR_$_ORKTimeOfDayAnswerFormat._defaultComponents
+_OBJC_IVAR_$_ORKDateAnswerFormat._style
+_OBJC_IVAR_$_ORKDateAnswerFormat._defaultDate
+_OBJC_IVAR_$_ORKDateAnswerFormat._minimumDate
+_OBJC_IVAR_$_ORKDateAnswerFormat._maximumDate
+_OBJC_IVAR_$_ORKDateAnswerFormat._calendar
+_OBJC_IVAR_$_ORKNumericAnswerFormat._style
+_OBJC_IVAR_$_ORKNumericAnswerFormat._unit
+_OBJC_IVAR_$_ORKNumericAnswerFormat._minimum
+_OBJC_IVAR_$_ORKNumericAnswerFormat._maximum
+_OBJC_IVAR_$_ORKScaleAnswerFormat._minimum
+_OBJC_IVAR_$_ORKScaleAnswerFormat._maximum
+_OBJC_IVAR_$_ORKScaleAnswerFormat._step
+_OBJC_IVAR_$_ORKScaleAnswerFormat._defaultValue
+_OBJC_IVAR_$_ORKContinuousScaleAnswerFormat._minimum
+_OBJC_IVAR_$_ORKContinuousScaleAnswerFormat._maximum
+_OBJC_IVAR_$_ORKContinuousScaleAnswerFormat._defaultValue
+_OBJC_IVAR_$_ORKContinuousScaleAnswerFormat._maximumFractionDigits
+_OBJC_IVAR_$_ORKContinuousScaleAnswerFormat._numberFormatter
+_OBJC_IVAR_$_ORKTextAnswerFormat._maximumLength
+_OBJC_IVAR_$_ORKTextAnswerFormat._autocapitalizationType
+_OBJC_IVAR_$_ORKTextAnswerFormat._autocorrectionType
+_OBJC_IVAR_$_ORKTextAnswerFormat._spellCheckingType
+_OBJC_IVAR_$_ORKTextAnswerFormat._multipleLines
+_OBJC_IVAR_$_ORKTimeIntervalAnswerFormat._defaultInterval
+_OBJC_IVAR_$_ORKTimeIntervalAnswerFormat._step
+_OBJC_IVAR_$_ORKSurveyAnswerCellForImageSelection._options
+_OBJC_IVAR_$_ORKSurveyAnswerCellForImageSelection._selectionView
+_OBJC_IVAR_$__ORKChoiceButtonView._labelText
+_OBJC_IVAR_$__ORKChoiceButtonView._button
+_OBJC_IVAR_$__ORKImageSelectionView._options
+_OBJC_IVAR_$__ORKImageSelectionView._placeHolderLabel
+_OBJC_IVAR_$__ORKImageSelectionView._choiceLabel
+_OBJC_IVAR_$__ORKImageSelectionView._invisibleLabel
+_OBJC_IVAR_$__ORKImageSelectionView._buttonViews
+_OBJC_IVAR_$__ORKImageSelectionView._delegate
+_OBJC_IVAR_$_ORKInstructionStepViewController._stepView
+_OBJC_IVAR_$_ORKAccelerometerRecorder._logger
+_OBJC_IVAR_$_ORKAccelerometerRecorder._frequency
+_OBJC_IVAR_$_ORKAccelerometerRecorder._recordingError
+_OBJC_IVAR_$_ORKAccelerometerRecorder._motionManager
+_OBJC_IVAR_$_ORKAccelerometerRecorder._uptime
+_OBJC_IVAR_$_ORKAccelerometerRecorderConfiguration._frequency
+_OBJC_IVAR_$_ORKActiveStepTimer._duration
+_OBJC_IVAR_$_ORKActiveStepTimer._interval
+_OBJC_IVAR_$_ORKActiveStepTimer._handler
+_OBJC_IVAR_$_ORKActiveStepTimer._preExistingRuntime
+_OBJC_IVAR_$_ORKActiveStepTimer._backgroundTaskIdentifier
+_OBJC_IVAR_$_ORKActiveStepTimer._queue
+_OBJC_IVAR_$_ORKActiveStepTimer._timer
+_OBJC_IVAR_$_ORKActiveStepTimer._startTime
+_OBJC_IVAR_$_ORKActiveStepTimer._isRunning
+_OBJC_IVAR_$_ORKConsentSharingStep._localizedLearnMoreHTMLContent
+_OBJC_IVAR_$_ORKSurveyAnswerCellForDateTime._picker
+_OBJC_IVAR_$_ORKSurveyAnswerCellForDateTime._tempPicker
+_OBJC_IVAR_$_ORKSurveyAnswerCellForDateTime._valueChangedDueUserAction
+_OBJC_IVAR_$_ORKVerticalContainerView._screenType
+_OBJC_IVAR_$_ORKVerticalContainerView._scrollContainer
+_OBJC_IVAR_$_ORKVerticalContainerView._container
+_OBJC_IVAR_$_ORKVerticalContainerView._headerView
+_OBJC_IVAR_$_ORKVerticalContainerView._stepViewContainer
+_OBJC_IVAR_$_ORKVerticalContainerView._continueSkipContainer
+_OBJC_IVAR_$_ORKVerticalContainerView._customViewContainer
+_OBJC_IVAR_$_ORKVerticalContainerView._keyboardOverlap
+_OBJC_IVAR_$_ORKVerticalContainerView._keyboardIsUp
+_OBJC_IVAR_$_ORKVerticalContainerView._stepView
+_OBJC_IVAR_$_ORKVerticalContainerView._continueAtBottomConstraint
+_OBJC_IVAR_$_ORKVerticalContainerView._continueHugsContent
+_OBJC_IVAR_$_ORKVerticalContainerView._continueInContentConstraint
+_OBJC_IVAR_$_ORKVerticalContainerView._imageView
+_OBJC_IVAR_$_ORKVerticalContainerView._adjustableConstraints
+_OBJC_IVAR_$_ORKVerticalContainerView._minimumStepHeaderHeight
+_OBJC_IVAR_$_ORKVerticalContainerView._verticalCenteringEnabled
+_OBJC_IVAR_$_ORKVerticalContainerView._stepViewFillsAvailableSpace
+_OBJC_IVAR_$_ORKVerticalContainerView._customViewContainerConstraints
+_OBJC_IVAR_$_ORKVerticalContainerView._customView
+_OBJC_IVAR_$_ORKActiveStepView._imageView
+_OBJC_IVAR_$_ORKActiveStepView._activeCustomView
+_OBJC_IVAR_$_ORKActiveStepView._activeStep
+_OBJC_IVAR_$_ORKContinueSkipContainerView._skipButton
+_OBJC_IVAR_$_ORKContinueSkipContainerView._continueButton
+_OBJC_IVAR_$_ORKContinueSkipContainerView._topMargin
+_OBJC_IVAR_$_ORKContinueSkipContainerView._bottomMargin
+_OBJC_IVAR_$_ORKContinueSkipContainerView._useNextForSkip
+_OBJC_IVAR_$_ORKContinueSkipContainerView._skipButtonItem
+_OBJC_IVAR_$_ORKContinueSkipContainerView._continueButtonItem
+_OBJC_IVAR_$_ORKContinueSkipContainerView._continueButtonJustTapped
+_OBJC_IVAR_$_ORKContinueSkipContainerView._neverHasContinueButton
+_OBJC_IVAR_$_ORKContinueSkipContainerView._continueEnabled
+_OBJC_IVAR_$_ORKContinueSkipContainerView._gapConstraint
+_OBJC_IVAR_$_ORKContinueSkipContainerView._localConstraints
+_OBJC_IVAR_$_ORKContinueSkipContainerView._optional
+_OBJC_IVAR_$_ORKStepHeaderView._screenType
+_OBJC_IVAR_$_ORKStepHeaderView._captionLabel
+_OBJC_IVAR_$_ORKStepHeaderView._instructionLabel
+_OBJC_IVAR_$_ORKStepHeaderView._learnMoreButton
+_OBJC_IVAR_$_ORKStepHeaderView._learnMoreButtonItem
+_OBJC_IVAR_$_ORKStepHeaderView._adjustableConstraints
+_OBJC_IVAR_$_ORKStepHeaderView._hasContentAbove
+_OBJC_IVAR_$_ORKStepHeaderView._myConstraints
+_OBJC_IVAR_$_ORKQuestionStepView._questionCustomView
+_OBJC_IVAR_$_ORKQuestionStepView._questionStep
+_OBJC_IVAR_$_ORKQuestionStepCellHolderView._cell
+_OBJC_IVAR_$_ORKMediaOverlayView._label
+_OBJC_IVAR_$_ORKMediaStepViewController._requiresResultToContinue
+_OBJC_IVAR_$_ORKMediaStepViewController._previewView
+_OBJC_IVAR_$_ORKMediaStepViewController._questionLabel
+_OBJC_IVAR_$_ORKMediaStepViewController._pickButton
+_OBJC_IVAR_$_ORKMediaStepViewController._overlayView
+_OBJC_IVAR_$_ORKMediaStepViewController._capturedImage
+_OBJC_IVAR_$_ORKMediaStepViewController._picker
+_OBJC_IVAR_$_ORKMediaStepViewController._haveShownOnAppear
+_OBJC_IVAR_$_ORKMediaStepViewController._dataResult
+_OBJC_IVAR_$_ORKMediaStepViewController._imageShotDate
+_OBJC_IVAR_$_ORKMediaStepViewController._sentResult
+_OBJC_IVAR_$_ORKCompletionStepView._shapeLayer
+_OBJC_IVAR_$_ORKCompletionStepView._animationPoint
+_OBJC_IVAR_$_ORKCompletionStepViewController._completionStepView
+_OBJC_IVAR_$_ORKQuestionStepViewController._defaultSource
+_OBJC_IVAR_$_ORKQuestionStepViewController._answerFormat
+_OBJC_IVAR_$_ORKQuestionStepViewController._tableContainer
+_OBJC_IVAR_$_ORKQuestionStepViewController._tableView
+_OBJC_IVAR_$_ORKQuestionStepViewController._headerView
+_OBJC_IVAR_$_ORKQuestionStepViewController._continueSkipView
+_OBJC_IVAR_$_ORKQuestionStepViewController._questionView
+_OBJC_IVAR_$_ORKQuestionStepViewController._customQuestionView
+_OBJC_IVAR_$_ORKQuestionStepViewController._answer
+_OBJC_IVAR_$_ORKQuestionStepViewController._defaultAnswer
+_OBJC_IVAR_$_ORKQuestionStepViewController._visible
+_OBJC_IVAR_$_ORKQuestionStepViewController._savedSystemCalendar
+_OBJC_IVAR_$_ORKQuestionStepViewController._savedSystemTimeZone
+_OBJC_IVAR_$_ORKQuestionStepViewController._haveChangedAnswer
+_OBJC_IVAR_$_ORKQuestionStepViewController._continueActionButton
+_OBJC_IVAR_$_ORKQuestionStepViewController._answerCell
+_OBJC_IVAR_$_ORKQuestionStepViewController._questionLabel
+_OBJC_IVAR_$_ORKQuestionStepViewController._promptLabel
+_OBJC_IVAR_$__ORKConsentReviewController._htmlString
+_OBJC_IVAR_$__ORKConsentReviewController._delegate
+_OBJC_IVAR_$__ORKConsentReviewController._toolbar
+_OBJC_IVAR_$__ORKConsentReviewController._webView
+_OBJC_IVAR_$__ORKConsentReviewController._toolbarHeightConstraint
+_OBJC_IVAR_$__ORKConsentReviewController._localizedReasonForConsent
+_OBJC_IVAR_$_ORKTextButton._compressFontSize
+_OBJC_IVAR_$_ORKTextButton._titleFont
+_OBJC_IVAR_$__ORKObjectObserver._keys
+_OBJC_IVAR_$__ORKObjectObserver._selector
+_OBJC_IVAR_$__ORKObjectObserver._observing
+_OBJC_IVAR_$__ORKObjectObserver._object
+_OBJC_IVAR_$_ORKLogFormatter._checkpoint
+_OBJC_IVAR_$_ORKDataLogger._url
+_OBJC_IVAR_$_ORKDataLogger._queue
+_OBJC_IVAR_$_ORKDataLogger._directoryUpdateGroup
+_OBJC_IVAR_$_ORKDataLogger._logName
+_OBJC_IVAR_$_ORKDataLogger._oldLogsPrefix
+_OBJC_IVAR_$_ORKDataLogger._observer
+_OBJC_IVAR_$_ORKDataLogger._directorySource
+_OBJC_IVAR_$_ORKDataLogger._currentFileHandle
+_OBJC_IVAR_$_ORKDataLogger._directoryDirty
+_OBJC_IVAR_$_ORKDataLogger._delegate
+_OBJC_IVAR_$_ORKDataLogger._logFormatter
+_OBJC_IVAR_$_ORKDataLogger._maximumCurrentLogFileSize
+_OBJC_IVAR_$_ORKDataLogger._maximumCurrentLogFileLifetime
+_OBJC_IVAR_$_ORKDataLogger._pendingBytes
+_OBJC_IVAR_$_ORKDataLogger._uploadedBytes
+_OBJC_IVAR_$_ORKDataLogger._fileProtectionMode
+_OBJC_IVAR_$_ORKDataLoggerManager._directory
+_OBJC_IVAR_$_ORKDataLoggerManager._delegate
+_OBJC_IVAR_$_ORKDataLoggerManager._updateBytesGroup
+_OBJC_IVAR_$_ORKDataLoggerManager._queue
+_OBJC_IVAR_$_ORKDataLoggerManager._observer
+_OBJC_IVAR_$_ORKDataLoggerManager._records
+_OBJC_IVAR_$_ORKDataLoggerManager._pendingUploadDelegateSent
+_OBJC_IVAR_$_ORKDataLoggerManager._totalBytesDelegateSent
+_OBJC_IVAR_$_ORKDataLoggerManager._pendingUploadBytesThreshold
+_OBJC_IVAR_$_ORKDataLoggerManager._totalBytesThreshold
+_OBJC_IVAR_$_ORKDataLoggerManager._pendingUploadBytes
+_OBJC_IVAR_$_ORKDataLoggerManager._totalBytes
+_OBJC_IVAR_$_ORKDataLoggerManager._observers
+_OBJC_IVAR_$_ORKDataLoggerManager._updateBytesPending
+_OBJC_IVAR_$_ORKActiveStepCustomView._activeStepViewController
+_OBJC_IVAR_$_ORKQuestionStepCustomView._delegate
+_OBJC_IVAR_$_ORKQuestionStepCustomView._answer
+_OBJC_IVAR_$__ORKAudioStep._duration
+_OBJC_IVAR_$_ORKOrderedTask._identifier
+_OBJC_IVAR_$_ORKOrderedTask._steps
+_OBJC_IVAR_$_ORKQuestionStep._answerFormat
+_OBJC_IVAR_$_ORKQuestionStep._placeholder
+_OBJC_IVAR_$_ORKSurveyAnswerCellForSingleSelectionPicker._pickerView
+_OBJC_IVAR_$_ORKVisualConsentAnimationContext._direction
+_OBJC_IVAR_$_ORKVisualConsentAnimationContext._hasCalledLoadHandler
+_OBJC_IVAR_$_ORKVisualConsentAnimationContext._handler
+_OBJC_IVAR_$_ORKVisualConsentAnimationContext._loadHandler
+_OBJC_IVAR_$_ORKVisualConsentAnimationContext._startTime
+_OBJC_IVAR_$_ORKVisualConsentAnimationContext._selfRef
+_OBJC_IVAR_$_ORKVisualConsentTransitionAnimator._stepViewController
+_OBJC_IVAR_$_ORKVisualConsentTransitionAnimator._movieURL
+_OBJC_IVAR_$_ORKVisualConsentTransitionAnimator._moviePlayer
+_OBJC_IVAR_$_ORKVisualConsentTransitionAnimator._displayLink
+_OBJC_IVAR_$_ORKVisualConsentTransitionAnimator._videoOutput
+_OBJC_IVAR_$_ORKVisualConsentTransitionAnimator._videoOutputQueue
+_OBJC_IVAR_$_ORKVisualConsentTransitionAnimator._playerItem
+_OBJC_IVAR_$_ORKVisualConsentTransitionAnimator._observingPlayerDurationKey
+_OBJC_IVAR_$_ORKVisualConsentTransitionAnimator._observingPlayerItemStatusKey
+_OBJC_IVAR_$_ORKVisualConsentTransitionAnimator._pendingContext
+_OBJC_IVAR_$_ORKVisualConsentTransitionAnimator._frameCounter
+_OBJC_CLASS_$__ORKFitnessStepViewController
+_OBJC_METACLASS_$__ORKFitnessStepViewController
+_OBJC_CLASS_$_ORKTouchGestureRecognizer
+_OBJC_METACLASS_$_ORKTouchGestureRecognizer
+_OBJC_CLASS_$__ORKConsentSignatureWrapperView
+_OBJC_METACLASS_$__ORKConsentSignatureWrapperView
+_OBJC_CLASS_$_ORKConsentSigningView
+_OBJC_METACLASS_$_ORKConsentSigningView
+_OBJC_CLASS_$__ORKConsentSignatureController
+_OBJC_METACLASS_$__ORKConsentSignatureController
+_OBJC_CLASS_$__ORKTableContainerView
+_OBJC_METACLASS_$__ORKTableContainerView
+_OBJC_CLASS_$__ORKSpatialSpanGame
+_OBJC_METACLASS_$__ORKSpatialSpanGame
+_OBJC_CLASS_$__ORKState
+_OBJC_METACLASS_$__ORKState
+_OBJC_CLASS_$__ORKSpatialSpanMemoryStepViewController
+_OBJC_METACLASS_$__ORKSpatialSpanMemoryStepViewController
+_OBJC_CLASS_$__ORKCaretOptionalTextField
+_OBJC_METACLASS_$__ORKCaretOptionalTextField
+_OBJC_CLASS_$__ORKUnitTextField
+_OBJC_METACLASS_$__ORKUnitTextField
+_OBJC_CLASS_$__ORKTextFieldView
+_OBJC_METACLASS_$__ORKTextFieldView
+_OBJC_CLASS_$__ORKLocationAuthorizationRequester
+_OBJC_METACLASS_$__ORKLocationAuthorizationRequester
+_OBJC_CLASS_$__ORKObserver
+_OBJC_METACLASS_$__ORKObserver
+_OBJC_CLASS_$__ORKTaskViewControllerObserver
+_OBJC_METACLASS_$__ORKTaskViewControllerObserver
+_OBJC_CLASS_$__ORKScrollViewObserver
+_OBJC_METACLASS_$__ORKScrollViewObserver
+_OBJC_CLASS_$_ORKConsentLearnMoreViewController
+_OBJC_METACLASS_$_ORKConsentLearnMoreViewController
+_OBJC_CLASS_$_ORKScaleSlider
+_OBJC_METACLASS_$_ORKScaleSlider
+_OBJC_METACLASS_$_ORKSignatureGestureRecognizer
+_OBJC_CLASS_$_ORKSignatureGestureRecognizer
+_OBJC_CLASS_$_ORKSignatureView
+_OBJC_METACLASS_$_ORKSignatureView
+_OBJC_CLASS_$_ORKVoiceEngine
+_OBJC_METACLASS_$_ORKVoiceEngine
+_OBJC_CLASS_$__ORKSegmentedControl
+_OBJC_METACLASS_$__ORKSegmentedControl
+_OBJC_CLASS_$__ORKFormItemCell
+_OBJC_METACLASS_$__ORKFormItemCell
+_OBJC_CLASS_$__ORKFormItemTextFieldBasedCell
+_OBJC_METACLASS_$__ORKFormItemTextFieldBasedCell
+_OBJC_CLASS_$__ORKFormItemTimeOfDayCell
+_OBJC_METACLASS_$__ORKFormItemTimeOfDayCell
+_OBJC_CLASS_$__ORKFormItemDateCell
+_OBJC_METACLASS_$__ORKFormItemDateCell
+_OBJC_CLASS_$__ORKFormItemTextFieldCell
+_OBJC_METACLASS_$__ORKFormItemTextFieldCell
+_OBJC_CLASS_$__ORKFormItemNumericCell
+_OBJC_METACLASS_$__ORKFormItemNumericCell
+_OBJC_CLASS_$__ORKFormItemTextCell
+_OBJC_METACLASS_$__ORKFormItemTextCell
+_OBJC_CLASS_$__ORKFormItemTimeIntervalCell
+_OBJC_METACLASS_$__ORKFormItemTimeIntervalCell
+_OBJC_CLASS_$__ORKFormItemImageSelectionCell
+_OBJC_METACLASS_$__ORKFormItemImageSelectionCell
+_OBJC_CLASS_$__ORKFormItemValuePickerCell
+_OBJC_METACLASS_$__ORKFormItemValuePickerCell
+_OBJC_CLASS_$_ORKSurveyAnswerCellForText
+_OBJC_METACLASS_$_ORKSurveyAnswerCellForText
+_OBJC_CLASS_$_ORKSurveyAnswerCellForTextField
+_OBJC_METACLASS_$_ORKSurveyAnswerCellForTextField
+_OBJC_CLASS_$_ORKSurveyAnswerCell
+_OBJC_METACLASS_$_ORKSurveyAnswerCell
+_OBJC_CLASS_$__ORKWalkingProgressCircleView
+_OBJC_METACLASS_$__ORKWalkingProgressCircleView
+_OBJC_CLASS_$__ORKWalkingProgressView
+_OBJC_METACLASS_$__ORKWalkingProgressView
+_OBJC_CLASS_$__ORKWalkingContentView
+_OBJC_METACLASS_$__ORKWalkingContentView
+_OBJC_CLASS_$__ORKWalkingTaskStepViewController
+_OBJC_METACLASS_$__ORKWalkingTaskStepViewController
+_OBJC_CLASS_$_ORKAnimationPlaceholderView
+_OBJC_METACLASS_$_ORKAnimationPlaceholderView
+_OBJC_METACLASS_$_ORKHtmlPdfPageRenderer
+_OBJC_CLASS_$_ORKHtmlPdfPageRenderer
+_OBJC_CLASS_$_ORKHtmlPdfWriter
+_OBJC_METACLASS_$_ORKHtmlPdfWriter
+_OBJC_CLASS_$_ORKChoiceViewCell
+_OBJC_METACLASS_$_ORKChoiceViewCell
+_OBJC_CLASS_$__ORKPathView
+_OBJC_METACLASS_$__ORKPathView
+_OBJC_CLASS_$__ORKSpatialSpanTargetView
+_OBJC_METACLASS_$__ORKSpatialSpanTargetView
+_OBJC_CLASS_$__ORKSpatialSpanMemoryGameView
+_OBJC_METACLASS_$__ORKSpatialSpanMemoryGameView
+_OBJC_CLASS_$__ORKSpatialSpanMemoryContentView
+_OBJC_METACLASS_$__ORKSpatialSpanMemoryContentView
+_OBJC_CLASS_$__ORKFitnessContentView
+_OBJC_METACLASS_$__ORKFitnessContentView
+_OBJC_CLASS_$__ORKCountdownStep
+_OBJC_METACLASS_$__ORKCountdownStep
+_OBJC_CLASS_$__ORKTintedImageView
+_OBJC_METACLASS_$__ORKTintedImageView
+_OBJC_METACLASS_$__ORKQuantityLabel
+_OBJC_CLASS_$__ORKQuantityLabel
+_OBJC_CLASS_$__ORKActiveStepQuantityView
+_OBJC_METACLASS_$__ORKActiveStepQuantityView
+_OBJC_CLASS_$__ORKQuantityPairView
+_OBJC_METACLASS_$__ORKQuantityPairView
+_OBJC_CLASS_$__ORKTableCellItem
+_OBJC_METACLASS_$__ORKTableCellItem
+_OBJC_CLASS_$__ORKTableSection
+_OBJC_METACLASS_$__ORKTableSection
+_OBJC_CLASS_$_ORKSurveyAnswerCellForTimeInterval
+_OBJC_METACLASS_$_ORKSurveyAnswerCellForTimeInterval
+_OBJC_CLASS_$_ORKActiveStepTimerView
+_OBJC_METACLASS_$_ORKActiveStepTimerView
+_OBJC_CLASS_$__ORKAudioStepViewController
+_OBJC_METACLASS_$__ORKAudioStepViewController
+_OBJC_METACLASS_$_ORKConsentSceneView
+_OBJC_CLASS_$_ORKConsentSceneView
+_OBJC_CLASS_$_ORKConsentSceneViewController
+_OBJC_METACLASS_$_ORKConsentSceneViewController
+_OBJC_CLASS_$_ORKSurveyAnswerCellForNumber
+_OBJC_METACLASS_$_ORKSurveyAnswerCellForNumber
+_OBJC_CLASS_$__ORKTappingIntervalStep
+_OBJC_METACLASS_$__ORKTappingIntervalStep
+_OBJC_CLASS_$__ORKInstructionStepView
+_OBJC_METACLASS_$__ORKInstructionStepView
+_OBJC_CLASS_$_ORKSurveyAnswerCellForScale
+_OBJC_METACLASS_$_ORKSurveyAnswerCellForScale
+_OBJC_METACLASS_$__ORKCountDownViewLabel
+_OBJC_CLASS_$__ORKCountDownViewLabel
+_OBJC_CLASS_$__ORKCountdownView
+_OBJC_METACLASS_$__ORKCountdownView
+_OBJC_CLASS_$__ORKCountdownStepViewController
+_OBJC_METACLASS_$__ORKCountdownStepViewController
+_OBJC_CLASS_$__ORKWalkingTaskStep
+_OBJC_METACLASS_$__ORKWalkingTaskStep
+_OBJC_CLASS_$__ORKSpatialSpanGameState
+_OBJC_METACLASS_$__ORKSpatialSpanGameState
+_OBJC_METACLASS_$_ORKBodyLabel
+_OBJC_CLASS_$_ORKBodyLabel
+_OBJC_CLASS_$__ORKTappingIntervalStepViewController
+_OBJC_METACLASS_$__ORKTappingIntervalStepViewController
+_OBJC_CLASS_$_ORKEAGLMoviePlayerView
+_OBJC_METACLASS_$_ORKEAGLMoviePlayerView
+_OBJC_CLASS_$__ORKFitnessStep
+_OBJC_METACLASS_$__ORKFitnessStep
+_OBJC_CLASS_$__ORKTappingContentView
+_OBJC_METACLASS_$__ORKTappingContentView
+_OBJC_CLASS_$__ORKSpatialSpanMemoryStep
+_OBJC_METACLASS_$__ORKSpatialSpanMemoryStep
+_OBJC_CLASS_$__ORKAudioGraphView
+_OBJC_METACLASS_$__ORKAudioGraphView
+_OBJC_METACLASS_$__ORKAudioTimerLabel
+_OBJC_CLASS_$__ORKAudioTimerLabel
+_OBJC_CLASS_$__ORKAudioContentView
+_OBJC_METACLASS_$__ORKAudioContentView
+_OBJC_CLASS_$_ORKAnswerDefaultSource
+_OBJC_METACLASS_$_ORKAnswerDefaultSource
+_OBJC_CLASS_$_ORKSurveyAnswerCellForImageSelection
+_OBJC_METACLASS_$_ORKSurveyAnswerCellForImageSelection
+_OBJC_CLASS_$__ORKChoiceButtonView
+_OBJC_METACLASS_$__ORKChoiceButtonView
+_OBJC_METACLASS_$__ORKImageSelectionView
+_OBJC_CLASS_$__ORKImageSelectionView
+_OBJC_CLASS_$_ORKActiveStepTimer
+_OBJC_METACLASS_$_ORKActiveStepTimer
+_OBJC_CLASS_$_ORKSurveyAnswerCellForDateTime
+_OBJC_METACLASS_$_ORKSurveyAnswerCellForDateTime
+_OBJC_CLASS_$_ORKVerticalContainerView
+_OBJC_CLASS_$_ORKStepHeaderView
+_OBJC_CLASS_$_ORKContinueSkipContainerView
+_OBJC_METACLASS_$_ORKVerticalContainerView
+_OBJC_CLASS_$_ORKActiveStepView
+_OBJC_METACLASS_$_ORKActiveStepView
+_OBJC_METACLASS_$_ORKContinueSkipContainerView
+_OBJC_METACLASS_$_ORKStepHeaderView
+_OBJC_METACLASS_$_ORKQuestionStepView
+_OBJC_CLASS_$_ORKQuestionStepView
+_OBJC_CLASS_$_ORKQuestionStepCellHolderView
+_OBJC_METACLASS_$_ORKQuestionStepCellHolderView
+_OBJC_CLASS_$_ORKMediaOverlayView
+_OBJC_METACLASS_$_ORKMediaOverlayView
+_OBJC_CLASS_$_ORKCompletionStepView
+_OBJC_METACLASS_$_ORKCompletionStepView
+_OBJC_CLASS_$__ORKConsentReviewController
+_OBJC_METACLASS_$__ORKConsentReviewController
+_OBJC_CLASS_$__ORKObjectObserver
+_OBJC_METACLASS_$__ORKObjectObserver
+_OBJC_METACLASS_$_ORKLogFormatter
+_OBJC_CLASS_$_ORKLogFormatter
+_OBJC_METACLASS_$_ORKActiveStepCustomView
+_OBJC_CLASS_$_ORKActiveStepCustomView
+_OBJC_CLASS_$__ORKAudioStep
+_OBJC_METACLASS_$__ORKAudioStep
+_OBJC_CLASS_$_ORKSurveyAnswerCellForSingleSelectionPicker
+_OBJC_METACLASS_$_ORKSurveyAnswerCellForSingleSelectionPicker
+_OBJC_METACLASS_$_ORKVisualConsentAnimationContext
+_OBJC_CLASS_$_ORKVisualConsentAnimationContext
+_OBJC_CLASS_$_ORKVisualConsentTransitionAnimator
+_OBJC_METACLASS_$_ORKVisualConsentTransitionAnimator
+__MergedGlobals
+_AdjustToScale.__s
+_ORKObjectObserverContext
+_uniforms
+__MergedGlobals
+__MergedGlobals
+__MergedGlobals
+__MergedGlobals
+__MergedGlobals
+__MergedGlobals
+__MergedGlobals
+-[_ORKTableCellItem labelWidth].sharedLabel
+__MergedGlobals
+__MergedGlobals
+__MergedGlobals
+__TimeIntervalFromMachTime.sTimebaseInfo
+__MergedGlobals
+__MergedGlobals
+_OBJC_CLASS_$_ORKAccelerometerRecorder
+_OBJC_CLASS_$_ORKAccelerometerRecorderConfiguration
+_OBJC_CLASS_$_ORKActiveStep
+_OBJC_CLASS_$_ORKActiveStepViewController
+_OBJC_CLASS_$_ORKAnswerFormat
+_OBJC_CLASS_$_ORKAnswerTextField
+_OBJC_CLASS_$_ORKAnswerTextView
+_OBJC_CLASS_$_ORKAudioRecorder
+_OBJC_CLASS_$_ORKAudioRecorderConfiguration
+_OBJC_CLASS_$_ORKBooleanAnswerFormat
+_OBJC_CLASS_$_ORKBooleanQuestionResult
+_OBJC_CLASS_$_ORKBorderedButton
+_OBJC_CLASS_$_ORKCaption1Label
+_OBJC_CLASS_$_ORKChoiceQuestionResult
+_OBJC_CLASS_$_ORKCollectionResult
+_OBJC_CLASS_$_ORKCompletionStep
+_OBJC_CLASS_$_ORKCompletionStepViewController
+_OBJC_CLASS_$_ORKConsentDocument
+_OBJC_CLASS_$_ORKConsentReviewStep
+_OBJC_CLASS_$_ORKConsentReviewStepViewController
+_OBJC_CLASS_$_ORKConsentSection
+_OBJC_CLASS_$_ORKConsentSharingStep
+_OBJC_CLASS_$_ORKConsentSharingStepViewController
+_OBJC_CLASS_$_ORKConsentSignature
+_OBJC_CLASS_$_ORKConsentSignatureResult
+_OBJC_CLASS_$_ORKContinueButton
+_OBJC_CLASS_$_ORKContinuousScaleAnswerFormat
+_OBJC_CLASS_$_ORKCountdownLabel
+_OBJC_CLASS_$_ORKDataLogger
+_OBJC_CLASS_$_ORKDataLoggerManager
+_OBJC_CLASS_$_ORKDataResult
+_OBJC_CLASS_$_ORKDateAnswerFormat
+_OBJC_CLASS_$_ORKDateQuestionResult
+_OBJC_CLASS_$_ORKDeviceMotionRecorder
+_OBJC_CLASS_$_ORKDeviceMotionRecorderConfiguration
+_OBJC_CLASS_$_ORKFileResult
+_OBJC_CLASS_$_ORKFormItem
+_OBJC_CLASS_$_ORKFormSectionTitleLabel
+_OBJC_CLASS_$_ORKFormStep
+_OBJC_CLASS_$_ORKFormStepViewController
+_OBJC_CLASS_$_ORKFormTextView
+_OBJC_CLASS_$_ORKHeadlineLabel
+_OBJC_CLASS_$_ORKHealthKitCharacteristicTypeAnswerFormat
+_OBJC_CLASS_$_ORKHealthKitQuantityTypeAnswerFormat
+_OBJC_CLASS_$_ORKHealthQuantityTypeRecorder
+_OBJC_CLASS_$_ORKHealthQuantityTypeRecorderConfiguration
+_OBJC_CLASS_$_ORKImageChoice
+_OBJC_CLASS_$_ORKImageChoiceAnswerFormat
+_OBJC_CLASS_$_ORKImageChoiceLabel
+_OBJC_CLASS_$_ORKInstructionStep
+_OBJC_CLASS_$_ORKInstructionStepViewController
+_OBJC_CLASS_$_ORKJSONLogFormatter
+_OBJC_CLASS_$_ORKLabel
+_OBJC_CLASS_$_ORKLocationRecorder
+_OBJC_CLASS_$_ORKLocationRecorderConfiguration
+_OBJC_CLASS_$_ORKMediaStep
+_OBJC_CLASS_$_ORKMediaStepViewController
+_OBJC_CLASS_$_ORKNumericAnswerFormat
+_OBJC_CLASS_$_ORKNumericQuestionResult
+_OBJC_CLASS_$_ORKOrderedTask
+_OBJC_CLASS_$_ORKPedometerRecorder
+_OBJC_CLASS_$_ORKPedometerRecorderConfiguration
+_OBJC_CLASS_$_ORKQuestionResult
+_OBJC_CLASS_$_ORKQuestionStep
+_OBJC_CLASS_$_ORKQuestionStepCustomView
+_OBJC_CLASS_$_ORKQuestionStepViewController
+_OBJC_CLASS_$_ORKRecorder
+_OBJC_CLASS_$_ORKRecorderConfiguration
+_OBJC_CLASS_$_ORKResult
+_OBJC_CLASS_$_ORKRoundTappingButton
+_OBJC_CLASS_$_ORKScaleAnswerFormat
+_OBJC_CLASS_$_ORKScaleQuestionResult
+_OBJC_CLASS_$_ORKScaleRangeLabel
+_OBJC_CLASS_$_ORKScaleValueLabel
+_OBJC_CLASS_$_ORKSelectionSubTitleLabel
+_OBJC_CLASS_$_ORKSelectionTitleLabel
+_OBJC_CLASS_$_ORKSpatialSpanMemoryGameRecord
+_OBJC_CLASS_$_ORKSpatialSpanMemoryGameTouchSample
+_OBJC_CLASS_$_ORKSpatialSpanMemoryResult
+_OBJC_CLASS_$_ORKStep
+_OBJC_CLASS_$_ORKStepResult
+_OBJC_CLASS_$_ORKStepViewController
+_OBJC_CLASS_$_ORKSubheadlineLabel
+_OBJC_CLASS_$_ORKTableViewCell
+_OBJC_CLASS_$_ORKTapCountLabel
+_OBJC_CLASS_$_ORKTappingIntervalResult
+_OBJC_CLASS_$_ORKTappingSample
+_OBJC_CLASS_$_ORKTaskResult
+_OBJC_CLASS_$_ORKTaskViewController
+_OBJC_CLASS_$_ORKTextAnswerFormat
+_OBJC_CLASS_$_ORKTextButton
+_OBJC_CLASS_$_ORKTextChoice
+_OBJC_CLASS_$_ORKTextChoiceAnswerFormat
+_OBJC_CLASS_$_ORKTextQuestionResult
+_OBJC_CLASS_$_ORKTimeIntervalAnswerFormat
+_OBJC_CLASS_$_ORKTimeIntervalQuestionResult
+_OBJC_CLASS_$_ORKTimeOfDayAnswerFormat
+_OBJC_CLASS_$_ORKTimeOfDayQuestionResult
+_OBJC_CLASS_$_ORKTouchRecorder
+_OBJC_CLASS_$_ORKTouchRecorderConfiguration
+_OBJC_CLASS_$_ORKUnitLabel
+_OBJC_CLASS_$_ORKValuePickerAnswerFormat
+_OBJC_CLASS_$_ORKVisualConsentStep
+_OBJC_CLASS_$_ORKVisualConsentStepViewController
+_OBJC_METACLASS_$_ORKAccelerometerRecorder
+_OBJC_METACLASS_$_ORKAccelerometerRecorderConfiguration
+_OBJC_METACLASS_$_ORKActiveStep
+_OBJC_METACLASS_$_ORKActiveStepViewController
+_OBJC_METACLASS_$_ORKAnswerFormat
+_OBJC_METACLASS_$_ORKAnswerTextField
+_OBJC_METACLASS_$_ORKAnswerTextView
+_OBJC_METACLASS_$_ORKAudioRecorder
+_OBJC_METACLASS_$_ORKAudioRecorderConfiguration
+_OBJC_METACLASS_$_ORKBooleanAnswerFormat
+_OBJC_METACLASS_$_ORKBooleanQuestionResult
+_OBJC_METACLASS_$_ORKBorderedButton
+_OBJC_METACLASS_$_ORKCaption1Label
+_OBJC_METACLASS_$_ORKChoiceQuestionResult
+_OBJC_METACLASS_$_ORKCollectionResult
+_OBJC_METACLASS_$_ORKCompletionStep
+_OBJC_METACLASS_$_ORKCompletionStepViewController
+_OBJC_METACLASS_$_ORKConsentDocument
+_OBJC_METACLASS_$_ORKConsentReviewStep
+_OBJC_METACLASS_$_ORKConsentReviewStepViewController
+_OBJC_METACLASS_$_ORKConsentSection
+_OBJC_METACLASS_$_ORKConsentSharingStep
+_OBJC_METACLASS_$_ORKConsentSharingStepViewController
+_OBJC_METACLASS_$_ORKConsentSignature
+_OBJC_METACLASS_$_ORKConsentSignatureResult
+_OBJC_METACLASS_$_ORKContinueButton
+_OBJC_METACLASS_$_ORKContinuousScaleAnswerFormat
+_OBJC_METACLASS_$_ORKCountdownLabel
+_OBJC_METACLASS_$_ORKDataLogger
+_OBJC_METACLASS_$_ORKDataLoggerManager
+_OBJC_METACLASS_$_ORKDataResult
+_OBJC_METACLASS_$_ORKDateAnswerFormat
+_OBJC_METACLASS_$_ORKDateQuestionResult
+_OBJC_METACLASS_$_ORKDeviceMotionRecorder
+_OBJC_METACLASS_$_ORKDeviceMotionRecorderConfiguration
+_OBJC_METACLASS_$_ORKFileResult
+_OBJC_METACLASS_$_ORKFormItem
+_OBJC_METACLASS_$_ORKFormSectionTitleLabel
+_OBJC_METACLASS_$_ORKFormStep
+_OBJC_METACLASS_$_ORKFormStepViewController
+_OBJC_METACLASS_$_ORKFormTextView
+_OBJC_METACLASS_$_ORKHeadlineLabel
+_OBJC_METACLASS_$_ORKHealthKitCharacteristicTypeAnswerFormat
+_OBJC_METACLASS_$_ORKHealthKitQuantityTypeAnswerFormat
+_OBJC_METACLASS_$_ORKHealthQuantityTypeRecorder
+_OBJC_METACLASS_$_ORKHealthQuantityTypeRecorderConfiguration
+_OBJC_METACLASS_$_ORKImageChoice
+_OBJC_METACLASS_$_ORKImageChoiceAnswerFormat
+_OBJC_METACLASS_$_ORKImageChoiceLabel
+_OBJC_METACLASS_$_ORKInstructionStep
+_OBJC_METACLASS_$_ORKInstructionStepViewController
+_OBJC_METACLASS_$_ORKJSONLogFormatter
+_OBJC_METACLASS_$_ORKLabel
+_OBJC_METACLASS_$_ORKLocationRecorder
+_OBJC_METACLASS_$_ORKLocationRecorderConfiguration
+_OBJC_METACLASS_$_ORKMediaStep
+_OBJC_METACLASS_$_ORKMediaStepViewController
+_OBJC_METACLASS_$_ORKNumericAnswerFormat
+_OBJC_METACLASS_$_ORKNumericQuestionResult
+_OBJC_METACLASS_$_ORKOrderedTask
+_OBJC_METACLASS_$_ORKPedometerRecorder
+_OBJC_METACLASS_$_ORKPedometerRecorderConfiguration
+_OBJC_METACLASS_$_ORKQuestionResult
+_OBJC_METACLASS_$_ORKQuestionStep
+_OBJC_METACLASS_$_ORKQuestionStepCustomView
+_OBJC_METACLASS_$_ORKQuestionStepViewController
+_OBJC_METACLASS_$_ORKRecorder
+_OBJC_METACLASS_$_ORKRecorderConfiguration
+_OBJC_METACLASS_$_ORKResult
+_OBJC_METACLASS_$_ORKRoundTappingButton
+_OBJC_METACLASS_$_ORKScaleAnswerFormat
+_OBJC_METACLASS_$_ORKScaleQuestionResult
+_OBJC_METACLASS_$_ORKScaleRangeLabel
+_OBJC_METACLASS_$_ORKScaleValueLabel
+_OBJC_METACLASS_$_ORKSelectionSubTitleLabel
+_OBJC_METACLASS_$_ORKSelectionTitleLabel
+_OBJC_METACLASS_$_ORKSpatialSpanMemoryGameRecord
+_OBJC_METACLASS_$_ORKSpatialSpanMemoryGameTouchSample
+_OBJC_METACLASS_$_ORKSpatialSpanMemoryResult
+_OBJC_METACLASS_$_ORKStep
+_OBJC_METACLASS_$_ORKStepResult
+_OBJC_METACLASS_$_ORKStepViewController
+_OBJC_METACLASS_$_ORKSubheadlineLabel
+_OBJC_METACLASS_$_ORKTableViewCell
+_OBJC_METACLASS_$_ORKTapCountLabel
+_OBJC_METACLASS_$_ORKTappingIntervalResult
+_OBJC_METACLASS_$_ORKTappingSample
+_OBJC_METACLASS_$_ORKTaskResult
+_OBJC_METACLASS_$_ORKTaskViewController
+_OBJC_METACLASS_$_ORKTextAnswerFormat
+_OBJC_METACLASS_$_ORKTextButton
+_OBJC_METACLASS_$_ORKTextChoice
+_OBJC_METACLASS_$_ORKTextChoiceAnswerFormat
+_OBJC_METACLASS_$_ORKTextQuestionResult
+_OBJC_METACLASS_$_ORKTimeIntervalAnswerFormat
+_OBJC_METACLASS_$_ORKTimeIntervalQuestionResult
+_OBJC_METACLASS_$_ORKTimeOfDayAnswerFormat
+_OBJC_METACLASS_$_ORKTimeOfDayQuestionResult
+_OBJC_METACLASS_$_ORKTouchRecorder
+_OBJC_METACLASS_$_ORKTouchRecorderConfiguration
+_OBJC_METACLASS_$_ORKUnitLabel
+_OBJC_METACLASS_$_ORKValuePickerAnswerFormat
+_OBJC_METACLASS_$_ORKVisualConsentStep
+_OBJC_METACLASS_$_ORKVisualConsentStepViewController
+_ORKAbstractMethodException
+_ORKAccessibilityFormatInt
+_ORKAccessibilityFormatNumber
+_ORKAccessibilityPerformBlockAfterDelay
+_ORKBackgroundColorKey
+_ORKBlueHighlightColorKey
+_ORKCaptionTextColorKey
+_ORKDarkTintColorKey
+_ORKErrorDomain
+_ORKFileProtectionFromMode
+_ORKInvalidArgumentException
+_ORKLightTintColorKey
+_ORKSignatureColorKey
+_ORKTaskProgressMake
+_ORKToolBarTintColorKey
+_ORKVersionNumber
+__ORKAccessibilityStringForVariables
+__ORKBundle
+_AVAudioSessionCategoryPlayAndRecord
+_AVAudioSessionCategoryPlayback
+_AVEncoderAudioQualityKey
+_AVFormatIDKey
+_AVLinearPCMBitDepthKey
+_AVMakeRectWithAspectRatioInsideRect
+_AVNumberOfChannelsKey
+_AVPlayerItemDidPlayToEndTimeNotification
+_AVPlayerItemFailedToPlayToEndTimeNotification
+_AVPlayerItemPlaybackStalledNotification
+_AVSampleRateKey
+_AVSpeechUtteranceMaximumSpeechRate
+_AudioServicesCreateSystemSoundID
+_AudioServicesDisposeSystemSoundID
+_AudioServicesPlayAlertSound
+_AudioServicesPlaySystemSound
+_CACurrentMediaTime
+_CFAbsoluteTimeGetCurrent
+_CFCharacterSetAddCharactersInString
+_CFCharacterSetCreateMutable
+_CFCharacterSetIsCharacterMember
+_CFRelease
+_CFStringAppend
+_CFStringCreateMutable
+_CFStringCreateWithSubstring
+_CFStringGetCStringPtr
+_CFStringGetCharacters
+_CFStringGetCharactersPtr
+_CFStringGetLength
+_CGAffineTransformIdentity
+_CGAffineTransformMakeScale
+_CGContextBeginTransparencyLayerWithRect
+_CGContextEndTransparencyLayer
+_CGContextFillRect
+_CGContextRestoreGState
+_CGContextSaveGState
+_CGContextScaleCTM
+_CGContextSetAlpha
+_CGContextSetBlendMode
+_CGContextSetFillColorWithColor
+_CGContextSetLineCap
+_CGContextSetLineDash
+_CGContextSetLineWidth
+_CGContextTranslateCTM
+_CGPathGetBoundingBox
+_CGPointZero
+_CGRectApplyAffineTransform
+_CGRectContainsPoint
+_CGRectContainsRect
+_CGRectDivide
+_CGRectEqualToRect
+_CGRectGetHeight
+_CGRectGetMaxX
+_CGRectGetMaxY
+_CGRectGetMidX
+_CGRectGetMidY
+_CGRectGetMinX
+_CGRectGetMinY
+_CGRectGetWidth
+_CGRectInfinite
+_CGRectIntersection
+_CGRectZero
+_CGSizeZero
+_CMErrorDomain
+_CMTimeGetSeconds
+_CMTimeMake
+_CVBufferGetAttachment
+_CVOpenGLESTextureCacheCreate
+_CVOpenGLESTextureCacheCreateTextureFromImage
+_CVOpenGLESTextureCacheFlush
+_CVOpenGLESTextureGetName
+_CVOpenGLESTextureGetTarget
+_CVPixelBufferGetHeight
+_CVPixelBufferGetWidth
+_HKCharacteristicTypeIdentifierBiologicalSex
+_HKCharacteristicTypeIdentifierBloodType
+_HKCharacteristicTypeIdentifierDateOfBirth
+_HKQuantityTypeIdentifierHeartRate
+_HKSampleSortIdentifierEndDate
+_HKUserPreferencesDidChangeNotification
+_NSCalendarIdentifierGregorian
+_NSClassFromString
+_NSCocoaErrorDomain
+_NSCurrentLocaleDidChangeNotification
+_NSDefaultRunLoopMode
+_NSFileProtectionComplete
+_NSFileProtectionCompleteUnlessOpen
+_NSFileProtectionCompleteUntilFirstUserAuthentication
+_NSFileProtectionKey
+_NSFileProtectionNone
+_NSFontAttributeName
+_NSForegroundColorAttributeName
+_NSGenericException
+_NSInternalInconsistencyException
+_NSInvalidArgumentException
+_NSLocaleUsesMetricSystem
+_NSLocalizedDescriptionKey
+_NSLog
+_NSParagraphStyleAttributeName
+_NSStringFromCGPoint
+_NSStringFromClass
+_NSStringFromSelector
+_NSURLCreationDateKey
+_NSURLFileSizeKey
+_NSURLIsRegularFileKey
+_NSURLPathKey
+_OBJC_CLASS_$_AVAudioRecorder
+_OBJC_CLASS_$_AVAudioSession
+_OBJC_CLASS_$_AVPlayer
+_OBJC_CLASS_$_AVPlayerItem
+_OBJC_CLASS_$_AVPlayerItemVideoOutput
+_OBJC_CLASS_$_AVSpeechSynthesizer
+_OBJC_CLASS_$_AVSpeechUtterance
+_OBJC_CLASS_$_CABasicAnimation
+_OBJC_CLASS_$_CADisplayLink
+_OBJC_CLASS_$_CAEAGLLayer
+_OBJC_CLASS_$_CAKeyframeAnimation
+_OBJC_CLASS_$_CAMediaTimingFunction
+_OBJC_CLASS_$_CAShapeLayer
+_OBJC_CLASS_$_CLLocation
+_OBJC_CLASS_$_CLLocationManager
+_OBJC_CLASS_$_CMAccelerometerData
+_OBJC_CLASS_$_CMDeviceMotion
+_OBJC_CLASS_$_CMMotionActivity
+_OBJC_CLASS_$_CMMotionManager
+_OBJC_CLASS_$_CMPedometer
+_OBJC_CLASS_$_CMPedometerData
+_OBJC_CLASS_$_EAGLContext
+_OBJC_CLASS_$_HKAnchoredObjectQuery
+_OBJC_CLASS_$_HKCategorySample
+_OBJC_CLASS_$_HKCharacteristicType
+_OBJC_CLASS_$_HKCorrelation
+_OBJC_CLASS_$_HKHealthStore
+_OBJC_CLASS_$_HKObserverQuery
+_OBJC_CLASS_$_HKQuantitySample
+_OBJC_CLASS_$_HKQuantityType
+_OBJC_CLASS_$_HKQuery
+_OBJC_CLASS_$_HKSample
+_OBJC_CLASS_$_HKSampleQuery
+_OBJC_CLASS_$_HKUnit
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAttributedString
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSCalendar
+_OBJC_CLASS_$_NSCharacterSet
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDateComponents
+_OBJC_CLASS_$_NSDateComponentsFormatter
+_OBJC_CLASS_$_NSDateFormatter
+_OBJC_CLASS_$_NSDecimalNumber
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSFileHandle
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSIndexPath
+_OBJC_CLASS_$_NSJSONSerialization
+_OBJC_CLASS_$_NSKeyedArchiver
+_OBJC_CLASS_$_NSKeyedUnarchiver
+_OBJC_CLASS_$_NSLayoutConstraint
+_OBJC_CLASS_$_NSLengthFormatter
+_OBJC_CLASS_$_NSLocale
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableAttributedString
+_OBJC_CLASS_$_NSMutableData
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableParagraphStyle
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSNumberFormatter
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSOperationQueue
+_OBJC_CLASS_$_NSPredicate
+_OBJC_CLASS_$_NSProcessInfo
+_OBJC_CLASS_$_NSRunLoop
+_OBJC_CLASS_$_NSSet
+_OBJC_CLASS_$_NSSortDescriptor
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSTimeZone
+_OBJC_CLASS_$_NSTimer
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSUUID
+_OBJC_CLASS_$_NSValue
+_OBJC_CLASS_$_UIAlertAction
+_OBJC_CLASS_$_UIAlertController
+_OBJC_CLASS_$_UIApplication
+_OBJC_CLASS_$_UIBarButtonItem
+_OBJC_CLASS_$_UIBezierPath
+_OBJC_CLASS_$_UIButton
+_OBJC_CLASS_$_UIColor
+_OBJC_CLASS_$_UIDatePicker
+_OBJC_CLASS_$_UIDevice
+_OBJC_CLASS_$_UIFont
+_OBJC_CLASS_$_UIFontDescriptor
+_OBJC_CLASS_$_UIGestureRecognizer
+_OBJC_CLASS_$_UIImage
+_OBJC_CLASS_$_UIImagePickerController
+_OBJC_CLASS_$_UIImageView
+_OBJC_CLASS_$_UILabel
+_OBJC_CLASS_$_UINavigationBar
+_OBJC_CLASS_$_UINavigationController
+_OBJC_CLASS_$_UIPageViewController
+_OBJC_CLASS_$_UIPanGestureRecognizer
+_OBJC_CLASS_$_UIPickerView
+_OBJC_CLASS_$_UIPrintPageRenderer
+_OBJC_CLASS_$_UIProgressView
+_OBJC_CLASS_$_UIResponder
+_OBJC_CLASS_$_UIScreen
+_OBJC_CLASS_$_UIScrollView
+_OBJC_CLASS_$_UISegmentedControl
+_OBJC_CLASS_$_UISlider
+_OBJC_CLASS_$_UISwipeGestureRecognizer
+_OBJC_CLASS_$_UITableView
+_OBJC_CLASS_$_UITableViewCell
+_OBJC_CLASS_$_UITapGestureRecognizer
+_OBJC_CLASS_$_UITextField
+_OBJC_CLASS_$_UITextView
+_OBJC_CLASS_$_UIToolbar
+_OBJC_CLASS_$_UITouch
+_OBJC_CLASS_$_UIView
+_OBJC_CLASS_$_UIViewController
+_OBJC_CLASS_$_UIWebView
+_OBJC_EHTYPE_$_NSException
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_UIButton
+_OBJC_METACLASS_$_UIGestureRecognizer
+_OBJC_METACLASS_$_UIImageView
+_OBJC_METACLASS_$_UILabel
+_OBJC_METACLASS_$_UIPrintPageRenderer
+_OBJC_METACLASS_$_UIScrollView
+_OBJC_METACLASS_$_UISegmentedControl
+_OBJC_METACLASS_$_UISlider
+_OBJC_METACLASS_$_UITableViewCell
+_OBJC_METACLASS_$_UITextField
+_OBJC_METACLASS_$_UITextView
+_OBJC_METACLASS_$_UIView
+_OBJC_METACLASS_$_UIViewController
+_UIAccessibilityAnnouncementDidFinishNotification
+_UIAccessibilityAnnouncementNotification
+_UIAccessibilityConvertFrameToScreenCoordinates
+_UIAccessibilityIsVoiceOverRunning
+_UIAccessibilityLayoutChangedNotification
+_UIAccessibilityPostNotification
+_UIAccessibilityScreenChangedNotification
+_UIAccessibilityTraitAllowsDirectInteraction
+_UIAccessibilityTraitHeader
+_UIAccessibilityTraitImage
+_UIAccessibilityTraitUpdatesFrequently
+_UIApplicationDidBecomeActiveNotification
+_UIApplicationWillResignActiveNotification
+_UIBackgroundTaskInvalid
+_UIContentSizeCategoryDidChangeNotification
+_UIEdgeInsetsZero
+_UIFontDescriptorFeatureSettingsAttribute
+_UIFontDescriptorSizeAttribute
+_UIFontFeatureSelectorIdentifierKey
+_UIFontFeatureTypeIdentifierKey
+_UIFontTextStyleBody
+_UIFontTextStyleCaption1
+_UIFontTextStyleHeadline
+_UIFontTextStyleSubheadline
+_UIFontWeightLight
+_UIFontWeightMedium
+_UIFontWeightThin
+_UIGraphicsBeginImageContext
+_UIGraphicsBeginImageContextWithOptions
+_UIGraphicsBeginPDFContextToData
+_UIGraphicsBeginPDFPage
+_UIGraphicsEndImageContext
+_UIGraphicsEndPDFContext
+_UIGraphicsGetCurrentContext
+_UIGraphicsGetImageFromCurrentImageContext
+_UIGraphicsGetPDFContextBounds
+_UIImageJPEGRepresentation
+_UIImagePNGRepresentation
+_UIImagePickerControllerEditedImage
+_UIImagePickerControllerOriginalImage
+_UIKeyboardAnimationDurationUserInfoKey
+_UIKeyboardFrameEndUserInfoKey
+_UIKeyboardWillChangeFrameNotification
+_UIKeyboardWillHideNotification
+_UIKeyboardWillShowNotification
+_UIRectFillUsingBlendMode
+_UITableViewAutomaticDimension
+_UITextFieldTextDidBeginEditingNotification
+_UITextFieldTextDidChangeNotification
+_UITextFieldTextDidEndEditingNotification
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__NSDictionaryOfVariableBindings
+__Unwind_Resume
+___CFConstantStringClassReference
+___assert_rtn
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_main_q
+__dispatch_source_type_timer
+__dispatch_source_type_vnode
+__objc_empty_cache
+_arc4random
+_calloc
+_close
+_dispatch_after
+_dispatch_async
+_dispatch_get_global_queue
+_dispatch_group_async
+_dispatch_group_create
+_dispatch_group_wait
+_dispatch_once
+_dispatch_queue_create
+_dispatch_resume
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_dispatch_source_cancel
+_dispatch_source_create
+_dispatch_source_set_cancel_handler
+_dispatch_source_set_event_handler
+_dispatch_source_set_timer
+_dispatch_sync
+_dispatch_time
+_free
+_getxattr
+_glActiveTexture
+_glAttachShader
+_glBindAttribLocation
+_glBindFramebuffer
+_glBindRenderbuffer
+_glBindTexture
+_glCheckFramebufferStatus
+_glClear
+_glClearColor
+_glCompileShader
+_glCreateProgram
+_glCreateShader
+_glDeleteProgram
+_glDeleteShader
+_glDetachShader
+_glDisable
+_glDrawArrays
+_glEnableVertexAttribArray
+_glFramebufferRenderbuffer
+_glGenFramebuffers
+_glGenRenderbuffers
+_glGetProgramInfoLog
+_glGetProgramiv
+_glGetRenderbufferParameteriv
+_glGetShaderiv
+_glGetUniformLocation
+_glLinkProgram
+_glShaderSource
+_glTexParameterf
+_glTexParameteri
+_glUniform1f
+_glUniform1i
+_glUniform3f
+_glUniformMatrix3fv
+_glUseProgram
+_glValidateProgram
+_glVertexAttribPointer
+_glViewport
+_kCAFillModeBoth
+_kCALineCapRound
+_kCALineJoinRound
+_kCAMediaTimingFunctionLinear
+_kCFAllocatorDefault
+_kCMTimeInvalid
+_kCVImageBufferYCbCrMatrixKey
+_kCVImageBufferYCbCrMatrix_ITU_R_601_4
+_kCVPixelBufferPixelFormatTypeKey
+_kEAGLColorFormatRGBA8
+_kEAGLDrawablePropertyColorFormat
+_kEAGLDrawablePropertyRetainedBacking
+_log2
+_mach_absolute_time
+_mach_timebase_info
+_malloc
+_objc_autorelease
+_objc_autoreleaseReturnValue
+_objc_begin_catch
+_objc_copyStruct
+_objc_copyWeak
+_objc_destroyWeak
+_objc_end_catch
+_objc_enumerationMutation
+_objc_exception_throw
+_objc_getProperty
+_objc_initWeak
+_objc_loadWeakRetained
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setProperty_atomic
+_objc_setProperty_atomic_copy
+_objc_setProperty_nonatomic_copy
+_objc_storeStrong
+_objc_storeWeak
+_open
+_pow
+_random
+_setxattr
+_srandom
+dyld_stub_binder
